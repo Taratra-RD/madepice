@@ -1,0 +1,30 @@
+.introductoryContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Baskerville Old Face';
+    width: 600px;
+    min-height: 250px;
+}
+
+.introductoryContent--title {
+    font-size: 40px;
+    word-spacing: -3px;
+}
+
+.introductoryContent--paragraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 450px;
+}
+
+.introductoryContent--button {
+    text-align: center;
+    background-color: rgb(240, 204, 179);
+    color: black;
+    width: 180px;
+    padding-block: 10px 10px !important;
+    border-radius: 5px;
+    font-size: 16px;
+}

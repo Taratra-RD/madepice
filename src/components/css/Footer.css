@@ -1,0 +1,40 @@
+.footer--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 1290px;
+}
+
+.footer--list--item {
+    width: 200px;
+}
+
+.footer--list--item--icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px !important;
+}
+
+.footer--list--item--icon--f,
+.footer--list--item--icon--o {
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.footer--list--item--icon--f {
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-block: 5px 0px !important;
+    padding-inline: 16px 16px !important;
+}
+
+.footer--list--item--icon--o {
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-block: 5px 8px !important;
+    padding-inline: 14px 8px !important;
+}
