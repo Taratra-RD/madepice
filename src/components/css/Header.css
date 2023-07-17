@@ -21,6 +21,7 @@ li {
     width: 1100px;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
 }
 
 .logo img {

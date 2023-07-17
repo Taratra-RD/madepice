@@ -1,14 +1,15 @@
 import "./css/Header.css"
 import logo from "./a.png"
+import { Nav, Link} from "react-router-dom"
 export default function Header() {
     return (
         <div className="header">
             <ul className="header--list">
-                <li className="header--list--item">Nous</li>
-                <li className="header--list--item">Nos Produits</li>
-                <li className="header--list--item logo"><img src={logo} alt="" /></li>
-                <li className="header--list--item">Boutique</li>
-                <li className="header--list--item">Contact</li>
+                <Link to="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Nous</Link>
+                <Link to ="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Nos Produits</Link>
+                <Link to ="" className="header--list--item logo"><img src={logo} alt="" /></Link>
+                <Link to="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Boutique</Link>
+                <Link to="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Contact</Link>
             </ul>
         </div>
     )
