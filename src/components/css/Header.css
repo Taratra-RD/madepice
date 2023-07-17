@@ -26,3 +26,21 @@ li {
 .logo img {
     width: 150px;
 }
+@media screen and (max-width:600px) {
+    .header--list--item {
+        display: none;
+    }
+    .logo {
+        display: block;
+    }
+    .icon-bars{
+        padding-left: 12px;
+        display: flex;
+        
+        list-style: none;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}
