@@ -28,3 +28,12 @@
     border-radius: 5px;
     font-size: 16px;
 }
+
+@media screen and (max-width:600px) {
+    .introductoryContent {
+        width: 200px;
+        
+    }
+    
+    
+}

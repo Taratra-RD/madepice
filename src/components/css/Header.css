@@ -26,21 +26,48 @@ li {
 .logo img {
     width: 150px;
 }
+
+/*icon menu for mobile & tablet*/
+.icon-bars {
+    display: none;
+}
+
+/*sidenav for responsive*/
+.sidenav {
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: #29323C;
+    overflow-x: hidden;
+    padding-top: 0px;
+    transition: 0.5s;
+}
+
 @media screen and (max-width:600px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-block: 25px 0px !important;
+        padding-left: 5px;
+    }    
     .header--list--item {
         display: none;
     }
-    .logo {
+
+    .logo{
+        margin-left: 3em;
         display: block;
     }
-    .icon-bars{
-        padding-left: 12px;
-        display: flex;
-        
-        list-style: none;
-        color: white;
-        justify-content: space-between;
-        align-items: center;
+
+    .icon-bars {
+        background: none;
+        display: block;
     }
-    
+
 }
+
+@media screen and (min-width:900px) {}
