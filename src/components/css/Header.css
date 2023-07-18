@@ -34,13 +34,7 @@ li {
         display: block;
     }
     .icon-bars{
-        padding-left: 12px;
-        display: flex;
         
-        list-style: none;
-        color: white;
-        justify-content: space-between;
-        align-items: center;
     }
     
 }

@@ -10,7 +10,7 @@ export default function Header() {
                 <li className="header--list--item">Boutique</li>
                 <li className="header--list--item">Contact</li>
             </ul>
-            <div style={{}}><i className="fa fa-solid fa-facebook icon-bars"></i>Bars</div>
+            <div className="header--icon"><i className="fa fa-solid fa-user fa-lg icon-bars" style={{color:'white'}}></i>Bars</div>
         </div>
     )
 }
