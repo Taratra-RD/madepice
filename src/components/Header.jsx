@@ -1,17 +1,36 @@
 import "./css/Header.css"
 import logo from "./a.png"
-import { Nav, Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 export default function Header() {
     return (
-        <div className="header">
-            <ul className="header--list">
-                <Link to="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Nous</Link>
-                <Link to ="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Nos Produits</Link>
-                <Link to ="" className="header--list--item logo"><img src={logo} alt="" /></Link>
-                <Link to="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Boutique</Link>
-                <Link to="" className="header--list--item" style={{color:'white',textDecoration:'none'}}>Contact</Link>
-            </ul>
-        </div>
+        <>
+            <div className="navbar">
+                <Link to={'/'}><img src={logo} className="logo--navbar" alt=""/></Link>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to={'/'}>Accueil</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>Accueil</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>Accueil</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>Accueil</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>Accueil</Link>
+                        </li>
+                    </ul>
+                    <button className="btn icon-menu">
+                        <i className="fa fas fa-bars"></i>
+                    </button>
+                </nav>
+                
+            </div>
+        </>
     )
 }
 
