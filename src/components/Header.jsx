@@ -2,6 +2,12 @@ import "./css/Header.css"
 import logo from "./a.png"
 import { Link } from "react-router-dom"
 export default function Header() {
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";              
+    }   
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = 0;
+    }
     return (
         <>
             <div className="navbar">
