@@ -1,33 +1,16 @@
 import "./css/Footer.css"
-export default function Footer() {
 
+export default function Footer() {
     return (
-        <div className="footer container">
-            <ul className="footer--list">
-                <li className="footer--list--item">
-                    <h4 className="footer--list--item--title">Madeepice logo</h4>
-                </li>
-                <li className="footer--list--item">
-                    <h4 className="footer--list--item--title">Contact</h4>
-                    <p className="footer--list--item--paragraph">
-                        Optio sequi architecto facilis laborum rem, illo corrupti ipsam ipsa qui error iusto
-                    </p>
-                </li>
-                <li className="footer--list--item">
-                    <h4 className="footer--list--item--title">Boutique</h4>
-                    <p className="footer--list--item--paragraph">
-                        Optio sequi architecto facilis laborum rem, illo corrupti ipsam ipsa qui error iusto
-                    </p>
-                </li>
-                <li className="footer--list--item" style={{ width: "140px" }}>
-                    <h4 className="footer--list--item--title">Suivez-nous</h4>
-                    <div className="footer--list--item--icon">
-                        <i className="fa fa-solid fa-facebook"></i>
-                        <p className="footer--list--item--icon--f">f</p>
-                        <p className="footer--list--item--icon--o">o°</p>
-                    </div>
-                </li>
-            </ul>
+        <div className="footer container-fluid" style={{color:'white'}}>
+            <p><i className="fa fas fa-phone" style={{color:'white'}}></i> 0345891851</p>
+            <p>Email : madepices@gmail.com</p>
+            <p><i className="fa fas fa-map" style={{color:'white'}}></i>Lot III L Ankaditoho</p>
+            
+            <div className="" style={{right:0}}>
+                <i className="fa fab fa-instagram fa-xl" style={{color:'white',marginRight:'0.5em'}}></i>
+                <i className="fa fab fa-facebook fa-xl" style={{color:'white',marginRight:'0.5em'}}></i>
+            </div>
         </div>
     )
 }

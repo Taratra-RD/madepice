@@ -1,8 +1,8 @@
 import "./css/Header.css"
-import logo from "./a.png"
+import logo from "../images/a.png"
 import { Link } from "react-router-dom"
-export default function Header() {
 
+export default function Header() {
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";              
     }   
@@ -12,7 +12,7 @@ export default function Header() {
     
     return (
         <>
-            <div className="navbar sticky-top shadow-sm">
+            <div className="navbar sticky-top shadow">
                 <Link to={'/'}><img src={logo} className="logo--navbar" alt=""/></Link>
                 <nav>
                     <ul>
@@ -29,7 +29,7 @@ export default function Header() {
                             <Link to={'/'}>Recettes</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Contact</Link>
+                            <Link to={'/'} className='contact'>Contact</Link>
                         </li>
                     </ul>
                     <div className="btn icon-menu">

@@ -1,0 +1,13 @@
+div.card {
+    width: 15em;
+    height: 25em;
+    display: inline-block;
+    margin: 3em;
+    border-radius: 10px;
+}
+div.card-img {
+    height: 20em;
+}
+@media screen and (max-width:720px) {
+    
+}

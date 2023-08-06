@@ -1,7 +1,15 @@
-function About ()  {
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+
+const About = () => {
 
     return(
-        <h1>About page</h1>
+        <>
+            <Header/>
+            <h1>About page</h1>
+            <Footer/>
+        </>
+
     )
 }
 

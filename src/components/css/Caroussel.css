@@ -1,5 +1,72 @@
-.carousel-home {
-    background: aliceblue;
-    width: 100%;
-    height: 26em;
+/* Caroussel.css */
+.carousel-container {
+  width: 100%;
+  height: 29em;
+  max-height: 29em;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+.contenu-carousel{
+  padding-top: 6em !important;
+}
+.carousel-container .carousel{
+  height: 100%;
+}
+.carousel-container .carousel button{
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+span.carousel-control-next-icon {
+  display: none;
+}
+
+span.carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Adjust the overlay color and transparency */
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 80%;
+  /* Adjust the maximum width as needed */
+  color: #fff;
+}
+
+.img1-carousel {
+  background-size: cover;
+  background-image: url('../../images/Rectangle\ 49.png');
+}
+
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.carousel-caption .btn {
+  font-size: 1rem;
+}
+
+@media screen and (max-width:720px) {
+  .carousel-container{
+    height: 19.5em;
+  }
+  .contenu-carousel{
+    padding-top: 2em !important;
+  }
 }
