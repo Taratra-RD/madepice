@@ -20,6 +20,7 @@ nav ul li{
     display: inline-block;
 }
 nav ul li a{
+    font-family: Raleway;
     text-decoration: none;
     color: #f2e5d1;
     margin-right: 4em;
@@ -33,14 +34,15 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
 }
+
 .icon-menu{
     display: none;
     color: white;
 }
+
 .icon-menu i{
     display: none;
     color: white;
-    
 }
 .icon-menu:active{
     border: 0;

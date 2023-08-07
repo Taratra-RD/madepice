@@ -8,6 +8,7 @@
   background: #000;
 }
 .contenu-carousel{
+  position: relative;
   padding-top: 6em !important;
 }
 .carousel-container .carousel{
@@ -35,7 +36,7 @@ span.carousel-control-prev-icon {
   padding: 20px;
   border-radius: 10px;
   position: absolute;
-  bottom: 0;
+  bottom: 10% !important;
   left: 50%;
   transform: translateX(-50%);
   max-width: 80%;
