@@ -1,7 +1,4 @@
 import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
-import imgFont1 from "../../images/ajx.png";
-import imgFont2 from "../../images/fond.png";
-import imgFont3 from "../../images/fond.jpg";
 import "../css/Caroussel.css";
 
 const Caroussel = () => {
@@ -9,8 +6,9 @@ const Caroussel = () => {
     <div className="carousel-container"> {/* Updated className */}
       <Carousel>
         <Carousel.Item interval={3000}>
-          <Carousel.Caption>
-            <center>
+            <Carousel.Caption>
+
+            
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela'}}>LA PASSION DES SAVEURS</h3>
                 <p style={{fontFamily:'Raleway'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit corrupti, consequuntur at reiciendis nihil excepturi tenetur quidem, facere quia sit pariatur laudantium, ea dignissimos tempore amet nam ducimus asperiores sequi natus dolore optio. Voluptates, tempore vel quos accusamus eligendi quibusdam.</p>
@@ -18,12 +16,9 @@ const Caroussel = () => {
                   En savoir plus
                 </span>
               </div>
-            </center>
-          </Carousel.Caption>
+            </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={2000}>
-        <Carousel.Caption>
-          <center>
             <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
               <h3 style={{fontFamily:'Canela'}}>EXPLOSION DE SAVEURS AVEC NOS EPICES UNIQUES</h3>
               <p style={{fontFamily:'Raleway'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores corrupti tempora eos quisquam voluptas aspernatur doloremque sunt libero, qui placeat pariatur excepturi error optio voluptatibus non commodi? Quam, quibusdam explicabo.</p>
@@ -31,11 +26,9 @@ const Caroussel = () => {
                 En savoir plus
               </span>
             </div>
-          </center>
-        </Carousel.Caption>
+          
         </Carousel.Item>
         <Carousel.Item>
-        <Carousel.Caption>
           <center>
             <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
               <h3 style={{fontFamily:'Canela'}}>DECOUVREZ L'ART DES EPICES</h3>
@@ -45,7 +38,7 @@ const Caroussel = () => {
               </span>
             </div>
           </center>
-          </Carousel.Caption>
+          
         </Carousel.Item>
       </Carousel>
     </div>
