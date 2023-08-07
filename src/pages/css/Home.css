@@ -59,6 +59,9 @@ div.card-img {
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
+.img3 h1{
+    padding: 10px !important;
+}
 
 .img-feuille{
     width: auto;
@@ -79,7 +82,10 @@ div img .img-font {
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    background-image: url("../../images/Rectangle\ 7.png");
+    background-image: url("../../images/Rectangle\ 53.png");
+}
+.block p {
+    padding: 25px !important;
 }
 
 .slide-left {
