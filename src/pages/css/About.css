@@ -1,0 +1,241 @@
+.about{
+    text-align: center;
+}
+
+.imgGroups2{
+    background-image: url("../../images/Group\ 2\(1\).png");
+    width: 100%;
+    height: 98vh;
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat;
+    background-position: bottom; /* Center the image */
+}
+
+.title-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20em;
+    height: 25em;
+}
+
+.title-1-text{
+    font-family: Canela Deck Trial;
+}
+
+.contain{
+    max-width: 100vw;
+    padding-inline: 5em 5em !important;
+    padding-block: 5em 5em !important;
+    background-image: url(../../images/Rectangle\ 51.png);
+}
+
+.history-content{
+    display: flex;
+    width: 100%;
+    padding: 20em;
+}
+
+.history-content div{
+    text-align: start;
+    width: 35%;
+}
+
+.history-content:nth-child(even){
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.history-content h4{
+    font-family: Canela Deck Trial;
+    color: #F2E5D1;
+    opacity: 70%;
+}
+p{
+    font-size: 18px;
+}
+.history-content p{
+    font-family: Raleway;
+    color: #FFFF;
+}
+
+.leaves{
+    position: absolute;
+    top: 25em;
+    left: 70.3em;
+    width: 15em;
+    height: auto;
+}
+
+.leaves-1{
+    position: absolute;
+    width: 15em;
+    top: 112em;
+    left: 0em;
+    height: auto;
+}
+
+.line{
+    position: absolute;
+    top: 40em;
+    height: 48em;
+}
+
+.line-anim{
+    animation: line-animation 0.8s  forwards ease;
+}
+
+@keyframes line-animation{
+    0%{
+        opacity: 0;
+        height: 0em;
+    }
+    
+    50%{
+        opacity: 0.5;
+        height: 27em;
+    }
+    
+    100%{
+        opacity: 1;
+        height: 48em;
+    }
+}
+
+.title-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 10em 3em !important;
+    font-family: Canela Deck Trial;
+}
+
+.container{
+    display: flex;
+    background-image: url("../../images/Rectangle\ 53.png");
+    background-size: cover;
+    margin-inline: 4em 4em !important;
+    padding-top: 2em;
+    width: 100em;
+}
+
+.title-2-content {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-inline: 1em 1em !important;
+    margin-block: 4em 4em !important;
+    text-align: start;
+}
+
+.slide-left-1{
+    animation: slide-right 0.8s forwards ease;
+}
+
+@keyframes slide-left{
+    0% {
+        opacity:0;
+        transform: translateX(100px);
+
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-left-2{
+    animation: slide-left 0.8s forwards ease;
+}
+
+@keyframes slide-left{
+    0% {
+        opacity:0;
+        transform: translateX(100px);
+
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-left-3{
+    animation: slide-right 0.8s forwards ease;
+}
+
+@keyframes slide-right{
+    0% {
+        opacity:0;
+        transform: translateX(-100px);
+
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@media screen and (max-width: 720px){
+    .imgGroups2{
+        background-size: cover;
+    }
+
+    .line{
+        position: absolute;
+        height: 0em;
+    }
+
+    .leaves{
+        position: absolute;
+        top: 25em;
+        left: -1.5em;
+        width: 15em;
+        height: auto;
+    }
+
+
+    .history-content div{
+        text-align: start;
+        width: 35%;
+    }
+
+    .contain{
+        max-width: 100vw;
+        padding-block: 5em 5em !important;
+        background-image: url(../../images/Rectangle\ 51.png);
+        padding-inline: 1em 1em !important;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .imgGroups2{
+        background-size: cover;
+    }
+
+    .line{
+        position: absolute;
+        height: 0em;
+    }
+
+    .leaves{
+        position: absolute;
+        top: 25em;
+        left: -1.5em;
+        width: 15em;
+        height: auto;
+    }
+
+
+    .history-content div{
+        text-align: start;
+        width: 35%;
+    }
+
+    .contain{
+        max-width: 100vw;
+        padding-block: 5em 5em !important;
+        background-image: url(../../images/Rectangle\ 51.png);
+        padding-inline: 1em 1em !important;
+    }
+}

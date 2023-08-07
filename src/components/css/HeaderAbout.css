@@ -1,0 +1,93 @@
+.logo--navbar {
+    height: 5em;
+    width: 13em;
+    padding: 0.6em;
+    margin-left: 7em;
+    background: none;
+}
+.navbar{
+    background: none;
+    width: 100%;
+    height: 6.5em;
+    font-family: Raleway;
+}
+nav{
+    padding-top: 1.1em;
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f2e5d1;
+    margin-right: 4em;
+}
+
+nav ul li a.contact{
+    margin-right: 6.5em;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.icon-menu{
+    display: none;
+    color: white;
+}
+.icon-menu i{
+    display: none;
+    color: white;
+    
+}
+.icon-menu:active{
+    border: 0;
+}
+@media screen and (max-width:720px) {
+    .logo--navbar {
+        height: 5em;
+        width: 9em;
+        padding: 0.6em;
+        margin-left: 2em;
+        background: none;
+    }
+    .icon-menu {
+        display: block;
+        margin-left: 1em !important;
+        margin-top: -1.8em !important;
+        
+    }
+    nav ul li a{
+        display: none;
+    }
+}
+@media screen and (max-width:960px) {
+    .logo--navbar {
+        height: 5em;
+        width: 13em;
+        padding: 0.6em;
+        margin-left: 2em;
+        background: none;
+    }
+    .icon-menu {
+        display: block;
+        margin-left: 5em !important;
+        margin-top: -1.8em !important;
+        
+    }
+    nav ul li a{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1105px) {
+    .logo--navbar{
+        margin-left: 2em;
+    }
+    nav ul li a{
+        margin-right: 2.5em;
+    }
+  }
