@@ -107,3 +107,67 @@ p{
     margin-block: 4em 4em !important;
     text-align: start;
 }
+
+@media screen and (max-width: 720px){
+    .imgGroups2{
+        background-size: cover;
+    }
+
+    .line{
+        position: absolute;
+        height: 0em;
+    }
+
+    .leaves{
+        position: absolute;
+        top: 25em;
+        left: -1.5em;
+        width: 15em;
+        height: auto;
+    }
+
+
+    .history-content div{
+        text-align: start;
+        width: 35%;
+    }
+
+    .contain{
+        max-width: 100vw;
+        padding-block: 5em 5em !important;
+        background-image: url(../../images/Rectangle\ 51.png);
+        padding-inline: 1em 1em !important;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .imgGroups2{
+        background-size: cover;
+    }
+
+    .line{
+        position: absolute;
+        height: 0em;
+    }
+
+    .leaves{
+        position: absolute;
+        top: 25em;
+        left: -1.5em;
+        width: 15em;
+        height: auto;
+    }
+
+
+    .history-content div{
+        text-align: start;
+        width: 35%;
+    }
+
+    .contain{
+        max-width: 100vw;
+        padding-block: 5em 5em !important;
+        background-image: url(../../images/Rectangle\ 51.png);
+        padding-inline: 1em 1em !important;
+    }
+}
