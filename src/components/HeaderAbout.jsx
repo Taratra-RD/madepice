@@ -12,8 +12,8 @@ export default function HeaderAbout() {
     
     return (
         <>
-            <div className="navbar sticky-top">
-                <Link to={'/'}><img src={logo} className="logo--navbar" alt=""/></Link>
+            <div className="navbar navbar--about sticky-top">
+                <Link to={'/'}><img src={logo} className="logo--navbar--about" alt=""/></Link>
                 <nav>
                     <ul>
                         <li>
@@ -32,7 +32,7 @@ export default function HeaderAbout() {
                             <Link to={'/'} className='contact'>Contact</Link>
                         </li>
                     </ul>
-                    <div className="btn icon-menu">
+                    <div className="btn icon-menu--about">
                         <i className="fa fas fa-bars fa-xl"></i>
                     </div>
                 </nav>              

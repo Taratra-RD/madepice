@@ -4,7 +4,6 @@
   padding: 0px !important;
 
 }
-
 div,
 p,
 ul,
@@ -13,6 +12,7 @@ h1 {
   padding: 0px !important;
   margin: 0px !important;
 }
+/* Add a specific class-based selector for other divs */
 
 body {
   background-color: rgba(15, 14, 14, 0.853) !important;

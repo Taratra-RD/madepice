@@ -1,11 +1,11 @@
-.logo--navbar {
+.logo--navbar--about {
     height: 5em;
     width: 13em;
     padding: 0.6em;
     margin-left: 7em;
     background: none;
 }
-.navbar{
+.navbar--about{
     background: none;
     width: 100%;
     height: 6.5em;
@@ -34,27 +34,27 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
 }
-.icon-menu{
+.icon-menu--about{
     display: none;
     color: white;
 }
-.icon-menu i{
+.icon-menu--about i{
     display: none;
     color: white;
     
 }
-.icon-menu:active{
+.icon-menu--about:active{
     border: 0;
 }
 @media screen and (max-width:720px) {
-    .logo--navbar {
+    .logo--navbar--about {
         height: 5em;
         width: 9em;
         padding: 0.6em;
         margin-left: 2em;
         background: none;
     }
-    .icon-menu {
+    .icon-menu--about {
         display: block;
         margin-left: 1em !important;
         margin-top: -1.8em !important;
@@ -65,14 +65,14 @@ nav ul li a:hover{
     }
 }
 @media screen and (max-width:960px) {
-    .logo--navbar {
+    .logo--navbar--about {
         height: 5em;
         width: 13em;
         padding: 0.6em;
         margin-left: 2em;
         background: none;
     }
-    .icon-menu {
+    .icon-menu--about {
         display: block;
         margin-left: 5em !important;
         margin-top: -1.8em !important;
@@ -84,7 +84,7 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width:1105px) {
-    .logo--navbar{
+    .logo--navbar--about{
         margin-left: 2em;
     }
     nav ul li a{
