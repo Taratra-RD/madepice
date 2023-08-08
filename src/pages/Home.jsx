@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
       <div className="home">
-        <Header />
+        <Header/>
         <div className="container-fluid">
           <Caroussel/>
         </div>
