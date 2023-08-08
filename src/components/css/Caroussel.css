@@ -25,7 +25,9 @@
 }
 .carousel-container .carousel-indicators{
   display: flex;
-
+  margin-left: 0;
+  margin-right: 0;
+  
 }
 
 span.carousel-control-next-icon {

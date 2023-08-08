@@ -5,10 +5,9 @@
 
 }
 
-/* Add a specific class-based selector for other divs */
 
 body {
-  background-color: black !important;
+  background-color: rgba(15, 14, 14, 0.853) !important;
   color: white !important;
   margin: 0px !important;
   padding: 0px !important;
