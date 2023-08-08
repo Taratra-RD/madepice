@@ -1,13 +1,13 @@
-import { Card as CardBt } from "react-bootstrap"
+import { Card as CardBt, Container } from "react-bootstrap"
+import imgFont1 from "../../images/Rectangle 11.png";
 import '../css/Card.css'
 
-const Card = ({img,title}) => {
+const Card = ({ img, title, className, text }) => {
     return (
         <>
-            <CardBt>
-                <CardBt.Img src={img} style={{ width: '15em',height:'100%' }} />
-                
-            </CardBt>
+            <div className="card" style={{height:'20em',width:'15em',backgroundImage:imgFont1}}>
+
+            </div>
         </>
     )
 }

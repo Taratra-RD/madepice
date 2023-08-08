@@ -47,7 +47,9 @@ div.card-img {
     padding: 2em;
     background-image: url("../../images/Rectangle\ 49.png"),url("../../images/Rectangle\ 16.png");
 }
-
+.spacing{
+    margin: 10px;
+}
 .img3 {
     display: flex;
     align-items: center;
@@ -104,12 +106,28 @@ button.slide-left{
 }
 
 @media screen and (max-width:720px) {
-    .img1{
-        height: 70em;
-
+    div.img1{
+        height: 95em;
     }
     div.img2 {          
         width: 100%;
+        object-fit: cover;
+    }
+    div.img2 .container {
+        max-width: 100%;
+        padding: 3em;
+    }
+}
+
+@media screen and (max-width:420px) {
+    div.img1 {
+        height: 95em;
+    }
+    div.card {
+        height: 23em;
+    }
+    div.img2 {          
+        width: auto;
         object-fit: cover;
     }
     div.img2 .container {
