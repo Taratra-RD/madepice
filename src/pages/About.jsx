@@ -11,6 +11,7 @@ const About = () => {
     const [scroll_1,translation_1] = useState(0)
     const [scroll_2,translation_2] = useState(0)
     const [scroll_3,translation_3] = useState(0)
+    const [scroll_4,lineAnimation] = useState(0)
 
     const setTranslation_1 = () =>{
         translation_1(window.scrollY)
@@ -22,6 +23,10 @@ const About = () => {
 
     const setTranslation_3 = () =>{
         translation_3(window.scrollY)
+    }
+
+    const setLineAnimation = () =>{
+        lineAnimation(window.scrollY)
     }
 
     useEffect(() => {
@@ -49,9 +54,18 @@ const About = () => {
         }
     },[])
 
+    useEffect(()=>{
+        window.addEventListener('scroll',setLineAnimation);
+
+        return () => {
+            window.removeEventListener('scroll',setLineAnimation)
+        }
+    },[])
+
     const isScrolling_1 = scroll_1 > 100;
     const isScrolling_2 = scroll_2 > 375;
     const isScrolling_3 = scroll_3 > 575;
+    const isScrolling_4 = scroll_4 > 100;
 
     return(
     <>
@@ -143,7 +157,7 @@ const About = () => {
             </div>
             <img className="leaves" src={leaves} />
             <img className="leaves-1" src={leaves_1} />
-            <img className="line" src={line} />
+            <img className={`line ${isScrolling_4 ? 'line-anim':''} `} src={line} />
         </div>
     </>
 

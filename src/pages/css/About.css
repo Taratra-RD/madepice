@@ -82,6 +82,27 @@ p{
     height: 48em;
 }
 
+.line-anim{
+    animation: line-animation 0.8s  forwards ease;
+}
+
+@keyframes line-animation{
+    0%{
+        opacity: 0;
+        height: 0em;
+    }
+    
+    50%{
+        opacity: 0.5;
+        height: 27em;
+    }
+    
+    100%{
+        opacity: 1;
+        height: 48em;
+    }
+}
+
 .title-2{
     display: flex;
     align-items: center;
@@ -109,7 +130,7 @@ p{
 }
 
 .slide-left-1{
-    animation: slide-left 0.8s forwards ease;
+    animation: slide-right 0.8s forwards ease;
 }
 
 @keyframes slide-left{
@@ -125,7 +146,7 @@ p{
 }
 
 .slide-left-2{
-    animation: slide-left 1.6s forwards ease;
+    animation: slide-left 0.8s forwards ease;
 }
 
 @keyframes slide-left{
@@ -141,18 +162,18 @@ p{
 }
 
 .slide-left-3{
-    animation: slide-left 2.4s forwards ease;
+    animation: slide-right 0.8s forwards ease;
 }
 
-@keyframes slide-left{
+@keyframes slide-right{
     0% {
         opacity:0;
-        transform: translateX(100px);
+        transform: translateX(-100px);
 
     }
     100% {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 }
 @media screen and (max-width: 720px){
