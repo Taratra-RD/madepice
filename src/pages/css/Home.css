@@ -91,6 +91,10 @@ div img .img-font {
 .slide-left {
     animation: slide-left 0.8s forwards ease-out;
 }
+.slide-right {
+    animation: slide-right 0.8s forwards ease-out;
+}
+
 p.slide-left {
     animation-delay: 0.5s;
     opacity: 0;
@@ -107,6 +111,16 @@ button.slide-left{
     }
     100% {
         transform: translate(0px);
+        opacity: 1;
+    }
+}
+@keyframes slide-right{
+    0% {
+        transform: translate(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(100px);
         opacity: 1;
     }
 }

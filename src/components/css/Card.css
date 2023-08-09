@@ -4,7 +4,7 @@ div.card {
     display: inline-block;
     margin: 22px !important;
     border-radius: 10px;
-    border: 0.1px solid #A9A18C;
+    border: 0.1px  #A9A18C;
     background-size: cover;
     background-image: url('../../images/Rectangle\ 11.png');
     display: flex;
@@ -127,6 +127,6 @@ div.card-img {
 
 @media screen and (max-width:720px) {
     div.card{
-        width: 19em;
+        width: 18em;
     }
 }

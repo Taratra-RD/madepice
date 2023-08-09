@@ -37,7 +37,7 @@
 }
 
 .history-content div{
-    text-align: start;
+    text-align: flex-start;
     width: 35%;
 }
 
@@ -122,11 +122,11 @@ p{
 
 .title-2-content {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     margin-inline: 1em 1em !important;
     margin-block: 4em 4em !important;
-    text-align: start;
+    text-align: flex-start;
 }
 
 .slide-left-1{
@@ -196,7 +196,7 @@ p{
 
 
     .history-content div{
-        text-align: start;
+        text-align: flex-start;
         width: 35%;
     }
 
@@ -228,7 +228,7 @@ p{
 
 
     .history-content div{
-        text-align: start;
+        text-align: flex-start;
         width: 35%;
     }
 

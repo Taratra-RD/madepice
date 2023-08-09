@@ -26,7 +26,8 @@ function Home() {
 
   }, [])
 
-  const isScrolling = scroll > 100
+  const isScrolling = scroll > 600
+  const isScrolling2 = scroll > 100
 
   const cardData = [
     { img: imgFont1, title: "OLI" },
@@ -35,8 +36,6 @@ function Home() {
     { img: imgFont1, title: "PRODUCT 2" }
     // Add more card data
   ];
-
-
 
   return (
     <>
@@ -51,7 +50,7 @@ function Home() {
               <Row>
                 {
                   cardData.map((card) =>
-                    <Col xl={3} lg={3} md={6} sm={12} xs={12}>
+                    <Col xl={3} lg={3} md={6} sm={6} xs={12}>
                       <Card
                         key={card.title}
                         img={card.img}
@@ -68,7 +67,7 @@ function Home() {
         </div>
         <div className="container-fluid img2">
           <Container>
-            <h2 className={`${isScrolling ? "slide-left" : ''}`} style={{ marginTop: '1em',marginBottom: '0.5em', fontFamily: 'Canela Deck Trial' }}>
+            <h2 className={`${isScrolling ? "slide-left" : ''}`} style={{ marginTop: '0em',marginBottom: '0.5em', fontFamily: 'Canela Deck Trial' }}>
               DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES CULTIVATEURS
             </h2>
             <p className={`${isScrolling ? "slide-left" : ''}`} style={{ fontFamily: 'Raleway' }}>
@@ -83,19 +82,19 @@ function Home() {
         </div>
         <div className="container-fluid img3">
           <Container style={{ alignContent: 'center' }}>
-            <h1 style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
               NOS ENGAGEMENTS
             </h1>
-            <div className="block" style={{ padding: '2em' }}>
+            <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '2em' }}>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
               </p>
             </div>
-            <h1 style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
               NOS VALEURS
             </h1>
-            <div className="block" style={{ padding: '2em' }}>
+            <div className={`${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '2em' }}>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
