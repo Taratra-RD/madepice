@@ -37,7 +37,7 @@ div.card::before {
 }
 div.card:hover {
    cursor: pointer;
-   filter: brightness(1.1);
+   filter: brightness(1.2);
 }
 div.card:hover .card-info {
     display: block;
@@ -91,7 +91,7 @@ div.card-body{
 
 .card-container:hover .card-body{
     display: block;
-    transition: display 0s 0.5s;
+    transition: display 0s 0.8s;
 }
 
 div.card-img {
@@ -129,5 +129,9 @@ div.card-img {
 @media screen and (max-width:720px) {
     div.card{
         width: 18em;
+    }
+    .card-info button{
+        font-size: 14px;
+
     }
 }

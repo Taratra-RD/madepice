@@ -65,6 +65,9 @@ function Home() {
             </div>
             </center>
         </div>
+          <div className="container d-flex flex-direction-column align-items-center justify-content-center">
+            
+          </div>
         <div className="container-fluid img2">
           <Container>
             <h2 className={`${isScrolling ? "slide-left" : ''}`} style={{ marginTop: '0em',marginBottom: '0.5em', fontFamily: 'Canela Deck Trial' }}>
@@ -85,7 +88,7 @@ function Home() {
             <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
               NOS ENGAGEMENTS
             </h1>
-            <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '2em' }}>
+            <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '1em' }}>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
@@ -94,7 +97,7 @@ function Home() {
             <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
               NOS VALEURS
             </h1>
-            <div className={`${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '2em' }}>
+            <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '1em' }}>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
