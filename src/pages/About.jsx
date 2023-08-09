@@ -4,8 +4,54 @@ import "./css/About.css"
 import leaves from "../images/Leaves 1.png"
 import leaves_1 from "../images/Leaves 2.png"
 import line from "../images/Line 1.png"
+import { useState, useEffect } from "react"
 
 const About = () => {
+
+    const [scroll_1,translation_1] = useState(0)
+    const [scroll_2,translation_2] = useState(0)
+    const [scroll_3,translation_3] = useState(0)
+
+    const setTranslation_1 = () =>{
+        translation_1(window.scrollY)
+    }
+
+    const setTranslation_2 = () =>{
+        translation_2(window.scrollY)
+    }
+
+    const setTranslation_3 = () =>{
+        translation_3(window.scrollY)
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll',setTranslation_1);
+
+        return () => {
+            window.removeEventListener('scroll',setTranslation_1)
+        }
+
+    },[])
+
+    useEffect(()=>{
+        window.addEventListener('scroll',setTranslation_2);
+
+        return () => {
+            window.removeEventListener('scroll',setTranslation_2)
+        }
+    },[])
+
+    useEffect(()=>{
+        window.addEventListener('scroll',setTranslation_3);
+
+        return () => {
+            window.removeEventListener('scroll',setTranslation_3)
+        }
+    },[])
+
+    const isScrolling_1 = scroll_1 > 100;
+    const isScrolling_2 = scroll_2 > 375;
+    const isScrolling_3 = scroll_3 > 575;
 
     return(
     <>
@@ -19,7 +65,7 @@ const About = () => {
                 </div>
             </div>
             <div className="contain">
-                <div className="history-content">
+                <div className={`history-content ${isScrolling_1 ? 'slide-left-1':''} `}>
                     <div>
                         <h4>1919</h4>
                         <p>
@@ -31,7 +77,7 @@ const About = () => {
                         </p> 
                     </div>
                 </div>
-                <div className="history-content">
+                <div className={`history-content ${isScrolling_2 ? 'slide-left-2':''} `}>
                     <div>
                         <h4>1919</h4>
                         <p>
@@ -43,7 +89,7 @@ const About = () => {
                         </p> 
                     </div>
                 </div>
-                <div className="history-content">
+                <div className={`history-content ${isScrolling_3 ? 'slide-left-3':''} `}>
                     <div>
                         <h4>1919</h4>
                         <p>
