@@ -1,14 +1,23 @@
-import { Card as CardBt } from "react-bootstrap"
-import '../css/Card.css'
+import React from "react";
+import '../css/Card.css';
 
-const Card = ({img,title}) => {
+const Card = ({ img, title, className, text }) => {
     return (
-        <>
-            <CardBt>
-                <CardBt.Img src={img} style={{ width: '15em',height:'100%' }} />
-                
-            </CardBt>
-        </>
-    )
+        <div className="card" style={{ height: '20em', width: '15em' }}>
+            <div className="card-title">
+                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{title}</h3>
+            </div>
+            <div className="card-info">
+                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{title}</h3>
+                <p style={{ color: 'white', paddingTop: '15px', paddingBottom: '15px' }}>
+                    {text}
+                </p>
+                <button className="btn" style={{ background: '#f2e5d1', borderRadius: '8px' }}>
+                    En savoir plus
+                </button>
+            </div>
+        </div>
+    );
 }
-export default Card
+
+export default Card;

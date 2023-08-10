@@ -1,46 +1,81 @@
+
+import { useRef, useEffect, useState } from "react";
 import "./css/Home.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Caroussel from "../components/home/Caroussel";
-import imgFont1 from "../images/Product.png";
+import imgFont1Active from "../images/Frame 4.png";
+import imgFont1 from "../images/Rectangle 11.png";
 import imgFont2 from "../images/Rectangle 49.png";
-import imgFont3 from "../images/Rectangle 51.png";
+import imgFont3 from "../images/Rectangle 53.png";
 import Card from "../components/home/Card";
 import { Col, Container, Row } from "react-bootstrap";
 
 function Home() {
+
+  const [scroll, whiteMode] = useState(0)
+
+  const setWhiteMode = () => {
+    whiteMode(window.scrollY)
+  }
+  useEffect(() => {
+    window.addEventListener('scroll', setWhiteMode)
+
+    return () => {
+      window.removeEventListener('scroll', setWhiteMode)
+    }
+
+  }, [])
+
+  const isScrolling = scroll > 100
+
+  const cardData = [
+    { img: imgFont1, title: "OLI" },
+    { img: imgFont1, title: "OLI" },
+    { img: imgFont1, title: "PRODUCT 1" },
+    { img: imgFont1, title: "PRODUCT 2" }
+    // Add more card data
+  ];
+
+
+
   return (
     <>
       <div className="home">
         <Header/>
         <div className="container-fluid">
-          <Caroussel/>
+          <Caroussel />
         </div>
         <div className="container-fluid img1">
           <center>
-          <div className="cards">
-            <Row>
-              <Col>
-                <Card img={imgFont1} title={'Article 1'} text={'Ahdzhudh hdzuduh dazdjijoi eufhuh uzhduhzuihda fnsndsjdh hzuh.'} />
-              </Col>
-              <Col>
-                <Card img={imgFont1} title={'Article 1'} text={'Ahdzhudh hdzuduh dazdjijoi eufhuh uzhduhzuihda fnsndsjdh hzuh.'} />
-              </Col>
-              <Col>
-                <Card img={imgFont1} title={'Article 1'} text={'Ahdzhudh hdzuduh dazdjijoi eufhuh uzhduhzuihda fnsndsjdh hzuh.'} />
-              </Col>
-              <Col>
-                <Card img={imgFont1} title={'Article 1'} text={'Ahdzhudh hdzuduh dazdjijoi eufhuh uzhduhzuihda fnsndsjdh hzuh.'} />
-              </Col>
-            </Row>
-          </div>
+            <div className="cards">
+              <Row>
+                {
+                  cardData.map((card) =>
+                    <Col>
+                      <Card
+                        key={card.title}
+                        img={card.img}
+                        title={card.title}
+                        className={'spacing'}
+                        text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
+                      />
+                    </Col>
+                  )
+                }
+              </Row>
+            </div>
           </center>
         </div>
         <div className="container-fluid img2">
           <Container>
-            <h2 style={{marginBottom:'0.5em'}}>DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES CULTIVATEURS</h2>
-            <p style={{}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum animi unde itaque aut accusamus, repellat quae, tempore neque amet quaerat. Ipsam quibusdam sapiente vitae!</p>
-            <button className="btn" style={{background:'#f2e5d1',marginTop:'1.5em',color:'black',height:'3.5em',borderRadius:'9px',paddingLeft:'30px',paddingRight:'30px'}}>
+            <h2 className={`${isScrolling ? "slide-left" : ''}`} style={{ marginBottom: '0.5em', fontFamily: 'Canela Deck Trial' }}>
+              DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES CULTIVATEURS
+            </h2>
+            <p className={`${isScrolling ? "slide-left" : ''}`} style={{ fontFamily: 'Raleway' }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum animi unde itaque aut accusamus, repellat quae, tempore neque amet quaerat. Ipsam quibusdam sapiente vitae!
+            </p>
+            <button className={`btn ${isScrolling ? "slide-left" : ''}`} style={{ background: '#f2e5d1', marginTop: '1.5em', color: 'black', height: '3.5em', borderRadius: '9px', paddingLeft: '30px', paddingRight: '30px', fontFamily: 'Raleway', fontWeight: '500' }}>
               Découvrez notre histoire
             </button>
           </Container>
@@ -48,16 +83,27 @@ function Home() {
           </div>
         </div>
         <div className="container-fluid img3">
-          <Container style={{alignContent:'center'}}>
-            <h3 style={{textAlign:'center',paddingTop:'2em',paddingBottom:'0.7em'}}>NOS ENGAGEMENTS</h3>
-            <div className="block">
+          <Container style={{ alignContent: 'center' }}>
+            <h1 style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
+              NOS ENGAGEMENTS
+            </h1>
+            <div className="block" style={{ padding: '3em' }}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
+                Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
+              </p>
             </div>
-            <h3 style={{textAlign:'center',paddingTop:'2em',paddingBottom:'0.7em'}}>NOS VALEURS</h3>
+            <h1 style={{ textAlign: 'center', paddingTop: '1.5em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
+              NOS VALEURS
+            </h1>
             <div className="block">
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
+                Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
+              </p>
             </div>
           </Container>
         </div>
-
         <Footer />
       </div>
     </>

@@ -1,3 +1,6 @@
+body{
+    font-family: Raleway;
+}
 div {
     width: 100%;
 }
@@ -44,7 +47,9 @@ div.card-img {
     padding: 2em;
     background-image: url("../../images/Rectangle\ 49.png"),url("../../images/Rectangle\ 16.png");
 }
-
+.spacing{
+    margin: 10px;
+}
 .img3 {
     display: flex;
     align-items: center;
@@ -53,6 +58,9 @@ div.card-img {
     height: 77.3em;
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
+}
+.img3 h1{
+    padding: 10px !important;
 }
 
 .img-feuille{
@@ -74,13 +82,38 @@ div img .img-font {
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    background-image: url("../../images/Rectangle\ 7.png");
+    background-image: url("../../images/Rectangle\ 53.png");
+}
+.block p {
+    padding: 25px !important;
+}
+
+.slide-left {
+    animation: slide-left 0.8s forwards ease-out;
+}
+p.slide-left {
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+button.slide-left{
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes slide-left{
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width:720px) {
-    .img1{
-        height: 70em;
-
+    div.img1{
+        height: 95em;
     }
     div.img2 {          
         width: 100%;
@@ -91,6 +124,24 @@ div img .img-font {
         padding: 3em;
     }
 }
+
+@media screen and (max-width:420px) {
+    div.img1 {
+        height: 95em;
+    }
+    div.card {
+        height: 23em;
+    }
+    div.img2 {          
+        width: auto;
+        object-fit: cover;
+    }
+    div.img2 .container {
+        max-width: 100%;
+        padding: 3em;
+    }
+}
+
 @media screen and (max-width:1000px) {
     .img1{
         height: 60em;

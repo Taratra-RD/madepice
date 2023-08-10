@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 .logo--navbar {
+=======
+.logo--navbar--about {
+>>>>>>> pana
     height: 5em;
     width: 13em;
     padding: 0.6em;
     margin-left: 7em;
     background: none;
 }
+<<<<<<< HEAD
 .navbar{
+=======
+.navbar--about{
+>>>>>>> pana
     background: none;
     width: 100%;
     height: 6.5em;
@@ -34,27 +42,47 @@ nav ul li a:hover{
     text-decoration: none;
     color: white;
 }
+<<<<<<< HEAD
 .icon-menu{
     display: none;
     color: white;
 }
 .icon-menu i{
+=======
+.icon-menu--about{
+    display: none;
+    color: white;
+}
+.icon-menu--about i{
+>>>>>>> pana
     display: none;
     color: white;
     
 }
+<<<<<<< HEAD
 .icon-menu:active{
     border: 0;
 }
 @media screen and (max-width:720px) {
     .logo--navbar {
+=======
+.icon-menu--about:active{
+    border: 0;
+}
+@media screen and (max-width:720px) {
+    .logo--navbar--about {
+>>>>>>> pana
         height: 5em;
         width: 9em;
         padding: 0.6em;
         margin-left: 2em;
         background: none;
     }
+<<<<<<< HEAD
     .icon-menu {
+=======
+    .icon-menu--about {
+>>>>>>> pana
         display: block;
         margin-left: 1em !important;
         margin-top: -1.8em !important;
@@ -65,14 +93,22 @@ nav ul li a:hover{
     }
 }
 @media screen and (max-width:960px) {
+<<<<<<< HEAD
     .logo--navbar {
+=======
+    .logo--navbar--about {
+>>>>>>> pana
         height: 5em;
         width: 13em;
         padding: 0.6em;
         margin-left: 2em;
         background: none;
     }
+<<<<<<< HEAD
     .icon-menu {
+=======
+    .icon-menu--about {
+>>>>>>> pana
         display: block;
         margin-left: 5em !important;
         margin-top: -1.8em !important;
@@ -84,7 +120,11 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width:1105px) {
+<<<<<<< HEAD
     .logo--navbar{
+=======
+    .logo--navbar--about{
+>>>>>>> pana
         margin-left: 2em;
     }
     nav ul li a{

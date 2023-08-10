@@ -118,7 +118,7 @@ const About = () => {
                 <div className="title-2">
                     <h1>NOS ENGAGEMENTS</h1>
                 </div>
-                <div className="container">
+                <div className="container container--about">
                     <p className="title-2-content">
                         Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. 
                         Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra 
@@ -136,7 +136,7 @@ const About = () => {
                 <div className="title-2">
                     <h1>NOS VALEURS</h1>
                 </div>
-                <div className="container">
+                <div className="container container--about">
                     <p className="title-2-content">
                         Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. 
                         Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra 

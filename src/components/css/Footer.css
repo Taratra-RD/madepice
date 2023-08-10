@@ -1,8 +1,9 @@
 
 .footer {
     background: #000;
-    
     width: 100%;
+    height: 20em;
     bottom: 0;
+    text-align: center;
 }
 

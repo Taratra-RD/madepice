@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <>
             <div className="navbar sticky-top shadow">
-                <Link to={'/'}><img src={logo} className="logo--navbar" alt=""/></Link>
+                <Link to={'/'}><img src={logo} className="logo--navbar--about" alt=""/></Link>
                 <nav>
                     <ul>
                         <li>

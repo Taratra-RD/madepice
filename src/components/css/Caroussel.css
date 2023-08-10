@@ -7,9 +7,12 @@
   overflow: hidden;
   background: #000;
 }
+
 .contenu-carousel{
+  position: relative;
   padding-top: 6em !important;
 }
+
 .carousel-container .carousel{
   height: 100%;
 }
@@ -34,8 +37,8 @@ span.carousel-control-prev-icon {
   /* Adjust the overlay color and transparency */
   padding: 20px;
   border-radius: 10px;
-  position: absolute;
-  bottom: 0;
+
+  bottom: 10% !important;
   left: 50%;
   transform: translateX(-50%);
   max-width: 80%;
@@ -63,6 +66,12 @@ span.carousel-control-prev-icon {
 }
 
 @media screen and (max-width:720px) {
+  p{
+    font-size: 15px;
+  } 
+  body{
+    font-size: 15px;
+  }
   .carousel-container{
     height: 19.5em;
   }
