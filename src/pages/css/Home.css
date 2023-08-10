@@ -10,7 +10,7 @@ div.img2 h2 {
 }
 div.img2 p {
     max-width: 35em;
-    padding: 3em;
+    
 }
 
 .img1 {
@@ -19,7 +19,7 @@ div.img2 p {
     justify-content: center;
     width: auto;
     height: 34em;
-    padding: 2em;
+    
     background-image: url("../../images/Rectangle\ 10.png");
 }
 
@@ -78,7 +78,7 @@ div img .img-font {
 }
 .block {
     width: auto;
-    height: 30em;
+    height: 26em;
     display: flex;
     justify-content: center;
     border-radius: 10px;

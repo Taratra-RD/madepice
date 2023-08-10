@@ -1,10 +1,10 @@
 div.card {
-    width: 15em;
-    height: 25em;
+    width: 16em;
+    height: 20em;
     display: inline-block;
     margin: 22px !important;
     border-radius: 10px;
-    border: 0.5px solid grey;
+    border: 0.1px solid #A9A18C;
     background-size: cover;
     background-image: url('../../images/Rectangle\ 11.png');
     display: flex;
@@ -14,13 +14,33 @@ div.card {
     text-align: center; /* Center the text horizontally */
     position: relative;
     overflow: hidden;
+    filter: brightness(1);
+    transition: filter 0.3s ease-in-out;
+    /* Add a gradient border */
+    background-clip: padding-box;
 }
 
+div.card::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    z-index: -1;
+
+    background: linear-gradient(45deg, #A9A18C, transparent, transparent, transparent);
+    border-radius: 10px;
+    transform: translateZ(-1px); /* Create the 3D effect */
+    opacity: 0.8;
+}
 div.card:hover {
    cursor: pointer;
+   filter: brightness(1.1);
 }
 div.card:hover .card-info {
     display: block;
+    filter: brightness(1);
     animation: slide-up 0.6s ease;
 }
 div.card:hover .card-title{
@@ -48,8 +68,7 @@ div.card:hover .card-title{
     
 }
 .card-info {
-    background: black;
-    padding: 10px; /* Add some padding for spacing */
+    background: black; /* Add some padding for spacing */
     width: 100%; /* Make sure the info takes the full width */
     box-sizing: border-box; /* Include padding in width */
     text-align: center;
@@ -61,7 +80,7 @@ div.card:hover .card-title{
 }
 
 .card-info button{
-    margin-top: 10px;
+    
     margin-bottom: 10px;
 }
 
