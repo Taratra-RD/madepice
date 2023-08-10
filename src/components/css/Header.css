@@ -35,15 +35,17 @@ nav ul li a:hover{
     color: white;
 }
 
-.icon-menu{
+div.icon-menu{
     display: none;
     color: white;
+    width: 25px;
 }
 
-.icon-menu i{
-    display: none;
-    color: white;
+div.icon-menu:active{
+    border: 0;
 }
+
+
 .icon-menu:active{
     border: 0;
 }
@@ -55,10 +57,12 @@ nav ul li a:hover{
         margin-left: 2em;
         background: #000;
     }
-    .icon-menu {
-        display: block;
-        margin-left: 1em !important;
-        margin-top: -1.8em !important;
+    div.icon-menu {
+        display: flex;
+        position: absolute;
+        right: 0; 
+        margin-top: -12px !important; 
+        margin-right: 15px !important;
         
     }
     nav ul li a{
@@ -74,11 +78,12 @@ nav ul li a:hover{
         margin-left: 2em;
         background: #000;
     }
-    .icon-menu {
-        display: block;
-        margin-left: 5em !important;
-        margin-top: -1.8em !important;
-        
+    div.icon-menu {
+        display: flex;
+        position: absolute;
+        right: 0; 
+        margin-top: -12px !important; 
+        margin-right: 30px !important;
     }
     nav ul li a{
         display: none;
