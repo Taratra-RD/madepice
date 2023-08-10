@@ -1,8 +1,12 @@
+import HeaderAbout from '../components/HeaderAbout'
+function Product() {
 
-function Product ()  {
-
-    return(
-        <h1>Product page</h1>
+    return (
+        <div className="product">
+            <div className="product--header">
+                <HeaderAbout />
+            </div>
+        </div>
     )
 }
 

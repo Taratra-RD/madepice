@@ -1,22 +1,11 @@
 .App {
   text-align: center;
-  margin: 0px !important;
-  padding: 0px !important;
 
 }
-div,
-p,
-ul,
-li,
-h1 {
-  padding: 0px !important;
-  margin: 0px !important;
-}
+
 /* Add a specific class-based selector for other divs */
 
 body {
   background-color: rgba(15, 14, 14, 0.853) !important;
   color: white !important;
-  margin: 0px !important;
-  padding: 0px !important;
 }
