@@ -3,13 +3,13 @@ import '../css/Card.css';
 
 const Card = ({ img, title, className, text }) => {
     return (
-        <div className="card" style={{ height: '20em', width: '15em' }}>
+        <div className="card shadow-lg">
             <div className="card-title">
                 <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{title}</h3>
             </div>
             <div className="card-info">
                 <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{title}</h3>
-                <p style={{ color: 'white', paddingTop: '15px', paddingBottom: '15px' }}>
+                <p style={{ color: 'white', paddingTop: '5px', paddingBottom: '15px' }}>
                     {text}
                 </p>
                 <button className="btn" style={{ background: '#f2e5d1', borderRadius: '8px' }}>

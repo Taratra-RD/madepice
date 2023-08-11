@@ -23,6 +23,10 @@
   margin-right: 15px;
   margin-bottom: 10px;
 }
+.carousel-container .carousel-indicators{
+  display: flex;
+
+}
 
 span.carousel-control-next-icon {
   display: none;
@@ -37,9 +41,7 @@ span.carousel-control-prev-icon {
   /* Adjust the overlay color and transparency */
   padding: 20px;
   border-radius: 10px;
-
   bottom: 10% !important;
-  left: 50%;
   transform: translateX(-50%);
   max-width: 80%;
   /* Adjust the maximum width as needed */
@@ -73,7 +75,7 @@ span.carousel-control-prev-icon {
     font-size: 15px;
   }
   .carousel-container{
-    height: 19.5em;
+    height: 26em;
   }
   .contenu-carousel{
     padding-top: 2em !important;
