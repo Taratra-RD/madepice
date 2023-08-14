@@ -71,13 +71,13 @@ span.carousel-control-prev-icon {
 
 @media screen and (max-width:720px) {
   p{
-    font-size: 15px;
+    font-size: 10px;
   } 
   body{
     font-size: 15px;
   }
   .carousel-container{
-    height: 26em;
+    height: 27em;
   }
   .contenu-carousel{
     padding-top: 2em !important;
