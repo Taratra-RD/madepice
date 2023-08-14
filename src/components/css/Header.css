@@ -41,13 +41,7 @@ i.fa-bars{
     width: 25px;
 }
 div.sidenav {
-    position: absolute;
-    top: 0 !important;
-    right: 0 !important;
-    height: 100%;
-    width: 0;
-    background: aliceblue;
-    transition: 0.7s;
+    
 }
 @media screen and (max-width:720px) {
     .logo--navbar {
