@@ -1,13 +1,12 @@
-body{
+body {
     font-family: Raleway;
 }
-div {
-    width: 100%;
-}
+
 div.img2 h2 {
     padding-top: 0.5em;
     max-width: 22em;
 }
+
 div.img2 p {
     max-width: 35em;
     padding: 3em;
@@ -28,6 +27,7 @@ div.cards {
     align-items: center;
     justify-content: center;
 }
+
 div.card {
     width: 15em;
     height: 25em;
@@ -35,9 +35,11 @@ div.card {
     margin: 3em;
     border-radius: 10px;
 }
+
 div.card-img {
     height: 20em;
 }
+
 .img2 {
     display: flex;
     align-items: center;
@@ -45,11 +47,13 @@ div.card-img {
     width: auto;
     height: 31em;
     padding: 2em;
-    background-image: url("../../images/Rectangle\ 49.png"),url("../../images/Rectangle\ 16.png");
+    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 16.png");
 }
-.spacing{
+
+.spacing {
     margin: 10px;
 }
+
 .img3 {
     display: flex;
     align-items: center;
@@ -59,11 +63,12 @@ div.card-img {
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
-.img3 h1{
+
+.img3 h1 {
     padding: 10px !important;
 }
 
-.img-feuille{
+.img-feuille {
     width: auto;
     height: 15em;
     top: 10em;
@@ -71,11 +76,13 @@ div.card-img {
     background-size: contain;
     background-image: url("../../images/Leaves\ 1.png");
 }
+
 div img .img-font {
     background-size: cover;
     width: 90%;
     overflow: 0;
 }
+
 .block {
     width: auto;
     height: 30em;
@@ -84,6 +91,7 @@ div img .img-font {
     border-radius: 10px;
     background-image: url("../../images/Rectangle\ 53.png");
 }
+
 .block p {
     padding: 25px !important;
 }
@@ -91,20 +99,23 @@ div img .img-font {
 .slide-left {
     animation: slide-left 0.8s forwards ease-out;
 }
+
 p.slide-left {
     animation-delay: 0.5s;
     opacity: 0;
 }
-button.slide-left{
+
+button.slide-left {
     animation-delay: 1s;
     opacity: 0;
 }
 
-@keyframes slide-left{
+@keyframes slide-left {
     0% {
         transform: translate(100px);
         opacity: 0;
     }
+
     100% {
         transform: translate(0px);
         opacity: 1;
@@ -112,13 +123,15 @@ button.slide-left{
 }
 
 @media screen and (max-width:720px) {
-    div.img1{
+    div.img1 {
         height: 95em;
     }
-    div.img2 {          
+
+    div.img2 {
         width: 100%;
         object-fit: cover;
     }
+
     div.img2 .container {
         max-width: 100%;
         padding: 3em;
@@ -129,13 +142,16 @@ button.slide-left{
     div.img1 {
         height: 95em;
     }
+
     div.card {
         height: 23em;
     }
-    div.img2 {          
+
+    div.img2 {
         width: auto;
         object-fit: cover;
     }
+
     div.img2 .container {
         max-width: 100%;
         padding: 3em;
@@ -143,7 +159,7 @@ button.slide-left{
 }
 
 @media screen and (max-width:1000px) {
-    .img1{
+    .img1 {
         height: 60em;
     }
 }
