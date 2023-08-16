@@ -7,11 +7,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.card--a {
-    margin-inline: 1vw 1vw;
-}
 
 .productList {
     display: flex;
@@ -36,12 +35,6 @@
 
     .product--list--right {
         margin-left: 5vw;
-    }
-
-    .product--list--card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
@@ -73,5 +66,11 @@
 @media(max-width:1199px) {
     .sub-product {
         width: 42% !important;
+    }
+}
+
+@media(max-width:400px) {
+    .sub-product {
+        width: 95% !important;
     }
 }
