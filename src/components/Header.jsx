@@ -18,7 +18,26 @@ export default function Header() {
     return (
         <>
             <div className="sidenav" id="sidenav">
-
+                <nav>
+                    <ul className={`nav-links ${navbarOpen ? 'open' : ''}`}>
+                        <li>
+                            <Link to={'/'}>Accueil</Link>
+                        </li>
+                        <li>
+                            <Link to={'/about'}>A propos de nous</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>Nos produits</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>Recettes</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'} className='contact'>Contact</Link>
+                        </li>
+                    </ul>
+                    <i className="fa fas fa-close fa-xl" onClick={toggleNavbar}></i>
+                </nav>
             </div>
             <div className={`navbar sticky-top shadow`}>
                 <Link to={'/'}>

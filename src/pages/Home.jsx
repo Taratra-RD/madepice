@@ -85,7 +85,7 @@ function Home() {
         </div>
         <div className="container-fluid img3">
           <Container style={{ alignContent: 'center' }}>
-            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
               NOS ENGAGEMENTS
             </h1>
             <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '1em' }}>
@@ -94,7 +94,7 @@ function Home() {
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
               </p>
             </div>
-            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingTop: '2em', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', fontFamily: 'Canela Deck Trial' }}>
               NOS VALEURS
             </h1>
             <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '1em' }}>

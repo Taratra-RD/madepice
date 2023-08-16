@@ -56,12 +56,22 @@ div.card-img {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 77.3em;
+    height: 72em;  /*77.3em*/
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
 .img3 h1{
     padding: 10px !important;
+}
+.img3 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img3 .container h1{
+    margin-top: 1.5em;
 }
 
 .img-feuille{
@@ -87,6 +97,7 @@ div img .img-font {
 }
 .block p {
     padding: 25px !important;
+    font-family: Raleway;
 }
 
 .slide-left {

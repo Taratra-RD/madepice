@@ -43,6 +43,7 @@ i.fa-bars{
 div.sidenav {
     
 }
+
 @media screen and (max-width:720px) {
     .logo--navbar {
         height: 5em;
