@@ -1,5 +1,6 @@
 import "./css/Header.css"
 import logo from "../images/a.png"
+import logo2 from "../images/LOGO 2.png"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 
@@ -41,7 +42,7 @@ export default function Header() {
             </div>
             <div className={`navbar sticky-top shadow`}>
                 <Link to={'/'}>
-                    <img src={logo} className="logo--navbar--about" alt="" />
+                    <img src={logo2} className="logo--navbar--about" alt="" />
                 </Link>
 
                 <nav>

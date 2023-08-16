@@ -56,7 +56,7 @@ div.card-img {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 72em;  /*77.3em*/
+    height: 75em;  /*77.3em*/
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
@@ -71,7 +71,7 @@ div.card-img {
 }
 
 .img3 .container h1{
-    margin-top: 1.5em;
+    margin-top: 2em;
 }
 
 .img-feuille{
@@ -118,8 +118,27 @@ button.slide-left{
 .engagements {
 
 }
+.cards{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0 2em; /* Add padding to create space between the cards */
+}
 .valeurs{
     padding-top: 5em;
+}
+
+div.swiper-button-prev{
+    color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+div.swiper-button-next{
+    color: white;
+    width: 5px;
+    height: 5px;
 }
 
 @keyframes slide-left{
@@ -156,9 +175,7 @@ button.slide-left{
 }
 
 @media screen and (max-width:720px) {
-    div.img1{
-        height: 95em;
-    }
+    
     div.img2 {          
         width: 100%;
         object-fit: cover;
@@ -191,17 +208,25 @@ button.slide-left{
         align-items: center;
         text-align: center;
         justify-content: center;
-        background: radial-gradient(red,darkred)
+        background: linear-gradient(to right, #FF5733, #FF3350);
     }
     .block p {
-        
         font-size: 14px;
     }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .card {
+        width: 80%; /* Adjust the width as needed */
+        margin: 1em 0;
+      }
 }
 
 @media screen and (max-width:420px) {
     div.img1 {
-        height: 95em;
+        height: 29em;
     }
     div.card {
         height: 23em;

@@ -128,7 +128,7 @@ div.card-img {
 
 @media screen and (max-width:720px) {
     div.card{
-        width: 18em;
+        width: 16em;
     }
     .card-info button{
         font-size: 14px;
