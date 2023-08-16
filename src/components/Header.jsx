@@ -1,6 +1,6 @@
 import "./css/Header.css"
 import logo from "../images/a.png"
-import logo2 from "../images/LOGO 2.png"
+import logo2 from "../images/LOGO.png"
 import { Link } from "react-router-dom"
 import { useState } from "react"
 
@@ -10,9 +10,9 @@ export default function Header() {
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
         if (navbarOpen === true) {
-            document.getElementById("sidenav").style.width = '20em'
+            document.getElementById("sidenav").style.height = '20em'
         } else {
-            document.getElementById("sidenav").style.width = '0em'
+            document.getElementById("sidenav").style.height = '0em'
         }
     }
 

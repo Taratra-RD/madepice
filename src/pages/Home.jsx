@@ -67,12 +67,17 @@ function Home() {
         <div className="container-fluid img1">
           <div className="slider-container">
             <div className={`cards ${slideCards ? "slide" : ""}`}>
+              <i className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
               <Swiper
                 // install Swiper modules
                 modules={[Navigation]}
                 spaceBetween={10}
                 slidesPerView={4}
-                navigation
+                //navigation={{
+                //  nextEl: '.custom-next-button',
+                //  prevEl: '.custom-prev-button',
+
+                //}}
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
@@ -83,20 +88,25 @@ function Home() {
                     spaceBetween: 15
                   },
                   480: {
-                    slidesPerView:2,
-                    spaceBetween:20
+                    slidesPerView: 1,
+                    spaceBetween: 20
                   },
                   768: {
-                    slidesPerView:3,
-                    spaceBetween:20
+                    slidesPerView: 2,
+                    spaceBetween: 10
                   },
+                  900: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                  }
+                  ,
                   1024: {
-                    slidesPerView:4,
-                    spaceBetween:10
+                    slidesPerView: 3,
+                    spaceBetween: 10
                   },
                   1280: {
-                    slidesPerView:4,
-                    spaceBetween:10
+                    slidesPerView: 4,
+                    spaceBetween: 10
                   }
                 }}
 
@@ -155,7 +165,20 @@ function Home() {
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
+                <SwiperSlide>
+                  <Card
+                    key={5}
+                    img={imgFont1}
+                    title={"h h7"}
+                    className={'spacing'}
+                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
+                  />
+                </SwiperSlide>
               </Swiper>
+
+
+              <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl" style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
+
 
             </div>
 
@@ -190,10 +213,10 @@ function Home() {
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
               </p>
             </div>
-            <h1 className={`${isScrolling3 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling3 ? "slide-right d-block" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela Deck Trial' }}>
               NOS VALEURS
             </h1>
-            <div className={`block ${isScrolling3 ? "slide-left" : ''}`} style={{ padding: '1em' }}>
+            <div className={` block ${isScrolling3 ? "slide-left d-block" : ''}`} style={{ padding: '1em' }}>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
                 Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.

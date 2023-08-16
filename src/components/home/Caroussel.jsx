@@ -5,7 +5,7 @@ const Caroussel = () => {
   return (
     <div className="container carousel-container app-div"> {/* Updated className */}
       <Carousel>
-        <Carousel.Item interval={3000}>     
+        <Carousel.Item interval={5000}>     
               <center>
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela Deck Trial'}}>LA PASSION DES SAVEURS</h3>
@@ -16,7 +16,7 @@ const Caroussel = () => {
               </div>
             </center> 
         </Carousel.Item>
-        <Carousel.Item interval={3000}>     
+        <Carousel.Item interval={5000}>     
               <center>
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela Deck Trial'}}>EXPLOSION DE SAVEURS AVEC NOS EPICES UNIQUES</h3>
@@ -27,7 +27,7 @@ const Caroussel = () => {
               </div>
               </center> 
         </Carousel.Item>
-        <Carousel.Item interval={3000}>     
+        <Carousel.Item interval={4000}>     
               <center>
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela Deck Trial'}}>DECOUVREZ L'ART DES EPICES</h3>
