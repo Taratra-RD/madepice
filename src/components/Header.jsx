@@ -28,7 +28,7 @@ export default function Header() {
                             <Link to={'/about'}>A propos de nous</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Nos produits</Link>
+                            <Link to={'/product'}>Nos produits</Link>
                         </li>
                         <li>
                             <Link to={'/'}>Recettes</Link>
@@ -54,7 +54,7 @@ export default function Header() {
                             <Link to={'/about'}>A propos de nous</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Nos produits</Link>
+                            <Link to={'/product'}>Nos produits</Link>
                         </li>
                         <li>
                             <Link to={'/'}>Recettes</Link>
