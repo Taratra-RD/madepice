@@ -175,7 +175,9 @@ div.swiper-button-next{
 }
 
 @media screen and (max-width:720px) {
-    
+    div.img1 {
+        height: 29em;
+    }
     div.img2 {          
         width: 100%;
         object-fit: cover;
@@ -208,7 +210,7 @@ div.swiper-button-next{
         align-items: center;
         text-align: center;
         justify-content: center;
-        background: radial-gradient( red,darkred );
+        background: darkred;
     }
     .block p {
         font-size: 14px;
@@ -224,7 +226,7 @@ div.swiper-button-next{
        
     }
       .custom-next-button:hover{
-       
+       margin-left: 10px;
     }
       
       .card {

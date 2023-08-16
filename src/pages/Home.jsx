@@ -73,11 +73,11 @@ function Home() {
                 modules={[Navigation]}
                 spaceBetween={10}
                 slidesPerView={4}
-                //navigation={{
-                //  nextEl: '.custom-next-button',
-                //  prevEl: '.custom-prev-button',
+                navigation={{
+                  nextEl: '.custom-next-button',
+                  prevEl: '.custom-prev-button',
 
-                //}}
+                }}
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
@@ -89,7 +89,7 @@ function Home() {
                   },
                   480: {
                     slidesPerView: 1,
-                    spaceBetween: 20
+                    spaceBetween: 10
                   },
                   768: {
                     slidesPerView: 2,
