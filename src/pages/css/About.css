@@ -36,7 +36,7 @@
 }
 
 .history-content div{
-    text-align: start;
+    text-align: flex-start;
     width: 35%;
 }
 
@@ -121,7 +121,7 @@ p{
 
 .title-2-content {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     padding: 25px !important;
     text-align: start;
@@ -553,7 +553,7 @@ p{
     }
     
     .history-content div{
-        text-align: start;
+        text-align: flex-start;
         width: 35%;
     }
     
