@@ -4,16 +4,16 @@ import { Link } from "react-router-dom"
 
 export default function HeaderAbout() {
     function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";              
-    }   
+        document.getElementById("mySidenav").style.width = "250px";
+    }
     function closeNav() {
         document.getElementById("mySidenav").style.width = 0;
     }
-    
+
     return (
         <>
             <div className="navbar navbar--about sticky-top">
-                <Link to={'/'}><img src={logo} className="logo--navbar--about" alt=""/></Link>
+                <Link to={'/'}><img src={logo} className="logo--navbar--about" alt="" /></Link>
                 <nav>
                     <ul>
                         <li>
@@ -23,7 +23,7 @@ export default function HeaderAbout() {
                             <Link to={'/about'}>A propos de nous</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Nos produits</Link>
+                            <Link to={'/products'}>Nos produits</Link>
                         </li>
                         <li>
                             <Link to={'/'}>Recettes</Link>
@@ -35,7 +35,7 @@ export default function HeaderAbout() {
                     <div className="btn icon-menu--about">
                         <i className="fa fas fa-bars fa-xl"></i>
                     </div>
-                </nav>              
+                </nav>
             </div>
         </>
     )

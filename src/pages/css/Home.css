@@ -1,13 +1,12 @@
-body{
+body {
     font-family: Raleway;
 }
-div {
-    width: 100%;
-}
+
 div.img2 h2 {
     padding-top: 0.5em;
     max-width: 22em;
 }
+
 div.img2 p {
     max-width: 35em;
     
@@ -28,6 +27,7 @@ div.cards {
     align-items: center;
     justify-content: center;
 }
+
 div.card {
     width: 15em;
     height: 25em;
@@ -35,9 +35,11 @@ div.card {
     margin: 3em;
     border-radius: 10px;
 }
+
 div.card-img {
     height: 20em;
 }
+
 .img2 {
     display: flex;
     flex-direction: column;
@@ -46,11 +48,13 @@ div.card-img {
     width: auto;
     height: 31em;
     padding: 2em;
-    background-image: url("../../images/Rectangle\ 49.png"),url("../../images/Rectangle\ 16.png");
+    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 16.png");
 }
-.spacing{
+
+.spacing {
     margin: 10px;
 }
+
 .img3 {
     display: flex;
     align-items: center;
@@ -60,7 +64,8 @@ div.card-img {
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
-.img3 h1{
+
+.img3 h1 {
     padding: 10px !important;
 }
 .img3 .container{
@@ -83,11 +88,13 @@ div.card-img {
     background-size: contain;
     background-image: url("../../images/Leaves\ 1.png");
 }
+
 div img .img-font {
     background-size: cover;
     width: 90%;
     overflow: 0;
 }
+
 .block {
     width: auto;
     height: auto;
@@ -95,6 +102,7 @@ div img .img-font {
     justify-content: center;
     background-image: url("../../images/Rectangle\ 53.png");
 }
+
 .block p {
     padding: 25px !important;
     font-family: Raleway;
@@ -111,7 +119,8 @@ p.slide-left {
     animation-delay: 0.5s;
     opacity: 0;
 }
-button.slide-left{
+
+button.slide-left {
     animation-delay: 1s;
     opacity: 0;
 }
@@ -146,6 +155,7 @@ div.swiper-button-next{
         transform: translate(100px);
         opacity: 0;
     }
+
     100% {
         transform: translate(0px);
         opacity: 1;
@@ -180,6 +190,7 @@ div.swiper-button-next{
         width: 100%;
         object-fit: cover;
     }
+
     div.img2 .container {
         height: 36em;
         max-width: 100%;
@@ -237,13 +248,16 @@ div.swiper-button-next{
     div.img1 {
         height: 29em;
     }
+
     div.card {
         height: 23em;
     }
-    div.img2 {          
+
+    div.img2 {
         width: auto;
         object-fit: cover;
     }
+
     div.img2 .container {
         max-width: 100%;
         padding: 3em;
@@ -257,7 +271,7 @@ div.swiper-button-next{
 }
 
 @media screen and (max-width:1000px) {
-    .img1{
+    .img1 {
         height: 60em;
     }
 }

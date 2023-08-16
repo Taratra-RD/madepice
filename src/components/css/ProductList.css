@@ -1,0 +1,14 @@
+.product--list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product--list--card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card--a {
+    margin-inline: 1vw 1vw;
+}
