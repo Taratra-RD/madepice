@@ -10,7 +10,8 @@ export default function Header() {
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
         if (navbarOpen === true) {
-            document.getElementById("sidenav").style.height = '20em'
+            document.getElementById("sidenav").style.height = '45%'
+
         } else {
             document.getElementById("sidenav").style.height = '0em'
         }
@@ -20,9 +21,9 @@ export default function Header() {
         <>
             <div className="sidenav" id="sidenav">
                 <nav>
-                    <ul className={`nav-links ${navbarOpen ? 'open' : ''}`}>
+                    <ul className={`nav-links-sidenav ${navbarOpen ? 'open' : ''}`}>
                         <li>
-                            <Link to={'/'}>Accueil</Link>
+                            <Link to={'/'} style={{color:'white'}}>Accueil</Link>
                         </li>
                         <li>
                             <Link to={'/about'}>A propos de nous</Link>
@@ -34,10 +35,10 @@ export default function Header() {
                             <Link to={'/'}>Recettes</Link>
                         </li>
                         <li>
-                            <Link to={'/'} className='contact'>Contact</Link>
+                            <Link to={'/'}>Contact</Link>
                         </li>
                     </ul>
-                    <i className="fa fas fa-close fa-xl" onClick={toggleNavbar}></i>
+                    
                 </nav>
             </div>
             <div className={`navbar sticky-top shadow`}>

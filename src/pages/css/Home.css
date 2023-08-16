@@ -221,18 +221,39 @@ div.swiper-button-next{
         align-items: center;
         justify-content: center;
         width: 26em;
+        overflow-x: hidden;
       }
-      .custom-prev-button:hover{
-       
+      .custom-prev-button{
+       display: none;
     }
-      .custom-next-button:hover{
-       margin-left: 10px;
+      .custom-next-button{
+        display: none;
     }
       
       .card {
         width: 80%; /* Adjust the width as needed */
         margin: 1em 0;
       }
+      @keyframes slide-left{
+        0% {
+            transform: translate(70px);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+    @keyframes slide-right{
+        0% {
+            transform: translate(0);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(70px);
+            opacity: 1;
+        }
+    }
 }
 
 @media screen and (max-width:420px) {

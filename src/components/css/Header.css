@@ -6,7 +6,7 @@
     background: #000;
 }
 .navbar{
-    background:#000;
+    background: #000;
     width: 100%;
     height: 6.5em;
 }
@@ -41,22 +41,35 @@ i.fa-bars{
     width: 25px;
 }
 div.sidenav {
-    position:relative;
-    top: 0;
+    position:fixed;
+    top: 6.5em;
     width: 100%;
+    z-index: 3;
     overflow: hidden;
     height: 0;
-    background: red;
+    background: darkred;
     transition: 0.6s all;
+    display: flex; /* Add this line */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
-div.sidenav nav ul li{
-    display: block;
+div.sidenav nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
 }
-div.sidenav nav ul li a{
+div.sidenav nav ul li {
+    margin: 1em 0; /* Add spacing between menu items */
+}
+
+div.sidenav nav ul li a {
     color: white;
     text-align: center;
     text-decoration: none;
 }
+
 
 @media screen and (max-width:720px) {
     .logo--navbar {
@@ -78,6 +91,7 @@ div.sidenav nav ul li a{
     nav ul li a{
         display: none;
     }
+    
     
 }
 

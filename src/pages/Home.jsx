@@ -85,7 +85,7 @@ function Home() {
                 breakpoints={{
                   0: {
                     slidesPerView: 1,
-                    spaceBetween: 15
+                    spaceBetween: 10
                   },
                   480: {
                     slidesPerView: 1,
