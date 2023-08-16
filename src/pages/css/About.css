@@ -36,7 +36,7 @@
 }
 
 .history-content div{
-    text-align: start;
+    text-align: flex-start;
     width: 35%;
 }
 
@@ -121,10 +121,16 @@ p{
 
 .title-2-content {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
+<<<<<<< HEAD
     padding: 25px !important;
     text-align: start;
+=======
+    margin-inline: 1em 1em !important;
+    margin-block: 4em 4em !important;
+    text-align: flex-start;
+>>>>>>> pana
 }
 
 .slide-left-1{
@@ -200,7 +206,17 @@ p{
     .title-1-text{
         font-family: Canela Deck Trial;
     }
+<<<<<<< HEAD
     
+=======
+
+
+    .history-content div{
+        text-align: flex-start;
+        width: 35%;
+    }
+
+>>>>>>> pana
     .contain{
         max-width: 100vw;
         padding-inline: 1em 1em;
@@ -553,7 +569,7 @@ p{
     }
     
     .history-content div{
-        text-align: start;
+        text-align: flex-start;
         width: 35%;
     }
     

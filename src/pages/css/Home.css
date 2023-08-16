@@ -40,6 +40,7 @@ div.card-img {
 }
 .img2 {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: auto;
@@ -64,10 +65,11 @@ div.card-img {
 }
 
 .img-feuille{
-    width: auto;
+    display: none;
+    position: absolute;
+    width: 10em;
     height: 15em;
     top: 10em;
-    position: absolute;
     background-size: contain;
     background-image: url("../../images/Leaves\ 1.png");
 }
@@ -78,10 +80,9 @@ div img .img-font {
 }
 .block {
     width: auto;
-    height: 26em;
+    height: auto;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
     background-image: url("../../images/Rectangle\ 53.png");
 }
 .block p {
@@ -91,6 +92,10 @@ div img .img-font {
 .slide-left {
     animation: slide-left 0.8s forwards ease-out;
 }
+.slide-right {
+    animation: slide-right 0.8s forwards ease-out;
+}
+
 p.slide-left {
     animation-delay: 0.5s;
     opacity: 0;
@@ -98,6 +103,12 @@ p.slide-left {
 button.slide-left{
     animation-delay: 1s;
     opacity: 0;
+}
+.engagements {
+
+}
+.valeurs{
+    padding-top: 5em;
 }
 
 @keyframes slide-left{
@@ -110,6 +121,28 @@ button.slide-left{
         opacity: 1;
     }
 }
+@keyframes slide-right{
+    0% {
+        transform: translate(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(100px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:920px) {
+    div.img1{
+        height: 50em;
+    }
+    div.img3{
+        height: 103em;
+    }
+    div.img3 h1{
+        margin-top: 2em ;
+    }
+}
 
 @media screen and (max-width:720px) {
     div.img1{
@@ -120,8 +153,38 @@ button.slide-left{
         object-fit: cover;
     }
     div.img2 .container {
+        height: 36em;
         max-width: 100%;
         padding: 3em;
+    }
+    div.img3{
+        height: 80em;
+    }
+    .engagements{
+        padding-top: 2em;
+
+    }
+    .valeurs{
+        padding-top: 0em;
+    }
+    .block{
+        height: 100%;
+        padding: 0;
+    }
+    .img2 button {
+        font-size: 14px;
+    }
+    .img2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: radial-gradient(red,darkred)
+    }
+    .block p {
+        
+        font-size: 14px;
     }
 }
 
@@ -139,6 +202,12 @@ button.slide-left{
     div.img2 .container {
         max-width: 100%;
         padding: 3em;
+    }
+    div.img3{
+        height: 100em;
+    }
+    .block{
+        height: 40em;
     }
 }
 

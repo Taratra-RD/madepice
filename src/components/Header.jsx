@@ -1,21 +1,32 @@
 import "./css/Header.css"
 import logo from "../images/a.png"
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
 export default function Header() {
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";              
-    }   
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = 0;
+    const [navbarOpen, setNavbarOpen] = useState(false)
+
+    const toggleNavbar = () => {
+        setNavbarOpen(!navbarOpen)
+        if (navbarOpen === true) {
+            document.getElementById("sidenav").style.width = '20em'
+        } else {
+            document.getElementById("sidenav").style.width = '0em'
+        }
     }
-    
+
     return (
         <>
-            <div className="navbar sticky-top shadow">
-                <Link to={'/'}><img src={logo} className="logo--navbar--about" alt=""/></Link>
+            <div className="sidenav" id="sidenav">
+
+            </div>
+            <div className={`navbar sticky-top shadow`}>
+                <Link to={'/'}>
+                    <img src={logo} className="logo--navbar--about" alt="" />
+                </Link>
+
                 <nav>
-                    <ul>
+                    <ul className={`nav-links ${navbarOpen ? 'open' : ''}`}>
                         <li>
                             <Link to={'/'}>Accueil</Link>
                         </li>
@@ -32,11 +43,11 @@ export default function Header() {
                             <Link to={'/'} className='contact'>Contact</Link>
                         </li>
                     </ul>
-                    <div className="btn icon-menu">
-                        <i className="fa fas fa-bars fa-xl"></i>
-                    </div>
-                </nav>              
+                    <i className="fa fas fa-bars fa-xl" onClick={toggleNavbar}></i>
+                </nav>
+                
             </div>
+
         </>
     )
 }
