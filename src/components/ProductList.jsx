@@ -10,20 +10,20 @@ const ProductList = ({ products, groupProductsByType, displayProduct }) => {
     const filteredProducts = selectedType ? groupedProducts[selectedType] : products;
 
     return (
-        <div className='row'>
-            <div className="col-3">
-                <h1>Filter</h1>
-                <label>
+        <div className='productList'>
+            <div className="product--filter">
+                <h1>Filtrer</h1>
+                <label style={{ fontSize: '18px', fontWeight: 'bold' }}>
                     <input
                         type="radio"
                         value=""
                         checked={selectedType === ''}
                         onChange={() => setSelectedType('')}
                     />
-                    All
+                    Tous
                 </label>
                 {Object.keys(groupedProducts).map(type => (
-                    <label key={type}>
+                    <label key={type} style={{ fontSize: '18px', fontWeight: 'bold' }}>
                         <input
                             type="radio"
                             value={type}
@@ -34,24 +34,27 @@ const ProductList = ({ products, groupProductsByType, displayProduct }) => {
                     </label>
                 ))}
             </div>
-            <div className="col-9">
-                <h1>Product List</h1>
+            <div className='product--list--right'>
+                <h1>La liste de nos produits</h1>
                 {selectedType === '' ? (
                     Object.keys(groupedProducts).map(type => (
                         <div key={type} className='product--list'>
-                            <h2>{type}</h2>
+                            <h2 style={{ fontStyle: 'italic', textTransform: 'capitalize' }}>{type}</h2>
                             <div className="product--list--card">
-                                {groupedProducts[type].map(product => (
-                                    displayProduct ? (
-                                        <div className="card--a">
-                                            <CardPro />
-                                        </div>
-                                    ) : (
-                                        <div className="card--a">
-                                            <CardProLittl />
-                                        </div>
-                                    )
-                                ))}
+                                <div className='sub-product' style={{ display: 'flex', width: '91%', flexWrap: 'wrap' }}>
+                                    {groupedProducts[type].map(product => (
+                                        displayProduct ? (
+                                            <div className="card--a">
+                                                <CardPro product={product} />
+                                            </div>
+                                        ) : (
+                                            <div className="card--a">
+                                                <CardProLittl product={product} />
+                                            </div>
+                                        )
+                                    ))}
+                                </div>
+
                             </div>
 
                         </div>
@@ -60,19 +63,22 @@ const ProductList = ({ products, groupProductsByType, displayProduct }) => {
                     Object.keys(groupedProducts).map(type => (
                         selectedType === type && (
                             <div key={type} className='product--list'>
-                                <h2>{type}</h2>
+                                <h2 style={{ fontStyle: 'italic', textTransform: 'capitalize' }}>{type}</h2>
                                 <div className="product--list--card">
-                                    {groupedProducts[type].map(product => (
-                                        displayProduct ? (
-                                            <div className="card--a">
-                                                <CardPro />
-                                            </div>
-                                        ) : (
-                                            <div className="card--a">
-                                                <CardProLittl />
-                                            </div>
-                                        )
-                                    ))}
+                                    <div className='sub-product' style={{ display: 'flex', width: '91%', flexWrap: 'wrap' }}>
+                                        {groupedProducts[type].map(product => (
+                                            displayProduct ? (
+                                                <div className="card--a">
+                                                    <CardPro product={product} />
+                                                </div>
+                                            ) : (
+                                                <div className="card--a">
+                                                    <CardProLittl product={product} />
+                                                </div>
+                                            )
+                                        ))}
+                                    </div>
+
                                 </div>
                             </div>
                         )

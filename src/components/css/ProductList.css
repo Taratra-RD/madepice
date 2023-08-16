@@ -12,3 +12,66 @@
 .card--a {
     margin-inline: 1vw 1vw;
 }
+
+.productList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width:400px) {
+    .product--filter {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+    }
+
+    .product--list {
+        background-image: url(../../images/Rectangle\ 53.png);
+        box-shadow: 1px 1px 5px black;
+        margin-block: 10px 20px;
+        padding-inline: 20px 20px;
+        padding-block: 15px 15px;
+    }
+
+    .product--list--right {
+        margin-left: 5vw;
+    }
+
+    .product--list--card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:400px) {
+    .product--filter {
+        display: none;
+
+    }
+
+    .product--list {
+        background-image: url(../../images/Rectangle\ 53.png);
+        box-shadow: 1px 1px 5px black;
+        margin-block: 5px 10px;
+    }
+
+    .product--list--card {
+        padding-inline: 2px 2px;
+        padding-block: 10px 10px;
+    }
+}
+
+@media(max-width:1399px) {
+    .sub-product {
+        width: 70% !important;
+    }
+}
+
+
+@media(max-width:1199px) {
+    .sub-product {
+        width: 42% !important;
+    }
+}

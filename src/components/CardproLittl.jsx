@@ -1,10 +1,10 @@
 import React from 'react'
 import './css/CardProLittl.css'
-export default function CardproLittl() {
+export default function CardproLittl({ product }) {
     return (
         <div className="card--pro--l">
             <div className="card-title">
-                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>Card</h3>
+                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{product.name}</h3>
             </div>
             <div className="card-info">
                 <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>Card</h3>

@@ -137,41 +137,45 @@ function Product() {
     return (
         <div className="product">
             <div className="product--header--image">
-                {/* <div className="product--header">
+                <div className="product--header">
                     <HeaderAbout />
-                </div> */}
+                </div>
+                <div className='product--header--text' style={{ textAlign: 'center' }}>
+                    Nos Produits
+                </div>
             </div>
             <div className="product--body">
                 <div className="product--body--list container">
                     <div className="product--sorting">
-                        <div className="left--sorting">
-                            <div className="filter--product">
-                                <i className='fas fa-folder-tree'></i>
-                                <p>Filter Products</p>
-                            </div>
-                            <div className="filter--product">
-                                <p>View:</p>
-                                <i className={displayProduct ? 'fas fa-grip' : 'fas fa-grip-vertical'} onClick={handledisplay}></i>
-                            </div>
-                        </div>
+                        <table className="left--sorting" style={{ marginLeft: '20px' }}>
+                            <tr className="filter--product">
+                                <td>Filtrer </td>
+                                <td style={{ display: 'flex', width: '100%', justifyContent: 'flex-end' }}><i className='fas fa-folder-tree' style={{ fontSize: '25px' }}></i></td>
+
+                            </tr>
+                            <tr className="filter--product">
+                                <td>Style </td>
+                                <td style={{ display: 'flex', width: '100%', justifyContent: 'flex-end' }}><i className={displayProduct ? 'fas fa-grip' : 'fas fa-grip-vertical'} onClick={handledisplay}></i></td>
+                            </tr>
+                        </table>
                         <div className="right--sorting">
-                            <div className="filter--product">
+                            {/* <div className="filter--product">
                                 <p>Sort: Best selling</p>
                                 <i className='fas fa-chevron-down'></i>
-                            </div>
+                            </div> */}
                             <div className="filter--product">
-                                <p>{products.length} product</p>
+                                <p><span>{products.length}</span> products</p>
                             </div>
                         </div>
                     </div>
                     <div>
+                        <img src={upleave} className={leaveup} onScroll={handleLeave} alt="" />
                         <ProductList products={products} groupProductsByType={groupProductsByType} displayProduct={displayProduct} setDisplayProduct={setDisplayProduct} />
                     </div>
-                    <img src={upleave} className={leaveup} onScroll={handleLeave} alt="" />
-                    <img src={downleave} className={leavedown} alt='' />
                 </div>
             </div>
             <div className="product--footer">
+                <img src={downleave} className={leavedown} alt='' />
                 <Footer />
             </div>
         </div>
