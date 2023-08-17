@@ -21,19 +21,22 @@ import Card from "../components/home/Card";
 import { Col, Container, Row } from "react-bootstrap";
 
 function Home() {
-
+  const [slideCards, setSlideCards] = useState(false);
   const [scroll, whiteMode] = useState(0)
+  
 
   const setWhiteMode = () => {
     whiteMode(window.scrollY)
   }
-  const [slideCards, setSlideCards] = useState(false);
+  
+  
 
   useEffect(() => {
     if (window.innerWidth >= 992) {
       setSlideCards(true);
     }
   }, []);
+  
   useEffect(() => {
     window.addEventListener('scroll', setWhiteMode)
 
@@ -42,7 +45,8 @@ function Home() {
     }
 
   }, [])
-
+  
+  //scrolling animation
   const isScrolling = scroll > 600
   const isScrolling2 = scroll > 1200
   const isScrolling3 = scroll > 1800
