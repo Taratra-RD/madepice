@@ -1,4 +1,4 @@
-import HeaderAbout from "../components/HeaderAbout"
+import HeaderAbout from "../components/Header"
 import "./css/Contact.css"
 
 const Contact = () =>{

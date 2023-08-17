@@ -1,5 +1,5 @@
 import Footer from "../components/Footer"
-import HeaderAbout from "../components/HeaderAbout"
+import HeaderAbout from "../components/Header"
 import "./css/About.css"
 import leaves from "../images/Leaves 1.png"
 import leaves_1 from "../images/Leaves 2.png"
