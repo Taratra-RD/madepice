@@ -95,7 +95,7 @@ function Home() {
                     spaceBetween: 10
                   },
                   
-                  768: {
+                  720: {
                     slidesPerView: 2,
                     spaceBetween: 10
                   },

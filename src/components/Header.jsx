@@ -25,7 +25,7 @@ export default function Header() {
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
         if (navbarOpen === true) {
-            document.getElementById("sidenav").style.height = '50%'
+            document.getElementById("sidenav").style.height = '45%'
 
         } else {
             document.getElementById("sidenav").style.height = '0em'
