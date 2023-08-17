@@ -1760,7 +1760,7 @@ p{
         height: 50vh;
         background-size: cover; /* Adjust as needed (cover, contain, etc.) */
         background-repeat: no-repeat;
-        background-position: bottom; /* Center the image */
+        background-position: center; /* Center the image */
     }
     
     .title-1{
