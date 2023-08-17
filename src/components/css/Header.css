@@ -40,6 +40,8 @@ i.fa-bars{
     color: white;
     width: 25px;
 }
+
+/*sidenavvvvvv icone responsive*/
 div.sidenav {
     position:fixed;
     top: 6.5em;
@@ -65,16 +67,21 @@ div.sidenav nav ul li {
 }
 
 div.sidenav nav ul li a {
-    color: white;
+    color: #f2e5d1;
+    font-family: Canela;
     text-align: center;
     text-decoration: none;
+}
+div.sidenav nav ul li a:hover {
+    color: aliceblue;
+    transition: 0.5s all;
 }
 
 
 @media screen and (max-width:720px) {
     .logo--navbar {
         height: 5em;
-        width: 3em;
+        width: 1em;
         padding: 0.6em;
         margin-left: 2em;
         background: #000;
@@ -88,8 +95,12 @@ div.sidenav nav ul li a {
         margin-right: 15px !important;
         
     }
-    nav ul li a{
+    div.navbar nav ul li a{
         display: none;
+    }
+    .nav-links-sidenav li a{
+        display: block;
+        margin-left: 32px;
     }
     
     

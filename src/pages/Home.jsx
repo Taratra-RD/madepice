@@ -79,7 +79,6 @@ function Home() {
 
                 }}
                 pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 breakpoints={{
@@ -91,12 +90,13 @@ function Home() {
                     slidesPerView: 1,
                     spaceBetween: 10
                   },
+                  
                   768: {
                     slidesPerView: 2,
                     spaceBetween: 10
                   },
                   900: {
-                    slidesPerView: 3,
+                    slidesPerView: 2.5,
                     spaceBetween: 10
                   }
                   ,

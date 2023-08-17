@@ -10,7 +10,7 @@ export default function Header() {
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
         if (navbarOpen === true) {
-            document.getElementById("sidenav").style.height = '45%'
+            document.getElementById("sidenav").style.height = '50%'
 
         } else {
             document.getElementById("sidenav").style.height = '0em'
@@ -23,19 +23,19 @@ export default function Header() {
                 <nav>
                     <ul className={`nav-links-sidenav ${navbarOpen ? 'open' : ''}`}>
                         <li>
-                            <Link to={'/'} style={{color:'white'}}>Accueil</Link>
+                            <Link to={'/'}>ACCUEIL</Link>
                         </li>
                         <li>
-                            <Link to={'/about'}>A propos de nous</Link>
+                            <Link to={'/about'}>A PROPOS DE NOUS</Link>
                         </li>
                         <li>
-                            <Link to={'/product'}>Nos produits</Link>
+                            <Link to={'/product'}>NOS PRODUITS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Recettes</Link>
+                            <Link to={'/'}>NOS CONSEILS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Contact</Link>
+                            <Link to={'/'}>CONTACT</Link>
                         </li>
                     </ul>
                     
