@@ -10,7 +10,7 @@
 
 .contenu-carousel{
   position: relative;
-  padding-top: 6em !important;
+  padding-top: 5em !important;
 }
 
 .carousel-container .carousel{
@@ -22,6 +22,12 @@
   border-radius: 50%;
   margin-right: 15px;
   margin-bottom: 10px;
+}
+.carousel-container .carousel-indicators{
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  
 }
 
 span.carousel-control-next-icon {
@@ -37,9 +43,7 @@ span.carousel-control-prev-icon {
   /* Adjust the overlay color and transparency */
   padding: 20px;
   border-radius: 10px;
-
   bottom: 10% !important;
-  left: 50%;
   transform: translateX(-50%);
   max-width: 80%;
   /* Adjust the maximum width as needed */
@@ -66,16 +70,19 @@ span.carousel-control-prev-icon {
 }
 
 @media screen and (max-width:720px) {
-  p{
-    font-size: 15px;
+  body p{
+    font-size: 14px;
   } 
   body{
     font-size: 15px;
   }
   .carousel-container{
-    height: 19.5em;
+    height: 26em;
   }
   .contenu-carousel{
-    padding-top: 2em !important;
+    padding-top: 3em !important;
+  }
+  .contenu-carousel span{
+    font-size: 14px;
   }
 }

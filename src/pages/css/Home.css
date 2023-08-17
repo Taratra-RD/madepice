@@ -9,7 +9,7 @@ div.img2 h2 {
 
 div.img2 p {
     max-width: 35em;
-    padding: 3em;
+
 }
 
 .img1 {
@@ -18,7 +18,7 @@ div.img2 p {
     justify-content: center;
     width: auto;
     height: 34em;
-    padding: 2em;
+
     background-image: url("../../images/Rectangle\ 10.png");
 }
 
@@ -42,6 +42,7 @@ div.card-img {
 
 .img2 {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: auto;
@@ -59,7 +60,8 @@ div.card-img {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 77.3em;
+    height: 75em;
+    /*77.3em*/
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
@@ -68,11 +70,23 @@ div.card-img {
     padding: 10px !important;
 }
 
+.img3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img3 .container h1 {
+    margin-top: 2em;
+}
+
 .img-feuille {
-    width: auto;
+    display: none;
+    position: absolute;
+    width: 10em;
     height: 15em;
     top: 10em;
-    position: absolute;
     background-size: contain;
     background-image: url("../../images/Leaves\ 1.png");
 }
@@ -85,19 +99,23 @@ div img .img-font {
 
 .block {
     width: auto;
-    height: 30em;
+    height: auto;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
     background-image: url("../../images/Rectangle\ 53.png");
 }
 
 .block p {
     padding: 25px !important;
+    font-family: Raleway;
 }
 
 .slide-left {
     animation: slide-left 0.8s forwards ease-out;
+}
+
+.slide-right {
+    animation: slide-right 0.8s forwards ease-out;
 }
 
 p.slide-left {
@@ -108,6 +126,34 @@ p.slide-left {
 button.slide-left {
     animation-delay: 1s;
     opacity: 0;
+}
+
+.engagements {}
+
+.cards {
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0 2em;
+    /* Add padding to create space between the cards */
+}
+
+.valeurs {
+    padding-top: 5em;
+    display: none;
+}
+
+i.custom-prev-button:hover {
+    color: white;
+}
+
+i.custom-next-button:hover {
+    color: white;
+}
+
+div.swiper-button-next {
+    color: white;
+
 }
 
 @keyframes slide-left {
@@ -122,9 +168,35 @@ button.slide-left {
     }
 }
 
+@keyframes slide-right {
+    0% {
+        transform: translate(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(100px);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:920px) {
+    div.img1 {
+        height: 50em;
+    }
+
+    div.img3 {
+        height: 103em;
+    }
+
+    div.img3 h1 {
+        margin-top: 2em;
+    }
+}
+
 @media screen and (max-width:720px) {
     div.img1 {
-        height: 95em;
+        height: 29em;
     }
 
     div.img2 {
@@ -133,14 +205,97 @@ button.slide-left {
     }
 
     div.img2 .container {
+        height: 36em;
         max-width: 100%;
         padding: 3em;
+    }
+
+    div.img3 {
+        height: 80em;
+    }
+
+    .engagements {
+        padding-top: 2em;
+
+    }
+
+    .valeurs {
+        padding-top: 0em;
+    }
+
+    .block {
+        height: 100%;
+        padding: 0;
+    }
+
+    .img2 button {
+        font-size: 14px;
+    }
+
+    .img2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: darkred;
+    }
+
+    .block p {
+        font-size: 14px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 26em;
+        overflow-x: hidden;
+    }
+
+    .custom-prev-button {
+        display: none;
+    }
+
+    .custom-next-button {
+        display: none;
+    }
+
+    .card {
+        width: 80%;
+        /* Adjust the width as needed */
+        margin: 1em 0;
+    }
+
+    @keyframes slide-left {
+        0% {
+            transform: translate(70px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slide-right {
+        0% {
+            transform: translate(0);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(70px);
+            opacity: 1;
+        }
     }
 }
 
 @media screen and (max-width:420px) {
     div.img1 {
-        height: 95em;
+        height: 29em;
     }
 
     div.card {
@@ -155,6 +310,14 @@ button.slide-left {
     div.img2 .container {
         max-width: 100%;
         padding: 3em;
+    }
+
+    div.img3 {
+        height: 100em;
+    }
+
+    .block {
+        height: 40em;
     }
 }
 
