@@ -76,7 +76,7 @@ const About = () => {
                     <HeaderAbout/>
                 </div>
                 <div className="title-1">
-                    <h1 className="title-1-text">QUI NOUS SOMMES</h1>
+                    <h1 className="title-1-text">QUI SOMMES-NOUS?</h1>
                 </div>
             </div>
             <div className="contain">

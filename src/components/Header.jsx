@@ -37,10 +37,10 @@ export default function Header() {
                             <Link to={'/'}>Nos produits</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Recettes</Link>
+                            <Link to={'/recettes'}>Recettes</Link>
                         </li>
                         <li>
-                            <Link to={'/'} className='contact'>Contact</Link>
+                            <Link to={'/contact'} className='contact'>Contact</Link>
                         </li>
                     </ul>
                     <i className="fa fas fa-bars fa-xl" onClick={toggleNavbar}></i>
