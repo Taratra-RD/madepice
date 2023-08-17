@@ -20,7 +20,7 @@ export default function Header() {
             <div className="sidenav" id="sidenav">
 
             </div>
-            <div className={`navbar sticky-top shadow`}>
+            <div className={`navbar sticky-top`}>
                 <Link to={'/'}>
                     <img src={logo} className="logo--navbar--about" alt="" />
                 </Link>
