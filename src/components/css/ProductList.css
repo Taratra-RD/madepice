@@ -36,10 +36,6 @@
     .product--list--right {
         margin-left: 5vw;
     }
-
-    .card--a {
-        margin-inline: 5px 5px;
-    }
 }
 
 @media (max-width:400px) {
@@ -76,11 +72,5 @@
 @media(max-width:400px) {
     .sub-product {
         width: 95% !important;
-    }
-}
-
-@media(min-width:1400px) {
-    .sub-product {
-        width: 85% !important;
     }
 }
