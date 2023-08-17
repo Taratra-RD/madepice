@@ -1,0 +1,13 @@
+.landing-pages-1{
+    background-image: url("../../images/landing-page1.png");
+    width: 100%;
+    height: 98vh;
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+}
+
+.recettes-contain{
+    max-width: 100vw;
+    background-image: url(../../images/Rectangle\ 51.png);
+}
