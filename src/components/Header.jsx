@@ -2,10 +2,25 @@ import "./css/Header.css"
 import logo from "../images/a.png"
 import logo2 from "../images/LOGO.png"
 import { Link } from "react-router-dom"
-import { useState } from "react"
+import { useState,useEffect } from "react"
 
 export default function Header() {
     const [navbarOpen, setNavbarOpen] = useState(false)
+    const [scroll1, darkMode] = useState(0)
+    const setDarkMode = () => {
+        darkMode(window.scrollY)
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', setDarkMode)
+
+        return () => {
+            window.removeEventListener('scroll', setDarkMode)
+        }
+
+    }, [])
+    //scrolling navbar
+    const isScrollingNav = scroll1 > 100
+
 
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
@@ -38,10 +53,10 @@ export default function Header() {
                             <Link to={'/'}>CONTACT</Link>
                         </li>
                     </ul>
-                    
+
                 </nav>
             </div>
-            <div className={`navbar sticky-top shadow`}>
+            <div className={`navbar sticky-top shadow ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
                 <Link to={'/'}>
                     <img src={logo2} className="logo--navbar--about" alt="" />
                 </Link>
@@ -66,7 +81,7 @@ export default function Header() {
                     </ul>
                     <i className="fa fas fa-bars fa-xl" onClick={toggleNavbar}></i>
                 </nav>
-                
+
             </div>
 
         </>
