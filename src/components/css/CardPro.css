@@ -2,13 +2,15 @@
     .card--pro {
         background-color: bisque;
         height: 24rem;
-        width: 90vw;
+        width: 86vw;
         margin-block: 10px 10px;
         box-shadow: 1px 1px 5px black;
         background-image: url(../../images/Rectangle\ 11.png);
         display: flex;
         justify-content: center;
         align-items: center;
+        background-size: cover;
+        background-position: right;
     }
 }
 
@@ -23,5 +25,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-size: cover;
+        background-position: right;
     }
 }

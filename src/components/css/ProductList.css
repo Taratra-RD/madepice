@@ -36,6 +36,10 @@
     .product--list--right {
         margin-left: 5vw;
     }
+
+    .card--a {
+        margin: 5px 5px;
+    }
 }
 
 @media (max-width:400px) {
@@ -71,6 +75,22 @@
 
 @media(max-width:400px) {
     .sub-product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         width: 95% !important;
+    }
+
+    .product--list--card {
+        padding-inline: 0px 0px !important;
+        padding-block: 10px 10px;
+    }
+}
+
+
+@media(min-width:1400px) {
+    .sub-product {
+        width: 85% !important;
     }
 }
