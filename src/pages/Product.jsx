@@ -5,110 +5,10 @@ import Footer from '../components/Footer'
 import upleave from '../images/Leaves 1 (1).png'
 import downleave from '../images/Leaves 2 (1).png'
 import ProductList from '../components/ProductList'
+import data from '../data'
 function Product() {
 
-    const [products, setProducts] = useState([
-        {
-            "id": 1,
-            "type": "grain",
-            "name": "café"
-        },
-        {
-            "id": 2,
-            "type": "tige",
-            "name": "café"
-        },
-        {
-            "id": 3,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 4,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 5,
-            "type": "tige",
-            "name": "café"
-        },
-        {
-            "id": 6,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 7,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 8,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 9,
-            "type": "grain",
-            "name": "café"
-        },
-        {
-            "id": 10,
-            "type": "grain",
-            "name": "café"
-        },
-        {
-            "id": 11,
-            "type": "grain",
-            "name": "café"
-        },
-        {
-            "id": 12,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 13,
-            "type": "tige",
-            "name": "café"
-        },
-        {
-            "id": 14,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 15,
-            "type": "tige",
-            "name": "café"
-        },
-        {
-            "id": 16,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 18,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 19,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 20,
-            "type": "moulu",
-            "name": "café"
-        },
-        {
-            "id": 21,
-            "type": "moulu",
-            "name": "café"
-        }
-    ])
+    const [products, setProducts] = useState(data)
     const [leaveup, setLeaveup] = useState('leave--up')
     const [leavedown, setLeavedown] = useState('leave--down')
     const [displayProduct, setDisplayProduct] = useState(true)
@@ -121,10 +21,10 @@ function Product() {
     function groupProductsByType(products) {
         const groupedProducts = {};
         products.forEach(product => {
-            if (!groupedProducts[product.type]) {
-                groupedProducts[product.type] = [];
+            if (!groupedProducts[product.name]) {
+                groupedProducts[product.name] = [];
             }
-            groupedProducts[product.type].push(product);
+            groupedProducts[product.name].push(product);
         });
         return groupedProducts;
     }

@@ -764,3 +764,5 @@ const data = [
         Poivre noir moulu`
     }
 ]
+
+export default data
