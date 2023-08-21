@@ -23,7 +23,7 @@ export default function HeaderAbout() {
                             <Link to={'/about'}>A propos de nous</Link>
                         </li>
                         <li>
-                            <Link to={'/products'}>Nos produits</Link>
+                            <Link to={'/product'}>Nos produits</Link>
                         </li>
                         <li>
                             <Link to={'/'}>Recettes</Link>
