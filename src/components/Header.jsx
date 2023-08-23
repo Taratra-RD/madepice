@@ -12,14 +12,12 @@ export default function Header() {
     }
     useEffect(() => {
         window.addEventListener('scroll', setDarkMode)
-
         return () => {
             window.removeEventListener('scroll', setDarkMode)
         }
-
     }, [])
     //scrolling navbar
-    const isScrollingNav = scroll1 > 100
+    const isScrollingNav = scroll1 > 0
 
 
     const toggleNavbar = () => {
@@ -27,10 +25,11 @@ export default function Header() {
         if (navbarOpen === true) {
             document.getElementById("sidenav").style.height = '45%'
 
-        } else {
+        } else if (navbarOpen === false) {
             document.getElementById("sidenav").style.height = '0em'
         }
     }
+    
 
     return (
         <>
@@ -79,7 +78,7 @@ export default function Header() {
                             <Link to={'/'} className='contact'>Contact</Link>
                         </li>
                     </ul>
-                    <i className="fa fas fa-bars fa-xl" onClick={toggleNavbar}></i>
+                    <i className={`fa fas ${navbarOpen ? 'fa-bars fa-xl' : 'fa-bars fa-xl'} `} style={{transition:"0.5s all"}} onClick={() => toggleNavbar()}></i>
                 </nav>
 
             </div>

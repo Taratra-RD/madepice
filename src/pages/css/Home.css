@@ -66,6 +66,7 @@ div.card-img {
 .img3 .container{
     display: flex;
     flex-direction: column;
+    margin-top: -5em;
     align-items: center;
     justify-content: center;
 }
@@ -190,6 +191,13 @@ div.swiper-button-next{
     div.img3{
         height: 80em;
     }
+    .img3 .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+        align-items: center;
+        justify-content: center;
+    }
     .engagements{
         padding-top: 2em;
 
@@ -223,27 +231,39 @@ div.swiper-button-next{
         width: 100%;
         overflow-x: hidden;
         box-shadow: none;
-      }
-      .custom-prev-button{
+    }
+    .custom-prev-button{
        display: none;
     }
-      .custom-next-button{
+    .custom-next-button{
         display: none;
     }
       
-      .card {
+    .card {
         width: 80%; /* Adjust the width as needed */
         margin: 1em 0;
-      }
-      @keyframes slide-left{
-        0% {
-            transform: translate(70px);
-            opacity: 0;
-        }
-        100% {
-            transform: translate(0px);
-            opacity: 1;
-        }
+    }
+
+    div.swiper-pagination{
+        padding-top: 3em !important;
+    }
+
+    span.swiper-pagination-bullet{
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+        background: white;
+    }
+
+    @keyframes slide-left{
+    0% {
+        transform: translate(70px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
     }
     @keyframes slide-right{
         0% {
@@ -280,8 +300,12 @@ div.swiper-button-next{
     }
 }
 
-@media screen and (max-width:1000px) {
-    .img1{
-        height: 29em;
+@media screen and (min-width:720px) {
+    div.swiper-pagination{
+        display: none;
+    }
+
+    span.swiper-pagination-bullet{
+        display: none;
     }
 }

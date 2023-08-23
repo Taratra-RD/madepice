@@ -16,6 +16,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import imgFont1 from "../images/Rectangle 11.png";
+import imgFont2 from "../images/Rectangle 11a.png";
 
 import Card from "../components/home/Card";
 import { Col, Container, Row } from "react-bootstrap";
@@ -24,12 +25,9 @@ function Home() {
   const [slideCards, setSlideCards] = useState(false);
   const [scroll, whiteMode] = useState(0)
   
-
   const setWhiteMode = () => {
     whiteMode(window.scrollY)
   }
-  
-  
 
   useEffect(() => {
     if (window.innerWidth >= 992) {
@@ -49,7 +47,7 @@ function Home() {
   //scrolling animation
   const isScrolling = scroll > 600
   const isScrolling2 = scroll > 1200
-  const isScrolling3 = scroll > 1800
+  const isScrolling3 = scroll > 1600
 
   const cardData = [
     { img: imgFont1, title: "OLI" },
@@ -74,7 +72,7 @@ function Home() {
               <i className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
               <Swiper
                 // install Swiper modules
-                modules={[Navigation]}
+                modules={[Navigation,Pagination,Scrollbar]}
                 spaceBetween={10}
                 slidesPerView={4}
                 navigation={{
@@ -82,7 +80,9 @@ function Home() {
                   prevEl: '.custom-prev-button',
 
                 }}
-                pagination={{ clickable: true }}
+                pagination={{ 
+
+                }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 breakpoints={{
@@ -92,7 +92,8 @@ function Home() {
                   },
                   480: {
                     slidesPerView: 1,
-                    spaceBetween: 10
+                    spaceBetween: 10,
+                    pagination:{clickable: true}
                   },
                   
                   720: {
@@ -118,45 +119,40 @@ function Home() {
                 <SwiperSlide>
                   <Card
                     key={0}
-                    img={imgFont1}
+                    img={"../../images/Rectangle 11a.png"}
                     title={"h h1"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <Card
                     key={1}
-                    img={imgFont1}
+                    img={imgFont2}
                     title={"h h2"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <Card
                     key={2}
-                    img={imgFont1}
+                    img={imgFont2}
                     title={"h h3"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <Card
                     key={3}
-                    img={imgFont1}
+                    img={imgFont2}
                     title={"h h4"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <Card
                     key={4}
-                    img={imgFont1}
+                    img={imgFont2}
                     title={"h h5"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
@@ -165,7 +161,6 @@ function Home() {
                     key={5}
                     img={imgFont1}
                     title={"h h6"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
@@ -174,7 +169,6 @@ function Home() {
                     key={5}
                     img={imgFont1}
                     title={"h h7"}
-                    className={'spacing'}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
