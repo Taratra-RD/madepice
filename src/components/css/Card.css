@@ -5,7 +5,7 @@ div.card {
     border-radius: 7px;
     border: 0.1px #A9A18C;
     
-    background-size: cover;
+    background-size: 115%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../images/Rectangle\ 11a.png');
@@ -45,7 +45,7 @@ div.card:hover {
 div.card:hover .card-info {
     display: block;
     filter: brightness(1);
-    animation: slide-up 0.6s ease;
+    animation: slide-up 0.7s ease;
 }
 div.card:hover .card-title{
     display: none;
