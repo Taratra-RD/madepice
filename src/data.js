@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         name: "ail",
         Goût: "Piquant",
@@ -764,5 +764,3 @@ const data = [
         Poivre noir moulu`
     }
 ]
-
-export default data

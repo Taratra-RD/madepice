@@ -23,6 +23,7 @@ export default function CardPro({ product }) {
                 <Link to={`/product/${product.name}`} className="btn" style={{ background: '#f2e5d1', borderRadius: '8px' }}>
                     En savoir plus
                 </Link>
+                <SingleProduct product={product.name}/>
             </div>
 
         </div>

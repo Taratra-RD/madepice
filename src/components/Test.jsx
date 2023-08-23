@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ProductList from './ProductList';
-import data from '../data'
+import {data} from '../data'
 
 export default function Test(props) {
     const filteredData = data.reduce((acc, item) => {
