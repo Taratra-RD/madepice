@@ -49,7 +49,7 @@ function Home() {
   //scrolling animation
   const isScrolling = scroll > 600
   const isScrolling2 = scroll > 1200
-  const isScrolling3 = scroll > 1800
+  const isScrolling3 = scroll > 1600
 
   const cardData = [
     { img: imgFont1, title: "OLI" },

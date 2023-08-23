@@ -2309,3 +2309,119 @@ p{
         text-align: start;
     }
 }
+
+@media screen and (max-width : 720px){
+    .about{
+        text-align: center;
+    }
+    
+    .imgGroups2{
+        background-image: url("../../images/Group\ 2.png");
+        width: 100%;
+        height: 50vh;
+        background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+        background-repeat: no-repeat;
+        background-position: bottom; /* Center the image */
+    }
+    
+    .title-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 7em;
+        height: fit-content;
+    }
+    
+    .title-1-text{
+        font-family: Canela Deck Trial;
+        color: #F2E5D1
+    }
+    
+    .contain{
+        max-width: 100vw;
+        padding-inline: 1em 1em;
+        padding-block: 5em 5em;
+        background-image: url(../../images/Rectangle\ 51.png);
+    }
+    
+    .history-content{
+        display: block;
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .history-content div{
+        text-align: start;
+        width: 100%;
+    }
+    
+    .history-content:nth-child(even){
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .history-content h4{
+        font-family: Canela Deck Trial;
+        color: #F2E5D1;
+        opacity: 70%;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    .history-content p{
+        font-family: Raleway;
+        color: #FFFF;
+    }
+    
+    .leaves{
+        display:none;
+        position: absolute;
+        top: 23.5em;
+        left: 19.2em;
+        width: 6.5em;
+        right: 0em;
+        height: auto;
+    }
+    
+    .leaves-1{
+        display: none;
+        position: absolute;
+        width: 7em;
+        top: 115em;
+        left: 0em;
+        height: auto;
+    }
+    
+    .line{
+        display: none;
+    }
+    
+    .title-2{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-block: 10em 3em !important;
+        font-family: Canela Deck Trial;
+    }
+    
+    .container--about{
+        display: block;
+        background-image: url("../../images/Rectangle\ 53.png");
+        background-size: cover;
+        margin-inline: 0em 0em !important;
+        padding-top: 2em;
+        width: 100em;
+    }
+    
+    .title-2-content {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 25px !important;
+        text-align: start;
+    }
+}
