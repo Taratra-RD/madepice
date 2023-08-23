@@ -6,31 +6,42 @@ import upleave from '../images/Leaves 1 (1).png'
 import downleave from '../images/Leaves 2 (1).png'
 import ProductList from '../components/ProductList'
 import data from '../data'
+import Test from '../components/Test'
 function Product() {
 
     const [products, setProducts] = useState(data)
     const [leaveup, setLeaveup] = useState('leave--up')
     const [leavedown, setLeavedown] = useState('leave--down')
     const [displayProduct, setDisplayProduct] = useState(true)
-    // const [typeProduct, setTypeProduct] = useState(['moulu', 'grain', 'tige'])
 
     const handledisplay = () => {
         setDisplayProduct((prevState) => !prevState)
     }
 
-    function groupProductsByType(products) {
-        const groupedProducts = {};
-        products.forEach(product => {
-            if (!groupedProducts[product.name]) {
-                groupedProducts[product.name] = [];
+    // function groupProductsByType(products) {
+    //     const groupedProducts = {};
+    //     products.forEach(product => {
+    //         if (!groupedProducts[product.Intensité]) {
+    //             groupedProducts[product.Intensité] = [];
+    //         }
+    //         groupedProducts[product.Intensité].push(product);
+    //     });
+    //     return groupedProducts;
+    // }
+
+    const groupProductsAlphabetically = (products) => {
+        const grouped = {};
+        products.forEach((product) => {
+            const firstLetter = product.name[0].toUpperCase();
+            if (!grouped[firstLetter]) {
+                grouped[firstLetter] = [];
             }
-            groupedProducts[product.name].push(product);
+            grouped[firstLetter].push(product);
         });
-        return groupedProducts;
-    }
+        return grouped;
+    };
 
     const handleLeave = (e) => {
-        console.log("first")
         setLeaveup(() => (e.target.className = " leave--up--animation"))
     }
 
@@ -70,7 +81,8 @@ function Product() {
                     </div>
                     <div>
                         <img src={upleave} className={leaveup} onScroll={handleLeave} alt="" />
-                        <ProductList products={products} groupProductsByType={groupProductsByType} displayProduct={displayProduct} setDisplayProduct={setDisplayProduct} />
+                        {/* <Test products={products} groupProductsByType={groupProductsByType} displayProduct={displayProduct} setDisplayProduct={setDisplayProduct} /> */}
+                        <ProductList products={products} groupProductsByType={groupProductsAlphabetically} displayProduct={displayProduct} setDisplayProduct={setDisplayProduct} />
                     </div>
                 </div>
             </div>

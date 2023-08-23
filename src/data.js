@@ -2,8 +2,8 @@ const data = [
     {
         name: "ail",
         Goût: "Piquant",
-        Intensité: "Forte",
-        Texture: "poudre, morceau",
+        Intensité: ["Forte"],
+        Texture: ["poudre", "morceau"],
         Origine_géographique: "Madagascar",
         Conservation: "endroit frais et sec",
         Composition_nutritionnelle: [
@@ -58,8 +58,8 @@ const data = [
     {
         name: "BAIE ROSE",
         Goût: "Fruité avec de notes poivrées",
-        Intensité: ["Douce", "moins piquante que le poivre noir"],
-        Parfum: ["agréable, délicat"],
+        Intensité: ["Doux", "moins piquante que le poivre noir"],
+        Parfum: ["agréable", "délicat"],
         Texture: ["lisse", "ferme"],
         Origine_géographique: "Madagascar",
         Conservation: ["endroit frais et sec", "à l'abri de la lumière"],
@@ -130,9 +130,9 @@ const data = [
     {
         name: "ZESTES DE COMBAVA",
         Goût: "Aromatique",
-        Intensité: "Intense",
-        Parfum: "Citronné",
-        Texture: "zestes, poudre",
+        Intensité: ["Intense"],
+        Parfum: ["Citronné"],
+        Texture: ["zestes", "poudre"],
         Origine_géographique: "Madagascar",
         Composition_nutritionnelle: "huiles essentielles",
         Grammage: [
@@ -150,7 +150,7 @@ const data = [
         Goût: "Citronné avec une note épicée",
         Intensité: ["Légèrement sucrée"],
         Parfum: ["Piquant", "herbacé"],
-        Texture: "grains",
+        Texture: ["grains"],
         Origine_géographique: "Madagascar",
         Grammage: [
             {
@@ -183,7 +183,7 @@ const data = [
         Goût: "Epicé avec des notes d'anis et de réglisse",
         Intensité: ["Douce"],
         Parfum: ["Aromatique", "distinctif"],
-        Texture: "écorce",
+        Texture: ["écorce"],
         Origine_géographique: "Madagascar",
         Conservation: ["récipient hermétique", "à l'abri de la lumière et de l'humidité"],
         Composition_nutritionnelle: ["anéthole", "antioxydants"],
@@ -221,8 +221,8 @@ const data = [
     {
         name: "CANNELLE",
         Goût: "Sucré",
-        Intensité: "Doux",
-        Parfum: ["Chaud et épicé"],
+        Intensité: ["Doux"],
+        Parfum: ["Chaud", "épicé"],
         Texture: ["poudre, rouleau (8 à 10 cm et 18 à 20cm)"],
         Origine_géographique: "Madagascar",
         Conservation: ["endroit frais", "sec et à l'abri de la lumière directe du soleil"],
@@ -241,7 +241,7 @@ const data = [
         name: "CITRONNELLE",
         Goût: "Citronné",
         Parfum: ["Citronné", "frais", "aromatique"],
-        Texture: "tiges fines",
+        Texture: ["tiges fines"],
         Origine_géographique: "Madagascar",
         Conservation: ["endroit frais", "sec et à l'abri de la lumière directe du soleil"],
         Composition_nutritionnelle: ["citronellols, citronnellals, limonènes, antioxydants, vitamine C, vitamine A, fer, potassium."],
@@ -293,7 +293,7 @@ const data = [
         name: "CURRY SPECIAL VIANDE",
         Goût: "Complexe et épicé avec des notes chaudes, terreuses, douces et parfois piquantes",
         Intensité: ["Forte", "distinctive"],
-        Texture: "poudre",
+        Texture: ["poudre"],
         Origine_géographique: "Madagascar",
         Composition_nutritionnelle: "anti-inflammatoires, antioxydantes",
         Grammage: [
@@ -310,7 +310,7 @@ const data = [
         name: "EPICES POUR GUACAMOLE",
         Goût: "Fumé",
         Intensité: ["Modérée"],
-        Texture: "poudre",
+        Texture: ["poudre"],
         Origine_géographique: "Madagascar",
         Grammage: [
             {
@@ -325,7 +325,7 @@ const data = [
     {
         name: "FENUGREC",
         Parfum: ["Distinctif similaire au sirop d'érable"],
-        Texture: ["poudre, grains torréfiés"],
+        Texture: ["poudre", "grains torréfiés"],
         Origine_géographique: "Madagascar",
         Composition_nutritionnelle: ["anti-inflammatoires", "antioxydantes"],
         Grammage: [
@@ -498,7 +498,7 @@ const data = [
         name: "MUSCADE",
         Goût: "Chaud, terrestre et légèrement sucré",
         Intensité: ["Intense avec des notes d'épices et de noix."],
-        Parfum: ["Boisé et légèrement piquant"],
+        Parfum: ["Boisé", "légèrement piquant"],
         Texture: ["macis", "noix", "poudre"],
         Origine_géographique: "Madagascar",
         Grammage: [

@@ -1,21 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './css/CardPro.css'
 
 export default function CardPro({ product }) {
-    return (
-        <div className="card--pro">
-            <div className="card-title">
-                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{product.name}</h3>
+    const [cardFace, setCardFace] = useState(true)
+
+    const back = (
+        <div className="card--pro--hover">
+            <div className="card--image">
+
             </div>
-            <div className="card-info">
-                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>Card</h3>
-                <p style={{ color: 'white', paddingTop: '15px', paddingBottom: '15px' }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem enim vero eos delectus inventore ratione ab numquam perferendis nam.
-                </p>
+            <div className="card--body">
+                <div className="card-title">
+                    <h3>{product.name}</h3>
+                </div>
+                <div className='card--description'>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores qui perferendis corporis blanditiis eaque sint
+                    </p>
+                </div>
                 <button className="btn" style={{ background: '#f2e5d1', borderRadius: '8px' }}>
                     En savoir plus
                 </button>
             </div>
+
+        </div>
+    )
+    const front = (
+        <div className="card--pro">
+            <div className="card-title">
+                <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial', fontSize: "16px", textAlign: "center", textTransform: "uppercase" }}>{product.name}</h3>
+            </div>
+        </div>
+    )
+
+    const handleFace = (e) => {
+        setCardFace(prev => (!prev))
+    }
+    return (
+        <div onMouseEnter={handleFace} onMouseLeave={handleFace}>
+            {cardFace ? front : back}
         </div>
     )
 }

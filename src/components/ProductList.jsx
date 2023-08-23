@@ -4,45 +4,46 @@ import CardProLittl from './Cardprolittl'
 import './css/ProductList.css'
 
 const ProductList = ({ products, groupProductsByType, displayProduct }) => {
-    const [selectedType, setSelectedType] = useState('');
+    // const [selectedType, setSelectedType] = useState('')
+    // const groupedProducts = groupProductsByType(products);
+    const [selectedLetter, setSelectedLetter] = useState('');
     const groupedProducts = groupProductsByType(products);
 
-    const filteredProducts = selectedType ? groupedProducts[selectedType] : products;
 
     return (
         <div className='productList'>
-            <div className="product--filter">
+            <div className="product--filter" style={{ zIndex: "50" }}>
                 <h1>Filtrer</h1>
                 <label style={{ fontSize: '18px', fontWeight: 'bold' }}>
                     <input
                         type="radio"
                         value=""
-                        checked={selectedType === ''}
-                        onChange={() => setSelectedType('')}
+                        checked={selectedLetter === ''}
+                        onChange={() => setSelectedLetter('')}
                     />
                     Tous
                 </label>
-                {Object.keys(groupedProducts).map(type => (
-                    <label key={type} style={{ fontSize: '18px', fontWeight: 'bold' }}>
+                {Object.keys(groupedProducts).map(letter => (
+                    <label key={letter} style={{ fontSize: '18px', fontWeight: 'bold' }}>
                         <input
                             type="radio"
-                            value={type}
-                            checked={selectedType === type}
-                            onChange={() => setSelectedType(type)}
+                            value={letter}
+                            checked={selectedLetter === letter}
+                            onChange={() => setSelectedLetter(letter)}
                         />
-                        {type}
+                        {letter}
                     </label>
                 ))}
             </div>
             <div className='product--list--right'>
                 <h1>La liste de nos produits</h1>
-                {selectedType === '' ? (
-                    Object.keys(groupedProducts).map(type => (
-                        <div key={type} className='product--list'>
-                            <h2 style={{ fontStyle: 'italic', textTransform: 'capitalize' }}>{type}</h2>
+                {selectedLetter === '' ? (
+                    Object.keys(groupedProducts).map(letter => (
+                        <div key={letter} className='product--list'>
+                            <h2 style={{ fontStyle: 'italic', textTransform: 'capitalize' }}>{letter}</h2>
                             <div className="product--list--card">
                                 <div className='sub-product' style={{ display: 'flex', width: '91%', flexWrap: 'wrap' }}>
-                                    {groupedProducts[type].map(product => (
+                                    {groupedProducts[letter].map(product => (
                                         displayProduct ? (
                                             <div className="card--a">
                                                 <CardPro product={product} />
@@ -54,38 +55,32 @@ const ProductList = ({ products, groupProductsByType, displayProduct }) => {
                                         )
                                     ))}
                                 </div>
-
                             </div>
-
                         </div>
                     ))
                 ) : (
-                    Object.keys(groupedProducts).map(type => (
-                        selectedType === type && (
-                            <div key={type} className='product--list'>
-                                <h2 style={{ fontStyle: 'italic', textTransform: 'capitalize' }}>{type}</h2>
-                                <div className="product--list--card">
-                                    <div className='sub-product' style={{ display: 'flex', width: '91%', flexWrap: 'wrap' }}>
-                                        {groupedProducts[type].map(product => (
-                                            displayProduct ? (
-                                                <div className="card--a">
-                                                    <CardPro product={product} />
-                                                </div>
-                                            ) : (
-                                                <div className="card--a">
-                                                    <CardProLittl product={product} />
-                                                </div>
-                                            )
-                                        ))}
-                                    </div>
-
+                    selectedLetter in groupedProducts && (
+                        <div key={selectedLetter} className='product--list'>
+                            <h2 style={{ fontStyle: 'italic', textTransform: 'capitalize' }}>{selectedLetter}</h2>
+                            <div className="product--list--card">
+                                <div className='sub-product' style={{ display: 'flex', width: '91%', flexWrap: 'wrap' }}>
+                                    {groupedProducts[selectedLetter].map(product => (
+                                        displayProduct ? (
+                                            <div className="card--a">
+                                                <CardPro product={product} />
+                                            </div>
+                                        ) : (
+                                            <div className="card--a">
+                                                <CardProLittl product={product} />
+                                            </div>
+                                        )
+                                    ))}
                                 </div>
                             </div>
-                        )
-                    ))
+                        </div>
+                    )
                 )}
             </div>
-
         </div>
     );
 };
