@@ -20,7 +20,7 @@ div.card {
     transition: filter 0.3s ease-in-out;
     /* Add a gradient border */
     /*background-clip: padding-box;*/
-    box-shadow: 1em 2em 3em rgba(0, 0, 0, 0.1); /* Add shadow here */
+    box-shadow: 1px 14px 16px black; /* Add shadow here */
 }
 
 div.card::before {

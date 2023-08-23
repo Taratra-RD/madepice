@@ -24,6 +24,13 @@ import { Col, Container, Row } from "react-bootstrap";
 function Home() {
   const [slideCards, setSlideCards] = useState(false);
   const [scroll, whiteMode] = useState(0)
+  const [hasPrevSlides, setHasPrevSlides] = useState(false);
+  const [hasNextSlides, setHasNextSlides] = useState(false);
+
+  const handleSlideChange = (swiper) => {
+    setHasPrevSlides(swiper.activeIndex !== 0);
+    setHasNextSlides(swiper.activeIndex !== 0);
+  };
   
   const setWhiteMode = () => {
     whiteMode(window.scrollY)
@@ -69,7 +76,15 @@ function Home() {
         <div className="container-fluid img1">
           <div className="slider-container">
             <div className={`cards ${slideCards ? "slide" : ""}`}>
-              <i className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
+              <i 
+                className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" 
+                style={{
+                  cursor: hasPrevSlides ? 'pointer' : 'default',
+                  color: hasPrevSlides ? '#f2e5d1' : 'rgba(242, 229, 209, 0.5)',
+                }}
+              >
+
+              </i>
               <Swiper
                 // install Swiper modules
                 modules={[Navigation,Pagination,Scrollbar]}
@@ -84,7 +99,8 @@ function Home() {
 
                 }}
                 onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
+                onSlideChange={handleSlideChange}
+          
                 breakpoints={{
                   0: {
                     slidesPerView: 1,
@@ -114,6 +130,7 @@ function Home() {
                     spaceBetween: 10
                   }
                 }}
+                
 
               >
                 <SwiperSlide>
@@ -175,7 +192,8 @@ function Home() {
               </Swiper>
 
 
-              <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl" style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
+              <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl"
+               style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
 
 
             </div>
