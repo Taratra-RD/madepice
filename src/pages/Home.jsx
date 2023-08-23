@@ -52,6 +52,7 @@ function Home() {
   }, [])
   
   //scrolling animation
+  const isScrolling0 = scroll > 110
   const isScrolling = scroll > 600
   const isScrolling2 = scroll > 1200
   const isScrolling3 = scroll > 1600
@@ -75,7 +76,7 @@ function Home() {
         </div>
         <div className="container-fluid img1">
           <div className="slider-container">
-            <div className={`cards ${slideCards ? "slide" : ""}`}>
+            <div className={`cards ${isScrolling0 ? "slide-upCrd" : ""} ${slideCards ? "slide" : ""}`}>
               <i 
                 className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" 
                 style={{

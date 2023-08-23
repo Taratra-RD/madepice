@@ -107,6 +107,9 @@ div img .img-font {
 .slide-right {
     animation: slide-right 0.8s forwards ease-out;
 }
+.slide-upCrd {
+    animation: slide-upCrd 0.7s forwards ease-out;
+}
 
 p.slide-left {
     animation-delay: 0.5s;
@@ -142,6 +145,16 @@ div.swiper-button-next{
     
 }
 
+@keyframes slide-upCrd{
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
 @keyframes slide-left{
     0% {
         transform: translate(100px);
