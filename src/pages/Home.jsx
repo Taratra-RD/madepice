@@ -137,8 +137,8 @@ function Home() {
                 <SwiperSlide>
                   <Card
                     key={0}
-                    img={"../../images/Rectangle 11a.png"}
-                    title={"h h1"}
+                    img={"../images/Rectangle 11.png"}
+                    title={"AIL"}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
@@ -146,7 +146,7 @@ function Home() {
                   <Card
                     key={1}
                     img={imgFont2}
-                    title={"h h2"}
+                    title={"BOIS D'ANIS"}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
@@ -154,7 +154,7 @@ function Home() {
                   <Card
                     key={2}
                     img={imgFont2}
-                    title={"h h3"}
+                    title={"BAIE ROSE"}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
@@ -162,7 +162,7 @@ function Home() {
                   <Card
                     key={3}
                     img={imgFont2}
-                    title={"h h4"}
+                    title={"CUMIN"}
                     text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
                   />
                 </SwiperSlide>
