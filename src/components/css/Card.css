@@ -19,7 +19,8 @@ div.card {
     filter: brightness(1);
     transition: filter 0.3s ease-in-out;
     /* Add a gradient border */
-    background-clip: padding-box;
+    /*background-clip: padding-box;*/
+    box-shadow: 1em 2em 3em rgba(0, 0, 0, 0.1); /* Add shadow here */
 }
 
 div.card::before {
@@ -90,7 +91,7 @@ div.card:hover .card-title{
 }
 .card-info p{
     margin-top: -15px;
-    margin-bottom: -1px;
+    margin-bottom: 5px;
 }
 
 div.card-body{

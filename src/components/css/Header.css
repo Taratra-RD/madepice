@@ -85,7 +85,7 @@ div.sidenav nav ul li a:hover {
         height: 5em;
         width: 1em !important;
         padding: 0.6em;
-        margin-left: 2em;
+        margin-left: 1em !important;
         background: #000;
     }
     i.fa-bars{
