@@ -201,6 +201,10 @@
         padding-inline: 0px 0px !important;
         padding-block: 10px 10px;
     }
+
+    .card--a {
+        margin: 6px 6px !important;
+    }
 }
 
 

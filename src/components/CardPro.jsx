@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './css/CardPro.css'
+import { Link } from 'react-router-dom'
+import SingleProduct from '../pages/SingleProduct'
 
 export default function CardPro({ product }) {
     const [cardFace, setCardFace] = useState(true)
@@ -18,9 +20,9 @@ export default function CardPro({ product }) {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores qui perferendis corporis blanditiis eaque sint
                     </p>
                 </div>
-                <button className="btn" style={{ background: '#f2e5d1', borderRadius: '8px' }}>
+                <Link to={`/product/${product.name}`} className="btn" style={{ background: '#f2e5d1', borderRadius: '8px' }}>
                     En savoir plus
-                </button>
+                </Link>
             </div>
 
         </div>
