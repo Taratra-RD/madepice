@@ -1,0 +1,10 @@
+.products--list--card {
+    width: 64.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-block: 1rem 1rem;
+    margin-inline: 1rem 1rem;
+    padding-inline: 3rem 3rem;
+    background-color: rgb(19, 18, 18);
+}

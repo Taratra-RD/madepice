@@ -1,18 +1,11 @@
 import React from 'react'
-import data from '../data'
-import { useParams } from 'react-router-dom'
+import Products from '../components/products/Products'
+
 
 export default function SingleProduct() {
-    const param = useParams()
-    const element = null
-    data.forEach(el => {
-        if (element.name === param.name) {
-            element = el
-        }
-    });
-
-    console.log(element)
     return (
-        <div>HELLO</div>
+        <div>
+            <Products />
+        </div>
     )
 }

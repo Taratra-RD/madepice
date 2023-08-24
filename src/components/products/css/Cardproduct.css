@@ -1,0 +1,115 @@
+/*FRONT*/
+.card--product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24rem;
+    width: 17.5rem;
+    background-color: rgb(5, 34, 34);
+    border-radius: 10px;
+    margin: 5px;
+    margin-inline: 1rem 1rem;
+    margin-block: 15px 15px;
+}
+
+.card--image {
+    display: none;
+}
+
+.card--title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-inline: 3px 3px;
+}
+
+.card--body {
+    display: none;
+}
+
+/*HOVER*/
+.card--product--hover {
+    display: flex;
+    flex-direction: column;
+    height: 24rem;
+    width: 17.5rem;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+    margin-inline: 1rem 1rem;
+    margin-block: 15px 15px;
+}
+
+.card--title--hover {
+    display: none;
+}
+
+.card--image--hover {
+    height: 40%;
+    background-color: rgb(5, 34, 34);
+    border-start-start-radius: inherit;
+    border-start-end-radius: inherit;
+}
+
+.card--body--hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding-inline: 5px 5px;
+    border-end-end-radius: inherit;
+    border-end-start-radius: inherit;
+    padding-block: 5px 30px;
+    animation-name: cardDescription;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cardDescription {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.card--title--body,
+.card--description,
+.card--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.card--title--body {
+    height: 20%;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.card--description {
+    height: 60%;
+}
+
+.card--button {
+    height: 15%;
+    margin-top: 4%;
+    font-size: 15px;
+    color: black;
+    background-color: beige;
+    width: 60%;
+    border-radius: 4px;
+}
