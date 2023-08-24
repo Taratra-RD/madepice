@@ -38,6 +38,13 @@ span.carousel-control-prev-icon {
   display: none;
 }
 
+.savoir-plus:hover {
+  color: #f2e5d1;
+  border: 1px solid #f2e5d1;
+  background: #000;
+  transition: 0.3s all;
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.7);
   /* Adjust the overlay color and transparency */
