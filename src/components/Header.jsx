@@ -31,6 +31,7 @@ export default function Header() {
     }
     
 
+
     return (
         <>
             <div className="sidenav" id="sidenav">
@@ -80,6 +81,7 @@ export default function Header() {
                     </ul>
                     <i className={`fa fas ${navbarOpen ? 'fa-bars fa-xl' : 'fa-bars fa-xl'} `} style={{transition:"0.5s all"}} onClick={() => toggleNavbar()}></i>
                 </nav>
+
 
             </div>
 

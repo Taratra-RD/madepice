@@ -1,16 +1,15 @@
-body{
+body {
     font-family: Raleway;
 }
-div {
-    width: 100%;
-}
+
 div.img2 h2 {
     padding-top: 0.5em;
     max-width: 22em;
 }
+
 div.img2 p {
     max-width: 35em;
-    
+
 }
 
 .img1 {
@@ -19,7 +18,7 @@ div.img2 p {
     justify-content: center;
     width: auto;
     height: 34em;
-    
+
     background-image: url("../../images/Rectangle\ 10.png");
 }
 
@@ -28,6 +27,7 @@ div.cards {
     align-items: center;
     justify-content: center;
 }
+
 div.card {
     width: 15em;
     height: 25em;
@@ -35,9 +35,11 @@ div.card {
     margin: 3em;
     border-radius: 10px;
 }
+
 div.card-img {
     height: 20em;
 }
+
 .img2 {
     display: flex;
     flex-direction: column;
@@ -46,24 +48,29 @@ div.card-img {
     width: auto;
     height: 31em;
     padding: 2em;
-    background-image: url("../../images/Rectangle\ 49.png"),url("../../images/Rectangle\ 16.png");
+    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 16.png");
 }
-.spacing{
+
+.spacing {
     margin: 10px;
 }
+
 .img3 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 75em;  /*77.3em*/
+    height: 75em;
+    /*77.3em*/
     padding: 2em;
     background-image: url("../../images/Rectangle\ 51.png");
 }
-.img3 h1{
+
+.img3 h1 {
     padding: 10px !important;
 }
-.img3 .container{
+
+.img3 .container {
     display: flex;
     flex-direction: column;
     margin-top: -5em;
@@ -71,11 +78,11 @@ div.card-img {
     justify-content: center;
 }
 
-.img3 .container h1{
+.img3 .container h1 {
     margin-top: 2em;
 }
 
-.img-feuille{
+.img-feuille {
     display: none;
     position: absolute;
     width: 10em;
@@ -84,11 +91,13 @@ div.card-img {
     background-size: contain;
     background-image: url("../../images/Leaves\ 1.png");
 }
+
 div img .img-font {
     background-size: cover;
     width: 90%;
     overflow: 0;
 }
+
 .block {
     width: auto;
     height: auto;
@@ -96,6 +105,7 @@ div img .img-font {
     justify-content: center;
     background-image: url("../../images/Rectangle\ 53.png");
 }
+
 .block p {
     padding: 25px !important;
     font-family: Raleway;
@@ -104,6 +114,7 @@ div img .img-font {
 .slide-left {
     animation: slide-left 0.8s forwards ease-out;
 }
+
 .slide-right {
     animation: slide-right 0.8s forwards ease-out;
 }
@@ -115,7 +126,8 @@ p.slide-left {
     animation-delay: 0.5s;
     opacity: 0;
 }
-button.slide-left{
+
+button.slide-left {
     animation-delay: 1s;
     opacity: 0;
 }
@@ -126,17 +138,20 @@ button.slide-left{
     display: flex;
     overflow-x: hidden;
     width: 100%;
-    padding: 0 2em; /* Add padding to create space between the cards */
+    padding: 0 2em;
+    /* Add padding to create space between the cards */
 }
-.valeurs{
+
+.valeurs {
     padding-top: 5em;
     display: none;
 }
 
-i.custom-prev-button:hover{
+i.custom-prev-button:hover {
     color: white;
 }
-i.custom-next-button:hover{
+
+i.custom-next-button:hover {
     color: white;
 }
 
@@ -160,16 +175,19 @@ div.swiper-button-next{
         transform: translate(100px);
         opacity: 0;
     }
+
     100% {
         transform: translate(0px);
         opacity: 1;
     }
 }
-@keyframes slide-right{
+
+@keyframes slide-right {
     0% {
         transform: translate(0);
         opacity: 0;
     }
+
     100% {
         transform: translate(100px);
         opacity: 1;
@@ -180,11 +198,13 @@ div.swiper-button-next{
     div.img1{
         height: 29em;
     }
-    div.img3{
+
+    div.img3 {
         height: 103em;
     }
-    div.img3 h1{
-        margin-top: 2em ;
+
+    div.img3 h1 {
+        margin-top: 2em;
     }
 }
 
@@ -192,16 +212,19 @@ div.swiper-button-next{
     div.img1 {
         height: 29em;
     }
-    div.img2 {          
+
+    div.img2 {
         width: 100%;
         object-fit: cover;
     }
+
     div.img2 .container {
         height: 36em;
         max-width: 100%;
         padding: 3em;
     }
-    div.img3{
+
+    div.img3 {
         height: 80em;
     }
     .img3 .container{
@@ -215,16 +238,20 @@ div.swiper-button-next{
         padding-top: 2em;
 
     }
-    .valeurs{
+
+    .valeurs {
         padding-top: 0em;
     }
-    .block{
+
+    .block {
         height: 100%;
         padding: 0;
     }
+
     .img2 button {
         font-size: 14px;
     }
+
     .img2 {
         display: flex;
         flex-direction: column;
@@ -233,9 +260,11 @@ div.swiper-button-next{
         justify-content: center;
         background: darkred;
     }
+
     .block p {
         font-size: 14px;
     }
+
     .cards {
         display: flex;
         flex-direction: row;
@@ -278,11 +307,13 @@ div.swiper-button-next{
         opacity: 1;
     }
     }
-    @keyframes slide-right{
+
+    @keyframes slide-right {
         0% {
             transform: translate(0);
             opacity: 0;
         }
+
         100% {
             transform: translate(70px);
             opacity: 1;
@@ -294,21 +325,26 @@ div.swiper-button-next{
     div.img1 {
         height: 29em;
     }
+
     div.card {
         height: 23em;
     }
-    div.img2 {          
+
+    div.img2 {
         width: auto;
         object-fit: cover;
     }
+
     div.img2 .container {
         max-width: 100%;
         padding: 3em;
     }
-    div.img3{
+
+    div.img3 {
         height: 100em;
     }
-    .block{
+
+    .block {
         height: 40em;
     }
 }
