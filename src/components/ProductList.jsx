@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CardPro from './CardPro'
-import CardProLittl from './Cardprolittl'
+import CardProLittl from './CardproLittl'
 import './css/ProductList.css'
 
 const ProductList = ({ products, groupProductsByType, displayProduct }) => {

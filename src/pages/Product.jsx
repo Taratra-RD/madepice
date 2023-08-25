@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import upleave from '../images/Leaves 1 (1).png'
 import downleave from '../images/Leaves 2 (1).png'
 import ProductList from '../components/ProductList'
-import {data} from '../data'
+import data from '../data'
 import Test from '../components/Test'
 function Product() {
 

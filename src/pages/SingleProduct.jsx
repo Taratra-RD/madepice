@@ -18,7 +18,7 @@ export default function SingleProduct() {
             {
                 data.map((data) =>  {
                     <h2 key={data.name} style={{color:'white'}}>
-                        {data.name === product_name}
+                        {data.name === param}
                     </h2>
                 })
             }
