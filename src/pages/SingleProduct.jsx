@@ -1,12 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
+import data from '../data'
 import { useParams } from 'react-router-dom'
-import { data } from '../data'
 
-export default function SingleProduct({product}) {
-    const [dataAr,setDataAr] = useState(data)
-    const product_name = useParams()
-    console.log(product_name)
-    console.log(data)
+export default function SingleProduct() {
+    const param = useParams()
+    const element = null
+    data.forEach(el => {
+        if (element.name === param.name) {
+            element = el
+        }
+    });
+
+    console.log(element)
     return (
         <div>
             HELLO

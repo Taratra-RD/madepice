@@ -17,6 +17,7 @@ export default function Header() {
         }
     }
 
+
     return (
         <>
             <div className="sidenav" id="sidenav">
@@ -38,7 +39,6 @@ export default function Header() {
                             <Link to={'/'}>Contact</Link>
                         </li>
                     </ul>
-
                 </nav>
             </div>
             <div className={`navbar sticky-top shadow`}>
