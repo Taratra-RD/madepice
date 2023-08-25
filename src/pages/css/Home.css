@@ -131,9 +131,7 @@ button.slide-left {
     animation-delay: 1s;
     opacity: 0;
 }
-.engagements {
 
-} 
 .cards{
     display: flex;
     overflow-x: hidden;
