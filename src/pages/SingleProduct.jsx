@@ -1,27 +1,43 @@
-import React from 'react'
-import data from '../data'
+import React, { useEffect, useState } from 'react'
+import { data } from '../data'
 import { useParams } from 'react-router-dom'
 
 export default function SingleProduct() {
+    const [product, setProduct] = useState(data)
     const param = useParams()
-    const element = null
-    data.forEach(el => {
-        if (element.name === param.name) {
-            element = el
-        }
-    });
 
-    console.log(element)
+    const filteredProduct = product.filter((product) => product.name === param.name)
+    const findProduct = product.find((product) => product.name === param.name)
+
+
+    console.log(param.name)
+    console.log('method filter: '+filteredProduct)
+    console.log('method find'+findProduct)
+
+    useEffect(() => {
+        console.log(data)
+        console.log(filteredProduct)
+        console.log(findProduct)
+    }, [])
+
     return (
-        <div>
-            HELLO
-            {
-                data.map((data) =>  {
-                    <h2 key={data.name} style={{color:'white'}}>
-                        {data.name === product_name}
-                    </h2>
-                })
-            }
-        </div>
+        <>
+            <div style={{ background: 'blue' }}>
+                HELLO babababa
+                {
+                    filteredProduct.map((dataPr) => (
+                        <div>
+                            <h2 key={dataPr.name} style={{ color: 'white' }}>
+                                {dataPr.name}
+                            </h2>
+                            <p>
+                                {dataPr.Description}
+                            </p>
+                        </div>
+                    )
+                    )
+                }
+            </div>
+        </>
     )
 }
