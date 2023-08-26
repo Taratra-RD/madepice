@@ -36,17 +36,17 @@ export default function Products() {
         <div className='--products'>
             <div className="product--header--image">
                 <div className="product--header">
-                    <HeaderAbout />
+                    {/* <HeaderAbout /> */}
                 </div>
-                <div className='product--header--text' style={{ textAlign: 'center' }}>
+                {/* <div className='product--header--text' style={{ textAlign: 'center' }}>
                     Nos Produits
-                </div>
+                </div> */}
             </div>
             <div className="products">
                 <div className="product--left--page">
                     <h1>Filtrer</h1>
-                    <div style={{ display: 'flex', flexFlow: 'column nowrap' }}>
-                        <label style={{ fontSize: '18px', fontWeight: 'bold' }}>
+                    <div className='list-filter'>
+                        <label>
                             <input
                                 type="radio"
                                 value=""
@@ -56,7 +56,7 @@ export default function Products() {
                             Tous
                         </label>
                         {Object.keys(groupedProducts).map(letter => (
-                            <label key={letter} style={{ fontSize: '18px', fontWeight: 'bold' }}>
+                            <label key={letter}>
                                 <input
                                     type="radio"
                                     value={letter}
@@ -68,6 +68,7 @@ export default function Products() {
                         ))}
                     </div>
                 </div>
+                <div className='hr'></div>
                 <div className="product--right--page">
                     <h1>La liste de nos produits</h1>
                     <div>
