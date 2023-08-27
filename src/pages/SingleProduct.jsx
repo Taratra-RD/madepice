@@ -1,25 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data from '../data'
 import { useParams } from 'react-router-dom'
 
 export default function SingleProduct() {
     const param = useParams()
-    const element = null
-    data.forEach(el => {
-        if (element.name === param.name) {
-            element = el
-        }
-    });
+    const [product,setProduct] = useState(data)
+    const filteredProduct = product.filter(data => data.name === param.name)
+    console.log(filteredProduct)
 
-    console.log(element)
     return (
         <div>
             HELLO
             {
-                data.map((data) =>  {
-                    <h2 key={data.name} style={{color:'white'}}>
-                        {data.name === param}
-                    </h2>
+                filteredProduct.map((product) => {
+                    <div className='bg-warning'>
+                        <h2 key={product.name} style={{ color: 'white' }}>
+                            {product.name}
+                        </h2>
+                        <p>
+                            {product.Description}
+                        </p>
+                    </div>
                 })
             }
         </div>

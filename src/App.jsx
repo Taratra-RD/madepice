@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Product from './pages/Product';
 import SingleProduct from './pages/SingleProduct';
+import MuiPage from './pages/MuiPage';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/product' element={<Product />} />
+        <Route path='/mui' element={<MuiPage/>}/>
         <Route path='/product/:name' element={<SingleProduct />} />
       </Routes>
     </BrowserRouter>
