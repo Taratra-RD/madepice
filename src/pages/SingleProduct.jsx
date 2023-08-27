@@ -6,7 +6,7 @@ export default function SingleProduct() {
     const [product, setProduct] = useState(data)
     const param = useParams()
 
-    const filteredProduct = product.filter((product) => product.name === param.name)
+    const filteredProduct = data.filter((product) => product.name === param.name)
     const findProduct = product.find((product) => product.name === param.name)
 
 
