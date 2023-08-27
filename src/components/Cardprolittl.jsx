@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/CardproLittl.css'
+import './css/Cardprolittl.css'
 export default function CardproLittl({ product }) {
     return (
         <div className="card--pro--l">

@@ -12,13 +12,13 @@ export default function SingleProduct() {
         <div>
             HELLO
             {
-                filteredProduct.map((product) => {
+                filteredProduct.map((data) => {
                     <div className='bg-warning'>
-                        <h2 key={product.name} style={{ color: 'white' }}>
-                            {product.name}
+                        <h2 key={data.name} style={{ color: 'white' }}>
+                            {data.name}
                         </h2>
                         <p>
-                            {product.Description}
+                            {data.Description}
                         </p>
                     </div>
                 })
