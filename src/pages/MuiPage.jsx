@@ -1,4 +1,4 @@
-import { Button, Stack, Typography } from "@mui/material"
+import { Button, Card, CardHeader, Stack, Typography } from "@mui/material"
 
 
 const MuiPage = () => {
@@ -13,6 +13,13 @@ const MuiPage = () => {
                     <Button variant="contained" color="error">Gooo</Button>
                     <Button variant="contained" color="secondary">Hello you!</Button>
                     <Button variant="outlined" color="primary" size="large">Osu!</Button>
+                </Stack>
+                <Stack>
+                    <Card>
+                        <CardHeader>
+                            Hello from mui
+                        </CardHeader>
+                    </Card>
                 </Stack>
             </div>
         </>
