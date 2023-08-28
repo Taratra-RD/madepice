@@ -4,7 +4,7 @@ import HeaderAbout from '../HeaderAbout'
 import Footer from '../Footer'
 import upleave from '../../images/Leaves 1 (1).png'
 import downleave from '../../images/Leaves 2 (1).png'
-import data from '../../data'
+import {data} from '../../data'
 import Productslist from './Productslist'
 import Cardproduct from './Cardproduct'
 
