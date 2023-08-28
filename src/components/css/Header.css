@@ -16,10 +16,12 @@ nav{
     flex: 1;
     text-align: right;
 }
+
 nav ul li{
     list-style: none;
     display: inline-block;
 }
+
 nav ul li a{
     font-family: Raleway;
     text-decoration: none;
