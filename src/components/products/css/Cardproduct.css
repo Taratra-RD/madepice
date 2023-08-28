@@ -1,0 +1,769 @@
+@media (max-width:389px) {
+
+    /*FRONT*/
+    .card--product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10.5rem;
+        width: 8rem;
+        background-color: rgb(5, 34, 34);
+        border-radius: 6px;
+        margin: 3px;
+        margin-inline: 0.5rem 0.5rem;
+        margin-block: 15px 15px;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: 8rem 10.5rem;
+    }
+
+    .card--image {
+        display: none;
+    }
+
+    .card--title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        padding-inline: 2px 2px;
+        background-color: beige;
+        border-radius: 3px;
+        box-shadow: -1px 1px 1px beige;
+        margin-inline: 3px 3px;
+        color: black;
+    }
+
+    .card--body {
+        display: none;
+    }
+
+    /*HOVER*/
+    .card--product--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 10.5rem;
+        width: 8rem;
+        background-color: black;
+        border-radius: 6px;
+        margin: 3px;
+        box-shadow: 1px 1px 5px black;
+        overflow: hidden;
+        margin-inline: 0.5rem 0.5rem;
+        margin-block: 15px 15px;
+        background-image: none;
+    }
+
+    .card--title--hover {
+        display: none;
+    }
+
+    .card--image--hover {
+        height: 40%;
+        background-color: rgb(5, 34, 34);
+        border-start-start-radius: inherit;
+        border-start-end-radius: inherit;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .card--body--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 60%;
+        background-color: black;
+        padding-inline: 5px 5px;
+        border-end-end-radius: inherit;
+        border-end-start-radius: inherit;
+        padding-block: 5px 20px;
+        animation-name: cardDescription;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes cardDescription {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .card--title--body,
+    .card--description,
+    .card--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .card--title--body {
+        height: 20%;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .card--description {
+        display: none;
+    }
+
+    .card--button {
+        height: 30%;
+        margin-top: 10px;
+        font-size: 14px;
+        color: black;
+        background-color: beige;
+        width: 70%;
+        border-radius: 3px;
+    }
+}
+
+@media (min-width:390px) {
+
+    /*FRONT*/
+    .card--product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10.5rem;
+        width: 8rem;
+        background-color: rgb(5, 34, 34);
+        border-radius: 6px;
+        margin: 3px;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: 8rem 10.5rem;
+    }
+
+    .card--image {
+        display: none;
+    }
+
+    .card--title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-inline: 3px 3px;
+    }
+
+    .card--body {
+        display: none;
+    }
+
+    /*HOVER*/
+    .card--product--hover {
+        display: flex;
+        flex-direction: column;
+        height: 10.5rem;
+        width: 8rem;
+        background-color: black;
+        border-radius: 6px;
+        margin: 3px;
+        box-shadow: 1px 1px 5px black;
+        overflow: hidden;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: none;
+    }
+
+    .card--title--hover {
+        display: none;
+    }
+
+    .card--image--hover {
+        height: 40%;
+        background-color: rgb(5, 34, 34);
+        border-start-start-radius: inherit;
+        border-start-end-radius: inherit;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .card--body--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 60%;
+        background-color: black;
+        padding-inline: 5px 5px;
+        border-end-end-radius: inherit;
+        border-end-start-radius: inherit;
+        padding-block: 5px 20px;
+        animation-name: cardDescription;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes cardDescription {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .card--title--body,
+    .card--description,
+    .card--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .card--title--body {
+        height: 20%;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .card--description {
+        display: none;
+    }
+
+    .card--button {
+        height: 30%;
+        margin-top: 10px;
+        font-size: 14px;
+        color: black;
+        background-color: beige;
+        width: 70%;
+        border-radius: 3px;
+    }
+}
+
+@media (min-width:670px) {
+
+    /*FRONT*/
+    .card--product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 16rem;
+        width: 12rem;
+        background-color: rgb(5, 34, 34);
+        border-radius: 7px;
+        margin: 3px;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: 12rem 16rem;
+    }
+
+    .card--image {
+        display: none;
+    }
+
+    .card--title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-inline: 3px 3px;
+    }
+
+    .card--body {
+        display: none;
+    }
+
+    /*HOVER*/
+    .card--product--hover {
+        display: flex;
+        flex-direction: column;
+        height: 16rem;
+        width: 12rem;
+        background-color: black;
+        border-radius: 7px;
+        margin: 3px;
+        box-shadow: 1px 1px 5px black;
+        overflow: hidden;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: none;
+    }
+
+    .card--title--hover {
+        display: none;
+    }
+
+    .card--image--hover {
+        height: 40%;
+        background-color: rgb(5, 34, 34);
+        border-start-start-radius: inherit;
+        border-start-end-radius: inherit;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .card--body--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        background-color: black;
+        padding-inline: 5px 5px;
+        border-end-end-radius: inherit;
+        border-end-start-radius: inherit;
+        padding-block: 5px 15px;
+        animation-name: cardDescription;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes cardDescription {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .card--title--body,
+    .card--description,
+    .card--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .card--title--body {
+        height: 20%;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .card--description {
+        height: 60%;
+        font-size: 12px;
+    }
+
+    .card--button {
+        height: 15%;
+        margin-top: 4%;
+        font-size: 15px;
+        color: black;
+        background-color: beige;
+        width: 60%;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*FRONT*/
+    .card--product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 16rem;
+        width: 12rem;
+        background-color: rgb(5, 34, 34);
+        border-radius: 7px;
+        margin: 3px;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: 12rem 16rem;
+    }
+
+    .card--image {
+        display: none;
+    }
+
+    .card--title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-inline: 3px 3px;
+    }
+
+    .card--body {
+        display: none;
+    }
+
+    /*HOVER*/
+    .card--product--hover {
+        display: flex;
+        flex-direction: column;
+        height: 16rem;
+        width: 12rem;
+        background-color: black;
+        border-radius: 7px;
+        margin: 3px;
+        box-shadow: 1px 1px 5px black;
+        overflow: hidden;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: none;
+    }
+
+    .card--title--hover {
+        display: none;
+    }
+
+    .card--image--hover {
+        height: 40%;
+        background-color: rgb(5, 34, 34);
+        border-start-start-radius: inherit;
+        border-start-end-radius: inherit;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .card--body--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        background-color: black;
+        padding-inline: 5px 5px;
+        border-end-end-radius: inherit;
+        border-end-start-radius: inherit;
+        padding-block: 5px 15px;
+        animation-name: cardDescription;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes cardDescription {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .card--title--body,
+    .card--description,
+    .card--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .card--title--body {
+        height: 20%;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .card--description {
+        height: 60%;
+        font-size: 12px;
+    }
+
+    .card--button {
+        height: 15%;
+        margin-top: 4%;
+        font-size: 15px;
+        color: black;
+        background-color: beige;
+        width: 60%;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width:1150px) {
+
+    /*FRONT*/
+    .card--product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 19rem;
+        width: 14rem;
+        background-color: rgb(5, 34, 34);
+        border-radius: 8px;
+        margin: 3px;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: 14rem 19rem;
+    }
+
+    .card--image {
+        display: none;
+    }
+
+    .card--title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-inline: 3px 3px;
+    }
+
+    .card--body {
+        display: none;
+    }
+
+    /*HOVER*/
+    .card--product--hover {
+        display: flex;
+        flex-direction: column;
+        height: 19rem;
+        width: 14rem;
+        background-color: black;
+        border-radius: 8px;
+        margin: 3px;
+        box-shadow: 1px 1px 5px black;
+        overflow: hidden;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: none;
+    }
+
+    .card--title--hover {
+        display: none;
+    }
+
+    .card--image--hover {
+        height: 40%;
+        background-color: rgb(5, 34, 34);
+        border-start-start-radius: inherit;
+        border-start-end-radius: inherit;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .card--body--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        background-color: black;
+        padding-inline: 5px 5px;
+        border-end-end-radius: inherit;
+        border-end-start-radius: inherit;
+        padding-block: 5px 15px;
+        animation-name: cardDescription;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes cardDescription {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .card--title--body,
+    .card--description,
+    .card--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .card--title--body {
+        height: 20%;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .card--description {
+        height: 60%;
+        font-size: 14px;
+    }
+
+    .card--button {
+        height: 15%;
+        margin-top: 4%;
+        font-size: 15px;
+        color: black;
+        background-color: beige;
+        width: 60%;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width:1300px) {
+
+    /*FRONT*/
+    .card--product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 24rem;
+        width: 17.5rem;
+        background-color: rgb(5, 34, 34);
+        border-radius: 10px;
+        margin: 5px;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: 17.5rem 24rem;
+    }
+
+    .card--image {
+        display: none;
+    }
+
+    .card--title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-inline: 3px 3px;
+    }
+
+    .card--body {
+        display: none;
+    }
+
+    /*HOVER*/
+    .card--product--hover {
+        display: flex;
+        flex-direction: column;
+        height: 24rem;
+        width: 17.5rem;
+        background-color: black;
+        border-radius: 10px;
+        margin: 5px;
+        box-shadow: 1px 1px 5px black;
+        overflow: hidden;
+        margin-inline: 1rem 1rem;
+        margin-block: 15px 15px;
+        background-image: none;
+    }
+
+    .card--title--hover {
+        display: none;
+    }
+
+    .card--image--hover {
+        height: 40%;
+        background-color: rgb(5, 34, 34);
+        border-start-start-radius: inherit;
+        border-start-end-radius: inherit;
+        background-image: url(../../../images/Rectangle\ 11.png);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .card--body--hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        background-color: black;
+        padding-inline: 5px 5px;
+        border-end-end-radius: inherit;
+        border-end-start-radius: inherit;
+        padding-block: 5px 30px;
+        animation-name: cardDescription;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes cardDescription {
+        from {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    .card--title--body,
+    .card--description,
+    .card--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .card--title--body {
+        height: 20%;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+
+    .card--description {
+        height: 60%;
+    }
+
+    .card--button {
+        height: 15%;
+        margin-top: 4%;
+        font-size: 15px;
+        color: black;
+        background-color: beige;
+        width: 60%;
+        border-radius: 4px;
+    }
+}
