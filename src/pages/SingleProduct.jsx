@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import data from '../data'
+import {data} from '../data'
 import { useParams } from 'react-router-dom'
 
 export default function SingleProduct() {
