@@ -49,7 +49,7 @@ export default function Header() {
 
                 </nav>
             </div>
-            <div className={`navbar shadow ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
+            <div className={`navbar ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
                 <Link to={'/'}>
                     <img src={logo2} className="logo--navbar--about" alt="" />
                 </Link>

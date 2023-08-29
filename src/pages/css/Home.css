@@ -260,10 +260,23 @@ div.swiper-button-next{
     }
 
     .slider-container{
-        width: 96vw;
+        width: 83vw;
         
     }
+    .img-feuille{
+        display: none;
+    }
+    .img-feuille2{
+        display: none;
+    }
 
+    .block{
+        padding: 0;
+        width: 100vw;
+    }
+    .block p{
+        text-align: center;
+    }
     div.img2 {
         width: 100%;
         object-fit: cover;
