@@ -26,7 +26,9 @@ const Caroussel = () => {
               <center>
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela Deck Trial'}}>EXPLOSION DE SAVEURS AVEC NOS EPICES UNIQUES</h3>
-                <p style={{fontFamily:'Raleway'}}>Sublimez vos plats en s'aventurant culinairement à travers les épices qui vont réveiller vos sens et vos papilles.</p>
+                <p style={{fontFamily:'Raleway'}}>
+                Élevez vos plats en explorant les épices, éveillant vos sens et régalant vos papilles. Plongez dans une aventure culinaire où chaque saveur transporte, chaque arôme envoûte. Les épices transcendent la cuisine en une expérience sensorielle, ajoutant profondeur et vivacité à chaque bouchée. Découvrez le monde des saveurs avec nous.
+                </p>
                 <span className="btn savoir-plus" style={{background:'#f2e5d1',fontWeight:600,marginTop:'1em',color:'black',height:'2.5em',width:'10em',borderRadius:'8px',fontFamily:'Raleway'}} onClick={toAbout}>
                   En savoir plus
                 </span>
@@ -37,7 +39,9 @@ const Caroussel = () => {
               <center>
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela Deck Trial'}}>DECOUVREZ L'ART DES EPICES</h3>
-                <p style={{fontFamily:'Raleway'}}>Véritable voyage à travers la route des épices ; Madepices vous fera découvrir les épices du terroir à la fois traditionnelles et exotiques.</p>
+                <p style={{fontFamily:'Raleway'}}>
+                  Embarquez pour un véritable périple le long de la route des épices avec Madepices. Découvrez un assortiment d'épices authentiques et exotiques du terroir, alliant traditions et nouveautés. Laissez-vous séduire par les arômes envoûtants et les saveurs riches, qui évoquent des voyages lointains et des cultures diverses. Une expérience sensorielle inédite vous attend, guidée par notre passion pour les épices.
+                </p>
                 <span className="btn savoir-plus" style={{background:'#f2e5d1',fontWeight:600,marginTop:'1em',color:'black',height:'2.5em',width:'10em',borderRadius:'8px',fontFamily:'Raleway'}} onClick={toAbout}>
                   En savoir plus
                 </span>
