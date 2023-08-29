@@ -43,10 +43,7 @@ export default function Header() {
                             <Link to={'/product'}>NOS PRODUITS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>NOS CONSEILS</Link>
-                        </li>
-                        <li>
-                            <Link to={'/'}>CONTACT</Link>
+                            <Link to={'/contact'}>CONTACT</Link>
                         </li>
                     </ul>
 
@@ -69,10 +66,7 @@ export default function Header() {
                             <Link to={'/product'}>Nos produits</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>Recettes</Link>
-                        </li>
-                        <li>
-                            <Link to={'/'} className='contact'>Contact</Link>
+                            <Link to={'/contact'} className='contact'>Contact</Link>
                         </li>
                     </ul>
                     <i className={`fa fas ${navbarOpen ? 'fa-bars fa-xl' : 'fa-bars fa-xl'} `} style={{transition:"0.5s all"}} onClick={() => toggleNavbar()}></i>

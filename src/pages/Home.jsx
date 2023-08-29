@@ -6,10 +6,9 @@ import Footer from "../components/Footer";
 import Caroussel from "../components/home/Caroussel";
 
 // swiper 
-import { Navigation, Pagination, Scrollbar, Autoplay , A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, Autoplay, A11y } from 'swiper/modules';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 
 // Import Swiper styles
 import 'swiper/css';
@@ -18,18 +17,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import imgFont1 from "../images/Rectangle 11.png";
-import imgFont2 from "../images/Rectangle 11a.png";
-import imgBaieRose from "../images/BaieRose.png";
-import imgFeuilleCombava from "../images/imgFeuilleCombava.png"
-import imgBaobab from "../images/imgBaobab.png"
-
+import imgBaieRose from "../images/imgBaieRose.png";
+import imgFeuilleCombava from "../images/imgFeuilleCombava.png";
+import imgBaobab from "../images/imgBaobab.png";
 import Card from "../components/home/Card";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { data } from '../data'
 
 function Home() {
   const [slideCards, setSlideCards] = useState(false);
-  const [scroll, whiteMode] = useState(0)
+  const [scroll, whiteMode] = useState(0);
   const [hasPrevSlides, setHasPrevSlides] = useState(false);
   const [hasNextSlides, setHasNextSlides] = useState(false);
 
@@ -37,7 +34,7 @@ function Home() {
     setHasPrevSlides(swiper.activeIndex !== 0);
     setHasNextSlides(swiper.activeIndex !== 42);
   };
-  
+
   const setWhiteMode = () => {
     whiteMode(window.scrollY)
   }
@@ -47,7 +44,7 @@ function Home() {
       setSlideCards(true);
     }
   }, []);
-  
+
   useEffect(() => {
     window.addEventListener('scroll', setWhiteMode)
 
@@ -56,22 +53,12 @@ function Home() {
     }
 
   }, [])
-  
+
   //scrolling animation
   const isScrolling0 = scroll > 103
   const isScrolling = scroll > 600
   const isScrolling2 = scroll > 1200
   const isScrolling3 = scroll > 1700
-
-  const cardData = [
-    { img: imgFont1, title: "OLI" },
-    { img: imgFont1, title: "OLI2" },
-    { img: imgFont1, title: "PRODUCT 1" },
-    { img: imgFont1, title: "PRODUCT 2" },
-    { img: imgFont1, title: "PRODUCT 3" },
-    { img: imgFont1, title: "PRODUCT 4" }
-    // Add more card data
-  ];
 
   return (
     <>
@@ -83,8 +70,8 @@ function Home() {
         <div className="container-fluid img1">
           <div className="slider-container">
             <div className={`cards--home ${isScrolling0 ? "slide-upCrd" : ""} ${slideCards ? "slide" : ""}`}>
-              <i 
-                className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" 
+              <i
+                className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl"
                 style={{
                   cursor: hasPrevSlides ? 'pointer' : 'default',
                   color: hasPrevSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
@@ -93,7 +80,7 @@ function Home() {
               </i>
               <Swiper
                 // install Swiper modules
-                modules={[Navigation,Scrollbar,Autoplay]}
+                modules={[Navigation, Scrollbar, Autoplay]}
                 spaceBetween={10}
                 slidesPerView={4}
                 autoplay={{
@@ -107,7 +94,7 @@ function Home() {
                 }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={handleSlideChange}
-          
+
                 breakpoints={{
                   0: {
                     slidesPerView: 1,
@@ -121,9 +108,9 @@ function Home() {
                   480: {
                     slidesPerView: 1.5,
                     spaceBetween: 2,
-                    
+
                   },
-                  
+
                   720: {
                     slidesPerView: 2,
                     spaceBetween: 10
@@ -148,19 +135,19 @@ function Home() {
                     <SwiperSlide>
                       <Card
                         key={data.name}
-                        img={imgBaieRose}
+                        img={data.imgUrl}
                         title={data.name}
-                        text={data.Description.slice(0,100)+'...'}
+                        text={data.Description.slice(0, 100) + '...'}
                       />
                     </SwiperSlide>
                   ))
                 }
               </Swiper>
               <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl"
-               style={{
-                cursor: hasNextSlides ? 'pointer' : 'default',
-                color: hasNextSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
-              }}>
+                style={{
+                  cursor: hasNextSlides ? 'pointer' : 'default',
+                  color: hasNextSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
+                }}>
               </i>
             </div>
           </div>

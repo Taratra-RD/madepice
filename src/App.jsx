@@ -6,6 +6,9 @@ import About from './pages/About';
 import SingleProduct from './pages/SingleProduct';
 import MuiPage from './pages/MuiPage';
 import Products from './components/products/Products';
+import Recettes from './pages/Recettes';
+import Contact from './pages/Contact';
+
 
 function App() {
 
@@ -18,6 +21,8 @@ function App() {
         <Route path='/mui' element={<MuiPage/>}/>
         <Route path='/product' element={<Products />} />
         <Route path='/product/:name' element={<SingleProduct />} />
+        <Route path='/recettes' element={<Recettes />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )

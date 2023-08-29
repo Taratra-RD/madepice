@@ -46,6 +46,26 @@ nav ul li a:hover{
 .icon-menu--about:active{
     border: 0;
 }
+
+@media screen and (max-width:375px) {
+    .logo--navbar--about {
+        height: 5em;
+        width: 9em;
+        padding: 0.6em;
+        margin-left: 2em;
+        background: none;
+    }
+    .icon-menu--about {
+        display: block;
+        margin-left: 0em !important;
+        margin-top: 0em !important;
+        
+    }
+    nav ul li a{
+        display: none;
+    }
+}
+
 @media screen and (max-width:720px) {
     .logo--navbar--about {
         height: 5em;

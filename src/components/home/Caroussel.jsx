@@ -37,8 +37,7 @@ const Caroussel = () => {
                 </span>
               </div>
               </center> 
-        </Carousel.Item>
-        
+        </Carousel.Item>        
       </Carousel>
     </div>
   );

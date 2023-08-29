@@ -3,6 +3,7 @@ import "./css/Products.css";
 import Productslist from "./Productslist";
 import FilterBar from "./FilterBar";
 import { data } from "../../data";
+import Header from "../Header";
 
 export default function Products() {
   const [products] = useState(data);
@@ -25,7 +26,7 @@ export default function Products() {
   return (
     <div className="products">
       <div className="products-header">
-        <div>text</div>
+        <Header/>
         <div className="header--text">Nos Produits</div>
       </div>
       <div className="products--body">
