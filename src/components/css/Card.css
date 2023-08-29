@@ -1,11 +1,10 @@
 div.card {
-    width: 16em;
-    height: 20em;
+    width: 16.5em;
+    height: 21em;
     margin: 22px !important;
     border-radius: 7px;
     border: 0.1px #A9A18C;
-    
-    background-size: 115%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../images/Rectangle\ 11a.png');
@@ -20,7 +19,7 @@ div.card {
     transition: filter 0.3s ease-in-out;
     /* Add a gradient border */
     /*background-clip: padding-box;*/
-    box-shadow: 1px 14px 16px black; /* Add shadow here */
+    box-shadow: 1px 4px 5px gray; /* Add shadow here */
 }
 
 div.card::before {
@@ -31,7 +30,6 @@ div.card::before {
     right: -3px;
     bottom: -3px;
     z-index: -1;
-
     background: linear-gradient(45deg, #A9A18C, transparent, transparent, transparent);
     border-radius: 10px;
     transform: translateZ(-1px); /* Create the 3D effect */
@@ -86,7 +84,6 @@ div.card:hover .card-title{
 }
 
 .card-info button{
-    
     margin-bottom: 10px;
 }
 .card-info p{
@@ -137,9 +134,10 @@ div.card-img {
 
 @media screen and (max-width:720px) {
     div.card{
-        width: 18em;
+        width: 16.5em;
+        height: 21em;
         margin-left: 1em !important;
-        margin-bottom: 4em !important;
+        margin-bottom: 1em !important;
     }
     .card-info button{
         font-size: 14px;

@@ -18,8 +18,7 @@ div.img2 p {
     justify-content: center;
     width: auto;
     height: 34em;
-
-    background-image: url("../../images/Rectangle\ 10.png");
+    background-image: url("../../images/Rectangle\ 101.png");
 }
 
 div.cards {
@@ -48,7 +47,8 @@ div.card-img {
     width: auto;
     height: 31em;
     padding: 2em;
-    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 16.png");
+    width: 100vw;
+    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 167.png");
 }
 
 .spacing {
@@ -105,7 +105,9 @@ div img .img-font {
     justify-content: center;
     background-image: url("../../images/Rectangle\ 53.png");
 }
-
+.slider-container{
+    width: 90vw;
+}
 .block p {
     padding: 25px !important;
     font-family: Raleway;
@@ -160,7 +162,7 @@ div.swiper-button-next{
 
 @keyframes slide-upCrd{
     0% {
-        transform: translateY(100px);
+        transform: translateY(90px);
         opacity: 0;
     }
     100% {
@@ -211,6 +213,11 @@ div.swiper-button-next{
         height: 29em;
     }
 
+    .slider-container{
+        width: 100vw;
+        
+    }
+
     div.img2 {
         width: 100%;
         object-fit: cover;
@@ -256,7 +263,7 @@ div.swiper-button-next{
         align-items: center;
         text-align: center;
         justify-content: center;
-        background: darkred;
+        background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 167.png");
     }
 
     .block p {
@@ -279,10 +286,7 @@ div.swiper-button-next{
         display: none;
     }
       
-    .card {
-        width: 80%; /* Adjust the width as needed */
-        margin: 1em 0;
-    }
+    
 
     div.swiper-pagination{
         padding-top: 3em !important;

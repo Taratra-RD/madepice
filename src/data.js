@@ -1,6 +1,6 @@
 export const data = [
     {
-        name: "ail",
+        name: "AIL",
         Goût: "Piquant",
         Intensité: ["Forte"],
         Texture: ["poudre", "morceau"],

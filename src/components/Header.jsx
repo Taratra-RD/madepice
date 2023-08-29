@@ -18,8 +18,6 @@ export default function Header() {
     }, [])
     //scrolling navbar
     const isScrollingNav = scroll1 > 0
-
-
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
         if (navbarOpen === true) {
@@ -29,8 +27,6 @@ export default function Header() {
             document.getElementById("sidenav").style.height = '0em'
         }
     }
-    
-
 
     return (
         <>
@@ -56,7 +52,7 @@ export default function Header() {
 
                 </nav>
             </div>
-            <div className={`navbar sticky-top shadow ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
+            <div className={`navbar shadow ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
                 <Link to={'/'}>
                     <img src={logo2} className="logo--navbar--about" alt="" />
                 </Link>

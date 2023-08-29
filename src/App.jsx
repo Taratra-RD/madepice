@@ -7,7 +7,6 @@ import SingleProduct from './pages/SingleProduct';
 import MuiPage from './pages/MuiPage';
 import Products from './components/products/Products';
 
-
 function App() {
 
   return (
@@ -15,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/product' element={<Product />} />
+        <Route path='/product' element={<Products />} />
         <Route path='/mui' element={<MuiPage/>}/>
         <Route path='/product' element={<Products />} />
         <Route path='/product/:name' element={<SingleProduct />} />

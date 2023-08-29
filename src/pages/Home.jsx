@@ -5,9 +5,10 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Caroussel from "../components/home/Caroussel";
 // swiper 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, Autoplay , A11y } from 'swiper/modules';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -17,9 +18,13 @@ import 'swiper/css/scrollbar';
 
 import imgFont1 from "../images/Rectangle 11.png";
 import imgFont2 from "../images/Rectangle 11a.png";
+import imgBaieRose from "../images/BaieRose.png";
+import imgFeuilleCombava from "../images/imgFeuilleCombava.png"
+import imgBaobab from "../images/imgBaobab.png"
 
 import Card from "../components/home/Card";
 import { Col, Container, Row } from "react-bootstrap";
+import { data } from '../data'
 
 function Home() {
   const [slideCards, setSlideCards] = useState(false);
@@ -29,7 +34,7 @@ function Home() {
 
   const handleSlideChange = (swiper) => {
     setHasPrevSlides(swiper.activeIndex !== 0);
-    setHasNextSlides(swiper.activeIndex !== 0);
+    setHasNextSlides(swiper.activeIndex !== 42);
   };
   
   const setWhiteMode = () => {
@@ -52,10 +57,10 @@ function Home() {
   }, [])
   
   //scrolling animation
-  const isScrolling0 = scroll > 110
+  const isScrolling0 = scroll > 103
   const isScrolling = scroll > 600
   const isScrolling2 = scroll > 1200
-  const isScrolling3 = scroll > 1600
+  const isScrolling3 = scroll > 1700
 
   const cardData = [
     { img: imgFont1, title: "OLI" },
@@ -76,28 +81,28 @@ function Home() {
         </div>
         <div className="container-fluid img1">
           <div className="slider-container">
-            <div className={`cards ${isScrolling0 ? "slide-upCrd" : ""} ${slideCards ? "slide" : ""}`}>
+            <div className={`cards--home ${isScrolling0 ? "slide-upCrd" : ""} ${slideCards ? "slide" : ""}`}>
               <i 
                 className="custom-prev-button fa fas fa-circle-chevron-left fa-2xl" 
                 style={{
                   cursor: hasPrevSlides ? 'pointer' : 'default',
-                  color: hasPrevSlides ? '#f2e5d1' : 'rgba(242, 229, 209, 0.5)',
+                  color: hasPrevSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
                 }}
               >
-
               </i>
               <Swiper
                 // install Swiper modules
-                modules={[Navigation,Pagination,Scrollbar]}
+                modules={[Navigation,Scrollbar,Autoplay]}
                 spaceBetween={10}
                 slidesPerView={4}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: true,
+                }}
+                speed={700}
                 navigation={{
                   nextEl: '.custom-next-button',
                   prevEl: '.custom-prev-button',
-
-                }}
-                pagination={{ 
-
                 }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={handleSlideChange}
@@ -105,12 +110,17 @@ function Home() {
                 breakpoints={{
                   0: {
                     slidesPerView: 1,
-                    spaceBetween: 10
+                    spaceBetween: 5
                   },
+                  375: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 2
+                  }
+                  ,
                   480: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                    pagination:{clickable: true}
+                    slidesPerView: 1.5,
+                    spaceBetween: 2,
+                    
                   },
                   
                   720: {
@@ -131,74 +141,27 @@ function Home() {
                     spaceBetween: 10
                   }
                 }}
-                
-
               >
-                <SwiperSlide>
-                  <Card
-                    key={0}
-                    img={"../images/Rectangle 11.png"}
-                    title={"AIL"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card
-                    key={1}
-                    img={imgFont2}
-                    title={"BOIS D'ANIS"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card
-                    key={2}
-                    img={imgFont2}
-                    title={"BAIE ROSE"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card
-                    key={3}
-                    img={imgFont2}
-                    title={"CUMIN"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card
-                    key={4}
-                    img={imgFont2}
-                    title={"h h5"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card
-                    key={5}
-                    img={imgFont1}
-                    title={"h h6"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <Card
-                    key={5}
-                    img={imgFont1}
-                    title={"h h7"}
-                    text={'Lorem ipsum dolor sit amet consectetur. Mi sodales quam ornare lacus ornare feugiat fezr ze...'}
-                  />
-                </SwiperSlide>
+                {
+                  data.map(data => (
+                    <SwiperSlide>
+                      <Card
+                        key={data.name}
+                        img={imgBaieRose}
+                        title={data.name}
+                        text={data.Description.slice(0,100)+'...'}
+                      />
+                    </SwiperSlide>
+                  ))
+                }
               </Swiper>
-
-
               <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl"
-               style={{ cursor: 'pointer', color: '#f2e5d1' }}></i>
-
-
+               style={{
+                cursor: hasNextSlides ? 'pointer' : 'default',
+                color: hasNextSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
+              }}>
+              </i>
             </div>
-
           </div>
         </div>
         <div className="container d-flex flex-direction-column align-items-center justify-content-center">
