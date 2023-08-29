@@ -8,6 +8,7 @@ import Header from "../Header";
 export default function Products() {
   const [products] = useState(data);
   const [selectedLetter, setSelectedLetter] = useState("");
+  const [searchResults, setSearchResults] = useState(products);
 
   const groupProductsAlphabetically = (products) => {
     const grouped = {};
@@ -22,6 +23,7 @@ export default function Products() {
   };
 
   const groupedProducts = groupProductsAlphabetically(products);
+  const [searchedData, setSearchedData] = useState(groupedProducts);
 
   return (
     <div className="products">
@@ -31,30 +33,50 @@ export default function Products() {
       </div>
       <div className="products--body">
         <div className="products-filter--bar">
-          <FilterBar
-            groupedProducts={groupedProducts}
-            selectedLetter={selectedLetter}
-            setSelectedLetter={setSelectedLetter}
-          />
+          {selectedLetter === "" ? (
+            <FilterBar
+              groupedProducts={products}
+              groupProductsAlphabetically={groupedProducts}
+              selectedLetter={selectedLetter}
+              setSearchedData={setSearchedData}
+              searchedData={searchedData}
+              setSearchResults={setSearchResults}
+              setSelectedLetter={setSelectedLetter}
+            />
+          ) : (
+            selectedLetter in searchedData && (
+              <FilterBar
+                groupedProducts={groupedProducts}
+                groupProductsAlphabetically={groupedProducts}
+                selectedLetter={selectedLetter}
+                setSelectedLetter={setSelectedLetter}
+                setSearchedData={setSearchedData}
+                searchedData={searchedData}
+                setSearchResults={setSearchResults}
+              />
+            )
+          )}
         </div>
         <div>
-          {selectedLetter === ""
-            ? Object.keys(groupedProducts).map((letter) => (
-                <div key={letter} className="products--products--list">
-                  <Productslist
-                    selectedLetter={letter}
-                    groupedProducts={groupedProducts[letter]}
-                  />
-                </div>
-              ))
-            : selectedLetter in groupedProducts && (
-                <div key={selectedLetter} className="products--products--list">
-                  <Productslist
-                    selectedLetter={selectedLetter}
-                    groupedProducts={groupedProducts[selectedLetter]}
-                  />
-                </div>
-              )}
+          {selectedLetter === "" ? (
+            <div className="products--products--list">
+              <Productslist
+                groupedProducts={searchResults}
+                setSearchResults={setSearchResults}
+                searchResults={searchResults}
+              />
+            </div>
+          ) : (
+            selectedLetter in searchedData && (
+              <div key={selectedLetter} className="products--products--list">
+                <Productslist
+                  selectedLetter={selectedLetter}
+                  groupedProducts={searchedData[selectedLetter]}
+                  setSearchResults={setSearchResults}
+                />
+              </div>
+            )
+          )}
         </div>
       </div>
     </div>
