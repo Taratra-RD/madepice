@@ -3,12 +3,15 @@
   flex-direction: column;
   justify-content: space-between;
   background-image: url(../../../images/produit.png);
-  height: 100vh;
+  height: 99vh;
   width: 100%;
   background-position: bottom;
   background-size: 100% 100vh;
 }
-
+.products{
+  font-family: Raleway;
+  background-image: url(../../../images/fondProd.png);
+}
 @media (max-width: 600px) {
   .header--text {
     height: 90%;
@@ -70,15 +73,6 @@
 }
 
 @media (min-width: 600px) {
-  .products-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-image: url(../../../images/produit.png);
-    height: 100vh;
-    width: 100%;
-    background-position: bottom;
-  }
 
   .header--text {
     height: 90%;
