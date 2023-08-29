@@ -7,7 +7,8 @@ div.card {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../../images/imgBaieRose.png');
+    background-image: url('../../images/productDefault.png');
+    background-color: #111111;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -32,7 +32,7 @@ function Home() {
 
   const handleSlideChange = (swiper) => {
     setHasPrevSlides(swiper.activeIndex !== 0);
-    setHasNextSlides(swiper.activeIndex !== 42);
+    setHasNextSlides(swiper.activeIndex !== 41);
   };
 
   const setWhiteMode = () => {
@@ -57,6 +57,7 @@ function Home() {
   //scrolling animation
   const isScrolling0 = scroll > 103
   const isScrolling = scroll > 600
+  const isScrollingFl = scroll > 800
   const isScrolling2 = scroll > 1200
   const isScrolling3 = scroll > 1700
 
@@ -75,6 +76,9 @@ function Home() {
                 style={{
                   cursor: hasPrevSlides ? 'pointer' : 'default',
                   color: hasPrevSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
+                  position:'fixed',
+                  left:-37,
+                  top:185
                 }}
               >
               </i>
@@ -137,7 +141,7 @@ function Home() {
                         key={data.name}
                         img={data.imgUrl}
                         title={data.name}
-                        text={data.Description.slice(0, 100) + '...'}
+                        text={data.Description.slice(0, 90) + '...'}
                       />
                     </SwiperSlide>
                   ))
@@ -146,7 +150,10 @@ function Home() {
               <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl"
                 style={{
                   cursor: hasNextSlides ? 'pointer' : 'default',
-                  color: hasNextSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
+                  color: hasNextSlides ? '#dc3545' : 'none',
+                  position:'fixed',
+                  right:-40,
+                  top:185
                 }}>
               </i>
             </div>
@@ -167,7 +174,9 @@ function Home() {
               Découvrez notre histoire
             </button>
           </Container>
-          <div className="img-feuille">
+          <div className={`img-feuille ${isScrollingFl ? 'slide-feuille-1' : ''}`}>
+          </div>
+          <div className={`img-feuille2 ${isScrolling ? '' : ''}`}>
           </div>
         </div>
         <div className="container-fluid img3">

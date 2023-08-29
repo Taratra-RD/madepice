@@ -1,5 +1,6 @@
 body {
     font-family: Raleway;
+    overflow-x: hidden;
 }
 
 div.img2 h2 {
@@ -82,14 +83,59 @@ div.card-img {
     margin-top: 2em;
 }
 
+.slide-feuille-1{
+    animation: slide-feuille-1 0.7s forwards ease-out;
+}
+.slide-feuille-2{
+    animation: slide-feuille-2 0.7s forwards ease-out;
+}
+
 .img-feuille {
-    display: none;
+    display: block;
     position: absolute;
-    width: 10em;
-    height: 15em;
-    top: 10em;
+    width: 13em;
+    height: 25em;
+    top: 91.5em;
+    right: 0;
+    /*right: -8.1em;*/
     background-size: contain;
-    background-image: url("../../images/Leaves\ 1.png");
+    background-image: url("../../images/Leaves\ 1.png");   
+}
+
+.img-feuille2 {
+    display: block;
+    position: absolute;
+    width: 13em;
+    height: 25em;
+    top: 155em;
+    left: 0;
+    z-index: 2;
+    /*right: -8.1em;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../images/Leaves\ 2\ \(1\).png");
+}
+
+
+@keyframes slide-feuille-2 {
+    from{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(100px);
+        opacity: 1;
+    }
+}
+@keyframes slide-feuille-1 {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 div img .img-font {
