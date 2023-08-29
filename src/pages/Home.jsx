@@ -4,6 +4,7 @@ import "./css/Home.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Caroussel from "../components/home/Caroussel";
+
 // swiper 
 import { Navigation, Pagination, Scrollbar, Autoplay , A11y } from 'swiper/modules';
 // Import Swiper React components
