@@ -64,8 +64,8 @@ const About = () => {
     },[])
 
     const isScrolling_1 = scroll_1 > 100;
-    const isScrolling_2 = scroll_2 > 375;
-    const isScrolling_3 = scroll_3 > 575;
+    const isScrolling_2 = scroll_2 > 270;
+    const isScrolling_3 = scroll_3 > 475;
     const isScrolling_4 = scroll_4 > 100;
 
     return(
