@@ -1,10 +1,11 @@
 import Footer from "../components/Footer"
-import HeaderAbout from "../components/HeaderAbout"
+import HeaderAbout from "../components/Header"
 import "./css/About.css"
 import leaves from "../images/Leaves 1.png"
 import leaves_1 from "../images/Leaves 2.png"
 import line from "../images/Line 1.png"
 import { useState, useEffect } from "react"
+import "../components/css/HeaderAbout.css"
 
 const About = () => {
 
@@ -75,7 +76,7 @@ const About = () => {
                     <HeaderAbout/>
                 </div>
                 <div className="title-1">
-                    <h1 className="title-1-text">QUI NOUS SOMMES</h1>
+                    <h1 className="title-1-text">QUI SOMMES-NOUS?</h1>
                 </div>
             </div>
             <div className="contain">

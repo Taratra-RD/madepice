@@ -1,4 +1,4 @@
-@media (max-width: 389px) {
+@media (max-width: 669px) {
   /*FRONT*/
   .card--product {
     display: flex;
@@ -11,7 +11,6 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 8rem 10.5rem;
   }
 
@@ -45,7 +44,6 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 8rem 10.5rem;
   }
 
@@ -78,7 +76,6 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 8rem 10.5rem;
   }
 
@@ -123,7 +120,6 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: cover;
     background-position: right;
   }
@@ -201,7 +197,6 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 12rem 16rem;
   }
 
@@ -247,7 +242,6 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: cover;
     background-position: right;
   }
@@ -328,7 +322,6 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 12rem 16rem;
   }
 
@@ -374,7 +367,6 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: cover;
     background-position: right;
   }
@@ -455,7 +447,6 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 14rem 19rem;
   }
 
@@ -501,7 +492,6 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: cover;
     background-position: right;
   }
@@ -582,7 +572,6 @@
     margin: 5px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: 17.5rem 24rem;
   }
 
@@ -628,7 +617,6 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-image: url(../../../images/Rectangle\ 11.png);
     background-size: cover;
     background-position: right;
   }

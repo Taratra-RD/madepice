@@ -3,6 +3,30 @@
   margin-block: 1rem 1rem;
 }
 
+@media (max-width: 449px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 18rem;
+  }
+}
+
+@media (min-width: 450px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 27rem;
+  }
+}
+
+@media (min-width: 670px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 36rem;
+  }
+}
+
 @media (min-width: 670px) {
   .products--list {
     display: flex;

@@ -3,6 +3,9 @@ import "./css/Products.css";
 import Productslist from "./Productslist";
 import FilterBar from "./FilterBar";
 import { data } from "../../data";
+import Header from "../Header";
+import leaveUp from "../../images/Leaves 1 (1).png";
+import leaveDown from "../../images/Leaves 2 (1).png";
 
 export default function Products() {
   const [products] = useState(data);
@@ -27,8 +30,9 @@ export default function Products() {
   return (
     <div className="products">
       <div className="products-header">
-        <div>text</div>
+        <Header />
         <div className="header--text">Nos Produits</div>
+        <img src={leaveUp} alt="leaveUp" className="leave--up" />
       </div>
       <div className="products--body">
         <div className="products-filter--bar">
@@ -77,6 +81,9 @@ export default function Products() {
             )
           )}
         </div>
+      </div>
+      <div className="products-footer">
+        <img src={leaveDown} alt="leaveDown" className="leave--down" />
       </div>
     </div>
   );

@@ -10,15 +10,23 @@ export default function Cardproduct({ product }) {
 
     if (cardProduct.className === `card--product`) {
       cardProduct.className += "--hover";
+      cardProduct.style.backgroundColor = "black";
+      cardProduct.style.backgroundImage = `none`;
       cardImage.className += "--hover";
       cardTitle.className += "--hover";
       cardBody.className += "--hover";
     } else {
       cardProduct.className = "card--product";
+      cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
+      cardProduct.style.backgroundColor = "rgb(5, 34, 34)";
       cardImage.className = "card--image";
       cardTitle.className = "card--title";
       cardBody.className = "card--body";
     }
+  };
+
+  const cardBackground = {
+    backgroundImage: `url(${product.imgUrl})`,
   };
 
   const truncate = (text) => {
@@ -38,8 +46,13 @@ export default function Cardproduct({ product }) {
       id={`card--product--${product.name}`}
       onMouseEnter={handleCard}
       onMouseLeave={handleCard}
+      style={cardBackground}
     >
-      <div className="card--image" id={`card--image--${product.name}`}></div>
+      <div
+        className="card--image"
+        id={`card--image--${product.name}`}
+        style={cardBackground}
+      ></div>
       <div className="card--title" id={`card--title--${product.name}`}>
         {product.name}
       </div>

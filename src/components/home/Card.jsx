@@ -1,9 +1,12 @@
 import React from "react";
 import '../css/Card.css';
 
-const Card = ({ img, title, className, text }) => {
+const Card = ({ img, title, text }) => {
+    const cardStyle = {
+        backgroundImage: `url(${img})`, // Set the background image URL dynamically
+    };
     return (
-        <div className="card shadow-lg">
+        <div className="card" style={cardStyle}>
             <div className="card-title">
                 <h3 style={{ color: 'white', fontFamily: 'Canela Deck Trial' }}>{title}</h3>
             </div>

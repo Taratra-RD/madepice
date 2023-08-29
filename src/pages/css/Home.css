@@ -18,8 +18,7 @@ div.img2 p {
     justify-content: center;
     width: auto;
     height: 34em;
-
-    background-image: url("../../images/Rectangle\ 10.png");
+    background-image: url("../../images/Rectangle\ 101.png");
 }
 
 div.cards {
@@ -48,7 +47,8 @@ div.card-img {
     width: auto;
     height: 31em;
     padding: 2em;
-    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 16.png");
+    width: 100vw;
+    background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 167.png");
 }
 
 .spacing {
@@ -73,6 +73,7 @@ div.card-img {
 .img3 .container {
     display: flex;
     flex-direction: column;
+    margin-top: -5em;
     align-items: center;
     justify-content: center;
 }
@@ -104,7 +105,9 @@ div img .img-font {
     justify-content: center;
     background-image: url("../../images/Rectangle\ 53.png");
 }
-
+.slider-container{
+    width: 90vw;
+}
 .block p {
     padding: 25px !important;
     font-family: Raleway;
@@ -117,6 +120,9 @@ div img .img-font {
 .slide-right {
     animation: slide-right 0.8s forwards ease-out;
 }
+.slide-upCrd {
+    animation: slide-upCrd 0.7s forwards ease-out;
+}
 
 p.slide-left {
     animation-delay: 0.5s;
@@ -128,9 +134,7 @@ button.slide-left {
     opacity: 0;
 }
 
-.engagements {}
-
-.cards {
+.cards{
     display: flex;
     overflow-x: hidden;
     width: 100%;
@@ -151,12 +155,22 @@ i.custom-next-button:hover {
     color: white;
 }
 
-div.swiper-button-next {
+div.swiper-button-next{
     color: white;
-
+    
 }
 
-@keyframes slide-left {
+@keyframes slide-upCrd{
+    0% {
+        transform: translateY(90px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slide-left{
     0% {
         transform: translate(100px);
         opacity: 0;
@@ -181,8 +195,8 @@ div.swiper-button-next {
 }
 
 @media screen and (max-width:920px) {
-    div.img1 {
-        height: 50em;
+    div.img1{
+        height: 29em;
     }
 
     div.img3 {
@@ -199,6 +213,11 @@ div.swiper-button-next {
         height: 29em;
     }
 
+    .slider-container{
+        width: 96vw;
+        
+    }
+
     div.img2 {
         width: 100%;
         object-fit: cover;
@@ -213,8 +232,14 @@ div.swiper-button-next {
     div.img3 {
         height: 80em;
     }
-
-    .engagements {
+    .img3 .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5em;
+        align-items: center;
+        justify-content: center;
+    }
+    .engagements{
         padding-top: 2em;
 
     }
@@ -238,7 +263,7 @@ div.swiper-button-next {
         align-items: center;
         text-align: center;
         justify-content: center;
-        background: darkred;
+        background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 167.png");
     }
 
     .block p {
@@ -250,34 +275,39 @@ div.swiper-button-next {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 26em;
+        width: 100%;
         overflow-x: hidden;
+        box-shadow: none;
     }
-
-    .custom-prev-button {
+    .custom-prev-button{
+       display: none;
+    }
+    .custom-next-button{
         display: none;
     }
+      
+    
 
-    .custom-next-button {
-        display: none;
+    div.swiper-pagination{
+        padding-top: 3em !important;
     }
 
-    .card {
-        width: 80%;
-        /* Adjust the width as needed */
-        margin: 1em 0;
+    span.swiper-pagination-bullet{
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+        background: white;
     }
 
-    @keyframes slide-left {
-        0% {
-            transform: translate(70px);
-            opacity: 0;
-        }
-
-        100% {
-            transform: translate(0px);
-            opacity: 1;
-        }
+    @keyframes slide-left{
+    0% {
+        transform: translate(70px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
     }
 
     @keyframes slide-right {
@@ -321,8 +351,12 @@ div.swiper-button-next {
     }
 }
 
-@media screen and (max-width:1000px) {
-    .img1 {
-        height: 60em;
+@media screen and (min-width:720px) {
+    div.swiper-pagination{
+        display: none;
+    }
+
+    span.swiper-pagination-bullet{
+        display: none;
     }
 }
