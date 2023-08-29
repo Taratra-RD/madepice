@@ -168,7 +168,7 @@ function Home() {
               DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES CULTIVATEURS
             </h2>
             <p className={`${isScrolling ? "slide-left" : ''}`} style={{ fontFamily: 'Raleway' }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum animi unde itaque aut accusamus, repellat quae, tempore neque amet quaerat. Ipsam quibusdam sapiente vitae!
+              Découvrez des trésors aromatiques authentiques, directement récoltés chez les cultivateurs. Chaque saveur incarne une relation de confiance entre la terre, les mains expertes et votre palais. Explorez un monde de délices transcendant les frontières.
             </p>
             <button className={`btn ${isScrolling ? "slide-left" : ''}`} style={{ background: '#f2e5d1', marginTop: '1.2em', color: 'black', height: '3.5em', borderRadius: '9px', paddingLeft: '30px', paddingRight: '30px', fontFamily: 'Raleway', fontWeight: 600 }}>
               Découvrez notre histoire
