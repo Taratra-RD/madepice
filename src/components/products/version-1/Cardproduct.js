@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/Cardproduct.css'
 
-export default function Cardproduct({ product }) {
+export default function CardproductOld({ product }) {
     
     const handleCard = () => {
         let cardProduct = document.getElementById(`card--product--${product.name}`)

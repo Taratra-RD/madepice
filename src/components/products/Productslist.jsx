@@ -1,10 +1,22 @@
-import React from 'react'
-import './css/Productslist.css'
+import React from "react";
+import Cardproduct from "./Cardproduct";
+import "./css/Productslist.css";
 
-export default function Productslist() {
-    return (
-        <div>
-
-        </div>
-    )
+export default function Productslist({ groupedProducts, selectedLetter }) {
+  return (
+    <div className="products--list">
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+      <Cardproduct />
+    </div>
+  );
 }

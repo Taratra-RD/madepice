@@ -8,7 +8,7 @@ import data from '../../data'
 import Productslist from './Productslist'
 import Cardproduct from './Cardproduct'
 
-export default function Products() {
+export default function ProductsOld() {
     const [products, setProducts] = useState(data)
     const [leaveup, setLeaveup] = useState('leave--up')
     const [leavedown, setLeavedown] = useState('leave--down')

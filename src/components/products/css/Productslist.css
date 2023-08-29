@@ -1,0 +1,31 @@
+@media (min-width: 670px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 36rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 56rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 64rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .products--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 78rem;
+  }
+}
