@@ -76,9 +76,9 @@ function Home() {
                 style={{
                   cursor: hasPrevSlides ? 'pointer' : 'default',
                   color: hasPrevSlides ? '#dc3545' : 'rgba(242, 229, 209, 0.5)',
-                  position:'fixed',
-                  left:-37,
-                  top:185
+                  position: 'fixed',
+                  left: -37,
+                  top: 185
                 }}
               >
               </i>
@@ -151,9 +151,9 @@ function Home() {
                 style={{
                   cursor: hasNextSlides ? 'pointer' : 'default',
                   color: hasNextSlides ? '#dc3545' : 'none',
-                  position:'fixed',
-                  right:-40,
-                  top:185
+                  position: 'fixed',
+                  right: -40,
+                  top: 185
                 }}>
               </i>
             </div>
@@ -186,8 +186,7 @@ function Home() {
             </h1>
             <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '1em' }}>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
-                Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
+                Chez Madepices, notre engagement réside dans l'élaboration minutieuse d'un travail de qualité, centré sur des produits d'exception. Notre démarche s'étend de la collecte initiale jusqu'au conditionnement final, garantissant une excellence constante à chaque étape du processus. Nous mettons un point d'honneur à sélectionner avec soin les matières premières les plus raffinées, en parcourant les coins les plus reculés pour trouver des trésors aromatiques uniques. Guidés par notre passion, nous préservons la pureté et l'authenticité de chaque produit, tout en accordant une attention méticuleuse au conditionnement pour préserver leur fraîcheur et leur caractère unique. Notre dévouement à l'excellence nous pousse à offrir des expériences gustatives exceptionnelles, enrichies par des saveurs profondes et des arômes captivants, reflétant l'essence même de Madagascar.
               </p>
             </div>
             <h1 className={`${isScrolling3 ? "slide-right d-block" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela Deck Trial' }}>
@@ -195,8 +194,7 @@ function Home() {
             </h1>
             <div className={` block ${isScrolling3 ? "slide-left d-block" : ''}`} style={{ padding: '1em' }}>
               <p>
-                Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. Vitae proin erat semper elementum mi.
-                Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
+                Plongés au cœur de Madagascar, nous nous engageons passionnément à sélectionner et façonner les épices les plus raffinées. L'excellence est notre boussole, nous conduisant à explorer les recoins de cette île aux richesses inestimables, en quête d'arômes uniques. Chaque épice, fruit d'une culture minutieuse, marie terroir et artisanat ancestral. Notre processus, de la récolte à la préparation, vise à capturer l'essence même de Madagascar. Ces arômes profonds et ces saveurs authentiques, résultant d'un travail méticuleux, éveilleront vos sens et rehausseront vos créations culinaires. Rejoignez-nous dans cette aventure gastronomique où chaque épice narre une histoire de passion, de qualité et de tradition, reliant ainsi passé et présent.
               </p>
             </div>
           </Container>
