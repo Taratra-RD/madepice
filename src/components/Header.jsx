@@ -47,16 +47,16 @@ export default function Header() {
                             <Link to={'/product'}>NOS PRODUITS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>NOS CONSEILS</Link>
+                            <Link to={'/recettes'}>NOS CONSEILS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>CONTACT</Link>
+                            <Link to={'/contact'}>CONTACT</Link>
                         </li>
                     </ul>
 
                 </nav>
             </div>
-            <div className={`navbar sticky-top shadow ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
+            <div className={`navbar sticky-top ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
                 <Link to={'/'}>
                     <img src={logo2} className="logo--navbar--about" alt="" />
                 </Link>

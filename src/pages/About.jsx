@@ -5,7 +5,7 @@ import leaves from "../images/Leaves 1.png"
 import leaves_1 from "../images/Leaves 2.png"
 import line from "../images/Line 1.png"
 import { useState, useEffect } from "react"
-import "../components/css/HeaderAbout.css"
+import "../components/css/Header.css"
 
 const About = () => {
 
