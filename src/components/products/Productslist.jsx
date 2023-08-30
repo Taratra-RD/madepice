@@ -3,8 +3,6 @@ import Cardproduct from "./Cardproduct";
 import "./css/Productslist.css";
 
 export default function Productslist({ groupedProducts, searchResults }) {
-  console.log(groupedProducts);
-
   return (
     <div className="products--list">
       {groupedProducts.map((product) => (
