@@ -1,0 +1,12 @@
+.accordion--desable{
+    background-color: #F2E5D1;
+    width: 100%;
+    height: 5em;
+}
+
+.accordion--enable{
+    background-color: #F2E5D1;
+    width: 100%;
+    height: 5em;
+    color: black;
+}

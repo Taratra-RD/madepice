@@ -4,6 +4,8 @@ import PhoneIcons from "../images/Icons.png"
 import MailIcons from "../images/Icons(1).png"
 import LocationIcons from "../images/Icons(2).png"
 import FollowIcons from "../images/F-US.png"
+import Accordion from "../components/Accordion"
+import "../components/css/Accordion.css"
 
 const Contact = () =>{
     return(
@@ -56,6 +58,10 @@ const Contact = () =>{
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div className="faq--title"><h1 className="title--2">FAQ</h1></div>
+                    <div className="accordion--list">
+                        <Accordion title="hello" content="world"/>
                     </div>
                 </div>
             </div>

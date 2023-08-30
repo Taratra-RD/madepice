@@ -8,8 +8,9 @@
 }
 
 .body--contain{
-    display: flex;
-    height: max-content;
+    max-width: 100vw;
+    padding-inline: 5em 5em;
+    padding-block: 5em 5em;
     background-image: url(../../images/Rectangle\ 51.png);
 }
 
@@ -19,7 +20,6 @@
     width: 100%;
     height: 25em;
     margin-block: 5em 5em;
-    margin-inline: 5em 5em;
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -61,4 +61,24 @@
     width: 1em;
     border-radius: 2px 2px 2px 2px;
     margin-block: 4em 3em;
+}
+
+.faq--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-block: 5em 5em;
+    height: max-content;
+}
+
+.title--2{
+    font-family: Canela;
+    font-size: 134px;
+}
+
+.accordion--list{
+    display: block;
+    width: 100%;
+    height: 50em;
 }
