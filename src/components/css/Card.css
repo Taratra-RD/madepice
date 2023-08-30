@@ -1,13 +1,13 @@
 div.card {
-    width: 16em;
-    height: 20em;
-    display: inline-block;
+    width: 16.5em;
+    height: 21em;
     margin: 22px !important;
     border-radius: 7px;
-    border: 0.1px solid #A9A18C;
-    
-    background-size: cover;
-    background-image: url('../../images/Rectangle\ 11.png');
+    border: 0.1px #A9A18C;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../images/imgBaieRose.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,8 @@ div.card {
     filter: brightness(1);
     transition: filter 0.3s ease-in-out;
     /* Add a gradient border */
-    background-clip: padding-box;
+    /*background-clip: padding-box;*/
+    box-shadow: 1px 4px 5px gray; /* Add shadow here */
 }
 
 div.card::before {
@@ -29,7 +30,6 @@ div.card::before {
     right: -3px;
     bottom: -3px;
     z-index: -1;
-
     background: linear-gradient(45deg, #A9A18C, transparent, transparent, transparent);
     border-radius: 10px;
     transform: translateZ(-1px); /* Create the 3D effect */
@@ -37,14 +37,14 @@ div.card::before {
 }
 div.card:hover {
    cursor: pointer;
-   border-radius: 15px;
    filter: brightness(1.2);
-   transition: 0.5s all;
+   transition: border 1s all;
+   
 }
 div.card:hover .card-info {
     display: block;
     filter: brightness(1);
-    animation: slide-up 0.6s ease;
+    animation: slide-up 0.7s ease;
 }
 div.card:hover .card-title{
     display: none;
@@ -58,6 +58,7 @@ div.card:hover .card-title{
 .div.card-title h3{
     color: white;
 }
+
 .carousel-indicators {
     position: absolute;
     right: 0;
@@ -68,8 +69,8 @@ div.card:hover .card-title{
     justify-content: center;
     padding: 0;
     margin-bottom: 1rem;
-    
 }
+
 .card-info {
     background: black; /* Add some padding for spacing */
     width: 100%; /* Make sure the info takes the full width */
@@ -78,13 +79,16 @@ div.card:hover .card-title{
     display: none;
     padding: 10px !important;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     bottom: 0;
 }
 
 .card-info button{
-    
     margin-bottom: 10px;
+}
+.card-info p{
+    margin-top: -15px;
+    margin-bottom: 5px;
 }
 
 div.card-body{
@@ -130,10 +134,17 @@ div.card-img {
 
 @media screen and (max-width:720px) {
     div.card{
-        width: 16em;
+        width: 16.5em;
+        height: 21em;
+        margin-left: 1em !important;
+        margin-bottom: 1em !important;
     }
     .card-info button{
         font-size: 14px;
 
+    }
+    .card-info p{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
