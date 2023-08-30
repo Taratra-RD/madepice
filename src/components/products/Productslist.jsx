@@ -5,18 +5,11 @@ import "./css/Productslist.css";
 export default function Productslist({ groupedProducts, selectedLetter }) {
   return (
     <div className="products--list">
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
-      <Cardproduct />
+      {groupedProducts.map((product) => (
+        <div key={product.name} className="--card">
+          <Cardproduct product={product} />
+        </div>
+      ))}
     </div>
   );
 }

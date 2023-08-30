@@ -1,3 +1,8 @@
+.products--list {
+  background-color: rgba(255, 228, 196, 0.531);
+  margin-block: 1rem 1rem;
+}
+
 @media (min-width: 670px) {
   .products--list {
     display: flex;

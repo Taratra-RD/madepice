@@ -30,7 +30,7 @@ export default function FilterBar({
         </div>
       </div>
       <div className="filter--bar">
-        <label>
+        <label className="filter--bar--alphabet">
           <input
             style={{ display: "none" }}
             type="radio"
@@ -41,7 +41,7 @@ export default function FilterBar({
           Tous
         </label>
         {Object.keys(ordered).map((letter) => (
-          <label key={letter}>
+          <label key={letter} className="filter--bar--alphabet">
             <input
               style={{ display: "none" }}
               type="radio"
