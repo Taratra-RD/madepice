@@ -1,12 +1,28 @@
-.accordion--desable{
+.accordion{
+    display: block;
     background-color: #F2E5D1;
-    width: 100%;
-    height: 5em;
+    border-radius: 5px 5px 5px 5px;
+    margin-block: 2em 2em;
 }
 
-.accordion--enable{
-    background-color: #F2E5D1;
-    width: 100%;
-    height: 5em;
+.accordion-header{
+    display: flex;
     color: black;
+    transition: 0.8s;
+    margin-left: 3em;
+    font-family: Raleway;
+    font-weight: bolder;
+}
+
+.accordion-header p {
+    margin-block: 1em 1em;
+    font-weight: bolder;
+}
+
+.accordion-content{
+    display: flex;
+    color: #3C3C43;
+    margin-left: 3em;
+    font-family: Raleway;
+    transition: 0.8s;
 }

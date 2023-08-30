@@ -61,7 +61,41 @@ const Contact = () =>{
                     </div>
                     <div className="faq--title"><h1 className="title--2">FAQ</h1></div>
                     <div className="accordion--list">
-                        <Accordion title="hello" content="world"/>
+                        <Accordion 
+                            title="Lorem ipsum dolor sit amet?" 
+                            content="Quisque rutrum. Aenean imperdi. 
+                                Etiam ultricies nisi vel augue. 
+                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                        />
+                        <Accordion 
+                            title="Lorem ipsum dolor sit amet?" 
+                            content="Quisque rutrum. Aenean imperdi. 
+                                Etiam ultricies nisi vel augue. 
+                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                        />
+                        <Accordion 
+                            title="Lorem ipsum dolor sit amet?" 
+                            content="Quisque rutrum. Aenean imperdi. 
+                                Etiam ultricies nisi vel augue. 
+                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                        />
+                        <Accordion 
+                            title="Lorem ipsum dolor sit amet?" 
+                            content="Quisque rutrum. Aenean imperdi. 
+                                Etiam ultricies nisi vel augue. 
+                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                        />
+                        <Accordion 
+                            title="Lorem ipsum dolor sit amet?" 
+                            content="Quisque rutrum. Aenean imperdi. 
+                                Etiam ultricies nisi vel augue. 
+                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                        />
                     </div>
                 </div>
             </div>
