@@ -91,10 +91,9 @@ div.sidenav nav ul li a:hover {
     }
     .logo--navbar {
         height: 5em;
-        width: 1em !important;
         padding: 0.6em;
         margin-left: 1em !important;
-        background: #000;
+        background: none;
         display: block;
     }
     i.fa-bars{
@@ -133,7 +132,7 @@ div.sidenav nav ul li a:hover {
         width: 13em;
         padding: 0.6em;
         margin-left: 2em;
-        background: #000;
+        background: none;
     }
     i.fa-bars{
         cursor: pointer;

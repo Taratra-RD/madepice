@@ -64,9 +64,11 @@ const About = () => {
     }, [])
 
     const isScrolling_1 = scroll_1 > 100;
-    const isScrolling_2 = scroll_2 > 270;
-    const isScrolling_3 = scroll_3 > 475;
+    const isScrolling_2 = scroll_2 > 410;
+    const isScrolling_3 = scroll_3 > 555;
     const isScrolling_4 = scroll_4 > 100;
+    const isScrolling10 = scroll_4 > 1050;
+    const isScrolling20 = scroll_4 > 1710;
 
     return (
         <>
@@ -104,19 +106,18 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="title-2">
+                    <div className={`title-2 ${isScrolling10 ? 'slide-right' : ''}`}>
                         <h1>NOS ENGAGEMENTS</h1>
                     </div>
-                    <div className="container container--about">
+                    <div className={`container container--about ${isScrolling10 ? 'slide-left' : ''}`}>
                         <p className="title-2-content">
                             Chez Madepices, notre engagement réside dans l'élaboration minutieuse d'un travail de qualité, centré sur des produits d'exception. Notre démarche s'étend de la collecte initiale jusqu'au conditionnement final, garantissant une excellence constante à chaque étape du processus. Nous mettons un point d'honneur à sélectionner avec soin les matières premières les plus raffinées, en parcourant les coins les plus reculés pour trouver des trésors aromatiques uniques. Guidés par notre passion, nous préservons la pureté et l'authenticité de chaque produit, tout en accordant une attention méticuleuse au conditionnement pour préserver leur fraîcheur et leur caractère unique. Notre dévouement à l'excellence nous pousse à offrir des expériences gustatives exceptionnelles, enrichies par des saveurs profondes et des arômes captivants, reflétant l'essence même de Madagascar.
-
                         </p>
                     </div>
-                    <div className="title-2">
+                    <div className={`title-2 ${isScrolling20 ? 'slide-right' : ''}`}>
                         <h1>NOS VALEURS</h1>
                     </div>
-                    <div className="container container--about">
+                    <div className={`container container--about ${isScrolling20 ? 'slide-left' : ''}`}>
                         <p className="title-2-content">
                             Plongés au cœur de Madagascar, nous nous engageons passionnément à sélectionner et façonner les épices les plus raffinées. L'excellence est notre boussole, nous conduisant à explorer les recoins de cette île aux richesses inestimables, en quête d'arômes uniques. Chaque épice, fruit d'une culture minutieuse, marie terroir et artisanat ancestral. Notre processus, de la récolte à la préparation, vise à capturer l'essence même de Madagascar. Ces arômes profonds et ces saveurs authentiques, résultant d'un travail méticuleux, éveilleront vos sens et rehausseront vos créations culinaires. Rejoignez-nous dans cette aventure gastronomique où chaque épice narre une histoire de passion, de qualité et de tradition, reliant ainsi passé et présent.
 

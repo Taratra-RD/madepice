@@ -71,6 +71,9 @@
         margin-left: 9em;
         height: 4.5em;
     }
+    p{
+        margin-bottom: 0;
+    }
     .footer{
         height: 28em;
     }
@@ -113,10 +116,45 @@
         justify-content: center;
         background-image: url('../../images/LOGO.png');
         width: 32.2em;
-        margin-left: 9em;
+        margin-left: 5.3em;
         height: 4.5em;
     }
     .footer{
-        height: 50em;
+        height: 40em;
+    }
+    .contact--footer{
+        text-align: center;
+        display: block;
+        max-width: 10em;
+        max-height: 5em;
+        margin-top: -9em !important;
+        margin-left: -10em;
+    
+        
+    }
+    .contact--footer p{
+        margin-bottom: 0;
+    }
+    .local--footer{
+        display: block;
+        max-width: 10em;
+        max-height: 5em;
+        margin-top: 3em !important;
+        margin-left:-10em;
+        text-align: center;
+    }
+    .local--footer p{
+        margin-bottom: 0;
+    }
+    
+    .follow--footer{
+        display: block;
+        text-align: center;
+        margin-left:-17em;
+        margin-top: 8em !important;
+        max-height: 5em;
+    }
+    .follow--footer p {
+        margin-bottom: 0;
     }
 }
