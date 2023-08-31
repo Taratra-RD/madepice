@@ -32,7 +32,7 @@ const Contact = () =>{
                         <div className="list">
                             <div className="icons"><img src={MailIcons} alt="" /></div>
                             <div className="content">
-                                <div className="title"><h3>Adresse e-mail</h3></div>
+                                <div className="title--mail"><h3>Adresse e-mail</h3></div>
                                 <p>
                                     <li>commercial@madepices.mg</li>
                                 </p>

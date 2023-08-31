@@ -43,11 +43,15 @@
     margin-block: 2em 2em;
     margin-inline: 3em 3em;
     color: black;
-    width: 75%;
+    width: 80%;
     margin: 2em;
 }
 
 .title{
+    margin-block: 6em 3em;
+}
+
+.title--mail{
     margin-block: 6em 3em;
 }
 
