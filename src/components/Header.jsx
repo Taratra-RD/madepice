@@ -26,6 +26,9 @@ export default function Header() {
             document.getElementById("sidenav").style.height = '0em'
         }
     }
+    useEffect(() => {
+        
+    }, [])
 
     return (
         <>
@@ -50,7 +53,7 @@ export default function Header() {
             </div>
             <div className={`navbar ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
                 <Link to={'/'}>
-                    <img src={logo2} className="logo--navbar--about" alt="" />
+                    <img src={logo2} className="logo--navbar" alt="" />
                 </Link>
 
                 <nav>
@@ -68,7 +71,11 @@ export default function Header() {
                             <Link to={'/contact'} className='contact'>Contact</Link>
                         </li>
                     </ul>
-                    <i className={`fa fas ${navbarOpen ? 'fa-bars fa-xl' : 'fa-bars fa-xl'} `} style={{transition:"0.5s all"}} onClick={() => toggleNavbar()}></i>
+                    <i 
+                        className={`fa fas ${navbarOpen ? 'fa-bars fa-xl' : 'fa-bars fa-xl'} `} 
+                        style={{transition:"0.5s all"}} 
+                        onClick={() => toggleNavbar()}
+                    ></i>
                 </nav>
 
 

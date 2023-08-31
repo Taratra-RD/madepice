@@ -138,7 +138,7 @@ function Home() {
                   data.map(data => (
                     <SwiperSlide>
                       <Card
-                        key={data.name}
+                        key={data.id}
                         img={data.imgUrl}
                         title={data.name}
                         text={data.Description.slice(0, 90) + '...'}

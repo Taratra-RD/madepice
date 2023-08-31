@@ -24,8 +24,8 @@ const Contact = () =>{
                             <div className="content">
                                 <div className="title"><h3>Appelez-nous</h3></div>
                                 <p>
-                                    <li>+261 34 00 000 00</li>
-                                    <li>+261 34 00 000 00</li>
+                                    <li>+261 34 34 134 81</li>
+                                    <li>+261 34 34 134 81</li>
                                 </p>
                             </div>
                         </div>
