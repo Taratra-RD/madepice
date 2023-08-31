@@ -1,5 +1,4 @@
 import "./css/Header.css"
-import logo from "../images/a.png"
 import logo2 from "../images/LOGO.png"
 import { Link } from "react-router-dom"
 import { useState,useEffect } from "react"
