@@ -8,11 +8,22 @@
   background-position: bottom;
   background-size: 100% 100vh;
 }
-.products{
+
+.products a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+.products {
   font-family: Raleway;
   background-image: url(../../../images/fondProd.png);
 }
 @media (max-width: 600px) {
+  .products-header {
+    background-size: cover;
+  }
+
   .header--text {
     height: 90%;
     width: 100%;
@@ -57,6 +68,7 @@
     width: 20rem;
     right: 0;
     top: 100vh;
+    z-index: 1;
   }
   .products-footer {
     position: relative;
@@ -68,12 +80,16 @@
     height: 30rem;
     width: 20rem;
     left: 0;
-    margin-top: -20rem;
+    top: -40rem;
+  }
+
+  .products--products--list {
+    position: relative;
+    z-index: 2;
   }
 }
 
 @media (min-width: 600px) {
-
   .header--text {
     height: 90%;
     width: 100%;
@@ -90,6 +106,10 @@
 
   .products {
     background-color: beige;
+  }
+
+  .products--products--list {
+    margin-bottom: 5rem;
   }
 
   .products--products--list,
