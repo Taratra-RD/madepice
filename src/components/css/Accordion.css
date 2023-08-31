@@ -62,3 +62,13 @@
 .accordion.clicked {
     animation: accordionClick 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 720px) {
+    .accordion-header{
+        margin-left:0.5em;
+    }
+
+    .accordion-content{
+        margin-left: 0.5em;
+    }
+}
