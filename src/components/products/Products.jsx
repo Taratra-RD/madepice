@@ -32,7 +32,12 @@ export default function Products() {
     <div className="products">
       <div className="products-header">
         <Header />
-        <div className="header--text" style={{fontFamily:'Canela'}}>Nos Produits</div>
+        <div className="header--text" style={{ fontFamily: "Canela" }}>
+          Nos Produits
+        </div>
+        <div className="scroll--down">
+          <i className="fas fa-chevron-down"></i>
+        </div>
         <img src={leaveUp} alt="leaveUp" className="leave--up" />
       </div>
       <div className="products--body">
@@ -86,6 +91,7 @@ export default function Products() {
       <div className="products-footer">
         <Footer/>
         <img src={leaveDown} alt="leaveDown" className="leave--down" />
+        <Footer/>
       </div>
     </div>
   );

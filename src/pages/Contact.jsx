@@ -5,6 +5,7 @@ import MailIcons from "../images/Icons(1).png"
 import LocationIcons from "../images/Icons(2).png"
 import FollowIcons from "../images/F-US.png"
 import Accordion from "../components/Accordion"
+import Footer from "../components/Footer"
 import "../components/css/Accordion.css"
 import Footer from "../components/Footer"
 
@@ -20,7 +21,7 @@ const Contact = () =>{
                 <div className="body--contain">
                     <div className="contact--list">
                         <div className="list">
-                            <div className="icons"> <img src={PhoneIcons} alt="" /></div>
+                            <div className="icons"> <img className="icons--img" src={PhoneIcons} alt="" /></div>
                             <div className="content">
                                 <div className="title"><h3>Appelez-nous</h3></div>
                                 <p>
@@ -31,9 +32,9 @@ const Contact = () =>{
                         </div>
                         <div className="red--line"></div>
                         <div className="list">
-                            <div className="icons"><img src={MailIcons} alt="" /></div>
+                            <div className="icons"><img className="icons--img--mail" src={MailIcons} alt="" /></div>
                             <div className="content">
-                                <div className="title--mail"><h3>Adresse e-mail</h3></div>
+                                <div className="title"><h3>Adresse e-mail</h3></div>
                                 <p>
                                     <li>commercial@madepices.mg</li>
                                 </p>
@@ -41,7 +42,7 @@ const Contact = () =>{
                         </div>
                         <div className="red--line"></div>
                         <div className="list">
-                            <div className="icons"><img src={LocationIcons} alt="" /></div>
+                            <div className="icons"><img className="icons--img--location" src={LocationIcons} alt="" /></div>
                             <div className="content">
                                 <div className="title"><h3>Visitez-nous</h3></div>
                                 <p>
@@ -51,7 +52,7 @@ const Contact = () =>{
                         </div>
                         <div className="red--line"></div>
                         <div className="list">
-                            <div className="icons"><img src={FollowIcons} alt="" /></div>
+                            <div className="icons"><img className="icons--img" src={FollowIcons} alt="" /></div>
                             <div className="content">
                                 <div className="title"><h3>Suivez-nous</h3></div>
                                 <p>
