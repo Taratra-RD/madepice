@@ -67,7 +67,56 @@
         position: relative;
         justify-content: center;
         background-image: url('../../images/LOGO.png');
-        width: 12.6em;
+        width: 32.2em;
+        margin-left: 9em;
         height: 4.5em;
+    }
+    .footer{
+        height: 28em;
+    }
+    .footer .container{
+        max-width: 95vw;
+        margin-top: 20em;
+        text-align: center;
+    }
+    .contact--footer{
+        text-align: center;
+        display: block;
+        max-width: 10em;
+        max-height: 5em;
+        margin-top: -7em !important;
+        margin-left: -10em;
+    
+        
+    }
+    .local--footer{
+        display: block;
+        max-width: 10em;
+        max-height: 5em;
+        margin-top: 5em !important;
+        margin-left:-10em;
+        text-align: center;
+    }
+    
+    .follow--footer{
+        display: block;
+        text-align: center;
+        margin-left:-19em;
+        margin-top: 10em !important;
+        max-height: 5em;
+    }
+}
+@media screen and (max-width:400px) {
+    .logo--footer{
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        background-image: url('../../images/LOGO.png');
+        width: 32.2em;
+        margin-left: 9em;
+        height: 4.5em;
+    }
+    .footer{
+        height: 50em;
     }
 }

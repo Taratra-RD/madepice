@@ -95,6 +95,7 @@ div.sidenav nav ul li a:hover {
         padding: 0.6em;
         margin-left: 1em !important;
         background: #000;
+        display: block;
     }
     i.fa-bars{
         cursor: pointer;

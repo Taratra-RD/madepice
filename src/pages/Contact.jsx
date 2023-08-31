@@ -7,7 +7,6 @@ import FollowIcons from "../images/F-US.png"
 import Accordion from "../components/Accordion"
 import Footer from "../components/Footer"
 import "../components/css/Accordion.css"
-import Footer from "../components/Footer"
 
 const Contact = () =>{
     return(

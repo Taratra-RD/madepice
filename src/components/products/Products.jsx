@@ -89,7 +89,6 @@ export default function Products() {
         </div>
       </div>
       <div className="products-footer">
-        <Footer/>
         <img src={leaveDown} alt="leaveDown" className="leave--down" />
         <Footer/>
       </div>
