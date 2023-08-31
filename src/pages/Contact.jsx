@@ -4,6 +4,7 @@ import PhoneIcons from "../images/Icons.png"
 import MailIcons from "../images/Icons(1).png"
 import LocationIcons from "../images/Icons(2).png"
 import FollowIcons from "../images/F-US.png"
+import Footer from "../components/Footer"
 
 const Contact = () =>{
     return(
@@ -58,6 +59,7 @@ const Contact = () =>{
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )
