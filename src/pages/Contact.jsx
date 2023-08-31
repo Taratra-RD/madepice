@@ -6,6 +6,7 @@ import LocationIcons from "../images/Icons(2).png"
 import FollowIcons from "../images/F-US.png"
 import Accordion from "../components/Accordion"
 import "../components/css/Accordion.css"
+import Footer from "../components/Footer"
 
 const Contact = () =>{
     return(
@@ -98,6 +99,7 @@ const Contact = () =>{
                         />
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )
