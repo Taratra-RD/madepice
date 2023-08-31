@@ -96,7 +96,7 @@ function Home() {
                   nextEl: '.custom-next-button',
                   prevEl: '.custom-prev-button',
                 }}
-                onSwiper={(swiper) => console.log(swiper)}
+                onSwiper={''}
                 onSlideChange={handleSlideChange}
 
                 breakpoints={{
