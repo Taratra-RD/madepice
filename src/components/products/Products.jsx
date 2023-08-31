@@ -31,7 +31,7 @@ export default function Products() {
     <div className="products">
       <div className="products-header">
         <Header />
-        <div className="header--text">Nos Produits</div>
+        <div className="header--text" style={{fontFamily:'Canela'}}>Nos Produits</div>
         <img src={leaveUp} alt="leaveUp" className="leave--up" />
       </div>
       <div className="products--body">

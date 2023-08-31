@@ -9,9 +9,7 @@ import Products from './components/products/Products';
 import Recettes from './pages/Recettes';
 import Contact from './pages/Contact';
 
-
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>

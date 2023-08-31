@@ -1,8 +1,64 @@
 .landing-page2{
-    background-image: url("../../images/Landing-page2.png");
+    background-image: url("../../images/headercontact.png");
     width: 100%;
-    height: 98vh;
-    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    height: 100vh;
+    background-size: contain; /* Adjust as needed (cover, contain, etc.) */
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
+}
+
+.body--contain{
+    display: flex;
+    height: max-content;
+    background-image: url(../../images/Rectangle\ 51.png);
+}
+
+.contact--list{
+    display: flex;
+    background-color: #F2E5D1;
+    width: 100%;
+    height: 25em;
+    margin-block: 5em 5em;
+    margin-inline: 5em 5em;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.contact--list div h3{
+    color: black;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.list{
+    margin-block: 3.5em 3.5em;
+    margin-inline: 1em 1em;
+}
+
+.icons{
+    margin-inline: 2em 2em;
+    width: 25%;
+}
+
+.content{
+    margin-block: 2em 2em;
+    margin-inline: 3em 3em;
+    color: black;
+    width: 75%;
+    margin: 2em;
+}
+
+.title{
+    margin-block: 6em 3em;
+}
+
+.list li{
+    list-style: none;
+    font-family: Raleway;
+}
+
+.red--line{
+    background-color: #991914;
+    width: 3px;
+    border-radius: 2px 2px 2px 2px;
+    margin-block: 4em 3em;
 }

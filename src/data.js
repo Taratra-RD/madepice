@@ -29,6 +29,7 @@ import imgVanille from './images/imgVanille.png'
 import imgVoatsiperiferyBlanc from './images/imgVoatsiperiferyBlanc.png'
 import imgVoatsiperiferyNoir from './images/imgVoatsiperiferyNoir.png'
 import imgVoatsiperiferyRouge from './images/imgVoatsiperiferyRouge.png'
+import productDefault from './images/productDefault.png'
 
 
 export const data = [
@@ -449,7 +450,7 @@ export const data = [
   },
   {
     id: 19,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "FLEUR DE SEL/ BAIE ROSE / POIVRE NOIR CONCASSE",
     Grammage: [
       {
@@ -464,7 +465,7 @@ export const data = [
   },
   {
     id: 20,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "FLEUR DE SEL/ COMBAVA",
     Grammage: [
       {
@@ -479,7 +480,7 @@ export const data = [
   },
   {
     id: 21,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "FLEUR DE SEL/ COMBAVA / GINGEMBRE",
     Grammage: [
       {
