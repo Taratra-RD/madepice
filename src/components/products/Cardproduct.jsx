@@ -1,17 +1,28 @@
 import React from "react";
 import "./css/Cardproduct.css";
+import { useMediaQuery } from "usehooks-ts";
+import { Link } from "react-router-dom";
 
 export default function Cardproduct({ product }) {
+  let widthX = useMediaQuery("(min-width:670px)");
+
   const handleCard = () => {
     let cardProduct = document.getElementById(`card--product--${product.name}`);
     let cardImage = document.getElementById(`card--image--${product.name}`);
     let cardBody = document.getElementById(`card--body--${product.name}`);
     let cardTitle = document.getElementById(`card--title--${product.name}`);
 
-    if (cardProduct.className === `card--product`) {
+    if (cardProduct.className === `card--product` && widthX) {
+      cardProduct.className += "--hover";
+      cardProduct.style.backgroundImage = `none`;
+      cardProduct.style.backgroundColor = "black";
+      cardImage.className += "--hover";
+      cardTitle.className += "--hover";
+      cardBody.className += "--hover";
+    } else if (cardProduct.className === `card--product` && !widthX) {
       cardProduct.className += "--hover";
       cardProduct.style.backgroundColor = "black";
-      cardProduct.style.backgroundImage = `none`;
+      cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
       cardImage.className += "--hover";
       cardTitle.className += "--hover";
       cardBody.className += "--hover";
@@ -32,8 +43,8 @@ export default function Cardproduct({ product }) {
   const truncate = (text) => {
     const words = text.split(" ");
 
-    if (words.length > 20) {
-      const truncatedWords = words.slice(0, 20);
+    if (words.length > 15) {
+      const truncatedWords = words.slice(0, 15);
       return truncatedWords.join(" ") + "...";
     }
 
@@ -53,14 +64,14 @@ export default function Cardproduct({ product }) {
         id={`card--image--${product.name}`}
         style={cardBackground}
       ></div>
-      <div className="card--title" id={`card--title--${product.name}`}>
+      <Link className="card--title" id={`card--title--${product.name}`}>
         {product.name}
-      </div>
-      <div className="card--body" id={`card--body--${product.name}`}>
+      </Link>
+      <Link className="card--body" id={`card--body--${product.name}`}>
         <div className="card--title--body">{product.name}</div>
         <div className="card--description">{truncate(product.Description)}</div>
         <div className="card--button">Savoir plus</div>
-      </div>
+      </Link>
     </div>
   );
 }
