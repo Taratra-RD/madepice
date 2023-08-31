@@ -1,5 +1,4 @@
 import "./css/Header.css"
-import logo from "../images/a.png"
 import logo2 from "../images/LOGO.png"
 import { Link } from "react-router-dom"
 import { useState,useEffect } from "react"
@@ -47,10 +46,10 @@ export default function Header() {
                             <Link to={'/product'}>NOS PRODUITS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>NOS CONSEILS</Link>
+                            <Link to={'/recettes'}>NOS CONSEILS</Link>
                         </li>
                         <li>
-                            <Link to={'/'}>CONTACT</Link>
+                            <Link to={'/contact'}>CONTACT</Link>
                         </li>
                     </ul>
 

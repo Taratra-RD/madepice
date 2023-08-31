@@ -5,7 +5,7 @@ import leaves from "../images/Leaves 1.png"
 import leaves_1 from "../images/Leaves 2.png"
 import line from "../images/Line 1.png"
 import { useState, useEffect } from "react"
-import "../components/css/HeaderAbout.css"
+import "../components/css/Header.css"
 
 const About = () => {
 
@@ -156,9 +156,9 @@ const About = () => {
             <div className="footer">
                 <Footer/>
             </div>
-            <img className="leaves" src={leaves} />
-            <img className="leaves-1" src={leaves_1} />
-            <img className={`line ${isScrolling_4 ? 'line-anim':''} `} src={line} />
+            <img className="leaves" src={leaves} alt=""/>
+            <img className="leaves-1" src={leaves_1} alt=""/>
+            <img className={`line ${isScrolling_4 ? 'line-anim':''} `} src={line} alt=""/>
         </div>
     </>
 
