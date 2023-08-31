@@ -6,6 +6,7 @@ import { data } from "../../data";
 import Header from "../Header";
 import leaveUp from "../../images/Leaves 1 (1).png";
 import leaveDown from "../../images/Leaves 2 (1).png";
+import Footer from "../Footer";
 
 export default function Products() {
   const [products] = useState(data);
@@ -89,6 +90,7 @@ export default function Products() {
       </div>
       <div className="products-footer">
         <img src={leaveDown} alt="leaveDown" className="leave--down" />
+        <Footer/>
       </div>
     </div>
   );

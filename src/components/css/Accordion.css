@@ -1,0 +1,74 @@
+.accordion{
+    display: block;
+    background-color: #F2E5D1;
+    border-radius: 5px 5px 5px 5px;
+    margin-block: 2em 2em;
+}
+
+.accordion-header{
+    display: flex;
+    color: black;
+    transition: 0.8s;
+    margin-left: 3em;
+    font-family: Raleway;
+    font-weight: bolder;
+}
+
+.accordion-header p {
+    margin-block: 1em 1em;
+    font-weight: bolder;
+}
+
+.accordion-content {
+    display: flex;
+    color: #3C3C43;
+    margin-left: 3em;
+    font-family: Raleway;
+    animation: accord 0.5s ease;
+}
+
+.accordion-content-none {
+    display: flex;
+    color: #3C3C43;
+    margin-left: 3em;
+    font-family: Raleway;
+    display: none;
+    animation: accord 0.5s ease reverse;
+}
+
+@keyframes accord {
+    from {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+@keyframes accordionClick {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.accordion.clicked {
+    animation: accordionClick 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 720px) {
+    .accordion-header{
+        margin-left:0.5em;
+    }
+
+    .accordion-content{
+        margin-left: 0.5em;
+    }
+}
