@@ -1,36 +1,35 @@
-import imgAil from './images/imgAil.png'
-import imgAnisEtoile from './images/imgAnisEtoile.png'
-import imgBaieRose from './images/imgBaieRose.png'
-import imgBaobab from './images/imgBaobab.png'
-import imgFeuilleCombava from './images/imgFeuilleCombava.png'
-import imgZesteCombava from './images/imgZesteCombava.png'
-import img4Epices from './images/img4Epices.png'
-import imgCanelle from './images/imgCanelle.png'
-import imgCitronelle from './images/imgCitronelle.png'
-import imgClouDeGiroffle from './images/imgClouDeGiroffle.png'
-import imgCoriandreGrains from './images/imgCoriandreGrains.png'
-import imgCumin from './images/imgCumin.png'
-import imgCurryViande from './images/imgCurryViande.png'
-import imgEpicesGuacamole from './images/imgEpicesGuacamole.png'
-import imgFenugrec from './images/imgFenugrec.png'
-import imgFeuilleCorosol from './images/imgFeuilleCorosol.png'
-import imgFeveCacao from './images/imgFeveCacao.png'
-import imgFleurDeSel from './images/imgFleurDeSel.png'
-import imgGaramMassala from './images/imgGaramMassala.png'
-import imgGingembre from './images/imgGingembre.png'
-import imgMelange3Baie from './images/imgMelange3Baie.png'
-import imgMuscade from './images/imgMuscade.png'
-import imgPimentRouge from './images/imgPimentRouge.png'
-import imgPimentTsilandimy from './images/imgPimentTsilandimy.png'
-import imgPimentVert from './images/imgPimentVert.png'
-import imgPoivreBlanc from './images/imgPoivreBlanc.png'
-import imgPoivreNoir from './images/imgPoivreNoir.png'
-import imgVanille from './images/imgVanille.png'
-import imgVoatsiperiferyBlanc from './images/imgVoatsiperiferyBlanc.png'
-import imgVoatsiperiferyNoir from './images/imgVoatsiperiferyNoir.png'
-import imgVoatsiperiferyRouge from './images/imgVoatsiperiferyRouge.png'
-import productDefault from './images/productDefault.png'
-
+import imgAil from "./images/imgAil.png";
+import imgAnisEtoile from "./images/imgAnisEtoile.png";
+import imgBaieRose from "./images/imgBaieRose.png";
+import imgBaobab from "./images/imgBaobab.png";
+import imgFeuilleCombava from "./images/imgFeuilleCombava.png";
+import imgZesteCombava from "./images/imgZesteCombava.png";
+import img4Epices from "./images/img4Epices.png";
+import imgCanelle from "./images/imgCanelle.png";
+import imgCitronelle from "./images/imgCitronelle.png";
+import imgClouDeGiroffle from "./images/imgClouDeGiroffle.png";
+import imgCoriandreGrains from "./images/imgCoriandreGrains.png";
+import imgCumin from "./images/imgCumin.png";
+import imgCurryViande from "./images/imgCurryViande.png";
+import imgEpicesGuacamole from "./images/imgEpicesGuacamole.png";
+import imgFenugrec from "./images/imgFenugrec.png";
+import imgFeuilleCorosol from "./images/imgFeuilleCorosol.png";
+import imgFeveCacao from "./images/imgFeveCacao.png";
+import imgFleurDeSel from "./images/imgFleurDeSel.png";
+import imgGaramMassala from "./images/imgGaramMassala.png";
+import imgGingembre from "./images/imgGingembre.png";
+import imgMelange3Baie from "./images/imgMelange3Baie.png";
+import imgMuscade from "./images/imgMuscade.png";
+import imgPimentRouge from "./images/imgPimentRouge.png";
+import imgPimentTsilandimy from "./images/imgPimentTsilandimy.png";
+import imgPimentVert from "./images/imgPimentVert.png";
+import imgPoivreBlanc from "./images/imgPoivreBlanc.png";
+import imgPoivreNoir from "./images/imgPoivreNoir.png";
+import imgVanille from "./images/imgVanille.png";
+import imgVoatsiperiferyBlanc from "./images/imgVoatsiperiferyBlanc.png";
+import imgVoatsiperiferyNoir from "./images/imgVoatsiperiferyNoir.png";
+import imgVoatsiperiferyRouge from "./images/imgVoatsiperiferyRouge.png";
+import productDefault from "./images/productDefault.png";
 
 export const data = [
   {
@@ -46,21 +45,22 @@ export const data = [
       "potassium",
       "composés sulfurés",
       {
-        vitamines: ["B", "C"]
+        vitamines: ["B", "C"],
       },
       {
-        mineraux: ["calcium", "fer"]
-      }
+        mineraux: ["calcium", "fer"],
+      },
     ],
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: [25, 100, 120, 300]
-      }
+        liste: [25, 100, 120, 300],
+      },
     ],
-    Description: "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé,"
+    Description:
+      "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé,",
   },
   {
     id: 2,
@@ -77,21 +77,22 @@ export const data = [
       "anethole",
       "antioxydants",
       {
-        vitamines: ["B", "C"]
+        vitamines: ["B", "C"],
       },
       {
-        mineraux: ["calcium", "fer"]
-      }
+        mineraux: ["calcium", "fer"],
+      },
     ],
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: []
-      }
+        liste: [],
+      },
     ],
-    Description: "L'anis étoilé, également connu sous le nom de badiane, est une plante aromatique qui se présente sous la forme d'un fruit en forme d'étoile composé de huit branches ou carpelles. L'anis étoilé est couramment utilisé comme épice dans de nombreuses cuisines, notamment chinoises et vietnamiennes. Il est souvent utilisé pour aromatiser les plats à base de viande, les soupes, les sauces, les boissons chaudes et les desserts. Il est également l'ingrédient principal du célèbre mélange d'épices chinois, le cinq-épices. L'anis étoilé est utilisé depuis longtemps dans la médecine traditionnelle chinoise pour ses propriétés digestives, antimicrobiennes et anti-inflammatoires. Il peut aider à soulager les troubles digestifs tels que les ballonnements et les crampes abdominales. En résumé, l'anis étoilé est une épice polyvalente avec une saveur distinctive d'anis et possède également des propriétés médicinales bénéfiques pour la digestion."
+    Description:
+      "L'anis étoilé, également connu sous le nom de badiane, est une plante aromatique qui se présente sous la forme d'un fruit en forme d'étoile composé de huit branches ou carpelles. L'anis étoilé est couramment utilisé comme épice dans de nombreuses cuisines, notamment chinoises et vietnamiennes. Il est souvent utilisé pour aromatiser les plats à base de viande, les soupes, les sauces, les boissons chaudes et les desserts. Il est également l'ingrédient principal du célèbre mélange d'épices chinois, le cinq-épices. L'anis étoilé est utilisé depuis longtemps dans la médecine traditionnelle chinoise pour ses propriétés digestives, antimicrobiennes et anti-inflammatoires. Il peut aider à soulager les troubles digestifs tels que les ballonnements et les crampes abdominales. En résumé, l'anis étoilé est une épice polyvalente avec une saveur distinctive d'anis et possède également des propriétés médicinales bénéfiques pour la digestion.",
   },
   {
     id: 3,
@@ -107,18 +108,19 @@ export const data = [
       "huiles essentielles",
       "antioxydants",
       {
-        vitamines: ["E", "C"]
-      }
+        vitamines: ["E", "C"],
+      },
     ],
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: [12, 13, 22, 50, 100]
-      }
+        liste: [12, 13, 22, 50, 100],
+      },
     ],
-    Description: "La baie rose, également connue sous le nom de poivre rose, est une petite baie utilisée comme épice dans la cuisine. La baie rose est souvent utilisée pour aromatiser les plats de viande, les poissons, les fruits de mer, les marinades, les sauces et les salades. Elle peut par ailleurs être utilisée pour décorer les plats en raison de sa couleur vive. La baie rose est connue pour ses propriétés stimulantes et digestives. Elle peut aider à faciliter la digestion et à soulager les ballonnements et les crampes abdominales. En résumé, la baie rose est une épice polyvalente avec un goût doux et fruité. Elle est utilisée pour aromatiser de nombreux plats et possède des propriétés digestives bénéfiques. "
+    Description:
+      "La baie rose, également connue sous le nom de poivre rose, est une petite baie utilisée comme épice dans la cuisine. La baie rose est souvent utilisée pour aromatiser les plats de viande, les poissons, les fruits de mer, les marinades, les sauces et les salades. Elle peut par ailleurs être utilisée pour décorer les plats en raison de sa couleur vive. La baie rose est connue pour ses propriétés stimulantes et digestives. Elle peut aider à faciliter la digestion et à soulager les ballonnements et les crampes abdominales. En résumé, la baie rose est une épice polyvalente avec un goût doux et fruité. Elle est utilisée pour aromatiser de nombreux plats et possède des propriétés digestives bénéfiques. ",
   },
   {
     id: 4,
@@ -129,28 +131,32 @@ export const data = [
     Parfum: ["agréable", "fruitée"],
     Texture: "poudre",
     Origine_géographique: "Madagascar",
-    Conservation: ["récipient hermétique", "à l'abri de la chaleur et de l'humidité."],
+    Conservation: [
+      "récipient hermétique",
+      "à l'abri de la chaleur et de l'humidité.",
+    ],
     Composition_nutritionnelle: [
       "potassium",
       "magnésium",
       "fibres",
       "antioxydants",
       {
-        vitamines: ["C"]
+        vitamines: ["C"],
       },
       {
-        mineraux: ["calcium"]
-      }
+        mineraux: ["calcium"],
+      },
     ],
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: [13, 15, 25, 100]
-      }
+        liste: [13, 15, 25, 100],
+      },
     ],
-    Description: "La poudre de baobab est un produit alimentaire dérivé  de la pulpe séchée du fruit du baobab. Elle a une couleur blanche à beige. La poudre de baobab peut être mélangée dans des smoothies, des yaourts, des sauces ou des desserts. Elle peut également être saupoudrée sur des fruits frais ou utilisée comme assaisonnement dans des plats salés. La poudre de baobab peut aider à renforcer le système immunitaire, favoriser la digestion, réguler la glycémie et améliorer la santé de la peau. Ainsi, la poudre de baobab est un produit alimentaire riche en nutriments et doté d'un goût acidulé. Elle peut être utilisée dans de nombreuses préparations culinaires et possède des propriétés bénéfiques pour la santé. "
+    Description:
+      "La poudre de baobab est un produit alimentaire dérivé  de la pulpe séchée du fruit du baobab. Elle a une couleur blanche à beige. La poudre de baobab peut être mélangée dans des smoothies, des yaourts, des sauces ou des desserts. Elle peut également être saupoudrée sur des fruits frais ou utilisée comme assaisonnement dans des plats salés. La poudre de baobab peut aider à renforcer le système immunitaire, favoriser la digestion, réguler la glycémie et améliorer la santé de la peau. Ainsi, la poudre de baobab est un produit alimentaire riche en nutriments et doté d'un goût acidulé. Elle peut être utilisée dans de nombreuses préparations culinaires et possède des propriétés bénéfiques pour la santé. ",
   },
   {
     id: 5,
@@ -163,13 +169,14 @@ export const data = [
     Origine_géographique: "Madagascar",
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: []
-      }
+        liste: [],
+      },
     ],
-    Description: "Le bois d'anis, également connu sous le nom d'anis étoilé, est la partie séchée de l'arbre du même nom. Le bois d'anis est largement utilisé comme épice dans la cuisine asiatique, notamment dans les plats à base de viande, les soupes, les sauces et les desserts. Il peut également être utilisé pour aromatiser les boissons alcoolisées, telles que l'absinthe et le pastis. Le bois d'anis est utilisé dans la médecine traditionnelle pour traiter divers problèmes de santé, tels que les troubles digestifs, la toux et les infections respiratoires. Il est pareillement connu pour ses propriétés carminatives et expectorantes. En gros, c'est une épice utilisée dans la cuisine, avec un goût doux et épicé. Il possède des propriétés médicinales bénéfiques et peut être conservé dans des conditions appropriées pour préserver sa saveur et sa qualité. "
+    Description:
+      "Le bois d'anis, également connu sous le nom d'anis étoilé, est la partie séchée de l'arbre du même nom. Le bois d'anis est largement utilisé comme épice dans la cuisine asiatique, notamment dans les plats à base de viande, les soupes, les sauces et les desserts. Il peut également être utilisé pour aromatiser les boissons alcoolisées, telles que l'absinthe et le pastis. Le bois d'anis est utilisé dans la médecine traditionnelle pour traiter divers problèmes de santé, tels que les troubles digestifs, la toux et les infections respiratoires. Il est pareillement connu pour ses propriétés carminatives et expectorantes. En gros, c'est une épice utilisée dans la cuisine, avec un goût doux et épicé. Il possède des propriétés médicinales bénéfiques et peut être conservé dans des conditions appropriées pour préserver sa saveur et sa qualité. ",
   },
   {
     id: 6,
@@ -183,13 +190,14 @@ export const data = [
     Composition_nutritionnelle: "huiles essentielles",
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: []
-      }
+        liste: [],
+      },
     ],
-    Description: "Les zestes de combava sont obtenus en râpant la peau du fruit. Ils sont de couleur verte et sont riches en huiles essentielles.. Ils sont souvent utilisés pour ajouter une touche de fraîcheur et de vivacité à différents plats. Les zestes de combava sont utilisés pour parfumer les plats sucrés et salés, tels que les pâtisseries, les desserts, les marinades, les cocktails et les sauces. Ils sont également utilisés dans la préparation de thés et d'infusions. En résumé, les zestes de combava sont des ingrédients très appréciés en cuisine pour leur parfum citronné et leur saveur intense. , tandis que les zestes sont utilisés pour aromatiser une variété de plats sucrés et salés."
+    Description:
+      "Les zestes de combava sont obtenus en râpant la peau du fruit. Ils sont de couleur verte et sont riches en huiles essentielles.. Ils sont souvent utilisés pour ajouter une touche de fraîcheur et de vivacité à différents plats. Les zestes de combava sont utilisés pour parfumer les plats sucrés et salés, tels que les pâtisseries, les desserts, les marinades, les cocktails et les sauces. Ils sont également utilisés dans la préparation de thés et d'infusions. En résumé, les zestes de combava sont des ingrédients très appréciés en cuisine pour leur parfum citronné et leur saveur intense. , tandis que les zestes sont utilisés pour aromatiser une variété de plats sucrés et salés.",
   },
   {
     id: 7,
@@ -202,13 +210,14 @@ export const data = [
     Origine_géographique: "Madagascar",
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: [15, 16, 25, 100, 120]
-      }
+        liste: [15, 16, 25, 100, 120],
+      },
     ],
-    Description: "La coriandre en grains, également connue sous le nom de coriandre moulue, est obtenue en moulant les graines séchées de la plante Coriandrum sativum. Les graines sont petites et rondes, de couleur brun clair à brun foncé. Les graines de coriandre sont utilisées dans de nombreuses cuisines du monde entier pour aromatiser les plats. Elles peuvent être utilisées entières ou moulues. Les graines entières sont souvent utilisées dans les marinades, les currys et les plats mijotés, tandis que les graines moulues sont couramment utilisées dans les mélanges d'épices, les sauces, les soupes et les saucisses. La coriandre en grains est connue pour ses propriétés digestives et stimulantes. Elle peut aider à soulager les problèmes de digestion, tels que les ballonnements et les crampes abdominales, et peut également avoir des effets bénéfiques sur le système immunitaire et la santé cardiovasculaire.En résumé, la coriandre en grains est une épice polyvalente utilisée pour aromatiser les plats du monde entier. Elle a un goût citronné avec une note épicée et peut apporter des bienfaits pour la santé."
+    Description:
+      "La coriandre en grains, également connue sous le nom de coriandre moulue, est obtenue en moulant les graines séchées de la plante Coriandrum sativum. Les graines sont petites et rondes, de couleur brun clair à brun foncé. Les graines de coriandre sont utilisées dans de nombreuses cuisines du monde entier pour aromatiser les plats. Elles peuvent être utilisées entières ou moulues. Les graines entières sont souvent utilisées dans les marinades, les currys et les plats mijotés, tandis que les graines moulues sont couramment utilisées dans les mélanges d'épices, les sauces, les soupes et les saucisses. La coriandre en grains est connue pour ses propriétés digestives et stimulantes. Elle peut aider à soulager les problèmes de digestion, tels que les ballonnements et les crampes abdominales, et peut également avoir des effets bénéfiques sur le système immunitaire et la santé cardiovasculaire.En résumé, la coriandre en grains est une épice polyvalente utilisée pour aromatiser les plats du monde entier. Elle a un goût citronné avec une note épicée et peut apporter des bienfaits pour la santé.",
   },
   {
     id: 8,
@@ -220,13 +229,14 @@ export const data = [
     Composition_nutritionnelle: ["antioxydants", "anti-inflammatoires"],
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: []
-      }
+        liste: [],
+      },
     ],
-    Description: "Les feuilles de corossol sont larges, vertes et brillantes. Elles ont une texture coriace et sont généralement ovales ou en forme de cœur. Les feuilles de corossol dégagent également une odeur caractéristique et agréable. Elles sont utilisées dans la préparation de divers plats et boissons, notamment des thés, des infusions et des jus. Les feuilles de corossol sont également réputées pour leurs propriétés médicinales . Elles peuvent être utilisées pour traiter certains problèmes de santé tels que les troubles digestifs, l'hypertension artérielle et l'anxiété. En résumé, les feuilles de corossol sont appréciées pour leur apparence attrayante, leur parfum agréable et leurs nombreuses utilisations culinaires et médicinales."
+    Description:
+      "Les feuilles de corossol sont larges, vertes et brillantes. Elles ont une texture coriace et sont généralement ovales ou en forme de cœur. Les feuilles de corossol dégagent également une odeur caractéristique et agréable. Elles sont utilisées dans la préparation de divers plats et boissons, notamment des thés, des infusions et des jus. Les feuilles de corossol sont également réputées pour leurs propriétés médicinales . Elles peuvent être utilisées pour traiter certains problèmes de santé tels que les troubles digestifs, l'hypertension artérielle et l'anxiété. En résumé, les feuilles de corossol sont appréciées pour leur apparence attrayante, leur parfum agréable et leurs nombreuses utilisations culinaires et médicinales.",
   },
   {
     id: 9,
@@ -237,17 +247,21 @@ export const data = [
     Parfum: ["Aromatique", "distinctif"],
     Texture: ["écorce"],
     Origine_géographique: "Madagascar",
-    Conservation: ["récipient hermétique", "à l'abri de la lumière et de l'humidité"],
+    Conservation: [
+      "récipient hermétique",
+      "à l'abri de la lumière et de l'humidité",
+    ],
     Composition_nutritionnelle: ["anéthole", "antioxydants"],
     Grammage: [
       {
-        unite: "en vrac (1-5 kg)"
+        unite: "en vrac (1-5 kg)",
       },
       {
-        liste: []
-      }
+        liste: [],
+      },
     ],
-    Description: "Le bois d'anis, également connu sous le nom d'anis étoilé, est la partie séchée de l'arbre du même nom. Le bois d'anis est largement utilisé comme épice dans la cuisine asiatique, notamment dans les plats à base de viande, les soupes, les sauces et les desserts. Il peut également être utilisé pour aromatiser les boissons alcoolisées, telles que l'absinthe et le pastis. Le bois d'anis est utilisé dans la médecine traditionnelle pour traiter divers problèmes de santé, tels que les troubles digestifs, la toux et les infections respiratoires. Il est pareillement connu pour ses propriétés carminatives et expectorantes. En gros, c'est une épice utilisée dans la cuisine, avec un goût doux et épicé. Il possède des propriétés médicinales bénéfiques et peut être conservé dans des conditions appropriées pour préserver sa saveur et sa qualité. "
+    Description:
+      "Le bois d'anis, également connu sous le nom d'anis étoilé, est la partie séchée de l'arbre du même nom. Le bois d'anis est largement utilisé comme épice dans la cuisine asiatique, notamment dans les plats à base de viande, les soupes, les sauces et les desserts. Il peut également être utilisé pour aromatiser les boissons alcoolisées, telles que l'absinthe et le pastis. Le bois d'anis est utilisé dans la médecine traditionnelle pour traiter divers problèmes de santé, tels que les troubles digestifs, la toux et les infections respiratoires. Il est pareillement connu pour ses propriétés carminatives et expectorantes. En gros, c'est une épice utilisée dans la cuisine, avec un goût doux et épicé. Il possède des propriétés médicinales bénéfiques et peut être conservé dans des conditions appropriées pour préserver sa saveur et sa qualité. ",
   },
 
   {
@@ -524,7 +538,7 @@ export const data = [
       "Fleur de sel de Madagascar aromatisée au voatsiperifery blanc concassé.",
   },
   {
-    id: 24,
+    id: 60,
     imgUrl: imgGingembre,
     name: "GINGEMBRE",
     Goût: "Piquant et épicé avec une légère note citronnée",

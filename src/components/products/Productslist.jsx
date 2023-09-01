@@ -2,14 +2,18 @@ import React from "react";
 import Cardproduct from "./Cardproduct";
 import "./css/Productslist.css";
 
-export default function Productslist({ groupedProducts, searchResults }) {
+export default function Productslist({ searchResultEmpty, filteredData }) {
   return (
     <div className="products--list">
-      {groupedProducts.map((product) => (
-        <div key={product.name} className="--card">
-          <Cardproduct product={product} />
-        </div>
-      ))}
+      {searchResultEmpty ? (
+        <p>No such product</p>
+      ) : (
+        filteredData.map((item) => (
+          <div key={item.id} className="--card">
+            <Cardproduct product={item} />
+          </div>
+        ))
+      )}
     </div>
   );
 }
