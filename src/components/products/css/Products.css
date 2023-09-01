@@ -19,6 +19,12 @@
   font-family: Raleway;
   background-image: url(../../../images/fondProd.png);
 }
+
+.products--products--list,
+.products--products--list--test {
+  min-height: 50vh;
+}
+
 @media (max-width: 600px) {
   .products-header {
     background-size: cover;
@@ -42,10 +48,10 @@
   }
 
   .products--products--list,
-  .products-filter--bar {
+  .products-filter--bar,
+  .products--products--list--test {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
     align-items: center;
   }
 }
@@ -116,7 +122,8 @@
     top: -40rem;
   }
 
-  .products--products--list {
+  .products--products--list,
+  .products--products--list--test {
     position: relative;
     z-index: 2;
   }
@@ -149,6 +156,13 @@
   .products-filter--bar {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .products--products--list--test {
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
   }

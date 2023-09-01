@@ -4,7 +4,43 @@
 }
 
 .filter--and--search--bar {
-  z-index: 50;
+  position: relative;
+  z-index: 5;
+}
+
+.products--list--suggestion {
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  color: black;
+  margin-top: 5px;
+  width: 25rem;
+}
+
+.--card--suggestion {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 5px 5px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.637);
+  padding-block: 5px 5px;
+}
+
+.--card--suggestion Link {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.--card--suggestion--name {
+  display: flex;
+  align-items: flex-end;
+  margin-inline: 1rem 0rem;
+}
+
+.--image--suggestion {
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
 }
 
 @media (max-width: 669px) {
@@ -19,6 +55,10 @@
   }
   .search--bar--search {
     width: 60%;
+  }
+
+  .products--list--suggestion {
+    width: 18rem !important;
   }
 
   .search--bar--button {
@@ -53,7 +93,7 @@
 @media (min-width: 670px) {
   .filter--and--search--bar {
     width: 35rem;
-    margin-block: 1.5rem 3rem;
+    margin-block: 1.5rem 0rem !important;
   }
   .search--bar--line {
     display: flex;
@@ -324,7 +364,7 @@
 @media (min-width: 1300px) {
   .filter--and--search--bar {
     width: 76rem;
-    margin-block: 2rem 3.5rem;
+    margin-block: 2rem 3.5rem !important;
   }
   .search--bar--line {
     display: flex;

@@ -1,32 +1,83 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./css/Products.css";
-import Productslist from "./Productslist";
-import FilterBar from "./FilterBar";
 import { data } from "../../data";
 import Header from "../Header";
 import leaveUp from "../../images/Leaves 1 (1).png";
 import leaveDown from "../../images/Leaves 2 (1).png";
 import Footer from "../Footer";
+import FilterBar from "./FilterBar";
+import Productslist from "./Productslist";
 
 export default function Products() {
-  const [products] = useState(data);
-  const [selectedLetter, setSelectedLetter] = useState("");
-  const [searchResults, setSearchResults] = useState(products);
+  const [filteredData, setFilteredData] = useState(data);
+  const [filteredDataSuggestion, setFilteredDataSuggestion] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResultEmpty, setSearchResultEmpty] = useState(false);
 
-  const groupProductsAlphabetically = (products) => {
-    const grouped = {};
-    products.forEach((product) => {
-      const firstLetter = product.name[0].toUpperCase();
-      if (!grouped[firstLetter]) {
-        grouped[firstLetter] = [];
-      }
-      grouped[firstLetter].push(product);
-    });
-    return grouped;
+  const filterByFirstLetter = (letter) => {
+    if (letter === "All") {
+      setFilteredData(data);
+    } else {
+      const filtered = data.filter(
+        (item) => item.name.charAt(0).toLowerCase() === letter.toLowerCase()
+      );
+      setFilteredData(filtered);
+    }
+    setSearchQuery("");
   };
 
-  const groupedProducts = groupProductsAlphabetically(products);
-  const [searchedData, setSearchedData] = useState(groupedProducts);
+  const uniqueFirstLetters = [
+    ...new Set(data.map((item) => item.name.charAt(0).toLowerCase())),
+  ];
+
+  const handleSearch = () => {
+    // Use searchQuery to filter data when the button is clicked
+    const query = searchQuery;
+    setSearchResultEmpty(false); // Reset search result flag
+
+    // Check if the query matches any product names
+    const filtered = data.filter((item) =>
+      item.name.toLowerCase().includes(query.toLowerCase())
+    );
+
+    setSearchResultEmpty(filtered.length === 0);
+    setFilteredData(filtered);
+    setSearchQuery("");
+  };
+
+  const handleSearchSuggestion = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+
+    // Check if the query is empty
+    if (query === "") {
+      setFilteredDataSuggestion([]); // Clear the filtered data
+      return;
+    }
+
+    // Check if the query matches any product names
+    const filtered = data.filter((item) =>
+      item.name.toLowerCase().includes(query.toLowerCase())
+    );
+    setSearchResultEmpty(filtered.length === 0);
+    setFilteredDataSuggestion(filtered);
+  };
+
+  const handleChange = (e) => {
+    setSearchQuery(e.target.value);
+    return handleSearchSuggestion;
+  };
+
+  useEffect(() => {
+    if (searchQuery === "") {
+      setFilteredDataSuggestion([]);
+    } else {
+      const filtered = data.filter((item) =>
+        item.name.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+      setFilteredDataSuggestion(filtered);
+    }
+  }, [searchQuery]);
 
   return (
     <div className="products">
@@ -42,55 +93,27 @@ export default function Products() {
       </div>
       <div className="products--body">
         <div className="products-filter--bar">
-          {selectedLetter === "" ? (
-            <FilterBar
-              groupedProducts={products}
-              groupProductsAlphabetically={groupedProducts}
-              selectedLetter={selectedLetter}
-              setSearchedData={setSearchedData}
-              searchedData={searchedData}
-              setSearchResults={setSearchResults}
-              setSelectedLetter={setSelectedLetter}
-            />
-          ) : (
-            selectedLetter in searchedData && (
-              <FilterBar
-                groupedProducts={groupedProducts}
-                groupProductsAlphabetically={groupedProducts}
-                selectedLetter={selectedLetter}
-                setSelectedLetter={setSelectedLetter}
-                setSearchedData={setSearchedData}
-                searchedData={searchedData}
-                setSearchResults={setSearchResults}
-              />
-            )
-          )}
+          <FilterBar
+            handleSearch={handleSearch}
+            filterByFirstLetter={filterByFirstLetter}
+            uniqueFirstLetters={uniqueFirstLetters}
+            searchQuery={searchQuery}
+            handleSearchSuggestion={handleSearchSuggestion}
+            handleChange={handleChange}
+            filteredDataSuggestion={filteredDataSuggestion}
+            searchResultEmpty={searchResultEmpty}
+          />
         </div>
-        <div>
-          {selectedLetter === "" ? (
-            <div className="products--products--list">
-              <Productslist
-                groupedProducts={searchResults}
-                setSearchResults={setSearchResults}
-                searchResults={searchResults}
-              />
-            </div>
-          ) : (
-            selectedLetter in searchedData && (
-              <div key={selectedLetter} className="products--products--list">
-                <Productslist
-                  selectedLetter={selectedLetter}
-                  groupedProducts={searchedData[selectedLetter]}
-                  setSearchResults={setSearchResults}
-                />
-              </div>
-            )
-          )}
+        <div className="products--products--list">
+          <Productslist
+            searchResultEmpty={searchResultEmpty}
+            filteredData={filteredData}
+          />
         </div>
       </div>
       <div className="products-footer">
         <img src={leaveDown} alt="leaveDown" className="leave--down" />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
