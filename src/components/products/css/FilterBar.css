@@ -1,6 +1,6 @@
 .filter--bar--alphabet:hover {
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: bold;
   cursor: pointer;
 }
 
