@@ -272,6 +272,7 @@
     justify-content: space-between;
     color: red;
     margin-top: 0.5rem;
+    margin-inline: 1rem 1rem;
   }
 
   .filter--bar--alphabet:hover {
