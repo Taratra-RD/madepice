@@ -45,7 +45,7 @@ const Contact = () =>{
                             <div className="content">
                                 <div className="title"><h3>Visitez-nous</h3></div>
                                 <p>
-                                    <li>Lieux</li>
+                                    <li>BP:238, 405 Boulevard Ratsimandrava</li>
                                 </p>
                             </div>
                         </div>

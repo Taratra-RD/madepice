@@ -42,7 +42,7 @@
 }
 .local--footer{
     display: inline-block;
-    max-width: 10em;
+    max-width: 19em;
     max-height: 5em;
     margin-left:11em;
     text-align: start;
@@ -94,10 +94,10 @@
     }
     .local--footer{
         display: block;
-        max-width: 10em;
+        max-width: 20em;
         max-height: 5em;
         margin-top: 5em !important;
-        margin-left:-10em;
+        margin-left:-15em;
         text-align: center;
     }
     

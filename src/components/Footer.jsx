@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
                 <div className="local--footer">
                     <p style={{color:'#F2E5D1B2'}}>Où nous trouver</p><br/>
-                    <p>+261 34 34 134 81</p>
+                    <p>405 Boulevard Ratsimandrava</p>
                     <p>commercial@madépices.mg</p>
                 </div>
                 <div className="follow--footer">
