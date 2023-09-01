@@ -52,7 +52,11 @@ export default function FilterBar({
             <div key={item.id} className="--card--suggestion">
               <div
                 className="--image--suggestion"
-                style={{ backgroundImage: `url(${item.imgUrl})` }}
+                style={
+                  item.imgUrl
+                    ? { backgroundImage: `url(${item.imgUrl})` }
+                    : { backgroundColor: "black" }
+                }
               ></div>
               <Link className="--card--suggestion--name">
                 {item.name.toLowerCase()}

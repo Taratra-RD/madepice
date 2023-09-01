@@ -509,7 +509,7 @@ export const data = [
   },
   {
     id: 22,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "FLEUR DE SEL/ VANILLE",
     Grammage: [
       {
@@ -524,7 +524,7 @@ export const data = [
   },
   {
     id: 23,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "FLEUR DE SEL/ VOATSIPERIFERY BLANC",
     Grammage: [
       {
@@ -619,7 +619,7 @@ export const data = [
   },
   {
     id: 27,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "MELANGE 4 EPICES",
     Goût: "Chaud, épicé et légèrement sucré",
     Origine_géographique: "Madagascar",
@@ -835,7 +835,7 @@ export const data = [
   },
   {
     id: 38,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "MORINGA",
     Texture: ["poudre"],
     Origine_géographique: "Madagascar",
@@ -855,7 +855,7 @@ export const data = [
   },
   {
     id: 39,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "RIBAMBELLE D'EPICE",
     Grammage: [
       {
@@ -917,7 +917,7 @@ export const data = [
   },
   {
     id: 42,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "L'EPICE AIL EN POUDRE",
     Grammage: [
       {
@@ -936,7 +936,7 @@ export const data = [
   },
   {
     id: 43,
-    imgUrl: "./images/",
+    imgUrl: "",
     name: "L'EPICE COMBAVA EN POUDRE",
     Grammage: [
       {
