@@ -1,6 +1,7 @@
 .filter--bar--alphabet:hover {
   text-decoration: underline;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .filter--and--search--bar {
