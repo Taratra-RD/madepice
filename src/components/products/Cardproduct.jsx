@@ -51,6 +51,8 @@ export default function Cardproduct({ product }) {
     return text;
   };
 
+  window.history.pushState(product, "", "/");
+
   return (
     <div
       className="card--product"
@@ -64,11 +66,20 @@ export default function Cardproduct({ product }) {
         id={`card--image--${product.name}`}
         style={cardBackground}
       ></div>
-      <Link className="card--title" id={`card--title--${product.name}`} style={{fontFamily:'Canela Deck Trial'}}>
+      <Link
+        className="card--title"
+        id={`card--title--${product.name}`}
+        style={{ fontFamily: "Canela Deck Trial" }}
+      >
         {product.name}
       </Link>
-      <Link className="card--body" id={`card--body--${product.name}`}>
-        <div className="card--title--body" style={{fontFamily:'Canela Deck Trial'}}>{product.name}</div>
+      <Link to="/" className="card--body" id={`card--body--${product.name}`}>
+        <div
+          className="card--title--body"
+          style={{ fontFamily: "Canela Deck Trial" }}
+        >
+          {product.name}
+        </div>
         <div className="card--description">{truncate(product.Description)}</div>
         <div className="card--button">Savoir plus</div>
       </Link>
