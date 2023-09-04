@@ -1,198 +1,246 @@
-.single--product{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../../images/Rectangle\ 51.png);
-    height: 150vw;
-    font-family: Raleway;
-}
-.line-red{
-    width: 2px;
-    height: 70%;
-    margin-left: 4em;
-    margin-right: 4em;
-    background: #961B1E;
-}
-.single--product--container{
-    width: 85vw;
-    height: 40vw;
-    background: #121212;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    box-shadow: 1px 2px 2px black;
-}
-.single--product--left{
-    width: 45%;
-    height: 100%;
-    background: white;
-    background-size: 110%;
-    background-position: center;
-}
-.single--product--right{
-    width: 70%;
-    height: 100%;
-    background: #121212;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.random--product--container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10em;
-    height: 60%;
-    background: rgba(0, 0, 0, 0.149);
-    border-radius: 10px;
-    overflow-y: hidden;
-    margin-block: 1rem 1rem;
-}
-.random--product--container--card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-inline: 0.5em 0.5em;
-}
-.button--product a .btn{
-    margin-top: 1em;
-    background: #f2e5d1;
-}
-.button--product a .btn:hover{
-    background: #121212;
-    box-shadow: 1px 5px 10px black;
-    border: 1px solid #f2e5d1;
-    transition: 0.4s;
-}
-.button--product a:hover {
-    color: #f2e5d1;
+.single--product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/Rectangle\ 51.png);
+  height: 150vw;
+  font-family: Raleway;
 }
 
-@media screen and (max-width:400px) {
-  body{
-      font-style: 14px;
+.line-red {
+  width: 2px;
+  height: 70%;
+  margin-left: 4em;
+  margin-right: 4em;
+  background: #961B1E;
+}
+
+.single--product--container {
+  width: 85vw;
+  height: 40vw;
+  background: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 1px 2px 2px black;
+}
+
+.single--product--left {
+  width: 45%;
+  height: 100%;
+  background: white;
+  background-size: 110%;
+  background-position: center;
+}
+
+.single--product--right {
+  width: 70%;
+  height: 100%;
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.random--product--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10em;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.149);
+  border-radius: 10px;
+  overflow-y: hidden;
+  margin-block: 1rem 1rem;
+}
+
+.button--product a .btn {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background: #f2e5d1;
+}
+
+.button--product a .btn:hover {
+  background: #121212;
+  box-shadow: 1px 5px 10px black;
+  border: 1px solid #f2e5d1;
+  transition: 0.4s;
+}
+
+.button--product a:hover {
+  color: #f2e5d1;
+}
+
+@media screen and (max-width:400px) {}
+
+@media screen and (max-width:720px) {
+  body {
+    font-style: 14px;
   }
   .single--product{
+    height: auto;
+  }
+  .single--product--container {
+    height: auto;
+  }
+
+  .single--product--left {
+    background: white;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .line-red {
+    display: none;
+  }
+
+  .single--product--right {
+    font-size: 14px;
+    background: #121212;
+    margin: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*Taratra container*/
+@media screen and (max-width: 449px) {
+  body {
+    font-style: 14px;
+  }
+
+
+  .single--product--left {
+    display: none;
+  }
+
+  .line-red {
+    display: none;
+  }
+  .single--product--container{
+    height: auto;
+  }
+  .single--product--right {
+    font-size: 14px;
+    background: #121212;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
+    height: auto;
+
+  }
+
+  .single--product {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: url(../../images/Rectangle\ 51.png);
-    height: 580vw;
+    height: auto;
     font-family: Raleway;
+  }
 }
-  .single--product--container{
-    height: 100vw;
+
+@media screen and (min-width: 450px) {
+  .random--product--container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-flow: row wrap;
+    width: 95vw;
+  }
+  
+  .single--product--container{
+    height: 75vw;
+  }
+
+  .single--product {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
   }
   .single--product--left{
-      background: white;
-      background-size: cover;
-      background-position: center;
-      display: none;
+    background-size: 125%;
   }
-  .line-red{
-    display: none;
+  .single--product--container{
+    height: 55vw;
   }
-  .single--product--right{
-      font-size: 14px;
-      background: #121212;
-      margin: 2em;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+  .single--product {
+    height: auto;
   }
 }
-@media screen and (max-width:720px) {
-    body{
-        font-style: 14px;
-    }
-    .single--product--container{
-      height: 100vw;
-    }
-    .single--product--left{
-        background: white;
-        background-size: cover;
-        background-position: center;
-    }
-    .line-red{
-      display: none;
-    }
-    .single--product--right{
-        font-size: 14px;
-        background: #121212;
-        margin: 1.5em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-/*Taratra container*/
-@media (max-width: 449px) {
-    .random--product--container {
-      display: flex;
-      flex-flow: row wrap;
-      width: 90vw;
 
-    }
-    .single--product{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-image: url(../../images/Rectangle\ 51.png);
-      height: 450vw;
-      font-family: Raleway;
+@media screen and (min-width: 800px) {
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 85vw;
   }
+  .single--product--container{
+    height: 50vw;
   }
-  
-  @media (min-width: 450px) {
-    .random--product--container {
-      display: flex;
-      flex-flow: row wrap;
-      width: 95vw;
-      height: 550vw;
-    }
-    
+  .single--product {
+    height: auto;
   }
-  
-  @media (min-width: 670px) {
-    .random--product--container {
-      display: flex;
-      flex-flow: row wrap;
-      width: 90vw;
-    }
-    
+}
+@media screen and (min-width: 975px) {
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 85vw;
   }
-  
-  
-  @media (min-width: 1000px) {
-    .random--product--container {
-      display: flex;
-      flex-flow: row wrap;
-      width: 90vw;
-    }
+  .single--product--container{
+    height: 50vw;
   }
-  
-  @media (min-width: 1150px) {
-    .random--product--container {
-      display: flex;
-      flex-flow: row wrap;
-      width: 90vw;
-    }
+  .single--product {
+    height: auto;
   }
-  
-  @media (min-width: 1300px) {
-    .random--product--container {
-      display: flex;
-      flex-flow: row wrap;
-      width: 92vw;
-    }
+}
+@media screen and (min-width: 1030px) {
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
   }
-  
+  .single--product--container{
+    height: 40vw;
+  }
+  .single--product {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90vw;
+  }
+
+  .single--product {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .random--product--container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 92vw;
+  }
+}

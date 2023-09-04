@@ -9,12 +9,12 @@ export default function Footer() {
             </div>
             <div className="container" style={{right:0}}>
                 <div className="contact--footer">
-                    <p style={{color:'#F2E5D1B2'}}>Contact</p><br/>
+                    <p style={{color:'#F2E5D1B2'}}>Contact</p>
                     <p>+261 34 34 134 81</p>
                     <p>commercial@madépices.mg</p>
                 </div>
                 <div className="local--footer">
-                    <p style={{color:'#F2E5D1B2'}}>Où nous trouver</p><br/>
+                    <p style={{color:'#F2E5D1B2'}}>Où nous trouver</p>
                     <p>405 Boulevard Ratsimandrava</p>
                     <p>commercial@madépices.mg</p>
                 </div>

@@ -51,9 +51,9 @@ export default function Header() {
 
                 </nav>
             </div>
-            <div className={`navbar ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
+            <div className={`navbar sticky-top ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
                 <Link to={'/'}>
-                    <img src={logo2} className="logo--navbar" alt="" />
+                    <div className="logo--navbar" alt=""></div>
                 </Link>
 
                 <nav>
