@@ -18,7 +18,7 @@ function App() {
         <Route path="/product" element={<Products />} />
         <Route path="/mui" element={<MuiPage />} />
         <Route path="/product" element={<Products />} />
-        <Route path="/product/:name" element={<SingleProduct />} />
+        <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="/recettes" element={<Recettes />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

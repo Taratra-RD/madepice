@@ -39,6 +39,7 @@ function Home() {
     whiteMode(window.scrollY)
   }
 
+
   useEffect(() => {
     if (window.innerWidth >= 992) {
       setSlideCards(true);
@@ -135,10 +136,12 @@ function Home() {
                 }}
               >
                 {
-                  data.map(data => (
-                    <SwiperSlide>
+                  data.map((data) => (
+                    <SwiperSlide key={data.id}>
                       <Card
                         key={data.id}
+                        id={data.id}
+                        className={'home'}
                         img={data.imgUrl}
                         title={data.name}
                         text={data.Description.slice(0, 90) + '...'}
@@ -149,8 +152,8 @@ function Home() {
               </Swiper>
               <i className="custom-next-button fa fas fa-circle-chevron-right fa-2xl"
                 style={{
-                  cursor: hasNextSlides ? 'pointer' : 'default',
-                  color: hasNextSlides ? '#dc3545' : 'none',
+                  cursor: hasNextSlides ? 'pointer' : 'pointer',
+                  color: hasNextSlides ? '#dc3545' : '#dc3545',
                   position: 'fixed',
                   right: -40,
                   top: 185
@@ -164,7 +167,7 @@ function Home() {
         </div>
         <div className="container-fluid img2">
           <Container>
-            <h2 className={`${isScrolling ? "slide-left" : ''}`} style={{ marginTop: '0em', marginBottom: '0.5em', fontFamily: 'Canela Deck Trial' }}>
+            <h2 className={`${isScrolling ? "slide-left" : ''}`} style={{ marginTop: '0em', marginBottom: '0.5em', fontFamily: 'Canela' }}>
               DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES CULTIVATEURS
             </h2>
             <p className={`${isScrolling ? "slide-left" : ''}`} style={{ fontFamily: 'Raleway' }}>
@@ -174,14 +177,14 @@ function Home() {
               Découvrez notre histoire
             </button>
           </Container>
-          <div className={`img-feuille ${isScrollingFl ? 'slide-feuille-1' : ''}`}>
+          <div className={`img-feuille ${isScrollingFl&&isScrolling ? 'slide-feuille-1' : ''}`}>
           </div>
           <div className={`img-feuille2 ${isScrolling ? '' : ''}`}>
           </div>
         </div>
         <div className="container-fluid img3">
           <Container style={{ alignContent: 'center' }}>
-            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling2 ? "slide-right" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela' }}>
               NOS ENGAGEMENTS
             </h1>
             <div className={`block ${isScrolling2 ? "slide-left" : ''}`} style={{ padding: '1em' }}>
@@ -189,7 +192,7 @@ function Home() {
                 Chez Madepices, notre engagement réside dans l'élaboration minutieuse d'un travail de qualité, centré sur des produits d'exception. Notre démarche s'étend de la collecte initiale jusqu'au conditionnement final, garantissant une excellence constante à chaque étape du processus. Nous mettons un point d'honneur à sélectionner avec soin les matières premières les plus raffinées, en parcourant les coins les plus reculés pour trouver des trésors aromatiques uniques. Guidés par notre passion, nous préservons la pureté et l'authenticité de chaque produit, tout en accordant une attention méticuleuse au conditionnement pour préserver leur fraîcheur et leur caractère unique. Notre dévouement à l'excellence nous pousse à offrir des expériences gustatives exceptionnelles, enrichies par des saveurs profondes et des arômes captivants, reflétant l'essence même de Madagascar.
               </p>
             </div>
-            <h1 className={`${isScrolling3 ? "slide-right d-block" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela Deck Trial' }}>
+            <h1 className={`${isScrolling3 ? "slide-right d-block" : ''}`} style={{ textAlign: 'center', paddingBottom: '0.7em', color: '#F2E5D1', fontFamily: 'Canela' }}>
               NOS VALEURS
             </h1>
             <div className={` block ${isScrolling3 ? "slide-left d-block" : ''}`} style={{ padding: '1em' }}>
