@@ -1,8 +1,11 @@
 .logo--navbar {
-    height: 5em;
-    width: 12em;
+    height: 4.5em;
+    width: 11em;
     padding: 0.6em;
     margin-left: 8em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../images/LOGO.png);
 }
 .navbar{
     width: 100%;
@@ -10,6 +13,7 @@
 }
 .scrollingNavbar{
     background: #000;
+    transition: 0.3s all;
 }
 nav{
     /*flex: 1;*/
@@ -90,10 +94,9 @@ div.sidenav nav ul li a:hover {
         z-index: 5;
     }
     .logo--navbar {
-        height: 5em;
+        height: 4.5em;
         padding: 0.6em;
-        margin-left: 1em !important;
-        background: none;
+        margin-left: 2em !important;
         display: block;
     }
     i.fa-bars{
@@ -128,11 +131,10 @@ div.sidenav nav ul li a:hover {
 
 @media screen and (max-width:960px) {
     .logo--navbar {
-        height: 5em;
+        height: 4.5em;
         width: 13em;
         padding: 0.6em;
-        margin-left: 2em;
-        background: none;
+        margin-left: 2.5em;
     }
     i.fa-bars{
         cursor: pointer;
