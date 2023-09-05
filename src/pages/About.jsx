@@ -128,7 +128,7 @@ const About = () => {
                 <div className="footer">
                     <Footer />
                 </div>
-                <img className="leaves" src={leaves} />
+                <img className="leaves slide-feuille-1" src={leaves} />
                 <img className="leaves-1" src={leaves_1} />
                 <img className={`line ${isScrolling_4 ? 'line-anim' : ''} `} src={line} />
             </div>
