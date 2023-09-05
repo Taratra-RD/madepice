@@ -8,11 +8,13 @@ import MuiPage from "./pages/MuiPage";
 import Products from "./components/products/Products";
 import Recettes from "./pages/Recettes";
 import Contact from "./pages/Contact";
+import Header from "./components/Header";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Products />} />

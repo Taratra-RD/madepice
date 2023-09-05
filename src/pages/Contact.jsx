@@ -1,4 +1,4 @@
-import HeaderAbout from "../components/Header"
+import Header from "../components/Header"
 import "./css/Contact.css"
 import PhoneIcons from "../images/Icons.png"
 import MailIcons from "../images/Icons(1).png"
@@ -14,7 +14,7 @@ const Contact = () =>{
             <div className="conatct">
                 <div className="landing-page2">
                     <div className="contact-header">
-                        <HeaderAbout/>
+                        <Header/>
                     </div>
                 </div>
                 <div className="body--contain">

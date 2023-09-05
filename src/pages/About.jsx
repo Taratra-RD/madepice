@@ -6,6 +6,7 @@ import leaves_1 from "../images/Leaves 2.png"
 import line from "../images/Line 1.png"
 import { useState, useEffect } from "react"
 import "../components/css/Header.css"
+import Header from "../components/Header"
 
 const About = () => {
 
@@ -65,7 +66,7 @@ const About = () => {
 
     const isScrolling_1 = scroll_1 > 100;
     const isScrolling_2 = scroll_2 > 410;
-    const isScrolling_3 = scroll_3 > 620;
+    const isScrolling_3 = scroll_3 > 630;
     const isScrolling_4 = scroll_4 > 100;
     const isScrolling10 = scroll_4 > 1050;
     const isScrolling20 = scroll_4 > 1710;
@@ -75,7 +76,7 @@ const About = () => {
             <div className="about">
                 <div className="imgGroups2">
                     <div className="about--header">
-                        <HeaderAbout />
+                        <Header />
                     </div>
                     <div className="title-1">
                         <h1 className="title-1-text" style={{ fontFamily: 'Canela' }}>QUI SOMMES-NOUS?</h1>

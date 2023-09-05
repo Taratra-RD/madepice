@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer container-fluid" style={{color:'white'}}>
             <div className="logo--footer">
             </div>
-            <div className="container" style={{right:0}}>
+            <div className="container">
                 <div className="contact--footer">
                     <p style={{color:'#F2E5D1B2'}}>Contact</p>
                     <p>+261 34 34 134 81</p>

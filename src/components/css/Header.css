@@ -10,6 +10,7 @@
 .navbar{
     width: 100%;
     height: 6.5em;
+    background-color: none;
 }
 .scrollingNavbar{
     background: #000;
@@ -50,10 +51,10 @@ i.fa-bars{
 /*sidenavvvvvv icone responsive*/
 div.sidenav {
     position:fixed;
-    top: 6.5em;
+    top: 6.4em;
     width: 100%;
-    border-radius: 17px 0 17px 0;
-    z-index: 3;
+    border-radius: 0 0 17px 0;
+    z-index: 99;
     overflow: hidden;
     height: 0;
     background: darkred;
@@ -91,7 +92,7 @@ div.sidenav nav ul li a:hover {
         position: sticky;
         top: 0;
         position: relative;
-        z-index: 5;
+        z-index: 99;
     }
     .logo--navbar {
         height: 4.5em;

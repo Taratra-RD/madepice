@@ -63,7 +63,7 @@ p{
 .leaves{
     position: absolute;
     top: 25em;
-    left: 70.3em;
+    right: 0;
     width: 15em;
     height: auto;
 }
@@ -107,8 +107,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-block: 10em 3em !important;
-    font-family: Canela Deck Trial;
+    margin-block: 8em 3em !important;
+    
+    font-family: Canela;
 }
 
 .container--about{
