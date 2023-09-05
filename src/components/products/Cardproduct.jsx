@@ -4,6 +4,12 @@ import { useMediaQuery } from "usehooks-ts";
 import { Link } from "react-router-dom";
 
 export default function Cardproduct({ product }) {
+  const cardBackground = {
+    backgroundImage: `url(${product.imgUrl_1})`,
+  };
+  const cardBackground1 = {
+    backgroundImage: `url(${product.imgUrl_2})`,
+  };
   let widthX = useMediaQuery("(min-width:670px)");
 
   const handleCard = () => {
@@ -22,22 +28,18 @@ export default function Cardproduct({ product }) {
     } else if (cardProduct.className === `card--product` && !widthX) {
       cardProduct.className += "--hover";
       cardProduct.style.backgroundColor = "black";
-      cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
+      cardProduct.style.backgroundImage = `url(${product.imgUrl_1})`;
       cardImage.className += "--hover";
       cardTitle.className += "--hover";
       cardBody.className += "--hover";
     } else {
       cardProduct.className = "card--product";
-      cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
+      cardProduct.style.backgroundImage = `url(${product.imgUrl_1})`;
       cardProduct.style.backgroundColor = "rgb(5, 34, 34)";
       cardImage.className = "card--image";
       cardTitle.className = "card--title";
       cardBody.className = "card--body";
     }
-  };
-
-  const cardBackground = {
-    backgroundImage: `url(${product.imgUrl})`,
   };
 
   const truncate = (text) => {
@@ -51,7 +53,7 @@ export default function Cardproduct({ product }) {
     return text;
   };
 
-  window.history.pushState(product, "", "/");
+  window.history.pushState({ product: product }, "", "/");
 
   return (
     <div
@@ -64,23 +66,24 @@ export default function Cardproduct({ product }) {
       <div
         className="card--image"
         id={`card--image--${product.name}`}
-        style={cardBackground}
+        style={cardBackground1}
       ></div>
       <Link
+        to={`/`}
         className="card--title"
         id={`card--title--${product.name}`}
         style={{ fontFamily: "Canela Deck Trial" }}
       >
         {product.name}
       </Link>
-      <Link to="/" className="card--body" id={`card--body--${product.name}`}>
+      <Link to={"/"} className="card--body" id={`card--body--${product.name}`}>
         <div
           className="card--title--body"
           style={{ fontFamily: "Canela Deck Trial" }}
         >
           {product.name}
         </div>
-        <div className="card--description">{truncate(product.Description)}</div>
+        <div className="card--description">{truncate(product.description)}</div>
         <div className="card--button">Savoir plus</div>
       </Link>
     </div>

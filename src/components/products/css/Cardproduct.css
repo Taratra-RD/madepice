@@ -11,7 +11,8 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 8rem 10.5rem;
+    background-size: 120% 10.5rem;
+    background-position: center;
   }
 
   .card--image {
@@ -76,7 +77,8 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 8rem 10.5rem;
+    background-size: 120% 10.5rem;
+    background-position: center;
   }
 
   .card--image {
@@ -197,7 +199,8 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 12rem 16rem;
+    background-size: 120% 16rem;
+    background-position: center;
   }
 
   .card--image {
@@ -322,7 +325,8 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 12rem 16rem;
+    background-size: 120% 16rem;
+    background-position: center;
   }
 
   .card--image {
@@ -446,7 +450,8 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 14rem 19rem;
+    background-size: 120% 19rem;
+    background-position: center;
   }
 
   .card--image {
@@ -571,7 +576,8 @@
     margin: 5px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 17.5rem 24rem;
+    background-size: 120% 24rem;
+    background-position: center;
   }
 
   .card--image {

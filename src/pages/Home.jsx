@@ -28,6 +28,7 @@ import imgBaobab from "../images/imgBaobab.png";
 import Card from "../components/home/Card";
 import { Container } from "react-bootstrap";
 import { data } from "../data";
+import { useParams } from "react-router-dom";
 
 function Home() {
   const [slideCards, setSlideCards] = useState(false);
@@ -143,7 +144,7 @@ function Home() {
                       key={data.id}
                       img={data.imgUrl}
                       title={data.name}
-                      text={data.Description.slice(0, 90) + "..."}
+                      text={data.description.slice(0, 90) + "..."}
                     />
                   </SwiperSlide>
                 ))}
