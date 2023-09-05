@@ -152,8 +152,8 @@ function Home() {
               <i
                 className="custom-next-button fa fas fa-circle-chevron-right fa-2xl"
                 style={{
-                  cursor: hasNextSlides ? "pointer" : "default",
-                  color: hasNextSlides ? "#dc3545" : "none",
+                  cursor: hasNextSlides ? "pointer" : "pointer",
+                  color: hasNextSlides ? "#dc3545" : "#dc3545",
                   position: "fixed",
                   right: -40,
                   top: 185,
@@ -170,7 +170,7 @@ function Home() {
               style={{
                 marginTop: "0em",
                 marginBottom: "0.5em",
-                fontFamily: "Canela Deck Trial",
+                fontFamily: "Canela",
               }}
             >
               DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES
@@ -203,7 +203,9 @@ function Home() {
             </button>
           </Container>
           <div
-            className={`img-feuille ${isScrollingFl ? "slide-feuille-1" : ""}`}
+            className={`img-feuille ${
+              isScrollingFl && isScrolling ? "slide-feuille-1" : ""
+            }`}
           ></div>
           <div className={`img-feuille2 ${isScrolling ? "" : ""}`}></div>
         </div>
@@ -215,7 +217,7 @@ function Home() {
                 textAlign: "center",
                 paddingBottom: "0.7em",
                 color: "#F2E5D1",
-                fontFamily: "Canela Deck Trial",
+                fontFamily: "Canela",
               }}
             >
               NOS ENGAGEMENTS
@@ -248,7 +250,7 @@ function Home() {
                 textAlign: "center",
                 paddingBottom: "0.7em",
                 color: "#F2E5D1",
-                fontFamily: "Canela Deck Trial",
+                fontFamily: "Canela",
               }}
             >
               NOS VALEURS

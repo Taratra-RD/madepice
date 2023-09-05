@@ -1,78 +1,129 @@
-import React from 'react'
-
+import React, { useEffect } from 'react';
+import { useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import './css/SingleProduct.css'
+import Productslist from '../components/products/Productslist';
+import { data } from '../data';
+import Card from '../components/home/Card';
+import { Col, Row } from 'react-bootstrap';
+import { useMediaQuery } from 'usehooks-ts';
 
 export default function SingleProduct() {
-    const data = {
-        name: "ail",
-        Goût: "Piquant",
-        Intensité: ["Forte"],
-        Texture: ["poudre", "morceau"],
-        Origine_géographique: "Madagascar",
-        Conservation: "endroit frais et sec",
-        Composition_nutritionnelle: [
-            "potassium",
-            "composés sulfurés",
-            {
-                vitamines: ["B", "C"]
-            },
-            {
-                mineraux: ["calcium", "fer"]
-            }
-        ],
-        Grammage: [
-            {
-                unite: "en vrac (1-5 kg)"
-            },
-            {
-                liste: [25, 100, 120, 300]
-            }
-        ],
-        Description: "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé,"
-    }
+    const { id } = useParams(); // Extract the 'id' parameter from the URL
+    const widthPhoneLg = useMediaQuery("(max-width:720px)")
+    const widthPhoneSm = useMediaQuery("(max-width:410px)")
 
-    const formatValue = (keys, value) => {
-        if (Array.isArray(value)) {
-            if (value.length === 1) {
-                return value[0]
-            } else if (value.length === 2 && typeof value[0] === "string" && typeof value[0] === "string") {
-                return `${value[0]} et ${value[1]}`
-            } else if (value.length > 2) {
-                let chain = []
-                value.forEach(val => {
-                    if (typeof val === "string") {
-                        chain.push(val)
-                    } else {
-                        const [key, innerValue] = Object.entries(val)[0]
-                        chain.push(`${key} ${innerValue.join(" et ")}`)
-                    }
-                })
-                return chain.join(', ')
-            }
-        } else if (typeof value === "string") {
-            return value
-        } else if (keys === "Grammage") {
-            console.log("first")
-            return `${value.liste.join('g, ')} ${value.unite}`
+    const [filteredData, setFilteredData] = useState(data);
+    const [img,setImage] = useState('')
+
+    // Shuffle function to randomly reorder the array
+    function shuffleArray(array) {
+        const shuffledArray = [...array];
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
         }
+        return shuffledArray;
     }
-    return (
-        <div className='single--product'>
-            <div className='single--product--left'>
+    const shuffledData = shuffleArray(data)
+    // eslint-disable-next-line
+    const filteredProduct = data.filter(product => product.id == id); // Compare 'product.id' with 'id'
 
+    useEffect(()=>{
+        
+    },[])
+    return (
+        <>
+            <div className='header--product'>
+                <Header />
             </div>
-            <hr />
-            <div className='single--product--right'>
+            <div className='single--product'>
+                <div className='single--product--container'>
+                    {filteredProduct.map(product => (
+                        <>
+                            <div className='single--product--left' key={product.id} style={{ backgroundImage: `url('${product.imgUrl}')` }}>
+                            </div>
+                            <div className="line-red"></div>
+                            <div className='single--product--right' key={product.id}>
+                                <h2 style={{ fontFamily: 'Canela', color: '#F2E5D1' }}>{product.name}</h2><br />
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Gout :</span> {product.Goût}
+                                </p>
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Intensité :</span> {product.Intensité}
+                                </p>
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Parfum :</span> {product.Parfum}
+                                </p>
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Texture :</span>
+                                    <span> {product.Texture}</span>
+
+                                </p>
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Origine géographique :</span> {product.Origine_géographique}
+                                </p>
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Conservation :</span>
+                                    <span> {product.Conservation}</span>
+                                </p>
+                                <p>
+                                    <span style={{ fontWeight: 600 }}>Grammage :</span> {product.Grammage[0].unite}
+                                </p>
+                            </div>
+                        </>
+                    ))}
+                </div>
                 {
-                    Object.entries(data).map(([key, value]) =>
-                    (
-                        <div className={`product--${key}`}>
-                            {
-                                `${key} : ${formatValue(key, value)}`
-                            }
-                        </div>
-                    ))
+                    widthPhoneLg ?
+                    <div className="random--product--container">
+                    {
+                        shuffledData.slice(0,4).map((product) => (
+                            <div className="products--products--list--card" key={product.id}>
+                                <Card 
+                                    id={product.id}
+                                    img={product.imgUrl} 
+                                    title={product.name} 
+                                    text={product.Description.slice(0, 90) + '...'}
+                                    className={'details'}
+                                />
+                            </div>
+                        )
+                        )
+                    }
+                    </div>
+                    :
+                    <div className="random--product--container">
+                    {
+                        shuffledData.slice(0,12).map((product) => (
+                            <div className="products--products--list--card" key={product.id}>
+                                <Card 
+                                    id={product.id}
+                                    img={product.imgUrl} 
+                                    title={product.name} 
+                                    text={product.Description.slice(0, 90) + '...'}
+                                    className={'details'}
+                                />
+                            </div>
+                        )
+                        )
+                    }
+                </div>
                 }
+                
+                <div className="button--product">
+                    <Link to={'/product'}>
+                        <button className='btn btn-lg' style={{ borderRadius: '8px',fontFamily:'Raleway',fontWeight:700}}>
+                            Voir tout ...
+                        </button>
+                    </Link>
+                </div>
             </div>
-        </div>
-    )
+            <div className="footer--product">
+                <Footer />
+            </div>
+        </>
+    );
 }

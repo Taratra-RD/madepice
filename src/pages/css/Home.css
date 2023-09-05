@@ -84,7 +84,7 @@ div.card-img {
 }
 
 .slide-feuille-1{
-    animation: slide-feuille-1 0.7s forwards ease-out;
+    animation: slide-feuille-1 1.7s forwards ease;
 }
 .slide-feuille-2{
     animation: slide-feuille-2 0.7s forwards ease-out;
@@ -129,7 +129,7 @@ div.card-img {
 }
 @keyframes slide-feuille-1 {
     from{
-        transform: translateX(100px);
+        transform: translateX(350px);
         opacity: 0;
     }
     to{
