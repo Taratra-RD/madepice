@@ -52,9 +52,6 @@ export default function Cardproduct({ product }) {
 
     return text;
   };
-  window.history.pushState(product, "", "/");
-
-  window.history.pushState({ product: product }, "", "/");
 
   return (
     <div
