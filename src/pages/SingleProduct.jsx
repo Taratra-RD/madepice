@@ -56,33 +56,11 @@ export default function SingleProduct() {
                 </h2>
                 <br />
                 <p>
-                  <span style={{ fontWeight: 600 }}>Gout :</span> {product.Goût}
+                  <span style={{ fontWeight: 600 }}>Type :</span> {product.type}
                 </p>
                 <p>
-                  <span style={{ fontWeight: 600 }}>Intensité :</span>{" "}
-                  {product.Intensité}
-                </p>
-                <p>
-                  <span style={{ fontWeight: 600 }}>Parfum :</span>{" "}
-                  {product.Parfum}
-                </p>
-                <p>
-                  <span style={{ fontWeight: 600 }}>Texture :</span>
-                  <span> {product.Texture}</span>
-                </p>
-                <p>
-                  <span style={{ fontWeight: 600 }}>
-                    Origine géographique :
-                  </span>{" "}
-                  {product.Origine_géographique}
-                </p>
-                <p>
-                  <span style={{ fontWeight: 600 }}>Conservation :</span>
-                  <span> {product.Conservation}</span>
-                </p>
-                <p>
-                  <span style={{ fontWeight: 600 }}>Grammage :</span>{" "}
-                  {product.Grammage[0].unite}
+                  <span style={{ fontWeight: 600 }}>Description :</span>{" "}
+                  {product.description}
                 </p>
               </div>
             </>

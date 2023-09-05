@@ -139,9 +139,10 @@ function Home() {
                 }}
               >
                 {data.map((data) => (
-                  <SwiperSlide>
+                  <SwiperSlide key={data.id}>
                     <Card
                       key={data.id}
+                      id={data.id}
                       img={data.imgUrl}
                       title={data.name}
                       text={data.description.slice(0, 90) + "..."}
