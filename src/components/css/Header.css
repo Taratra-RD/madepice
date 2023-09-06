@@ -95,10 +95,8 @@ div.sidenav nav ul li a:hover {
         z-index: 99;
     }
     .logo--navbar {
-        height: 4.5em;
         padding: 0.6em;
         margin-left: 2em !important;
-        display: block;
     }
     i.fa-bars{
         cursor: pointer;
