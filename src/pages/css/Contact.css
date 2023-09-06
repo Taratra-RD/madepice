@@ -1,90 +1,8 @@
-.landing-page2{
-    background-image: url("../../images/headercontact.png");
-    width: 100%;
-    height: 100vh;
-    background-size: contain; /* Adjust as needed (cover, contain, etc.) */
-    background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-}
-
-.body--contain{
-    max-width: 100vw;
-    padding-inline: 5em 5em;
-    padding-block: 5em 5em;
-    background-image: url(../../images/Rectangle\ 51.png);
-}
-
-.contact--list{
-    display: flex;
-    background-color: #F2E5D1;
-    width: 100%;
-    height: 25em;
-    margin-block: 5em 5em;
-    border-radius: 5px 5px 5px 5px;
-}
-
-.contact--list div h3{
-    color: black;
-    font-family: Raleway;
-    font-weight: bold;
-}
-
-.list{
-    margin-block: 3.5em 3.5em;
-    margin-inline: 1em 1em;
-}
-
-.icons{
-    margin-inline: 2em 2em;
-    width: 25%;
-}
-
-.content{
-    margin-block: 2em 2em;
-    margin-inline: 3em 3em;
-    color: black;
-    width: 80%;
-    margin: 2em;
-}
-
-.title{
-    margin-block: 6em 3em;
-}
-
-.title--mail{
-    margin-block: 6em 3em;
-}
-
-.list li{
-    list-style: none;
-    font-family: Raleway;
-}
-
-.red--line{
-    background-color: #991914;
-    width: 3px;
-    border-radius: 2px 2px 2px 2px;
-    margin-block: 4em 3em;
-}
-
-.faq--title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-block: 5em 5em;
-    height: max-content;
-}
-
-.title--2{
-    font-family: Canela;
-    font-size: 134px;
-}
-
+/* 
 .accordion--list{
     display: block;
     width: 100%;
-    height: 50em;
+    height: 26em;
 }
 
 @media screen and (max-width: 720px) {
@@ -92,10 +10,10 @@
     .landing-page2{
         background-image: url("../../images/headercontact.png");
         width: 100%;
-        height: 30vh;
-        background-size: contain; /* Adjust as needed (cover, contain, etc.) */
+        height: 59vh;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: center; /* Center the image */
+        background-position: center; 
     }
 
     .body--contain{
@@ -111,21 +29,7 @@
         margin-block: 1em 1em !important;
     }
     
-    .list{
-        display: flex;
-        margin-inline: 1em 1em !important;
-    }
-
-    .icons{
-        margin-inline: 0em 0em !important;
-        margin-block: 1.5em 1.5em !important;
-        height: 3;
-    }
-
-    .content{
-        margin: 0em !important;
-        margin-block: 0.5em 0.5em !important;
-    }
+    
 
     .title{
         margin-block: 0em 0em !important;
@@ -152,5 +56,224 @@
 
     .red--line{
         display: none;
+    }
+} */
+
+.landing-page2{
+    background-image: url("../../images/headercontact.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.body--contain{
+    max-width: 100vw;
+    padding-inline: 5em 5em;
+    padding-block: 5em 5em;
+    background-image: url(../../images/Rectangle\ 51.png);
+}
+
+.contact--list{
+    background-color: #F2E5D1;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.red--line{
+    background-color: #991914;
+    width: 0.2em;
+    height: 15em;
+    border-radius: 2px 2px 2px 2px;
+    margin-block: 4em 3em;
+}
+
+.faq--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-block: 5em 5em;
+    height: max-content;
+}
+
+.title--2{
+    font-family: Canela;
+    font-size: 134px;
+}
+@media screen and (max-width: 920px) {
+    .contact--list{
+        display: block !important ;
+        width: 100% !important;
+    }
+
+    .red--line{
+        display: none !important;
+    }
+
+    .list{
+        display: flex !important;
+        margin-inline: 1em 1em !important;
+        flex-direction: row;
+        justify-content: space-around !important;
+    }
+
+    .list .content, .list .icons{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .list .content{
+        font-size: 4px;
+    }
+
+    .title{
+        margin-block: 0;
+    }
+}
+
+@media screen and (min-width: 611px) {
+
+    .landing-page2{
+        background-image: url("../../images/headercontact.png");
+        width: 100% !important;
+        height: 100vh !important;
+        background-size: cover !important; 
+        background-repeat: no-repeat !important;
+        background-position: center !important; 
+    }
+
+    .contact--list{
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .red--line{
+        display: none !important;
+    }
+
+    .list{
+        display: flex;
+        margin-inline: 1em 1em !important;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .list .content, .list .icons{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .title{
+        margin-block: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .landing-page2{
+        height: 73vh !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+
+
+    .body--contain{
+        padding-inline: 2em 2em !important;
+    }
+
+    .contact--list{
+        display: block !important;
+        margin-inline: 0em 0em !important;
+    }
+
+    .icons--img{
+        width: 26px !important;
+    }
+
+    .list{
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-inline: 0em 0em !important;
+    }
+
+    .title{
+        margin-block: 0em 0em !important;
+    }
+
+    .title--2{
+        font-size: 90px !important;
+    }
+}
+
+@media screen and (max-width:1366px){
+    .landing-page2{
+        background-image: url("../../images/headercontact.png");
+        width: 100%;
+        height: 210vh;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+
+
+    .contact--list{
+        margin-inline: 2rem 2rem;
+        padding-block: 2rem 2rem;
+        flex-direction: row;
+        padding-inline: 1.5rem 1.5rem;
+        border-radius: 5px 5px 5px 5px;
+        display: flex;
+    }
+
+    .list {
+        display: block;
+        height: 13rem;
+        justify-content: space-between;
+    }
+
+    .content{
+        height: 50%;
+    }
+
+    .list li{
+        list-style: none;
+        font-family: Raleway;
+    }
+
+    .title{
+        margin-block: 3em 3em;
+    }
+
+    .list .content, .list .icons {
+        display: flex;
+        height: 65%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .red--line{
+        display: flex;
+        width: 0.2em;
+    }
+
+    .icons--img{
+        width: 43px;
     }
 }
