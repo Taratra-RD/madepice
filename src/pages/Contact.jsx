@@ -6,8 +6,28 @@ import LocationIcons from "../images/Icons(2).png"
 import FollowIcons from "../images/F-US.png"
 import Accordion from "../components/Accordion"
 import "../components/css/Accordion.css"
+import React, { useState, useEffect } from 'react';
 
 const Contact = () =>{
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+      // Update the window width when the component mounts and on window resize.
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+  
+      window.addEventListener('resize', handleResize);
+  
+      // Clean up the event listener when the component unmounts.
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+  
+    // Determine whether to swap the items based on the window width.
+    const shouldSwapItems = windowWidth > 504; // Adjust the condition as needed
+
     return(
         <>
             <div className="conatct">
@@ -33,9 +53,19 @@ const Contact = () =>{
                             <div className="icons"><img className="icons--img" src={MailIcons} alt="" /></div>
                             <div className="content">
                                 <div className="title"><h3>Adresse e-mail</h3></div>
-                                <p>
-                                    <li>commercial@madepices.mg</li>
-                                </p>
+                                {shouldSwapItems ? (
+                                    <>
+                                        <p>
+                                            <li>commercial@madepices.mg</li>
+                                        </p>
+                                    </>
+                                ):(
+                                    <>
+                                        <p>
+                                            <li>commercial @madepices .mg</li>
+                                        </p>
+                                    </>
+                                )}
                             </div>
                         </div>
                         <div className="red--line"></div>
