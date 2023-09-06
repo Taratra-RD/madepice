@@ -1,13 +1,19 @@
 import { useState, useEffect } from "react";
+import chevron from "../images/chevron-1.png"
 
 const Accordion = ({ title, content }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [clicked, setClicked] = useState(false);
+    const [rotate, setRotate] = useState(false);
 
     const toggleAccordion = () => {
         setIsOpen(!isOpen);
         setClicked(true);
     };
+
+    const Rotation = () => {
+        setRotate(!rotate)
+    }
 
     useEffect(() => {
         if (clicked) {
@@ -22,8 +28,11 @@ const Accordion = ({ title, content }) => {
     return (
         <>
             <div className={`accordion ${clicked ? "clicked" : ""}`}>
-                <div className="accordion-header" onClick={toggleAccordion}>
+                <div className="accordion-header" onClick={()=>{toggleAccordion();Rotation()}}>
                     <p>{title}</p>
+                    <div className="div--chevron">
+                        <img  className={`chevron ${rotate ? "rotate" : ""}`} src={chevron} alt="" />
+                    </div>
                 </div>
                 <div className={`${isOpen ? "accordion-content" : "accordion-content-none"}`}>
                     <p>{content}</p>

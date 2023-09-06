@@ -9,14 +9,14 @@
     display: flex;
     color: black;
     transition: 0.8s;
-    margin-left: 3em;
+    padding: 1em 1em;
     font-family: Raleway;
     font-weight: bolder;
 }
 
 .accordion-header p {
-    margin-block: 1em 1em;
     font-weight: bolder;
+    margin: 0;
 }
 
 .accordion-content {
@@ -33,7 +33,7 @@
     margin-left: 3em;
     font-family: Raleway;
     display: none;
-    animation: accord 0.5s ease reverse;
+    animation: accord 0.5s ease;
 }
 
 @keyframes accord {
@@ -60,15 +60,63 @@
 }
 
 .accordion.clicked {
-    animation: accordionClick 0.3s ease-in-out;
+    animation: accordionClick 0.3s ease;
 }
 
-@media screen and (max-width: 720px) {
+.div--chevron{
+    display: flex;
+    width: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevron{
+    font-size: 16px;
+}
+
+.chevron.rotate{
+    transform: rotate(90deg);
+    height: 1em;
+    width: 1em;
+}
+
+@media screen and (min-width: 712px) {
+
     .accordion-header{
-        margin-left:0.5em;
+        font-size: 6px;
+        justify-content: space-between;
     }
 
     .accordion-content{
         margin-left: 0.5em;
+    }
+
+    .chevron{
+        font-size: 16px;
+    }
+
+    .chevron.rotate{
+        transform: rotate(90deg);
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:711px) {
+    .accordion-header{
+        font-size: 6px;
+        justify-content: space-between;
+    }
+
+    .accordion-content{
+        margin-left: 0.5em;
+    }
+
+    .chevron{
+        font-size: 16px;
+    }
+
+    .chevron.rotate{
+        transform: rotate(90deg);
+        font-size: 16px;
     }
 }
