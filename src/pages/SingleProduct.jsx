@@ -34,83 +34,103 @@ export default function SingleProduct() {
   // eslint-disable-next-line
   const filteredProduct = data.filter((product) => product.id == id); // Compare 'product.id' with 'id'
 
-  useEffect(() => {}, []);
+  useEffect(() => { }, []);
   return (
     <>
       <div className="header--product">
         <Header />
       </div>
-      <div className="single--product">
-        <div className="single--product--container">
-          {filteredProduct.map((product) => (
-            <>
-              <div
-                className="single--product--left"
-                key={product.id}
-                style={{ backgroundImage: `url('${product.imgUrl}')` }}
-              ></div>
-              <div className="line-red"></div>
-              <div className="single--product--right" key={product.id}>
-                <h2 style={{ fontFamily: "Canela", color: "#F2E5D1" }}>
-                  {product.name}
-                </h2>
-                <br />
-                <p>
-                  <span style={{ fontWeight: 600 }}>Type :</span> {product.type}
-                </p>
-                <p>
-                  <span style={{ fontWeight: 600 }}>Description :</span>{" "}
-                  {product.description}
-                </p>
-              </div>
-            </>
-          ))}
-        </div>
-        {widthPhoneLg ? (
-          <div className="random--product--container">
-            {shuffledData.slice(0, 4).map((product) => (
-              <div className="products--products--list--card" key={product.id}>
-                <Card
-                  id={product.id}
-                  img={product.imgUrl}
-                  title={product.name}
-                  text={product.description.slice(0, 90) + "..."}
-                  className={"details"}
-                />
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="random--product--container">
-            {shuffledData.slice(0, 12).map((product) => (
-              <div className="products--products--list--card" key={product.id}>
-                <Card
-                  id={product.id}
-                  img={product.imgUrl}
-                  title={product.name}
-                  text={product.description.slice(0, 90) + "..."}
-                  className={"details"}
-                />
-              </div>
-            ))}
-          </div>
-        )}
+      {filteredProduct.map((product) => (
+        <>
+          {product.produits.map((produit) => (
 
-        <div className="button--product">
-          <Link to={"/product"}>
-            <button
-              className="btn btn-lg"
-              style={{
-                borderRadius: "8px",
-                fontFamily: "Raleway",
-                fontWeight: 700,
-              }}
-            >
-              Voir tout ...
-            </button>
-          </Link>
-        </div>
-      </div>
+            <div className="single--product" key={produit.id}>
+              <div className="single--product--container">
+                <div
+                  className="single--product--left"
+                  key={product.id}
+                  style={{ backgroundImage: `url('${produit.imgUrl_2}')` }}
+                ></div>
+                <div className="line-red"></div>
+                <div className="single--product--right" key={produit.id}>
+                  <h2 style={{ fontFamily: "Canela", color: "#F2E5D1" }}>
+                    {produit.name}
+                  </h2>
+                  <br />
+                  <p>
+                    <span style={{ fontWeight: 600 }}>Goût : </span>
+                    {produit.gout}
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 600 }}>Intensité : </span>
+                    {produit.intensite}
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 600 }}>Parfum : </span>
+                    {produit.parfum}
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 600 }}>Texture : </span>
+                    {produit.texture}
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 600 }}>Origine géographique : </span>
+                    {produit.origine}
+                  </p>
+                  <p>
+                    <span style={{ fontWeight: 600 }}>Description : </span>{" "}
+                    {produit.description}
+                  </p>
+                </div>
+              </div>
+              {widthPhoneLg ? (
+            <div className="random--product--container">
+              {shuffledData.slice(0, 4).map((product) => (
+                <div className="products--products--list--card" key={product.id}>
+                  <Card
+                    id={product.id}
+                    img={product.imgUrl}
+                    title={product.name}
+                    text={product.description.slice(0, 90) + "..."}
+                    className={"details"}
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="random--product--container">
+              {shuffledData.slice(0, 12).map((product) => (
+                <div className="products--products--list--card" key={product.id}>
+                  <Card
+                    id={product.id}
+                    img={product.imgUrl}
+                    title={product.name}
+                    text={product.description.slice(0, 90) + "..."}
+                    className={"details"}
+                  />
+                </div>
+              ))}
+            </div>
+          )}
+              <div className="button--product">
+                <Link to={"/product"}>
+                  <button
+                    className="btn btn-lg"
+                    style={{
+                      borderRadius: "8px",
+                      fontFamily: "Raleway",
+                      fontWeight: 700,
+                    }}
+                  >
+                    Voir tout ...
+                  </button>
+                </Link>
+              </div>
+            </div>
+          ))}
+          
+        </>
+      ))}
       <div className="footer--product">
         <Footer />
       </div>

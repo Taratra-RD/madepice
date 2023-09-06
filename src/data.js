@@ -334,7 +334,7 @@ export const data = [
     name: "CACAO FEVE BRUT",
     description:
       " Les fèves de cacao sont les graines du cacaoyer, qui sont utilisées pour la fabrication du chocolat. Elles sont extraites des baies, que l'on ouvre à la récolte et que l'on met à sécher.",
-    imgUrl: imgFeveCacao_1,
+    imgUrl: imgFeveCacao,
     produits: [
       {
         id: 1,
@@ -1490,7 +1490,7 @@ export const data = [
     name: "PIMENT TSILANDIMILAHY ENTIER",
     description:
       "Ne vous fiez pas à sa petite taille, sur l’échelle de Scoville, échelle de mesure de la force des piments, le piment pili pili est classé à 9, les pi- ments les plus forts étant à 10. La capcäicine, qui est le composant actif qui procure cette sen- sation piquante et de chaleur, a des propriétés bienfaisantes antioxidantes sur l’organisme. Il se consomme en purée, dans l’huile, ou simplement découpé en fine lamelles dans les préparations culinaires pour leur offrir plus de caractère",
-    imgUrl: imgPimentTsilandimy_2,
+    imgUrl: imgPimentTsilandimy,
     produits: [
       {
         id: 1,

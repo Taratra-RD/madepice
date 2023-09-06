@@ -105,7 +105,7 @@ span.carousel-control-prev-icon {
     height: 80vh;
   }
   .contenu-carousel{
-    padding-top: 5em !important;
+    padding-top: 0em !important;
   }
   .contenu-carousel span{
     font-size: 14px;
