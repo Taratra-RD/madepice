@@ -1,5 +1,6 @@
 import { Button, Carousel, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import video from "../../images/Landing_page.mp4"
 import "../css/Caroussel.css";
 
 const Caroussel = () => {
@@ -9,9 +10,15 @@ const Caroussel = () => {
   }
 
   return(
-    <div className="container carousel-container app-div"> {/* Updated className */}
+    <div className="container-fluid carousel-container app-div"> 
+      {/* Updated className 
+      <video autoPlay muted loop id="bg-video">
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> 
+      */}
       <Carousel>
-        <Carousel.Item interval={5000}>     
+        <Carousel.Item interval={5000}>    
               <center>
               <div className="contenu-carousel" style={{ maxWidth: '30em' }}>
                 <h3 style={{fontFamily:'Canela'}}>LA PASSION DES SAVEURS</h3>

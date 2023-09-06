@@ -18,7 +18,7 @@ div.img2 p {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 34em;
+    height: 85vh;
     background-image: url("../../images/Rectangle\ 101.png");
 }
 
@@ -49,6 +49,7 @@ div.card-img {
     height: 31em;
     padding: 2em;
     width: 100vw;
+    background-size: cover;
     background-image: url("../../images/Rectangle\ 49.png"), url("../../images/Rectangle\ 167.png");
 }
 
@@ -242,7 +243,7 @@ div.swiper-button-next{
 
 @media screen and (max-width:920px) {
     div.img1{
-        height: 29em;
+        height: 85vh;
     }
 
     div.img3 {
@@ -256,7 +257,7 @@ div.swiper-button-next{
 
 @media screen and (max-width:720px) {
     div.img1 {
-        height: 29em;
+        height: 85vh;
     }
 
     .slider-container{

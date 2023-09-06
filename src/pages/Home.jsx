@@ -70,9 +70,7 @@ function Home() {
     <>
       <div className="home">
         <Header />
-        <div className="container-fluid">
-          <Caroussel />
-        </div>
+        <Caroussel />
         <div className="container-fluid img1">
           <div className="slider-container">
             <div
@@ -90,6 +88,7 @@ function Home() {
                   top: 185,
                 }}
               ></i>
+              
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, Scrollbar, Autoplay]}
@@ -186,22 +185,24 @@ function Home() {
               de confiance entre la terre, les mains expertes et votre palais.
               Explorez un monde de délices transcendant les frontières.
             </p>
-            <button
-              className={`btn ${isScrolling ? "slide-left" : ""}`}
-              style={{
-                background: "#f2e5d1",
-                marginTop: "1.2em",
-                color: "black",
-                height: "3.5em",
-                borderRadius: "9px",
-                paddingLeft: "30px",
-                paddingRight: "30px",
-                fontFamily: "Raleway",
-                fontWeight: 600,
-              }}
-            >
-              Découvrez notre histoire
-            </button>
+            
+              <button
+                className={`btn ${isScrolling ? "slide-left" : ""}`}
+                style={{
+                  background: "#f2e5d1",
+                  marginTop: "1.2em",
+                  color: "black",
+                  height: "3.5em",
+                  borderRadius: "9px",
+                  paddingLeft: "30px",
+                  paddingRight: "30px",
+                  fontFamily: "Raleway",
+                  fontWeight: 600,
+                }}
+              >
+                Découvrez notre histoire
+              </button>
+            
           </Container>
           <div
             className={`img-feuille ${
