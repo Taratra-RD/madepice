@@ -9,6 +9,7 @@ export default function FilterBar({
   handleChange,
   searchResultEmpty,
   filteredDataSuggestion,
+  filterByType,
 }) {
   // const ordered = Object.keys(groupProductsAlphabetically)
   //   .sort()

@@ -15,13 +15,26 @@ export default function Products() {
   const [searchResultEmpty, setSearchResultEmpty] = useState(false);
 
   const filterByFirstLetter = (letter) => {
-    if (letter === "All") {
+    if (letter === "Tous") {
       setFilteredData(data);
     } else {
       const filtered = data.filter(
         (item) => item.name.charAt(0).toLowerCase() === letter.toLowerCase()
       );
       setFilteredData(filtered);
+    }
+    setSearchQuery("");
+  };
+
+  const filterByType = (type) => {
+    if (type === "Tous") {
+      setFilteredData(data);
+    } else {
+      const filtered = data.filter(
+        (item) => item.type.toLowerCase() === type.toLowerCase()
+      );
+      setFilteredData(filtered);
+      console.log(filtered);
     }
     setSearchQuery("");
   };
@@ -92,7 +105,10 @@ export default function Products() {
         <img src={leaveUp} alt="leaveUp" className="leave--up" />
       </div>
       <div className="products--body">
-        <div className="products-filter--bar">
+        <div
+          className="products-filter--bar"
+          onClick={() => filterByType("poudre")}
+        >
           <FilterBar
             handleSearch={handleSearch}
             filterByFirstLetter={filterByFirstLetter}
@@ -102,6 +118,7 @@ export default function Products() {
             handleChange={handleChange}
             filteredDataSuggestion={filteredDataSuggestion}
             searchResultEmpty={searchResultEmpty}
+            filterByType={filterByType}
           />
         </div>
         <div className="products--products--list">
