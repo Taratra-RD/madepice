@@ -52,7 +52,7 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1361px) {
   .products--list {
     display: flex;
     flex-flow: row wrap;

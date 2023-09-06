@@ -13,6 +13,7 @@
     margin-block: 15px 15px;
     background-size: 120% 10.5rem;
     background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
   }
 
   .card--image {
@@ -45,7 +46,7 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 8rem 10.5rem;
+    background-size: 120% 10.5rem;
   }
 
   .card--body--hover {
@@ -79,6 +80,7 @@
     margin-block: 15px 15px;
     background-size: 120% 10.5rem;
     background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
   }
 
   .card--image {
@@ -201,6 +203,7 @@
     margin-block: 15px 15px;
     background-size: 120% 16rem;
     background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
   }
 
   .card--image {
@@ -327,6 +330,7 @@
     margin-block: 15px 15px;
     background-size: 120% 16rem;
     background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
   }
 
   .card--image {
@@ -452,6 +456,7 @@
     margin-block: 15px 15px;
     background-size: 120% 19rem;
     background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
   }
 
   .card--image {
@@ -563,7 +568,7 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1361px) {
   /*FRONT*/
   .card--product {
     display: flex;
@@ -578,6 +583,7 @@
     margin-block: 15px 15px;
     background-size: 120% 24rem;
     background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
   }
 
   .card--image {
