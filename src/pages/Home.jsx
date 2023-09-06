@@ -135,6 +135,10 @@ function Home() {
                     slidesPerView: 4,
                     spaceBetween: 10,
                   },
+                  1800:{
+                    slidesPerView: 5,
+                    spaceBetween: 10,
+                  },
                 }}
               >
                 {data.map((data) => (
