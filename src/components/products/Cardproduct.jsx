@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Cardproduct({ product }) {
   const cardBackground = {
-    backgroundImage: `url(${product.imgUrl_1})`,
-  };
-  const cardBackground1 = {
-    backgroundImage: `url(${product.imgUrl_2})`,
+    backgroundImage: `url(${product.imgUrl})`,
   };
   let widthX = useMediaQuery("(min-width:670px)");
 
@@ -28,13 +25,13 @@ export default function Cardproduct({ product }) {
     } else if (cardProduct.className === `card--product` && !widthX) {
       cardProduct.className += "--hover";
       cardProduct.style.backgroundColor = "black";
-      cardProduct.style.backgroundImage = `url(${product.imgUrl_1})`;
+      cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
       cardImage.className += "--hover";
       cardTitle.className += "--hover";
       cardBody.className += "--hover";
     } else {
       cardProduct.className = "card--product";
-      cardProduct.style.backgroundImage = `url(${product.imgUrl_1})`;
+      cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
       cardProduct.style.backgroundColor = "rgb(5, 34, 34)";
       cardImage.className = "card--image";
       cardTitle.className = "card--title";
@@ -64,7 +61,7 @@ export default function Cardproduct({ product }) {
       <div
         className="card--image"
         id={`card--image--${product.name}`}
-        style={cardBackground1}
+        style={cardBackground}
       ></div>
       <Link
         to={`/product/${product.id}`}
