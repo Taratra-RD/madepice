@@ -232,18 +232,17 @@
 
 
     .contact--list{
-        margin-inline: 2rem 2rem;
-        padding-block: 2rem 2rem;
-        flex-direction: row;
-        padding-inline: 1.5rem 1.5rem;
-        border-radius: 5px 5px 5px 5px;
-        display: flex;
+        margin-inline: 2rem 2rem !important;
+        padding-block: 2rem 2rem !important;
+        flex-direction: row !important;
+        padding-inline: 1.5rem 1.5rem !important;
+        border-radius: 5px 5px 5px 5px !important;
+        display: flex !important;
     }
 
     .list {
         display: block;
         height: 13rem;
-        justify-content: space-between;
     }
 
     .content{
@@ -269,8 +268,8 @@
     }
 
     .red--line{
-        display: flex;
-        width: 0.2em;
+        display: flex !important;
+        width: 0.2em !important;
     }
 
     .icons--img{
