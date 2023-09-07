@@ -1,11 +1,11 @@
-@media (max-width: 669px) {
+@media (max-width: 359px) {
   /*FRONT*/
   .card--product {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10.5rem;
-    width: 8rem;
+    height: 11.5rem;
+    width: 9rem;
     background-color: rgb(5, 34, 34);
     border-radius: 6px;
     margin: 3px;
@@ -13,7 +13,7 @@
     margin-block: 15px 15px;
     background-size: 120% 10.5rem;
     background-position: center;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
   }
 
   .card--image {
@@ -39,8 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10.5rem;
-    width: 8rem;
+    height: 11.5rem;
+    width: 9rem;
     background-color: rgb(5, 34, 34);
     border-radius: 6px;
     margin: 3px;
@@ -65,22 +65,22 @@
   }
 }
 
-@media (min-width: 670px) {
+@media (min-width: 360px) {
   /*FRONT*/
   .card--product {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10.5rem;
-    width: 8rem;
+    height: 13.5rem;
+    width: 10rem;
     background-color: rgb(5, 34, 34);
-    border-radius: 6px;
+    border-radius: 7px;
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 120% 10.5rem;
+    background-size: 140% 16rem;
     background-position: center;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
   }
 
   .card--image {
@@ -103,138 +103,14 @@
   .card--product--hover {
     display: flex;
     flex-direction: column;
-    height: 10.5rem;
-    width: 8rem;
+    height: 13.5rem;
+    width: 10rem;
     background-color: black;
-    border-radius: 6px;
+    border-radius: 7px;
     margin: 3px;
     box-shadow: 1px 1px 5px black;
     overflow: hidden;
     margin-inline: 0.5rem 0.5rem;
-    margin-block: 15px 15px;
-    background-image: none;
-  }
-
-  .card--title--hover {
-    display: none;
-  }
-
-  .card--image--hover {
-    height: 40%;
-    background-color: rgb(5, 34, 34);
-    border-start-start-radius: inherit;
-    border-start-end-radius: inherit;
-    background-size: cover;
-    background-position: right;
-  }
-
-  .card--body--hover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60%;
-    background-color: black;
-    padding-inline: 5px 5px;
-    border-end-end-radius: inherit;
-    border-end-start-radius: inherit;
-    padding-block: 5px 20px;
-    animation-name: cardDescription;
-    animation-timing-function: ease-out;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes cardDescription {
-    from {
-      transform: translateY(100px);
-      opacity: 0;
-    }
-
-    to {
-      transform: translateY(0px);
-      opacity: 1;
-    }
-  }
-
-  .card--title--body,
-  .card--description,
-  .card--button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-  }
-
-  .card--title--body {
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
-  }
-
-  .card--description {
-    display: none;
-  }
-
-  .card--button {
-    height: 30%;
-    margin-top: 10px;
-    font-size: 14px;
-    color: black;
-    background-color: beige;
-    width: 70%;
-    border-radius: 3px;
-  }
-}
-
-@media (min-width: 10000px) {
-  /*FRONT*/
-  .card--product {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16rem;
-    width: 12rem;
-    background-color: rgb(5, 34, 34);
-    border-radius: 7px;
-    margin: 3px;
-    margin-inline: 1rem 1rem;
-    margin-block: 15px 15px;
-    background-size: 120% 16rem;
-    background-position: center;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
-  }
-
-  .card--image {
-    display: none;
-  }
-
-  .card--title {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-align: center;
-    padding-inline: 3px 3px;
-  }
-
-  .card--body {
-    display: none;
-  }
-
-  /*HOVER*/
-  .card--product--hover {
-    display: flex;
-    flex-direction: column;
-    height: 16rem;
-    width: 12rem;
-    background-color: black;
-    border-radius: 7px;
-    margin: 3px;
-    box-shadow: 1px 1px 5px black;
-    overflow: hidden;
-    margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
     background-image: none;
   }
@@ -287,14 +163,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
+    text-align: center;
   }
 
   .card--title--body {
     height: 20%;
     font-size: 13px;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-weight: 500;
     text-align: center;
   }
@@ -315,7 +190,257 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 425px) {
+  /*FRONT*/
+  .card--product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15.5rem;
+    width: 12rem;
+    background-color: rgb(5, 34, 34);
+    border-radius: 7px;
+    margin: 3px;
+    margin-inline: 0.5rem 0.5rem;
+    margin-block: 15px 15px;
+    background-size: 130% 15.5rem;
+    background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.55);
+  }
+
+  .card--image {
+    display: none;
+  }
+
+  .card--title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 3px 3px;
+  }
+
+  .card--body {
+    display: none;
+  }
+
+  /*HOVER*/
+  .card--product--hover {
+    display: flex;
+    flex-direction: column;
+    height: 15.5rem;
+    width: 12rem;
+    background-color: black;
+    border-radius: 7px;
+    margin: 3px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+    margin-inline: 0.5rem 0.5rem;
+    margin-block: 15px 15px;
+    background-image: none;
+  }
+
+  .card--title--hover {
+    display: none;
+  }
+
+  .card--image--hover {
+    height: 40%;
+    background-color: rgb(5, 34, 34);
+    border-start-start-radius: inherit;
+    border-start-end-radius: inherit;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .card--body--hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    background-color: black;
+    padding-inline: 5px 5px;
+    border-end-end-radius: inherit;
+    border-end-start-radius: inherit;
+    padding-block: 5px 15px;
+    animation-name: cardDescription;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes cardDescription {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .card--title--body,
+  .card--description,
+  .card--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card--title--body {
+    height: 20%;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .card--description {
+    height: 60%;
+    font-size: 12px;
+  }
+
+  .card--button {
+    height: 15%;
+    margin-top: 4%;
+    font-size: 15px;
+    color: black;
+    background-color: beige;
+    width: 60%;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 450px) {
+  /*FRONT*/
+  .card--product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10.5rem;
+    width: 8rem;
+    background-color: rgb(5, 34, 34);
+    border-radius: 7px;
+    margin: 3px;
+    margin-inline: 0.5rem 0.5rem;
+    margin-block: 15px 15px;
+    background-size: 145% 10.5rem;
+    background-position: center;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.45);
+  }
+
+  .card--image {
+    display: none;
+  }
+
+  .card--title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 3px 3px;
+  }
+
+  .card--body {
+    display: none;
+  }
+
+  /*HOVER*/
+  .card--product--hover {
+    display: flex;
+    flex-direction: column;
+    height: 10.5rem;
+    width: 8rem;
+    background-color: black;
+    border-radius: 7px;
+    margin: 3px;
+    box-shadow: 1px 1px 5px black;
+    overflow: hidden;
+    margin-inline: 0.5rem 0.5rem;
+    margin-block: 15px 15px;
+    background-image: none;
+  }
+
+  .card--title--hover {
+    display: none;
+  }
+
+  .card--image--hover {
+    height: 40%;
+    background-color: rgb(5, 34, 34);
+    border-start-start-radius: inherit;
+    border-start-end-radius: inherit;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .card--body--hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    background-color: black;
+    padding-inline: 5px 5px;
+    border-end-end-radius: inherit;
+    border-end-start-radius: inherit;
+    padding-block: 5px 15px;
+    animation-name: cardDescription;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes cardDescription {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .card--title--body,
+  .card--description,
+  .card--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card--title--body {
+    height: 20%;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .card--description {
+    height: 60%;
+    font-size: 12px;
+  }
+
+  .card--button {
+    height: 15%;
+    margin-top: 4%;
+    font-size: 15px;
+    color: black;
+    background-color: beige;
+    width: 60%;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 670px) {
   /*FRONT*/
   .card--product {
     display: flex;
@@ -328,9 +453,9 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 120% 16rem;
+    background-size: 131% 16rem;
     background-position: center;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
   }
 
   .card--image {
@@ -454,9 +579,9 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 120% 19rem;
+    background-size: 145% 19rem;
     background-position: center;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.55);
   }
 
   .card--image {
@@ -581,9 +706,9 @@
     margin: 5px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 120% 24rem;
+    background-size: 160% 24rem;
     background-position: center;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.6);
   }
 
   .card--image {

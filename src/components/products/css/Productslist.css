@@ -40,15 +40,7 @@
   .products--list {
     display: flex;
     flex-flow: row wrap;
-    width: 36rem;
-  }
-}
-
-@media (min-width: 670px) {
-  .products--list {
-    display: flex;
-    flex-flow: row wrap;
-    width: 36rem;
+    width: 42rem;
   }
 }
 
