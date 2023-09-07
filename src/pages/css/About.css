@@ -62,8 +62,8 @@ p{
 
 .leaves{
     position: absolute;
-    top: 25em;
-    left: 70.3em;
+    top: 28em;
+    right: 0;
     width: 15em;
     height: auto;
 }
@@ -78,7 +78,7 @@ p{
 
 .line{
     position: absolute;
-    top: 40em;
+    top: 46em;
     height: 48em;
 }
 
@@ -175,7 +175,7 @@ p{
         transform: translateX(0px);
     }
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 920px){
     .about{
         text-align: center;
     }
@@ -243,20 +243,18 @@ p{
     }
     
     .leaves{
-        display: none;
         position: absolute;
-        top: 20.5em;
-        left: 16.95em;
+        top: 15.5em;
+        right: 0;
         width: 6.5em;
         right: 0em;
         height: auto;
     }
     
     .leaves-1{
-        display: none;
         position: absolute;
         width: 7em;
-        top: 173em;
+        top: 103em;
         left: 0em;
         height: auto;
     }
