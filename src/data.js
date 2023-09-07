@@ -155,7 +155,8 @@ export const data = [
           { unite: "SB", grammage: "100g" },
           { unite: "PET", grammage: "25g" },
         ],
-        description: "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé",
+        description:
+          "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé",
         imgUrl: imgAil,
         imgUrl_1: imgAil_2,
         imgUrl_2: imgAil_3,
@@ -166,7 +167,8 @@ export const data = [
         parfum: "Arôme d'allicine",
         origine: "Madagascar",
         conservation: "endroit frais et sec",
-        composition: "vitamines B et C, potassium, calcium, fer, composés sulfurés.",
+        composition:
+          "vitamines B et C, potassium, calcium, fer, composés sulfurés.",
       },
       {
         id: 2,
@@ -177,7 +179,8 @@ export const data = [
           { unite: "verrine", grammage: "25g" },
           { unite: "SB", grammage: "100g" },
         ],
-        description: "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé",
+        description:
+          "L'ail est une plante à bulbe appartenant à la famille des Alliacées. L'ail a un goût piquant et une odeur forte et caractéristique. C'est cette saveur distinctive qui fait de l'ail un ingrédient populaire dans de nombreuses cuisines du monde entier. Dans la cuisine, l'ail est largement utilisé comme ingrédient dans de nombreux plats, notamment les soupes, les sauces, les marinades et les plats sautés. Il peut être consommé cru, cuit ou séché.L'ail est réputé pour ses propriétés médicinales. Il est considéré comme bénéfique pour la santé cardiovasculaire, la gestion du cholestérol, la régulation de la pression artérielle et la stimulation du système immunitaire. Ces caractéristiques font de l'ail un ingrédient polyvalent en cuisine et bénéfique pour la santé",
         imgUrl: imgAil,
         imgUrl_1: imgAil_4,
         imgUrl_2: imgAil_4,
@@ -188,9 +191,10 @@ export const data = [
         parfum: "Arôme d'allicine",
         origine: "Madagascar",
         conservation: "endroit frais et sec",
-        composition: "vitamines B et C, potassium, calcium, fer, composés sulfurés.",
+        composition:
+          "vitamines B et C, potassium, calcium, fer, composés sulfurés.",
       },
-    ]
+    ],
   },
   {
     id: 2,
@@ -203,7 +207,8 @@ export const data = [
         id: 1,
         name: "ANIS ETOILE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
-        description: "La cannelle est une épice qui provient de l'écorce intérieure de l'arbre appelé Cinnamomum. Elle est généralement vendue sous forme de bâtonnets ou de poudre. Les bâtonnets de cannelle ont une couleur brun clair et une texture rugueuse. La cannelle est souvent utilisée dans les desserts, les pâtisseries, les boissons chaudes (comme le cidre de pomme ou le chocolat chaud), les plats sucrés et même certains plats salés. Elle peut être saupoudrée sur des fruits, ajoutée à des marinades, incorporée dans des mélanges d'épices, etc. La cannelle peut aider à réguler le taux de sucre dans le sang, à améliorer la digestion, à réduire les symptômes du rhume et de la grippe, à soulager les douleurs articulaires, entre autres. En résumé, la cannelle est une épice appréciée pour son goût sucré et épicé. Elle possède des propriétés bénéfiques pour la santé et peut être utilisée dans une variété de plats sucrés et salés.",
+        description:
+          "La cannelle est une épice qui provient de l'écorce intérieure de l'arbre appelé Cinnamomum. Elle est généralement vendue sous forme de bâtonnets ou de poudre. Les bâtonnets de cannelle ont une couleur brun clair et une texture rugueuse. La cannelle est souvent utilisée dans les desserts, les pâtisseries, les boissons chaudes (comme le cidre de pomme ou le chocolat chaud), les plats sucrés et même certains plats salés. Elle peut être saupoudrée sur des fruits, ajoutée à des marinades, incorporée dans des mélanges d'épices, etc. La cannelle peut aider à réguler le taux de sucre dans le sang, à améliorer la digestion, à réduire les symptômes du rhume et de la grippe, à soulager les douleurs articulaires, entre autres. En résumé, la cannelle est une épice appréciée pour son goût sucré et épicé. Elle possède des propriétés bénéfiques pour la santé et peut être utilisée dans une variété de plats sucrés et salés.",
         imgUrl: imgAnisEtoile,
         imgUrl_1: imgAnis_2,
         imgUrl_2: imgAnis_3,
@@ -214,13 +219,15 @@ export const data = [
         parfum: " Doux et pénétrant",
         origine: "Madagascar",
         conservation: "endroit frais et sec, à l'abri de la lumière",
-        composition: "huile essentielle, anethole, antioxydants, vitamines (B et C), minéraux (calcium, fer)",
+        composition:
+          "huile essentielle, anethole, antioxydants, vitamines (B et C), minéraux (calcium, fer)",
       },
       {
         id: 2,
         name: "ANIS ETOILE POUDRE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
-        description: "La cannelle est une épice qui provient de l'écorce intérieure de l'arbre appelé Cinnamomum. Elle est généralement vendue sous forme de bâtonnets ou de poudre. Les bâtonnets de cannelle ont une couleur brun clair et une texture rugueuse. La cannelle est souvent utilisée dans les desserts, les pâtisseries, les boissons chaudes (comme le cidre de pomme ou le chocolat chaud), les plats sucrés et même certains plats salés. Elle peut être saupoudrée sur des fruits, ajoutée à des marinades, incorporée dans des mélanges d'épices, etc. La cannelle peut aider à réguler le taux de sucre dans le sang, à améliorer la digestion, à réduire les symptômes du rhume et de la grippe, à soulager les douleurs articulaires, entre autres. En résumé, la cannelle est une épice appréciée pour son goût sucré et épicé. Elle possède des propriétés bénéfiques pour la santé et peut être utilisée dans une variété de plats sucrés et salés.",
+        description:
+          "La cannelle est une épice qui provient de l'écorce intérieure de l'arbre appelé Cinnamomum. Elle est généralement vendue sous forme de bâtonnets ou de poudre. Les bâtonnets de cannelle ont une couleur brun clair et une texture rugueuse. La cannelle est souvent utilisée dans les desserts, les pâtisseries, les boissons chaudes (comme le cidre de pomme ou le chocolat chaud), les plats sucrés et même certains plats salés. Elle peut être saupoudrée sur des fruits, ajoutée à des marinades, incorporée dans des mélanges d'épices, etc. La cannelle peut aider à réguler le taux de sucre dans le sang, à améliorer la digestion, à réduire les symptômes du rhume et de la grippe, à soulager les douleurs articulaires, entre autres. En résumé, la cannelle est une épice appréciée pour son goût sucré et épicé. Elle possède des propriétés bénéfiques pour la santé et peut être utilisée dans une variété de plats sucrés et salés.",
         imgUrl: imgAnisEtoile,
         imgUrl_1: imgAnis_5,
         imgUrl_2: imgAnis_5,
@@ -231,10 +238,10 @@ export const data = [
         parfum: " Doux et pénétrant",
         origine: "Madagascar",
         conservation: "endroit frais et sec, à l'abri de la lumière",
-        composition: "huile essentielle, anethole, antioxydants, vitamines (B et C), minéraux (calcium, fer)",
+        composition:
+          "huile essentielle, anethole, antioxydants, vitamines (B et C), minéraux (calcium, fer)",
       },
-    ]
-
+    ],
   },
   {
     id: 3,
@@ -254,7 +261,8 @@ export const data = [
           { unite: "PET", grammage: "12g" },
           { unite: "Eprouvette", grammage: "22g" },
         ],
-        description: "La baie rose, également connue sous le nom de poivre rose, est une petite baie utilisée comme épice dans la cuisine. La baie rose est souvent utilisée pour aromatiser les plats de viande, les poissons, les fruits de mer, les marinades, les sauces et les salades. Elle peut par ailleurs être utilisée pour décorer les plats en raison de sa couleur vive. La baie rose est connue pour ses propriétés stimulantes et digestives. Elle peut aider à faciliter la digestion et à soulager les ballonnements et les crampes abdominales. En résumé, la baie rose est une épice polyvalente avec un goût doux et fruité. Elle est utilisée pour aromatiser de nombreux plats et possède des propriétés digestives bénéfiques",
+        description:
+          "La baie rose, également connue sous le nom de poivre rose, est une petite baie utilisée comme épice dans la cuisine. La baie rose est souvent utilisée pour aromatiser les plats de viande, les poissons, les fruits de mer, les marinades, les sauces et les salades. Elle peut par ailleurs être utilisée pour décorer les plats en raison de sa couleur vive. La baie rose est connue pour ses propriétés stimulantes et digestives. Elle peut aider à faciliter la digestion et à soulager les ballonnements et les crampes abdominales. En résumé, la baie rose est une épice polyvalente avec un goût doux et fruité. Elle est utilisée pour aromatiser de nombreux plats et possède des propriétés digestives bénéfiques",
         imgUrl: imgBaieRose,
         imgUrl_1: imgBaie_3,
         imgUrl_2: imgBaie_1,
@@ -264,14 +272,16 @@ export const data = [
         intensite: "Douce, moins piquante que le poivre noir",
         parfum: "agréable et délicat",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
-        composition: "Vitamine C, potassium, calcium, magnésium, fibres, antioxydants",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        composition:
+          "Vitamine C, potassium, calcium, magnésium, fibres, antioxydants",
       },
-    ]
+    ],
   },
   {
     id: 4,
-    name: "BAOBAB EN POUDRE",
+    name: "BAOBAB",
     description:
       "Surnommé arbre de longevité, le baoba a tout du super aliment. Antioxidant, sa puple contient six fois plus de vitmaine C qu’une orange. Une cure de poudre de Baobab vous procurera dès les premiers jours une sensation de forme phy- sique.La poudre de fruit de Baobab Grandidieri a un goût unique proche d’un sorbet citronné",
     imgUrl: imgBaobab_1,
@@ -287,7 +297,8 @@ export const data = [
           { unite: "PET", grammage: "15g" },
           { unite: "Eprouvette", grammage: "25g" },
         ],
-        description: "La poudre de baobab est un produit alimentaire dérivé  de la pulpe séchée du fruit du baobab. Elle a une couleur blanche à beige. La poudre de baobab peut être mélangée dans des smoothies, des yaourts, des sauces ou des desserts. Elle peut également être saupoudrée sur des fruits frais ou utilisée comme assaisonnement dans des plats salés.La poudre de baobab peut aider à renforcer le système immunitaire, favoriser la digestion, réguler la glycémie et améliorer la santé de la peau. Ainsi, la poudre de baobab est un produit alimentaire riche en nutriments et doté d'un goût acidulé. Elle peut être utilisée dans de nombreuses préparations culinaires et possède des propriétés bénéfiques pour la santé. ",
+        description:
+          "La poudre de baobab est un produit alimentaire dérivé  de la pulpe séchée du fruit du baobab. Elle a une couleur blanche à beige. La poudre de baobab peut être mélangée dans des smoothies, des yaourts, des sauces ou des desserts. Elle peut également être saupoudrée sur des fruits frais ou utilisée comme assaisonnement dans des plats salés.La poudre de baobab peut aider à renforcer le système immunitaire, favoriser la digestion, réguler la glycémie et améliorer la santé de la peau. Ainsi, la poudre de baobab est un produit alimentaire riche en nutriments et doté d'un goût acidulé. Elle peut être utilisée dans de nombreuses préparations culinaires et possède des propriétés bénéfiques pour la santé. ",
         imgUrl: imgBaobab,
         imgUrl_1: imgBaobab_1,
         imgUrl_2: imgBaobab_1,
@@ -297,10 +308,12 @@ export const data = [
         intensite: "Légère",
         parfum: "agréable et fruitée",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
-        composition: "Vitamine C, potassium, calcium, magnésium, fibres, antioxydants",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        composition:
+          "Vitamine C, potassium, calcium, magnésium, fibres, antioxydants",
       },
-    ]
+    ],
   },
   {
     id: 5,
@@ -324,17 +337,18 @@ export const data = [
         intensite: "Douce",
         parfum: "Aromatique et distinctif",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la lumière et de l'humidité",
+        conservation:
+          "récipient hermetique, à l'abri de la lumière et de l'humidité",
         composition: "anéthole, antioxydants",
       },
-    ]
+    ],
   },
   {
     id: 6,
-    name: "CACAO FEVE BRUT",
+    name: "CACAO FEVE",
     description:
       " Les fèves de cacao sont les graines du cacaoyer, qui sont utilisées pour la fabrication du chocolat. Elles sont extraites des baies, que l'on ouvre à la récolte et que l'on met à sécher.",
-    imgUrl: imgFeveCacao_1,
+    imgUrl: imgCacao_2,
     produits: [
       {
         id: 1,
@@ -351,8 +365,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Chocolat",
         origine: "Madagascar",
-        conservation: "endroit frais et sec, à l'abri de l'humidité et de la lumière",
-        composition: "fibres, magnésium, fer, potassium, antioxydants, flavonoïdes",
+        conservation:
+          "endroit frais et sec, à l'abri de l'humidité et de la lumière",
+        composition:
+          "fibres, magnésium, fer, potassium, antioxydants, flavonoïdes",
       },
       {
         id: 2,
@@ -373,8 +389,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Chocolat",
         origine: "Madagascar",
-        conservation: "endroit frais et sec, à l'abri de l'humidité et de la lumière",
-        composition: "fibres, magnésium, fer, potassium, antioxydants, flavonoïdes",
+        conservation:
+          "endroit frais et sec, à l'abri de l'humidité et de la lumière",
+        composition:
+          "fibres, magnésium, fer, potassium, antioxydants, flavonoïdes",
       },
       {
         id: 3,
@@ -391,15 +409,16 @@ export const data = [
         intensite: "Intense",
         parfum: "Chocolat",
         origine: "Madagascar",
-        conservation: "endroit frais et sec, à l'abri de l'humidité et de la lumière",
-        composition: "fibres, magnésium, fer, potassium, antioxydants, flavonoïdes",
+        conservation:
+          "endroit frais et sec, à l'abri de l'humidité et de la lumière",
+        composition:
+          "fibres, magnésium, fer, potassium, antioxydants, flavonoïdes",
       },
-
-    ]
+    ],
   },
   {
     id: 7,
-    name: "CANNELLE POUDRE",
+    name: "CANNELLE",
     description:
       "La cannelle de Madagscar est la cannelle dite Ceylan-Zeilanicum. On la surnomme la cannelle «gourmet» car elle est beaucoup plus subtile et gustative que la cannelle Cassia d’Indonesie plus connue du grand public.Elle parfume des preparations sucrées et des boissons chaudes mais aussi des préparations salées, viandes en ragoût, tajines et currys. Les cuisiniers la rangent dans la categories des épices dites 'doces'",
     imgUrl: imgCanelle_4,
@@ -426,8 +445,10 @@ export const data = [
         intensite: "Doux",
         parfum: "Chaud et épicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K",
       },
       {
         id: 2,
@@ -447,8 +468,10 @@ export const data = [
         intensite: "Doux",
         parfum: "Chaud et épicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K",
       },
       {
         id: 3,
@@ -465,14 +488,16 @@ export const data = [
         intensite: "Doux",
         parfum: "Chaud et épicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K",
       },
-    ]
+    ],
   },
   {
     id: 8,
-    name: "CITRONNELLE MORCEAU",
+    name: "CITRONNELLE",
     description:
       "Plante originaire d’Asie et d’Afrique, cultivée pour ses tiges et ses feuilles aux qualités aromatiques, la citronnelle séchée est consommée, fraiche ou séchée en infusion.",
     imgUrl: imgCitronelle_1,
@@ -495,17 +520,19 @@ export const data = [
         intensite: "",
         parfum: "Citronné, frais et aromatique",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "citronellols, citronnellals, limonènes, antioxydants, vitamine C,  vitamine A, fer, potassium.",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "citronellols, citronnellals, limonènes, antioxydants, vitamine C,  vitamine A, fer, potassium.",
       },
-    ]
+    ],
   },
   {
     id: 9,
     name: "COMBAVA FEUILLE",
     description:
       "Vous pouvez utiliser les feuilles, fraîches ou séchées de combava, pour ajouter de la fraîcheur à votre bain. Pour cela, il vous suffit d'ajouter quelques feuilles dans l'eau de votre bain chaud. Pour parfumer votre intérieur : Vous n'avez plus d'huiles essentielles pour parfumer votre maison ",
-    imgUrl: imgFeuilleCombava,
+    imgUrl: imgCombova_3,
     produits: [
       {
         id: 1,
@@ -522,7 +549,8 @@ export const data = [
         intensite: "Intense",
         parfum: "Citronné",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "",
       },
       {
@@ -540,10 +568,11 @@ export const data = [
         intensite: "Intense",
         parfum: "Citronné",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "",
       },
-    ]
+    ],
   },
 
   {
@@ -552,7 +581,7 @@ export const data = [
     description:
       "Le combava est un condiment très populaire dans la cuisine créole et dans tout l’ océan Indien où il a été introduit par Pierre Poivre à la fin du 18e siècle. A Madagascar, par exemple, le com- bava est utilisé dans les rougails de tomates, les caris, les sauces, les rhums arrangés.Il apporte des notes de fraîcheur citronnés, de verveine dans de nombreux parfums.",
 
-    imgUrl: imgCombova_1,
+    imgUrl: imgCombova_2,
     produits: [
       {
         id: 1,
@@ -569,8 +598,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Citronné",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "protéines, lipides , glucides , vitamine C, calcium, potassium , fer , magnésium.",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "protéines, lipides , glucides , vitamine C, calcium, potassium , fer , magnésium.",
       },
       {
         id: 2,
@@ -594,14 +625,16 @@ export const data = [
         intensite: "Intense",
         parfum: "Citronné",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "protéines, lipides , glucides , vitamine C, calcium, potassium , fer , magnésium.",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "protéines, lipides , glucides , vitamine C, calcium, potassium , fer , magnésium.",
       },
-    ]
+    ],
   },
   {
     id: 11,
-    name: "CORIANDRE GRAINE",
+    name: "CORIANDRE",
     description:
       "Leur saveur rappelle l'écorce d'un agrume amer et légèrement sucré, leur parfum, celui d'une orange fraîchement pressée. La graine de Coriandre se consomme aussi bien entière ou réduite en poudre. On la retrouve dans bon nombre de mélanges célèbres, comme les poudres de Curry.La coriandre se plait aux côtés des betteraves, carottes, concombre, choux, pommes de terre, anis.",
     imgUrl: imgCoriandre_1,
@@ -628,14 +661,15 @@ export const data = [
         intensite: "Légèrement sucrée ",
         parfum: "Piquant et herbacé",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 12,
-    name: "COROSSOL FEUILLE ENTIERE",
+    name: "COROSSOL FEUILLE",
     description:
       "Les feuilles de corossol ont de nombreuses propriétés médicinales et sont utilisées depuis des années pour divers problèmes de santé.",
     imgUrl: imgCorossol_1,
@@ -694,13 +728,12 @@ export const data = [
         conservation: "",
         composition: "antioxydants, anti-inflammatoires",
       },
-    ]
+    ],
   },
-
 
   {
     id: 13,
-    name: "CUMIN GRAIN",
+    name: "CUMIN",
     description:
       "Le cumin : possède une odeur aux notes chaudes et entêtantes, avec un goût prononcé, épicé, très aromatique et subtilement amer, évoquant à la fois le fenouil ou l'anis.On l'utilise avec parcimonie, moulue fraîchement, en la frottant contre une petite râpe à épices ou à l'aide d'un moulin prévu à cet effet. Le plus souvent, l'équivalent d'une pincée de cette épice suffira pour aromatiser votre plat,",
     imgUrl: imgCumin_2,
@@ -727,7 +760,8 @@ export const data = [
         intensite: "Forte et distinctive",
         parfum: "",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "antioxydants, vitamines",
       },
       {
@@ -749,14 +783,15 @@ export const data = [
         intensite: "Forte et distinctive",
         parfum: "",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "antioxydants, vitamines",
       },
-    ]
+    ],
   },
   {
     id: 14,
-    name: "CURCUMA POUDRE",
+    name: "CURCUMA",
     description:
       "Le curcuma de Madagascar est appelé aussi Safran des indes. Chaud et doux en bouche, il dé- gage des notes d’agrumes avec un léger coté poivré. Le curcuma est idéal pour préparer les currys. Cette épice est aussi reconnue pour de nombreuses vertus et pour colorer les aliments.",
     imgUrl: imgCurcuma_1,
@@ -783,7 +818,8 @@ export const data = [
         intensite: "Légère",
         parfum: "",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du solei",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du solei",
         composition: "anti-inflammatoires, antioxydantes",
       },
       {
@@ -801,10 +837,11 @@ export const data = [
         intensite: "Légère",
         parfum: "",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du solei",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du solei",
         composition: "anti-inflammatoires, antioxydantes",
       },
-    ]
+    ],
   },
   {
     id: 16,
@@ -835,10 +872,11 @@ export const data = [
         intensite: "Forte et distinctive",
         parfum: "",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "anti-inflammatoires, antioxydantes",
       },
-    ]
+    ],
   },
   {
     id: 17,
@@ -872,11 +910,11 @@ export const data = [
         conservation: "",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 18,
-    name: "FENUGREC GRAIN TORREFIE",
+    name: "FENUGREC",
     description:
       "les graines de fenugrec sont utilisées depuis toujours dans la fabrication du pain, en lui donnant sa saveur unique et spéciale, mais aussi dans des mélanges d'épices qui sont à la base de la culture gastronomique indienne, comme le garam masala et le curry rouge.En bouche, la saveur est légèrement suave, astringente et amère, un peu celle d´un thé indien ou de l´angélique, un goût intelligent qui structure une saveur, des notes également de céleri.",
     imgUrl: imgFenugrec_1,
@@ -896,7 +934,8 @@ export const data = [
         intensite: "",
         parfum: "Distinctif similaire au sirop d'érable",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydantes",
       },
       {
@@ -914,10 +953,11 @@ export const data = [
         intensite: "",
         parfum: "Distinctif similaire au sirop d'érable",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydantes",
       },
-    ]
+    ],
   },
 
   {
@@ -948,7 +988,8 @@ export const data = [
         intensite: "Légère",
         parfum: "",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
       {
@@ -972,7 +1013,8 @@ export const data = [
         intensite: "Légère",
         parfum: "agréable et délicat, Epicé ",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
       {
@@ -996,7 +1038,8 @@ export const data = [
         intensite: "Légère",
         parfum: "Citronné",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
       {
@@ -1020,7 +1063,8 @@ export const data = [
         intensite: "Légère",
         parfum: "Aromatique et distinctif, Citronné",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
       {
@@ -1044,7 +1088,8 @@ export const data = [
         intensite: "Légère",
         parfum: "Doux, sucré et légèrement floral",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
       {
@@ -1068,14 +1113,15 @@ export const data = [
         intensite: "Légère",
         parfum: "intense et complexe",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 20,
-    name: "GINGEMBRE MORCEAU",
+    name: "GINGEMBRE",
     description:
       "Héritage des civilisations venues de l’ océan Indien, le gingembre est connu sous le nom de sakay tany au Nord et sakamalaho dans le mal- gache officiel.Le gingembre est utilisé dans la confection de sauce, pour condimenter les plats,et vient même parfumer les fameux rhums arrangés.Les propriétés médicinales de cette plante aideront l’ organisme à se défendre",
     imgUrl: imgGingembre_1,
@@ -1095,7 +1141,8 @@ export const data = [
         intensite: "Légère",
         parfum: "Aromatique et distinctif",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydantes ",
       },
       {
@@ -1120,10 +1167,11 @@ export const data = [
         intensite: "Légère",
         parfum: "Aromatique et distinctif",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydantes ",
       },
-    ]
+    ],
   },
 
   {
@@ -1135,7 +1183,7 @@ export const data = [
     produits: [
       {
         id: 1,
-        name: "GIROFLE CLOU",
+        name: "GIROFLE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "120g" },
@@ -1155,8 +1203,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé et agréable",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibactériennes, antifongiques, antivirales et analgésiques",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibactériennes, antifongiques, antivirales et analgésiques",
       },
       {
         id: 2,
@@ -1179,10 +1229,12 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé et agréable",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibactériennes, antifongiques, antivirales et analgésiques",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibactériennes, antifongiques, antivirales et analgésiques",
       },
-    ]
+    ],
   },
 
   {
@@ -1214,10 +1266,11 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé et agréable",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
         composition: "anti-inflammatoires, antioxydants",
       },
-    ]
+    ],
   },
   {
     id: 23,
@@ -1248,17 +1301,18 @@ export const data = [
         intensite: "Douce, Poivre noir avec des notes légèrement boisées",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydants",
       },
-    ]
+    ],
   },
   {
     id: 24,
     name: "MELANGE 4 EPICES",
     description:
       "Le mélange 4 épices est utilisé pour cuisiner la charcuterie mais aussi les pâtés et terrines, les soupes bouillons et ragoûts, les plats mijotés, les sauces ou encore les desserts.",
-    imgUrl_1: imgMelange4Epice_1,
+    imgUrl: img4Epices,
     produits: [
       {
         id: 1,
@@ -1282,14 +1336,16 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
-        composition: "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K, antibactériennes, antifongiques, antivirales et analgésiques",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur et de l'humidité.",
+        composition:
+          "antioxydants, anti-inflammatoires, antifongiques naturels, fibres, calcium, fer, vitamine K, antibactériennes, antifongiques, antivirales et analgésiques",
       },
-    ]
+    ],
   },
   {
     id: 25,
-    name: "MUSCADE MACIS",
+    name: "MUSCADE",
     description:
       "Il est très utilisé dans les préparations sucrées-salées en macération ou bien râpé.  Le macis est idéal pour accompagner les poissons d'eau douce comme le sandre ou la perche. Utilisez le plutôt en fin de cuisson.La saveur du macis se situe dans le prolongement de la noix de muscade. Cette épice est très appréciée en cuisine pour ses parfums généreux et raffinés. En bouche, elle présente une petite note d'amertume qui rehausse les cuisines qui l'accompagnent.",
 
@@ -1310,8 +1366,10 @@ export const data = [
         intensite: "Intense avec des notes d'épices et de noix.",
         parfum: "Boisé et légèrement piquant",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,riche en vitamine du groupe B",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,riche en vitamine du groupe B",
       },
       {
         id: 2,
@@ -1333,8 +1391,10 @@ export const data = [
         intensite: "Intense avec des notes d'épices et de noix.",
         parfum: "Boisé et légèrement piquant",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,riche en vitamine du groupe B",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,riche en vitamine du groupe B",
       },
       {
         id: 3,
@@ -1357,16 +1417,17 @@ export const data = [
         intensite: "Intense avec des notes d'épices et de noix.",
         parfum: "Boisé et légèrement piquant",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,riche en vitamine du groupe B",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,riche en vitamine du groupe B",
       },
-    ]
+    ],
   },
-
 
   {
     id: 26,
-    name: "PIMENT ROUGE PILI PILI ENTIER",
+    name: "PIMENT ROUGE PILI PILI",
     description:
       "Ne vous fiez pas à sa petite taille, sur l’échelle de Scoville, échelle de mesure de la force des piments, le piment pili pili est classé à 9, les pi- ments les plus forts étant à 10. La capcäicine, qui est le composant actif qui procure cette sen- sation piquante et de chaleur, a des propriétés bienfaisantes antioxidantes sur l’organisme. Il se consomme en purée, dans l’huile, ou simplement découpé en fine lamelles dans les préparations culinaires pour leur offrir plus de caractère",
 
@@ -1394,7 +1455,8 @@ export const data = [
         intensite: "Brûlante et piquante",
         parfum: "Très distinctif,  détectable même en petites quantités",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "Fibre, vitamine C,antioxydants",
       },
       {
@@ -1419,15 +1481,16 @@ export const data = [
         intensite: "Brûlante et piquante",
         parfum: "Très distinctif,  détectable même en petites quantités",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "Fibre, vitamine C,antioxydants",
       },
-    ]
+    ],
   },
 
   {
     id: 27,
-    name: "PIMENT VERT PILI PILI ENTIER",
+    name: "PIMENT VERT PILI PILI",
     description:
       "Ne vous fiez pas à sa petite taille, sur l’échelle de Scoville, échelle de mesure de la force des piments, le piment pili pili est classé à 9, les pi- ments les plus forts étant à 10. La capcäicine, qui est le composant actif qui procure cette sen- sation piquante et de chaleur, a des propriétés bienfaisantes antioxidantes sur l’organisme. Il se consomme en purée, dans l’huile, ou simplement découpé en fine lamelles dans les préparations culinaires pour leur offrir plus de caractère",
     imgUrl: imgPimentVert_2,
@@ -1454,7 +1517,8 @@ export const data = [
         intensite: "Doux et piquante",
         parfum: "Très distinctif,  détectable même en petites quantités",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "vitamines A et C, antioxydants",
       },
       {
@@ -1479,18 +1543,19 @@ export const data = [
         intensite: "Doux et piquante",
         parfum: "Très distinctif,  détectable même en petites quantités",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "vitamines A et C, antioxydants",
       },
-    ]
+    ],
   },
 
   {
     id: 28,
-    name: "PIMENT TSILANDIMILAHY ENTIER",
+    name: "PIMENT TSILANDIMILAHY",
     description:
       "Ne vous fiez pas à sa petite taille, sur l’échelle de Scoville, échelle de mesure de la force des piments, le piment pili pili est classé à 9, les pi- ments les plus forts étant à 10. La capcäicine, qui est le composant actif qui procure cette sen- sation piquante et de chaleur, a des propriétés bienfaisantes antioxidantes sur l’organisme. Il se consomme en purée, dans l’huile, ou simplement découpé en fine lamelles dans les préparations culinaires pour leur offrir plus de caractère",
-    imgUrl: imgPimentTsilandimy_2,
+    imgUrl: imgTsilandimilahy_1,
     produits: [
       {
         id: 1,
@@ -1507,10 +1572,11 @@ export const data = [
         intensite: "Intense, piquante",
         parfum: "Très distinctif,  détectable même en petites quantités",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "capsaïcine, anti-inflammatoires et antioxydantes",
       },
-    ]
+    ],
   },
   {
     id: 29,
@@ -1541,8 +1607,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
       },
       {
         id: 2,
@@ -1566,10 +1634,12 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
       },
-    ]
+    ],
   },
   {
     id: 30,
@@ -1600,8 +1670,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
       },
       {
         id: 2,
@@ -1625,8 +1697,10 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
       },
       {
         id: 3,
@@ -1650,10 +1724,12 @@ export const data = [
         intensite: "Intense",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "fibre, potassium, calcium, magnésium, phosphore, fer, manganèse, zinc, cuivre, sélénium et iode) et vitamines (E, A, B1, B2, B3, B6, b9).",
       },
-    ]
+    ],
   },
   {
     id: 31,
@@ -1684,8 +1760,10 @@ export const data = [
         intensite: "intense et complexe",
         parfum: "Epicé, champ de citronnier",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,minéraux, antioxydants, riche en vitamine (E,C,B)",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,minéraux, antioxydants, riche en vitamine (E,C,B)",
       },
       {
         id: 2,
@@ -1710,8 +1788,10 @@ export const data = [
         parfum:
           " libérant des parfums aromatiques et exotiques rappelant la forêt tropicale",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,minéraux, antioxydants, riche en vitamine (E,C,B)",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,minéraux, antioxydants, riche en vitamine (E,C,B)",
       },
       {
         id: 3,
@@ -1735,8 +1815,10 @@ export const data = [
         intensite: "Légère chaleur qui se développe lentement sur la langue",
         parfum: " Intense et aromatique, avec des arômes floraux et fruités",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,minéraux,vitamines, , antioxydants",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,minéraux,vitamines, , antioxydants",
       },
       {
         id: 4,
@@ -1760,10 +1842,12 @@ export const data = [
         intensite: "intense et complexe",
         parfum: "Epicé, champ de citronnier",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: "antibacterien, anti-infammatoire,minéraux,vitamines, , antioxydants",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          "antibacterien, anti-infammatoire,minéraux,vitamines, , antioxydants",
       },
-    ]
+    ],
   },
   {
     id: 32,
@@ -1790,7 +1874,8 @@ export const data = [
         intensite: "intense et complexe",
         parfum: "trésor inépuisable de la parfumerie",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "antioxydants, minéraux, oligo-éléments",
       },
       {
@@ -1813,10 +1898,11 @@ export const data = [
         intensite: "intense et complexe",
         parfum: "trésor inépuisable de la parfumerie",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "antioxydants, minéraux, oligo-éléments",
       },
-    ]
+    ],
   },
 
   {
@@ -1841,11 +1927,12 @@ export const data = [
         intensite: "Légère",
         parfum: "aromatique, épicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
-        composition: " vitamines (A, C, E), minéraux (calcium, fer, potassium), protéines.",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        composition:
+          " vitamines (A, C, E), minéraux (calcium, fer, potassium), protéines.",
       },
-
-    ]
+    ],
   },
   {
     id: 34,
@@ -1866,10 +1953,11 @@ export const data = [
         intensite: "Intense, Légère",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 35,
@@ -1881,7 +1969,9 @@ export const data = [
       {
         id: 1,
         name: "L'EPICE POIVRE NOIR",
-        conditionnement: [{ unite: "Chapelet / 10g*3 et 5g*2", grammage: "40g" }],
+        conditionnement: [
+          { unite: "Chapelet / 10g*3 et 5g*2", grammage: "40g" },
+        ],
         description:
           "Serie des 5 épices en chapelet: Poivre noir grain - Voasiperifery blanc grain - Mélange 3 baies - Poivre blanc grain - Voasiperifery noir grain ",
         imgUrl: imgPoivreNoir,
@@ -1893,10 +1983,11 @@ export const data = [
         intensite: "Intense, Légère",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 36,
@@ -1920,10 +2011,11 @@ export const data = [
         intensite: "Légère",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 37,
@@ -1949,10 +2041,11 @@ export const data = [
         intensite: "Légère",
         parfum: "Epicé",
         origine: "Madagascar",
-        conservation: "endroit frais, sec et à l'abri de la lumière directe du soleil",
+        conservation:
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "",
       },
-    ]
+    ],
   },
   {
     id: 38,
@@ -1979,6 +2072,6 @@ export const data = [
         conservation: "",
         composition: "",
       },
-    ]
+    ],
   },
 ];
