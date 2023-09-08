@@ -3,7 +3,6 @@ import HeaderAbout from "../components/Header"
 import "./css/About.css"
 import leaves from "../images/Leaves 1.png"
 import leaves_1 from "../images/Leaves 2.png"
-import line from "../images/Line 1.png"
 import { useState, useEffect } from "react"
 import "../components/css/Header.css"
 
@@ -81,7 +80,7 @@ const About = () => {
             </div>
             <div className="contain">
                 <div className={`history-content ${isScrolling_1 ? 'slide-left-1':''} `}>
-                    <div>
+                    <div className="content">
                         <h4>1919</h4>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
@@ -89,11 +88,13 @@ const About = () => {
                             Augue nisl consequat adipiscing dignissim quis egestas pretium elementum. 
                             Vitae convallis amet enim elementum.
                             Dis odio eleifend turpis consequat faucibus.
-                        </p> 
+                        </p>
+                        <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
                     </div>
+                    
                 </div>
                 <div className={`history-content ${isScrolling_2 ? 'slide-left-2':''} `}>
-                    <div>
+                    <div className="content"> 
                         <h4>1919</h4>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
@@ -101,11 +102,12 @@ const About = () => {
                             Augue nisl consequat adipiscing dignissim quis egestas pretium elementum. 
                             Vitae convallis amet enim elementum.
                             Dis odio eleifend turpis consequat faucibus.
-                        </p> 
+                        </p>
+                        <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
                     </div>
                 </div>
                 <div className={`history-content ${isScrolling_3 ? 'slide-left-3':''} `}>
-                    <div>
+                    <div className="content">
                         <h4>1919</h4>
                         <p>
                             Lorem ipsum dolor sit amet consectetur. 
@@ -114,6 +116,7 @@ const About = () => {
                             Vitae convallis amet enim elementum.
                             Dis odio eleifend turpis consequat faucibus.
                         </p> 
+                        <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div>
                     </div>
                 </div>
                 <div className="title-2">
@@ -158,7 +161,6 @@ const About = () => {
             </div>
             <img className="leaves" src={leaves} alt=""/>
             <img className="leaves-1" src={leaves_1} alt=""/>
-            <img className={`line ${isScrolling_4 ? 'line-anim':''} `} src={line} alt=""/>
         </div>
     </>
 
