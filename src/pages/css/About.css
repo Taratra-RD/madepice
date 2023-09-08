@@ -85,7 +85,7 @@ p{
 }
 
 .line-anim{
-    animation: line-animation 0.8s  forwards ease;
+    animation: line-animation 1.5s  forwards ease;
 }
 
 @keyframes line-animation{
@@ -125,7 +125,7 @@ p{
 }
 
 .slide-left-1{
-    animation: slide-right 0.8s forwards ease;
+    animation: slide-right 1s forwards ease;
 }
 
 @keyframes slide-left{
@@ -141,7 +141,7 @@ p{
 }
 
 .slide-left-2{
-    animation: slide-left 0.8s forwards ease;
+    animation: slide-left 1.3s forwards ease;
 }
 
 @keyframes slide-left{
@@ -157,7 +157,7 @@ p{
 }
 
 .slide-left-3{
-    animation: slide-right 0.8s forwards ease;
+    animation: slide-right 1.6s forwards ease;
 }
 
 @keyframes slide-right{
