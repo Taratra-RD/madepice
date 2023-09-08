@@ -56,7 +56,7 @@
   .products--list {
     display: flex;
     flex-flow: row wrap;
-    width: 64rem;
+    width: 64.8rem;
   }
 }
 
@@ -64,6 +64,6 @@
   .products--list {
     display: flex;
     flex-flow: row wrap;
-    width: 78rem;
+    width: 80rem;
   }
 }

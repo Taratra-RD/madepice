@@ -1,3 +1,7 @@
+.card--image--hover {
+  width: 100%;
+}
+
 @media (max-width: 359px) {
   /*FRONT*/
   .card--product {
@@ -410,7 +414,7 @@
     background-color: rgb(5, 34, 34);
     border-radius: 8px;
     margin: 3px;
-    margin-inline: 1rem 1rem;
+    margin-inline: 1.1rem 1.1rem;
     margin-block: 15px 15px;
     background-size: 145% 19rem;
     background-position: center;
@@ -445,7 +449,7 @@
     margin: 3px;
     box-shadow: 1px 1px 5px black;
     overflow: hidden;
-    margin-inline: 1rem 1rem;
+    margin-inline: 1.1rem 1.1rem;
     margin-block: 15px 15px;
     background-image: none;
   }
@@ -537,7 +541,7 @@
     background-color: rgb(5, 34, 34);
     border-radius: 10px;
     margin: 5px;
-    margin-inline: 1rem 1rem;
+    margin-inline: 1.25rem 1.25rem;
     margin-block: 15px 15px;
     background-size: 160% 24rem;
     background-position: center;
@@ -572,7 +576,7 @@
     margin: 5px;
     box-shadow: 1px 1px 5px black;
     overflow: hidden;
-    margin-inline: 1rem 1rem;
+    margin-inline: 1.25rem 1.25rem;
     margin-block: 15px 15px;
     background-image: none;
   }
