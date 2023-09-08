@@ -1,12 +1,19 @@
 import React from "react";
 import "./css/Cardproduct.css";
 import { useMediaQuery } from "usehooks-ts";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Cardproduct({ product }) {
   const cardBackground = {
     backgroundImage: `url(${product.imgUrl})`,
   };
+
+  const cardBackground1 = {
+    backgroundImage: `url(${product.imgUrl_1})`,
+  };
+
+  const history = useNavigate();
+
   let widthX = useMediaQuery("(min-width:670px)");
 
   const handleCard = () => {
@@ -57,14 +64,14 @@ export default function Cardproduct({ product }) {
       onMouseEnter={handleCard}
       onMouseLeave={handleCard}
       style={cardBackground}
+      onClick={() => history(`/product/${product.id}`)}
     >
       <div
         className="card--image"
         id={`card--image--${product.name}`}
-        style={cardBackground}
+        style={cardBackground1}
       ></div>
       <Link
-        to={`/product/${product.id}`}
         className="card--title"
         id={`card--title--${product.name}`}
         style={{ fontFamily: "Canela Deck Trial" }}
