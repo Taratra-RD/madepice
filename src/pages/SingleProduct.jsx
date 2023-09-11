@@ -42,15 +42,17 @@ export default function SingleProduct() {
       </div>
       {filteredProduct.map((product) => (
         <>
-          {product.produits.map((produit) => (
-
-            <div className="single--product" key={produit.id}>
-              <div className="single--product--container">
+          <div className="single--product" key={product.id}>
+            {product.produits.map((produit) => (
+              <div className="single--product--container" key={produit.id}>
                 <div
                   className="single--product--left"
-                  key={product.id}
+                  key={produit.id}
                   style={{ backgroundImage: `url('${produit.imgUrl_2}')` }}
-                ></div>
+                >
+                  <i className="fas fa-chevron-left" style={{color:'white'}}></i>
+                  <i className="fas fa-chevron-right" style={{color:'white'}}></i>
+                </div>
                 <div className="line-red"></div>
                 <div className="single--product--right" key={produit.id}>
                   <h2 style={{ fontFamily: "Canela", color: "#F2E5D1" }}>
@@ -79,56 +81,55 @@ export default function SingleProduct() {
                   </p>
                   <p>
                     <span style={{ fontWeight: 600 }}>Description : </span>{" "}
-                    {produit.description}
+                    {produit.origine}
                   </p>
                 </div>
               </div>
-              {widthPhoneLg ? (
-            <div className="random--product--container">
-              {shuffledData.slice(0, 4).map((product) => (
-                <div className="products--products--list--card" key={product.id}>
-                  <Card
-                    id={product.id}
-                    img={product.imgUrl}
-                    title={product.name}
-                    text={product.description.slice(0, 90) + "..."}
-                    className={"details"}
-                  />
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="random--product--container">
-              {shuffledData.slice(0, 12).map((product) => (
-                <div className="products--products--list--card" key={product.id}>
-                  <Card
-                    id={product.id}
-                    img={product.imgUrl}
-                    title={product.name}
-                    text={product.description.slice(0, 90) + "..."}
-                    className={"details"}
-                  />
-                </div>
-              ))}
-            </div>
-          )}
-              <div className="button--product">
-                <Link to={"/product"}>
-                  <button
-                    className="btn btn-lg"
-                    style={{
-                      borderRadius: "8px",
-                      fontFamily: "Raleway",
-                      fontWeight: 700,
-                    }}
-                  >
-                    Voir tout ...
-                  </button>
-                </Link>
+            ))}
+            {widthPhoneLg ? (
+              <div className="random--product--container">
+                {shuffledData.slice(0, 4).map((product) => (
+                  <div className="products--products--list--card" key={product.id}>
+                    <Card
+                      id={product.id}
+                      img={product.imgUrl}
+                      title={product.name}
+                      text={product.description.slice(0, 90) + "..."}
+                      className={"details"}
+                    />
+                  </div>
+                ))}
               </div>
+            ) : (
+              <div className="random--product--container">
+                {shuffledData.slice(0, 12).map((product) => (
+                  <div className="products--products--list--card" key={product.id}>
+                    <Card
+                      id={product.id}
+                      img={product.imgUrl}
+                      title={product.name}
+                      text={product.description.slice(0, 90) + "..."}
+                      className={"details"}
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="button--product">
+              <Link to={"/product"}>
+                <button
+                  className="btn btn-lg"
+                  style={{
+                    borderRadius: "8px",
+                    fontFamily: "Raleway",
+                    fontWeight: 700,
+                  }}
+                >
+                  Voir tout ...
+                </button>
+              </Link>
             </div>
-          ))}
-          
+          </div>
         </>
       ))}
       <div className="footer--product">
