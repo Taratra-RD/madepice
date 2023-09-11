@@ -31,7 +31,7 @@
 }
 
 .history-content{
-    display: flex;
+    display: none;
     width: 100%;
     padding: 0em;
 }
@@ -44,7 +44,6 @@
 }
 
 .history-content:nth-child(even){
-    display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
@@ -125,6 +124,7 @@ p{
 }
 
 .slide-left-1{
+    display: flex;
     animation: slide-right 1s forwards ease;
 }
 
@@ -141,6 +141,9 @@ p{
 }
 
 .slide-left-2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     animation: slide-left 1.3s forwards ease;
 }
 
@@ -157,6 +160,7 @@ p{
 }
 
 .slide-left-3{
+    display: flex;
     animation: slide-right 1.6s forwards ease;
 }
 
@@ -201,17 +205,42 @@ p{
     
     .contain{
         max-width: 100vw;
-        padding-inline: 5em 5em;
+        padding-inline: 1em 1em;
         padding-block: 5em 5em;
         background-image: url(../../images/Rectangle\ 51.png);
     }
     
     .history-content{
-        display: block;
+        display: none;
         width: 100%;
         display: block;
         align-items: center;
         justify-content: center;
+    }
+
+    .history-content .content {
+        display: flex;
+        text-align: start;
+        width: 100%;
+        padding-inline: 1em 1em;
+        flex-direction: column;
+        animation: none;
+        padding-top: 2em;
+    }
+
+    .slide-left-1{
+        display: flex;
+        animation: none;
+    }
+
+    .slide-left-2{
+        display: flex;
+        animation: none;
+    }
+
+    .slide-left-3{
+        display: flex;
+        animation: none;
     }
     
     .history-content div{
@@ -258,10 +287,17 @@ p{
         height: auto;
     }
     
-    .line{
-        display: none;
+    .history-content .line {
+        width: 100%;
+        background-color: #961b1e;
+        height: 2px;
     }
-    
+
+    .line-anim{
+        display: flex;
+        width: 100%;
+        animation: none;
+    }    
     .title-2{
         display: block;
         align-items: center;
@@ -276,7 +312,7 @@ p{
         background-size: cover;
         margin-inline: 0em 0em !important;
         padding-block: 2em !important;
-        width: 100em;
+        width: 100%;
     }
     
     .title-2-content {
