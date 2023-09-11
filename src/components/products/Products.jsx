@@ -26,18 +26,18 @@ export default function Products() {
     setSearchQuery("");
   };
 
-  const filterByType = (type) => {
-    if (type === "Tous") {
-      setFilteredData(data);
-    } else {
-      const filtered = data.filter(
-        (item) => item.type.toLowerCase() === type.toLowerCase()
-      );
-      setFilteredData(filtered);
-      console.log(filtered);
-    }
-    setSearchQuery("");
-  };
+  // const filterByType = (type) => {
+  //   if (type === "Tous") {
+  //     setFilteredData(data);
+  //   } else {
+  //     const filtered = data.filter(
+  //       (item) => item.type.toLowerCase() === type.toLowerCase()
+  //     );
+  //     setFilteredData(filtered);
+  //     console.log(filtered);
+  //   }
+  //   setSearchQuery("");
+  // };
 
   const uniqueFirstLetters = [
     ...new Set(data.map((item) => item.name.charAt(0).toLowerCase())),
@@ -105,10 +105,7 @@ export default function Products() {
         <img src={leaveUp} alt="leaveUp" className="leave--up" />
       </div>
       <div className="products--body">
-        <div
-          className="products-filter--bar"
-          onClick={() => filterByType("poudre")}
-        >
+        <div>
           <FilterBar
             handleSearch={handleSearch}
             filterByFirstLetter={filterByFirstLetter}
@@ -118,7 +115,6 @@ export default function Products() {
             handleChange={handleChange}
             filteredDataSuggestion={filteredDataSuggestion}
             searchResultEmpty={searchResultEmpty}
-            filterByType={filterByType}
           />
         </div>
         <div className="products--products--list">

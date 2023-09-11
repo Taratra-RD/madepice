@@ -9,7 +9,6 @@ export default function FilterBar({
   handleChange,
   searchResultEmpty,
   filteredDataSuggestion,
-  filterByType,
 }) {
   // const ordered = Object.keys(groupProductsAlphabetically)
   //   .sort()
@@ -34,11 +33,10 @@ export default function FilterBar({
           </div>
         </div>
         <div className="select--bar">
-          Trier par:&nbsp;
+          Trier par category:&nbsp;
           <select name="" id="" className="select--bar--select">
-            <option value="name">Nom</option>
-            <option value="type">Type</option>
-            <option value="saveur">Saveur</option>
+            <option value="Epice">Epice</option>
+            <option value="Fruit">Fruit</option>
           </select>
         </div>
       </div>
