@@ -32,7 +32,10 @@ export default function SingleProduct() {
   }
   const shuffledData = shuffleArray(data);
   // eslint-disable-next-line
-  const filteredProduct = data.filter((product) => product.id == id); // Compare 'product.id' with 'id'
+  const filteredProduct = data.filter((product) => product.id == id);
+  const changeImg = () => {
+    document.getElementById("single--product--left").style.backgroundImage = url(`${''}`)
+  }
 
   useEffect(() => { }, []);
   return (
@@ -47,11 +50,12 @@ export default function SingleProduct() {
               <div className="single--product--container" key={produit.id}>
                 <div
                   className="single--product--left"
+                  id="single--product--left"
                   key={produit.id}
-                  style={{ backgroundImage: `url('${produit.imgUrl_2}')` }}
+                  style={{ backgroundImage: `url('${produit.imgUrl}')` }}
                 >
-                  <i className="fas fa-chevron-left" style={{color:'white'}}></i>
-                  <i className="fas fa-chevron-right" style={{color:'white'}}></i>
+                  <i className="fas fa-chevron-left" onClick={changeImg}></i>
+                  <i className="fas fa-chevron-right" onClick={changeImg}></i>
                 </div>
                 <div className="line-red"></div>
                 <div className="single--product--right" key={produit.id}>
