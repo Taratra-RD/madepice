@@ -66,10 +66,10 @@ export default function FilterBar({
       </div>
       <div className="filter--bar">
         <div
-          onClick={() => filterByFirstLetter("All")}
+          onClick={() => filterByFirstLetter("Tous")}
           className="filter--bar--alphabet"
         >
-          All
+          Tous
         </div>
         {uniqueFirstLetters.map((letter, index) => (
           <div
