@@ -230,8 +230,27 @@ import imgVoatsiperiferyNoir_5 from "./image/Votsiperifery Noir/Voatsiperifery_N
 import imgVoatsiperiferyNoir_9 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Moulu.webp";
 import imgVoatsiperiferyNoir_4 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Poudre.webp";
 import imgVoatsiperiferyNoir_6 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Poudre2.webp";
+//ANANAS
+import imgAnanas_1 from "./image/Fruits/Ananas/Ananas_copy.webp";
+import imgAnanas_2 from "./image/Fruits/Ananas/Ananas_title_copy.webp";
+//COCO
+import imgCoco_1 from "./image/Fruits/Coco/Coco_copy.webp";
+import imgCoco_2 from "./image/Fruits/Coco/Coco_Title_copy.webp";
+//JACQUES
+import imgJacques_1 from "./image/Fruits/Jaques/Jaques_copy.webp";
+import imgJacques_2 from "./image/Fruits/Jaques/Jaques_title_copy.webp";
+//LITCHI
+import imgLitchi_1 from "./image/Fruits/Litchis/Litchis_copy.webp";
+import imgLitchi_2 from "./image/Fruits/Litchis/Litchis_Title_copy.webp";
+//MANGUE
+import imgMangue_1 from "./image/Fruits/Mangue/Mangue_copy.webp";
+import imgMangue_2 from "./image/Fruits/Mangue/Mangue_title_copy.webp";
+//POK POK
+import imgPokpok_1 from "./image/Fruits/Pok pok/Pok_Pok_copy.webp";
+import imgPokpok_2 from "./image/Fruits/Pok pok/Pok_Pok_title_copy.webp";
 
 export const data = [
+  //AIL
   {
     id: 1,
     name: "AIL",
@@ -240,6 +259,7 @@ export const data = [
     imgUrl: imgAil_1,
     imgUrl_1: imgAil_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -288,6 +308,7 @@ export const data = [
       },
     ],
   },
+  //ANIS ETOILE
   {
     id: 2,
     name: "ANIS ETOILE",
@@ -295,6 +316,8 @@ export const data = [
       "L'anis étoilé est une épice polyvalente avec une saveur distinctive d'anis. Cette épice est utilisée dans la cuisine et la préparation de boissons dans de nombreuses cultures.",
     imgUrl: imgAnis_1,
     imgUrl_1: imgAnis_2,
+    type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -332,6 +355,7 @@ export const data = [
       },
     ],
   },
+  //BAIE ROSE
   {
     id: 3,
     name: "BAIE ROSE",
@@ -340,6 +364,7 @@ export const data = [
     imgUrl: imgBaie_1,
     imgUrl_1: imgBaie_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -368,6 +393,7 @@ export const data = [
       },
     ],
   },
+  //BAOBAB
   {
     id: 4,
     name: "BAOBAB",
@@ -376,6 +402,7 @@ export const data = [
     imgUrl: imgBaobab_1,
     imgUrl_1: imgBaobab_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -404,6 +431,7 @@ export const data = [
       },
     ],
   },
+  //BOIS D'ANIS
   {
     id: 5,
     name: "BOIS D'ANIS",
@@ -412,6 +440,7 @@ export const data = [
     imgUrl: imgAnis_1,
     imgUrl_1: imgAnis_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -432,18 +461,20 @@ export const data = [
       },
     ],
   },
+  //CACAO FEVE
   {
     id: 6,
-    name: "CACAO FEVE",
+    name: "FEVE DE CACAO ",
     description:
       "La fève de cacao est la graine du fruit du cacaoyer. Elle est souvent utilisée pour la fabrication du chocolat et également dans la préparation de boissons chaudes au chocolat, de desserts, de pâtisseries, etc.",
     imgUrl: imgCacao_1,
     imgUrl_1: imgCacao_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "CACAO FEVE BRUT",
+        name: "FEVE DE CACAO BRUT",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "La fève de cacao est la graine du fruit du cacaoyer. Elle est souvent utilisée pour la fabrication du chocolat et également dans la préparation de boissons chaudes au chocolat, de desserts, de pâtisseries, etc.",
@@ -501,6 +532,7 @@ export const data = [
       },
     ],
   },
+  //CANNELLE
   {
     id: 7,
     name: "CANNELLE",
@@ -509,6 +541,7 @@ export const data = [
     imgUrl: imgCanelle_1,
     imgUrl_1: imgCanelle_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -576,6 +609,7 @@ export const data = [
       },
     ],
   },
+  //CITRONNELLE
   {
     id: 8,
     name: "CITRONNELLE",
@@ -584,6 +618,7 @@ export const data = [
     imgUrl: imgCitronelle_1,
     imgUrl_1: imgCitronelle_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -608,14 +643,16 @@ export const data = [
       },
     ],
   },
+  //FEUILLE DE COMBAVA
   {
     id: 9,
-    name: "COMBAVA FEUILLE",
+    name: "FEUILLE DE COMBAVA",
     description:
       "Les feuilles de combava sont utilisées dans de nombreux plats asiatiques, tels que les currys, les soupes, les marinades et les sauces. Elles peuvent être utilisées fraîches ou séchées, et sont souvent retirées avant de servir le plat.",
     imgUrl: imgCombova_1,
     imgUrl_1: imgCombova_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -653,18 +690,20 @@ export const data = [
       },
     ],
   },
+  //COMBAVA ZESTE
   {
     id: 10,
-    name: "COMBAVA ZESTE",
+    name: "ZESTE DE COMBAVA",
     description:
       "Les zestes de combava sont utilisés pour parfumer les plats sucrés et salés, tels que les pâtisseries, les desserts, les marinades, les cocktails et les sauces. Ils sont également utilisés dans la préparation de thés et d'infusions. ",
     imgUrl: imgCombova_1,
     imgUrl_1: imgCombova_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "COMBAVA ZESTE",
+        name: "ZESTE DE COMBAVA",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Les zestes de combava sont utilisés pour parfumer les plats sucrés et salés, tels que les pâtisseries, les desserts, les marinades, les cocktails et les sauces. Ils sont également utilisés dans la préparation de thés et d'infusions. ",
@@ -682,7 +721,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "COMBAVA ZESTE POUDRE",
+        name: "ZESTE DE COMBAVA EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "90g" },
@@ -707,18 +746,20 @@ export const data = [
       },
     ],
   },
+  //CORIANDRE
   {
     id: 11,
-    name: "CORIANDRE",
+    name: "",
     description:
       "Les graines de coriandre sont utilisées dans de nombreuses cuisines du monde entier pour aromatiser les plats, tandis que les graines moulues sont couramment utilisées dans les mélanges d'épices, les sauces, les soupes et les saucisses.",
     imgUrl: imgCoriandre_1,
     imgUrl_1: imgCoriandre_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "CORIANDRE GRAINE",
+        name: "GRAINE DE CORIANDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "120g" },
@@ -742,18 +783,20 @@ export const data = [
       },
     ],
   },
+  //COROSSOL FEUILLE
   {
     id: 12,
-    name: "COROSSOL FEUILLE",
+    name: "FEUILLE DE COROSSOL",
     description:
       "Les feuilles de corossol sont utilisées dans la préparation de divers plats et boissons, notamment des thés, des infusions et des jus. ",
     imgUrl: imgCorossol_1,
     imgUrl_1: imgCorossol_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "COROSSOL FEUILLE ENTIERE",
+        name: "FEUILLE DE COROSSOL ENTIERE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Les feuilles de corossol sont utilisées dans la préparation de divers plats et boissons, notamment des thés, des infusions et des jus. ",
@@ -769,7 +812,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "COROSSOL FEUILLE HACHEE",
+        name: "FEUILLE DE COROSSOL HACHEE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Les feuilles de corossol sont utilisées dans la préparation de divers plats et boissons, notamment des thés, des infusions et des jus. ",
@@ -785,7 +828,7 @@ export const data = [
       },
       {
         id: 3,
-        name: "COROSSOL FEUILLE POUDRE",
+        name: "FEUILLE DE COROSSOL EN POUDRE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Les feuilles de corossol sont utilisées dans la préparation de divers plats et boissons, notamment des thés, des infusions et des jus. ",
@@ -801,6 +844,7 @@ export const data = [
       },
     ],
   },
+  //CUMIN
   {
     id: 13,
     name: "CUMIN",
@@ -809,10 +853,11 @@ export const data = [
     imgUrl: imgCumin_1,
     imgUrl_1: imgCumin_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "CUMIN GRAIN",
+        name: "GRAIN DE CUMIN",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "200g" },
@@ -836,7 +881,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "CUMIN POUDRE",
+        name: "CUMIN EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "verrine", grammage: "17g" },
@@ -857,6 +902,7 @@ export const data = [
       },
     ],
   },
+  //CURCUMA
   {
     id: 14,
     name: "CURCUMA",
@@ -865,10 +911,11 @@ export const data = [
     imgUrl: imgCurcuma_1,
     imgUrl_1: imgCurcuma_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "CURCUMA POUDRE",
+        name: "CURCUMA EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "120g" },
@@ -892,7 +939,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "CURCUMA MORCEAU",
+        name: "CURCUMA EN MORCEAU",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Le curcuma est largement utilisé dans la cuisine asiatique, notamment dans les currys, les sauces, les marinades et les mélanges d'épices. Il est également utilisé comme colorant alimentaire naturel.",
@@ -909,6 +956,7 @@ export const data = [
       },
     ],
   },
+  //CURRY SPECIAL VIANDE
   {
     id: 16,
     name: "CURRY SPECIAL VIANDE",
@@ -917,6 +965,7 @@ export const data = [
     imgUrl: imgCurry_1,
     imgUrl_1: imgCurry_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -944,6 +993,7 @@ export const data = [
       },
     ],
   },
+  //EPICE POUR GUACAMOLE
   {
     id: 17,
     name: "EPICE POUR GUACAMOLE",
@@ -952,6 +1002,7 @@ export const data = [
     imgUrl: imgGuacamole_1,
     imgUrl_1: imgGuacamole_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -978,6 +1029,7 @@ export const data = [
       },
     ],
   },
+  //FENUGREC
   {
     id: 18,
     name: "FENUGREC",
@@ -986,10 +1038,11 @@ export const data = [
     imgUrl: imgFenugrec_1,
     imgUrl_1: imgFenugrec_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "FENUGREC GRAIN TORREFIE",
+        name: "GRAIN DE FENUGREC TORREFIE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Le fenugrec est couramment utilisé dans les cuisines indienne, méditerranéenne et asiatique. Il est utilisé pour aromatiser les plats de viande, les bouillons et les marinades. Il est également utilisé dans la fabrication de fromages et de pains.",
@@ -1006,7 +1059,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "FENUGREC POUDRE",
+        name: "FENUGREC EN POUDRE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Le fenugrec est couramment utilisé dans les cuisines indienne, méditerranéenne et asiatique. Il est utilisé pour aromatiser les plats de viande, les bouillons et les marinades. Il est également utilisé dans la fabrication de fromages et de pains.",
@@ -1023,6 +1076,7 @@ export const data = [
       },
     ],
   },
+  //FLEUR DE SEL
   {
     id: 19,
     name: "FLEUR DE SEL NATURE",
@@ -1031,6 +1085,7 @@ export const data = [
     imgUrl: imgFds_1,
     imgUrl_1: imgFds_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -1057,7 +1112,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "FLEUR DE SEL BAIE ROSE POIVRE NOIR CONCASSE",
+        name: "FLEUR DE SEL: BAIE ROSE - POIVRE NOIR CONCASSE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "160g" },
@@ -1080,7 +1135,7 @@ export const data = [
       },
       {
         id: 3,
-        name: "FLEUR DE SEL COMBAVA",
+        name: "FLEUR DE SEL: COMBAVA",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "170g" },
@@ -1103,7 +1158,7 @@ export const data = [
       },
       {
         id: 4,
-        name: "FLEUR DE SEL COMBAVA - GINGEMBRE",
+        name: "FLEUR DE SEL: COMBAVA - GINGEMBRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "170g" },
@@ -1126,7 +1181,7 @@ export const data = [
       },
       {
         id: 5,
-        name: "FLEUR DE SEL VANILLE",
+        name: "FLEUR DE SEL: VANILLE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "170g" },
@@ -1149,7 +1204,7 @@ export const data = [
       },
       {
         id: 6,
-        name: "FLEUR DE SEL VOATSIPERIFERY BLANC",
+        name: "FLEUR DE SEL: VOATSIPERIFERY BLANC",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "180g" },
@@ -1172,6 +1227,7 @@ export const data = [
       },
     ],
   },
+  //GINGEMBRE
   {
     id: 20,
     name: "GINGEMBRE",
@@ -1180,10 +1236,11 @@ export const data = [
     imgUrl: imgGingembre_1,
     imgUrl_1: imgGingembre_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "GINGEMBRE MORCEAU",
+        name: "GINGEMBRE EN MORCEAU",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Le gingembre est largement utilisé dans les cuisines asiatiques, en particulier dans les plats indiens, chinois et thaïlandais. Il est utilisé pour aromatiser les plats de viande, les sautés, les currys, les marinades, les soupes, les sauces et les boissons comme le thé au gingembre.",
@@ -1205,7 +1262,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "GINGEMBRE POUDRE",
+        name: "GINGEMBRE EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "110g" },
@@ -1234,6 +1291,7 @@ export const data = [
       },
     ],
   },
+  //GIROFLE
   {
     id: 21,
     name: "GIROFLE",
@@ -1242,6 +1300,7 @@ export const data = [
     imgUrl: imgGirofle_1,
     imgUrl_1: imgGirofle_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -1301,6 +1360,7 @@ export const data = [
       },
     ],
   },
+  //GARAM MASSALA
   {
     id: 22,
     name: "GARAM MASSALA",
@@ -1309,6 +1369,7 @@ export const data = [
     imgUrl: imgMassala_1,
     imgUrl_1: imgMassala_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -1336,18 +1397,20 @@ export const data = [
       },
     ],
   },
+  //MELANGE DE 3 BAIES
   {
     id: 23,
-    name: "MELANGE 3 BAIES",
+    name: "MELANGE DE 3 BAIES",
     description:
       "Le mélange de 3 baies est un mélange d'épices composé généralement de grains de poivre noir, de poivre blanc et de baies roses. L'ensemble offre un mélange équilibré et complexe de saveurs.",
     imgUrl: imgMelange3Baie_1,
     imgUrl_1: imgMelange3Baie_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "MELANGE 3 BAIES",
+        name: "MELANGE DE 3 BAIES",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "210g" },
@@ -1379,18 +1442,20 @@ export const data = [
       },
     ],
   },
+  //MELANGE DE 4 EPICES
   {
     id: 24,
-    name: "MELANGE 4 EPICES",
+    name: "MELANGE DE 4 EPICES",
     description:
       "Le mélange 4 épices est un mélange d'épices traditionnellement composé de poivre noir, de muscade, de clou de girofle et de cannelle. Le poivre noir ajoute une saveur piquante, la muscade apporte une note chaude et boisée, le clou de girofle ajoute une saveur intense et épicée, tandis que la cannelle apporte une saveur douce et aromatique. ",
     imgUrl: imgMelange4Epice_1,
     imgUrl_1: imgMelange4Epice_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "MELANGE 4 EPICES",
+        name: "MELANGE DE 4 EPICES",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "210g" },
@@ -1415,6 +1480,7 @@ export const data = [
       },
     ],
   },
+  //MUSCADE
   {
     id: 25,
     name: "MUSCADE",
@@ -1423,6 +1489,7 @@ export const data = [
     imgUrl: imgMuscade_1,
     imgUrl_1: imgMuscade_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -1444,7 +1511,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "MUSCADE POUDRE",
+        name: "MUSCADE EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "140g" },
@@ -1467,7 +1534,7 @@ export const data = [
       },
       {
         id: 3,
-        name: "MUSCADE NOIX",
+        name: "NOIX DE MUSCADE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "280g" },
@@ -1491,7 +1558,7 @@ export const data = [
       },
     ],
   },
-
+  //PIMENT ROUGE PILI PILI
   {
     id: 26,
     name: "PIMENT ROUGE PILI PILI",
@@ -1500,10 +1567,11 @@ export const data = [
     imgUrl: imgPimentRouge_1,
     imgUrl_1: imgPimentRouge_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "PIMENT ROUGE PILI PILI ENTIER",
+        name: "PIMENT ROUGE PILI PILI EN ENTIER",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "90g" },
@@ -1527,7 +1595,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "PIMENT ROUGE PILI PILI POUDRE",
+        name: "PIMENT ROUGE PILI PILI EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "120g" },
@@ -1551,7 +1619,7 @@ export const data = [
       },
     ],
   },
-
+  //PIMENT VERT PILI PILI
   {
     id: 27,
     name: "PIMENT VERT PILI PILI",
@@ -1560,10 +1628,11 @@ export const data = [
     imgUrl: imgPimentVert_1,
     imgUrl_1: imgPimentVert_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "PIMENT VERT PILI PILI ENTIER",
+        name: "PIMENT VERT PILI PILI EN ENTIER",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "60g" },
@@ -1592,7 +1661,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "PIMENT VERT PILI PILI POUDRE",
+        name: "PIMENT VERT PILI PILI EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "100g" },
@@ -1616,7 +1685,7 @@ export const data = [
       },
     ],
   },
-
+  //PIMENT TSILANDIMILAHY
   {
     id: 28,
     name: "PIMENT TSILANDIMILAHY",
@@ -1625,10 +1694,11 @@ export const data = [
     imgUrl: imgTsilandimilahy_1,
     imgUrl_1: imgTsilandimilahy_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "PIMENT TSILANDIMILAHY ENTIER",
+        name: "PIMENT TSILANDIMILAHY EN ENTIER",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Le piment Tsilanindimilahy est une variété de piment originaire de Madagascar. Ilest largement utilisé dans la cuisine malgache pour ajouter de la chaleur et du, les currys, les de viande.",
@@ -1645,6 +1715,7 @@ export const data = [
       },
     ],
   },
+  //POIVRE BLANC
   {
     id: 29,
     name: "POIVRE BLANC",
@@ -1653,10 +1724,11 @@ export const data = [
     imgUrl: imgPoivreBlanc_1,
     imgUrl_1: imgPoivreBlanc_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "POIVRE BLANC GRAIN",
+        name: "GRAIN DE POIVRE BLANC",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "200g" },
@@ -1681,7 +1753,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "POIVRE BLANC POUDRE",
+        name: "POIVRE BLANC EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "120g" },
@@ -1711,18 +1783,20 @@ export const data = [
       },
     ],
   },
+  //POIVRE NOIR
   {
     id: 30,
-    name: "POIVRE NOIR GRAIN",
+    name: "POIVRE NOIR",
     description:
       "Le poivre noir est utilisé dans de nombreux plats et recettes du monde entier. Il ajoute de la saveur et de la chaleur aux sauces, aux viandes, aux légumes, aux soupes et aux marinades.",
     imgUrl: imgPoivreNoir_1,
     imgUrl_1: imgPoivreNoir_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "POIVRE NOIR GRAIN",
+        name: "GRAIN DE POIVRE NOIR ",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "100g" },
@@ -1752,7 +1826,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "POIVRE NOIR POUDRE",
+        name: "POIVRE NOIR EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "120g" },
@@ -1802,6 +1876,7 @@ export const data = [
       },
     ],
   },
+  //VOATSIPERIFERY
   {
     id: 31,
     name: "VOATSIPERIFERY NOIR",
@@ -1810,6 +1885,7 @@ export const data = [
     imgUrl: imgVoatsiperiferyNoir_1,
     imgUrl_1: imgVoatsiperiferyNoir_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -1906,7 +1982,7 @@ export const data = [
       },
       {
         id: 4,
-        name: "VOATSIPERIFERY NOIR POUDRE",
+        name: "VOATSIPERIFERY NOIR EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "110g" },
@@ -1935,7 +2011,7 @@ export const data = [
       },
       {
         id: 3,
-        name: "VOATSIPERIFERY POUDRE BLANC",
+        name: "VOATSIPERIFERY BLANC EN POUDRE ",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Doypack", grammage: "250g" },
@@ -1965,18 +2041,20 @@ export const data = [
       },
     ],
   },
+  //VANILLE
   {
     id: 32,
-    name: "VANILLE GOUSSE",
+    name: "VANILLE",
     description:
       "La vanille est largement utilisée comme arôme dans les produits alimentaires. Elle est couramment utilisée dans les desserts tels que les crèmes glacées, les pâtisseries, les boissons chaudes et les sauces sucrées. Elle peut également être utilisée dans certains plats salés pour ajouter une touche d'arôme subtil.",
     imgUrl: imgVanille_1,
     imgUrl_1: imgVanille_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "VANILLE GOUSSE",
+        name: "GOUSSE DE VANILLE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "Eprouvette", grammage: "35g" },
@@ -1996,7 +2074,7 @@ export const data = [
       },
       {
         id: 2,
-        name: "VANILLE POUDRE",
+        name: "VANILLE EN POUDRE",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },
           { unite: "verrine", grammage: "25g" },
@@ -2018,19 +2096,20 @@ export const data = [
       },
     ],
   },
-
+  //MORINGA
   {
     id: 33,
-    name: "MORINGA POUDRE",
+    name: "MORINGA",
     description:
       "Les feuilles, les fleurs et les graines du moringa sont comestibles. Les feuilles peuvent être consommées crues, cuites ou sous forme de poudre. Les graines peuvent être utilisées pour extraire une huile riche en nutriments. Le moringa est également utilisé dans la préparation de thé, de soupes, de salades et de smoothies.",
     imgUrl: imgMoringa_1,
     imgUrl_1: imgMoringa_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
-        name: "MORINGA POUDRE",
+        name: "MORINGA EN POUDRE",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Les feuilles, les fleurs et les graines du moringa sont comestibles. Les feuilles peuvent être consommées crues, cuites ou sous forme de poudre. Les graines peuvent être utilisées pour extraire une huile riche en nutriments. Le moringa est également utilisé dans la préparation de thé, de soupes, de salades et de smoothies.",
@@ -2048,6 +2127,7 @@ export const data = [
       },
     ],
   },
+  //RIBAMBELLE D'EPICE
   {
     id: 34,
     name: "RIBAMBELLE D'EPICE",
@@ -2055,6 +2135,7 @@ export const data = [
     imgUrl: "",
     imgUrl_1: "",
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -2074,6 +2155,7 @@ export const data = [
       },
     ],
   },
+  //L'EPICE POIVRE NOIR
   {
     id: 35,
     name: "L'EPICE POIVRE NOIR",
@@ -2082,6 +2164,7 @@ export const data = [
     imgUrl: imgPoivreNoir_1,
     imgUrl_1: imgPoivreNoir_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -2104,6 +2187,7 @@ export const data = [
       },
     ],
   },
+  //L'EPICE FLEUR DE SEL
   {
     id: 36,
     name: "L'EPICE FLEUR DE SEL",
@@ -2112,6 +2196,7 @@ export const data = [
     imgUrl: imgFds_1,
     imgUrl_1: imgFds_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -2132,6 +2217,7 @@ export const data = [
       },
     ],
   },
+  //L'EPICE AIL POUDRE
   {
     id: 37,
     name: "L'EPICE AIL POUDRE",
@@ -2140,6 +2226,7 @@ export const data = [
     imgUrl: imgAil_1,
     imgUrl_1: imgAil_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -2162,6 +2249,7 @@ export const data = [
       },
     ],
   },
+  //L'EPICE COMBAVA POUDRE
   {
     id: 38,
     name: "L'EPICE COMBAVA POUDRE",
@@ -2170,6 +2258,7 @@ export const data = [
     imgUrl: imgCombova_1,
     imgUrl_1: imgCombova_2,
     type: "Epice",
+    phare: true,
     produits: [
       {
         id: 1,
@@ -2186,6 +2275,204 @@ export const data = [
         origine: "Madagascar",
         conservation: "",
         composition: "",
+      },
+    ],
+  },
+  //ANANAS
+  {
+    id: 39,
+    name: "ANANAS",
+    description:
+      "L'ananas séché est un fruit aux multiples vertus. Il est très riche en fibres et contient de la vitamine C. Il possède des vertus diététiques et peut servir de coupe faim ,À déguster tel quel comme une confiserie, ou bien s'en servir dans la confection d'une recette de dessert,L'ananas séché convient parfaitement pour la préparation des rhums arrangés",
+    imgUrl: imgAnanas_1,
+    imgUrl_1: imgAnanas_2,
+    type: "Fruit",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "ANANAS",
+        conditionnement: [
+          { unite: "VRAC (1kg-5kg)", grammage: "50g" },
+          { unite: "Doypack", grammage: "150g" },
+        ],
+        description:
+          "L'ananas séché est un fruit aux multiples vertus. Il est très riche en fibres et contient de la vitamine C. Il possède des vertus diététiques et peut servir de coupe faim ,À déguster tel quel comme une confiserie, ou bien s'en servir dans la confection d'une recette de dessert,L'ananas séché convient parfaitement pour la préparation des rhums arrangés",
+        imgUrl: imgAnanas_1,
+        gallery: [],
+        texture: "Morceau moelleuse",
+        gout: "Sucré et acidulé",
+        intensite: "douce",
+        parfum: "odeur tirant vers le vinaigre",
+        origine: "Madagascar",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur,endroit frais",
+        composition: "vitamine C, vitamine B6, potassium, manganèse, fibre",
+      },
+    ],
+  },
+  //MANGUE
+  {
+    id: 40,
+    name: "MANGUE",
+    description:
+      "Les Mangues séchées en lamelles ont une couleur jaune vive, traduisant la présence des caroténoïdes (provitamines A).Comme tout fruit sec, elles renferment 5 fois plus de minéraux que les fruits frais. Elles sont essentiellement riches en potassium et en magnésium. ",
+    imgUrl: imgMangue_1,
+    imgUrl_1: imgMangue_2,
+    type: "Fruit",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "MANGUE",
+        conditionnement: [
+          { unite: "VRAC (1kg-5kg)", grammage: "" },
+          { unite: "Doypack", grammage: "150g" },
+        ],
+        description:
+          "Les Mangues séchées en lamelles ont une couleur jaune vive, traduisant la présence des caroténoïdes (provitamines A).Comme tout fruit sec, elles renferment 5 fois plus de minéraux que les fruits frais. Elles sont essentiellement riches en potassium et en magnésium. ",
+        imgUrl: imgMangue_1,
+        gallery: [],
+        texture: "Lamelle, frite",
+        gout: "Fruité",
+        intensite: " Douce",
+        parfum: "tropicaux",
+        origine: "Madagascar",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur,endroit frais",
+        composition:
+          "fibres alimentaires, vitamines A et C, minéraux tels que le potassium et le magnésium, antioxydants",
+      },
+    ],
+  },
+  //LITCHI
+  {
+    id: 41,
+    name: "LITCHI",
+    description:
+      "Le litchi de Madagascar figure parmi les plus recherchés au monde. Rafraîchissant et exotique ...consommés dans des salades de fruits ou cuits dans des pâtisseries, c'est un régal. Vous pouvez aussi l'incorporer à des préparations telles que de la confiture ou des sorbets.",
+    imgUrl: imgLitchi_1,
+    imgUrl_1: imgLitchi_2,
+    type: "Fruit",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "LITCHI",
+        conditionnement: [
+          { unite: "VRAC (1kg-5kg)", grammage: "" },
+          { unite: "Doypack", grammage: "150g" },
+        ],
+        description:
+          "Le litchi de Madagascar figure parmi les plus recherchés au monde. Rafraîchissant et exotique ...consommés dans des salades de fruits ou cuits dans des pâtisseries, c'est un régal. Vous pouvez aussi l'incorporer à des préparations telles que de la confiture ou des sorbets.",
+        imgUrl: imgLitchi_1,
+        gallery: [],
+        texture: "poudre",
+        gout: "Sucré",
+        intensite: "Intense",
+        parfum: "Plus fort que le litchi frais",
+        origine: "Madagascar",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur,endroit frais",
+        composition: "fibres, vitamine C,antioxydant",
+      },
+    ],
+  },
+  //JACQUES
+  {
+    id: 42,
+    name: "JACQUES",
+    description:
+      "Lorsque le fruit du jacquier est bien mûr, l'odeur de son écorce peut repousser, mais une fois retirée, le parfum et le goût sont semblables à ceux de la mangue, de la banane et de l'ananas.Vous pouvez consommer directement les fruits séchés ou les ajouter dans vos salades de fruits ou macérations d'alcools.",
+    imgUrl: imgJacques_1,
+    imgUrl_1: imgJacques_2,
+    type: "Fruit",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "JACQUES",
+        conditionnement: [
+          { unite: "VRAC (1kg-5kg)", grammage: "" },
+          { unite: "Doypack", grammage: "150g" },
+        ],
+        description:
+          "Lorsque le fruit du jacquier est bien mûr, l'odeur de son écorce peut repousser, mais une fois retirée, le parfum et le goût sont semblables à ceux de la mangue, de la banane et de l'ananas.Vous pouvez consommer directement les fruits séchés ou les ajouter dans vos salades de fruits ou macérations d'alcools.",
+        imgUrl: imgJacques_1,
+        gallery: [],
+        texture: "Morceau",
+        gout: "Sucré",
+        intensite: " Douce",
+        parfum: "évoquent une odeur de fromage puant ou d'oignons rance",
+        origine: "Madagascar",
+        conservation: "",
+        composition: "",
+      },
+    ],
+  },
+  //POK POK
+  {
+    id: 43,
+    name: "POK POK",
+    description:
+      "Cette petite baie, protégée par son élégant calice nervé lorsque le fruit est arrivé à maturité, offre un goût acidulé et délicatement sucré.Ils peuvent se grignoter nature ou incorporés dans les préparation culinaires ou les salades de fruits. Ils conviennent aussi parfaitement pour la préparation des rhums arrangés et s'associent particulièrement avec la vanille et le cacao.",
+    imgUrl: imgPokpok_1,
+    imgUrl_1: imgPokpok_2,
+    type: "Fruit",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "POK POK",
+        conditionnement: [
+          { unite: "VRAC (1kg-5kg)", grammage: "" },
+          { unite: "Doypack", grammage: "200g" },
+        ],
+        description:
+          "Cette petite baie, protégée par son élégant calice nervé lorsque le fruit est arrivé à maturité, offre un goût acidulé et délicatement sucré.Ils peuvent se grignoter nature ou incorporés dans les préparation culinaires ou les salades de fruits. Ils conviennent aussi parfaitement pour la préparation des rhums arrangés et s'associent particulièrement avec la vanille et le cacao.",
+        imgUrl: imgPokpok_1,
+        gallery: [],
+        texture: "grain",
+        gout: "Sucré et acidulé",
+        intensite: "Leger",
+        parfum: "Exotique",
+        origine: "Madagascar",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur,endroit frais",
+        composition: "vitamines, minéraux, antioxydants",
+      },
+    ],
+  },
+  //COCO
+  {
+    id: 44,
+    name: "COCO",
+    description:
+      "Goût exotique : Les lamelles de coco séchées ont un goût sucré et exotique de noix de coco, ce qui en fait une collation délicieuse et satisfaisante pour les amateurs de coco.Souvent incorporée dans des cakes ou des gâteaux, mais on peut également l'utiliser dans des barres énergétiques, dans du thé glacé ou dans des salades.",
+    imgUrl: imgCoco_1,
+    imgUrl_1: imgCoco_2,
+    type: "Fruit",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "COCO",
+        conditionnement: [
+          { unite: "VRAC (1kg-5kg)", grammage: "" },
+          { unite: "Doypack", grammage: "150g" },
+        ],
+        description:
+          "Goût exotique : Les lamelles de coco séchées ont un goût sucré et exotique de noix de coco, ce qui en fait une collation délicieuse et satisfaisante pour les amateurs de coco.Souvent incorporée dans des cakes ou des gâteaux, mais on peut également l'utiliser dans des barres énergétiques, dans du thé glacé ou dans des salades.",
+        imgUrl: imgCoco_1,
+        gallery: [],
+        texture: "Morceau",
+        gout: "Exotique",
+        intensite: "craquant",
+        parfum: "Exotique",
+        origine: "Madagascar",
+        conservation:
+          "récipient hermetique, à l'abri de la chaleur,endroit frais",
+        composition: " fibres, minéraux, fer, acides gras,",
       },
     ],
   },
