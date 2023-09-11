@@ -1,237 +1,235 @@
 //AIL
-import imgAil_1 from "./image/Ail/Ail copy.webp";
-import imgAil_2 from "./image/Ail/Ail_title copy.webp";
-import imgAil_3 from "./image/Ail/Ail morceau .webp";
-import imgAil_4 from "./image/Ail/Ail en poudre.webp";
-import imgAil_5 from "./image/Ail/Ail morceau 2.webp";
-import imgAil_6 from "./image/Ail/Ail en poudre2.webp";
+import imgAil_1 from "./image/Ail/Ail_copy.webp";
+import imgAil_2 from "./image/Ail/Ail_title_copy.webp";
+import imgAil_3 from "./image/Ail/Ail_morceau_.webp";
+import imgAil_4 from "./image/Ail/Ail_en_poudre.webp";
+import imgAil_5 from "./image/Ail/Ail_morceau_2.webp";
+import imgAil_6 from "./image/Ail/Ail_en_poudre2.webp";
 //ANIS
-import imgAnis_1 from "./image/Anis/Anis copy.webp";
-import imgAnis_2 from "./image/Anis/Anis Title copy.webp";
-import imgAnis_5 from "./image/Anis/Anis étoilé.webp";
+import imgAnis_1 from "./image/Anis/Anis_copy.webp";
+import imgAnis_2 from "./image/Anis/Anis_Title_copy.webp";
+import imgAnis_5 from "./image/Anis/Anis_étoilé.webp";
 //BAIE ROSE
-import imgBaie_1 from "./image/Baie Rose/Baie Rose copy.webp";
-import imgBaie_2 from "./image/Baie Rose/Baie Rose Title copy.webp";
-import imgBaie_3 from "./image/Baie Rose/Baie Rose1.webp";
-import imgBaie_5 from "./image/Baie Rose/Baie Rose 4.webp";
-import imgBaie_7 from "./image/Baie Rose/Baie Rose 3.webp";
-import imgBaie_8 from "./image/Baie Rose/Baie rose2.webp";
+import imgBaie_1 from "./image/Baie Rose/Baie_Rose_copy.webp";
+import imgBaie_2 from "./image/Baie Rose/Baie_Rose_Title_copy.webp";
+import imgBaie_3 from "./image/Baie Rose/Baie_Rose1.webp";
+import imgBaie_5 from "./image/Baie Rose/Baie_Rose_4.webp";
+import imgBaie_7 from "./image/Baie Rose/Baie_Rose_3.webp";
+import imgBaie_8 from "./image/Baie Rose/Baie_rose2.webp";
 //BAOBAB
-import imgBaobab_1 from "./image/Baobab/Baobab copy.webp";
-import imgBaobab_2 from "./image/Baobab/Baobab title copy.webp";
-import imgBaobab_6 from "./image/Baobab/Baobab poudre.webp";
+import imgBaobab_1 from "./image/Baobab/Baobab_copy.webp";
+import imgBaobab_2 from "./image/Baobab/Baobab_title_copy.webp";
+import imgBaobab_6 from "./image/Baobab/Baobab_poudre.webp";
 //CACAO
-import imgCacao_1 from "./image/Cacao/Cacao copy.webp";
-import imgCacao_2 from "./image/Cacao/Cacao Title copy.webp";
-import imgCacao_7 from "./image/Cacao/Feve de cacao.webp";
+import imgCacao_1 from "./image/Cacao/Cacao_copy.webp";
+import imgCacao_2 from "./image/Cacao/Cacao_Title_copy.webp";
+import imgCacao_7 from "./image/Cacao/Feve_de_cacao.webp";
 //CURCUMA
 import imgCurcuma_1 from "./image/CURCUMA/imgCurcuma_1.webp";
 import imgCurcuma_2 from "./image/CURCUMA/imgCurcuma_1.webp";
-import imgCurcuma_6 from "./image/CURCUMA/Cucrcuma Poudre 2.webp";
-import imgCurcuma_4 from "./image/CURCUMA/Curcuma Poudre.webp";
+import imgCurcuma_6 from "./image/CURCUMA/Cucrcuma_Poudre_2.webp";
+import imgCurcuma_4 from "./image/CURCUMA/Curcuma_Poudre.webp";
 //CANELLA
 import imgCannela_1 from "./image/Cannela/imgCinamon_1.webp";
 import imgCannela_2 from "./image/Cannela/imgCinamon_2.webp";
 //CANELLE
-import imgCanelle_1 from "./image/Cannelle/Cannelle copy.webp";
-import imgCanelle_2 from "./image/Cannelle/Cannelle Title copy.webp";
-import imgCanelle_8 from "./image/Cannelle/Cannelle en poudre 2.webp";
-import imgCanelle_4 from "./image/Cannelle/Cannelle en Poudre.webp";
-import imgCanelle_7 from "./image/Cannelle/Cannelle Poudre.webp";
-import imgCanelle_5 from "./image/Cannelle/Cannelle Rouleau.webp";
-import imgCanelle_6 from "./image/Cannelle/Cannelle en poudre 3.webp";
+import imgCanelle_1 from "./image/Cannelle/Cannelle_copy.webp";
+import imgCanelle_2 from "./image/Cannelle/Cannelle_Title_copy.webp";
+import imgCanelle_8 from "./image/Cannelle/Cannelle_en_poudre_2.webp";
+import imgCanelle_4 from "./image/Cannelle/Cannelle_en_Poudre.webp";
+import imgCanelle_7 from "./image/Cannelle/Cannelle_Poudre.webp";
+import imgCanelle_5 from "./image/Cannelle/Cannelle_Rouleau.webp";
+import imgCanelle_6 from "./image/Cannelle/Cannelle_en_poudre_3.webp";
 //CITRONELLE
-import imgCitronelle_1 from "./image/Citronnelle/Citronnelle copy.webp";
-import imgCitronelle_2 from "./image/Citronnelle/Citronnelle title copy.webp";
+import imgCitronelle_1 from "./image/Citronnelle/Citronnelle_copy.webp";
+import imgCitronelle_2 from "./image/Citronnelle/Citronnelle_title_copy.webp";
 import imgCitronelle_5 from "./image/Citronnelle/Citronnelle.webp";
 //GIROFLE
-import imgGirofle_1 from "./image/Clou de Girofle/Girofle copy.webp";
-import imgGirofle_2 from "./image/Clou de Girofle/Girofle Title copy.webp";
-import imgGirofle_3 from "./image/Clou de Girofle/Girofle clou.webp";
-import imgGirofle_4 from "./image/Clou de Girofle/Girofle Poudre.webp";
-import imgGirofle_5 from "./image/Clou de Girofle/Girofle clou 3.webp";
-import imgGirofle_7 from "./image/Clou de Girofle/Girofle Clou 5.webp";
-import imgGirofle_8 from "./image/Clou de Girofle/Girofle clou 2.webp";
-import imgGirofle_9 from "./image/Clou de Girofle/Girofle clou4.webp";
-import imgGirofle_10 from "./image/Clou de Girofle/Girofle Clou2.webp";
-import imgGirofle_11 from "./image/Clou de Girofle/Girofle Poudre2.webp";
+import imgGirofle_1 from "./image/Clou de Girofle/Girofle_copy.webp";
+import imgGirofle_2 from "./image/Clou de Girofle/Girofle_Title_copy.webp";
+import imgGirofle_3 from "./image/Clou de Girofle/Girofle_clou.webp";
+import imgGirofle_4 from "./image/Clou de Girofle/Girofle_Poudre.webp";
+import imgGirofle_5 from "./image/Clou de Girofle/Girofle_clou_3.webp";
+import imgGirofle_7 from "./image/Clou de Girofle/Girofle_Clou_5.webp";
+import imgGirofle_8 from "./image/Clou de Girofle/Girofle_clou_2.webp";
+import imgGirofle_9 from "./image/Clou de Girofle/Girofle_clou4.webp";
+import imgGirofle_10 from "./image/Clou de Girofle/Girofle_Clou2.webp";
+import imgGirofle_11 from "./image/Clou de Girofle/Girofle_Poudre2.webp";
 //COMBOVA
-import imgCombova_1 from "./image/Combava/Combava1 copy.webp";
-import imgCombova_2 from "./image/Combava/Combava Title copy.webp";
-import imgCombova_11 from "./image/Combava/Combava Zest poudre.webp";
-import imgCombova_6 from "./image/Combava/Combava Zest poudre2.webp";
-import imgCombova_10 from "./image/Combava/Combava Zest poudre 3.webp";
-import imgCombova_12 from "./image/Combava/Combava copy.webp";
+import imgCombova_1 from "./image/Combava/Combava_copy.webp";
+import imgCombova_2 from "./image/Combava/Combava_Title_copy.webp";
+import imgCombova_11 from "./image/Combava/Combava_Zest_poudre.webp";
+import imgCombova_6 from "./image/Combava/Combava_Zest_poudre2.webp";
+import imgCombova_10 from "./image/Combava/Combava_Zest_poudre_3.webp";
+import imgCombova_12 from "./image/Combava/Combava_copy.webp";
 //CORIANDRE
-import imgCoriandre_1 from "./image/Coriandre/Coriandre copy.webp";
-import imgCoriandre_2 from "./image/Coriandre/Coriandre title copy.webp";
-import imgCoriandre_5 from "./image/Coriandre/Coriandre 1.webp";
+import imgCoriandre_1 from "./image/Coriandre/Coriandre_copy.webp";
+import imgCoriandre_2 from "./image/Coriandre/Coriandre_title_copy.webp";
+import imgCoriandre_5 from "./image/Coriandre/Coriandre_1.webp";
 import imgCoriandre_9 from "./image/Coriandre/Coriandre2.webp";
 //COROSSOL
-import imgCorossol_1 from "./image/Corossol/Corossol copy.webp";
-import imgCorossol_2 from "./image/Corossol/Corossol Title copy.webp";
+import imgCorossol_1 from "./image/Corossol/Corossol_copy.webp";
+import imgCorossol_2 from "./image/Corossol/Corossol_Title_copy.webp";
 //CUMIN
-import imgCumin_1 from "./image/Cumin/Cumin copy.webp";
-import imgCumin_2 from "./image/Cumin/Cumin Title copy.webp";
-import imgCumin_3 from "./image/Cumin/Cumin grain2.webp";
-import imgCumin_5 from "./image/Cumin/Cumin Grain 2.webp";
-import imgCumin_7 from "./image/Cumin/Cumin grain 3.webp";
-import imgCumin_8 from "./image/Cumin/Cumin Grain.webp";
-import imgCumin_11 from "./image/Cumin/Cumin Poudre.webp";
+import imgCumin_1 from "./image/Cumin/Cumin_copy.webp";
+import imgCumin_2 from "./image/Cumin/Cumin_Title_copy.webp";
+import imgCumin_3 from "./image/Cumin/Cumin_grain2.webp";
+import imgCumin_5 from "./image/Cumin/Cumin_Grain_2.webp";
+import imgCumin_7 from "./image/Cumin/Cumin_grain_3.webp";
+import imgCumin_8 from "./image/Cumin/Cumin_Grain.webp";
+import imgCumin_11 from "./image/Cumin/Cumin_Poudre.webp";
 //CURRY
-import imgCurry_1 from "./image/Curry Viande/Curry Viande copy.webp";
-import imgCurry_2 from "./image/Curry Viande/Curry Viande Title copy.webp";
-import imgCurry_3 from "./image/Curry Viande/Curry Viande.webp";
-import imgCurry_6 from "./image/Curry Viande/Curry Viande 3.webp";
-import imgCurry_7 from "./image/Curry Viande/Curry Viande 4 copy.webp";
-import imgCurry_8 from "./image/Curry Viande/Curry viande 2.webp";
+import imgCurry_1 from "./image/Curry Viande/Curry_Viande_copy.webp";
+import imgCurry_2 from "./image/Curry Viande/Curry_Viande_Title_copy.webp";
+import imgCurry_3 from "./image/Curry Viande/Curry_Viande.webp";
+import imgCurry_6 from "./image/Curry Viande/Curry_Viande_3.webp";
+import imgCurry_7 from "./image/Curry Viande/Curry_Viande_4_copy.webp";
+import imgCurry_8 from "./image/Curry Viande/Curry_viande_2.webp";
 //GUACAMOLE
-import imgGuacamole_2 from "./image/Epices Guacamole/Epices guacamole Title copy.webp";
-import imgGuacamole_1 from "./image/Epices Guacamole/Epices guacamole copy.webp";
+import imgGuacamole_2 from "./image/Epices Guacamole/Epices_guacamole_Title_copy.webp";
+import imgGuacamole_1 from "./image/Epices Guacamole/Epices_guacamole_copy.webp";
 import imgGuacamole_3 from "./image/Epices Guacamole/Guacamole.webp";
-import imgGuacamole_6 from "./image/Epices Guacamole/Guacamole 3.webp";
+import imgGuacamole_6 from "./image/Epices Guacamole/Guacamole_3.webp";
 import imgGuacamole_9 from "./image/Epices Guacamole/Guacamole2.webp";
 //FENUGREC
-import imgFenugrec_1 from "./image/FENUGREC/Funegrec copy.webp";
-import imgFenugrec_2 from "./image/FENUGREC/Funegrec Title copy.webp";
+import imgFenugrec_1 from "./image/FENUGREC/Funegrec_copy.webp";
+import imgFenugrec_2 from "./image/FENUGREC/Funegrec_Title_copy.webp";
 //FDS
-import imgFds_1 from "./image/Fleur de Sel/Fleur de Sel copy.webp";
-import imgFds_2 from "./image/Fleur de Sel/Fleur de Sel title copy.webp";
-import imgFdsC_G_1 from "./image/Fleur de Sel/Fleu de sel  Combava gingembre 2.webp";
-import imgFdsC_G_2 from "./image/Fleur de Sel/Fleur de Sel - Combava ginger.webp";
-import imgFdsV_B_1 from "./image/Fleur de Sel/Fleu de sel  Voatsiperifery blanc.webp";
-import imgFdsV_B_2 from "./image/Fleur de Sel/Fleur De Sel voatsiperifery Blanc.webp";
-import imgFdsV_B_3 from "./image/Fleur de Sel/Fleur de SEL vOATSY bLANC.webp";
-import imgFdsB_P_1 from "./image/Fleur de Sel/Fleur de sel baie rose poivre.webp";
-import imgFdsB_P_2 from "./image/Fleur de Sel/Fleur de Sel - Baie Rose et poivre.webp";
-import imgFdsB_1 from "./image/Fleur de Sel/Fleur de Sel - Baie Rose.webp";
-import imgFdsB_2 from "./image/Fleur de Sel/Fleur de Sel baie rose.webp";
-import imgFdsC_1 from "./image/Fleur de Sel/Fleur De Sel Combava Poudre 2.webp";
-import imgFdsC_2 from "./image/Fleur de Sel/Fleur De Sel Combava Poudre.webp";
-import imgFdsC_3 from "./image/Fleur de Sel/Fleur de Sel - Combava poudre.webp";
-import imgFdsC_4 from "./image/Fleur de Sel/Fleur de Sel Combava.webp";
-import imgFdsG_1 from "./image/Fleur de Sel/Fleur De Sel - Gingembre.webp";
-import imgFdsG_2 from "./image/Fleur de Sel/Fleur De Sel - Gingembre.webp";
-import imgFdsV_1 from "./image/Fleur de Sel/Fleur De Sel Vanille 3.webp";
-import imgFdsV_2 from "./image/Fleur de Sel/Fleur de Sel Vanille 2.webp";
-import imgFdsV_3 from "./image/Fleur de Sel/Fleur de Sel Vanille.webp";
+import imgFds_1 from "./image/Fleur de Sel/Fleur_de_Sel_copy.webp";
+import imgFds_2 from "./image/Fleur de Sel/Fleur_de_Sel_title_copy.webp";
+import imgFdsC_G_1 from "./image/Fleur de Sel/Fleu_de_sel_Combava_gingembre_2.webp";
+import imgFdsC_G_2 from "./image/Fleur de Sel/Fleur_de_Sel_Combava_ginger.webp";
+import imgFdsV_B_1 from "./image/Fleur de Sel/Fleu_de_sel_Voatsiperifery_blanc.webp";
+import imgFdsV_B_2 from "./image/Fleur de Sel/Fleur_De_Sel_voatsiperifery_Blanc1.webp";
+import imgFdsV_B_3 from "./image/Fleur de Sel/Fleur_de_SEL_vOATSY_bLANC.webp";
+import imgFdsB_P_1 from "./image/Fleur de Sel/Fleur_de_sel_baie_rose_poivre.webp";
+import imgFdsB_P_2 from "./image/Fleur de Sel/Fleur_de_Sel_Baie_Rose_et_poivre.webp";
+import imgFdsB_1 from "./image/Fleur de Sel/Fleur_de_Sel_Baie_Rose1.webp";
+import imgFdsB_2 from "./image/Fleur de Sel/Fleur_de_Sel_baie_rose.webp";
+import imgFdsC_1 from "./image/Fleur de Sel/Fleur_De_Sel_Combava_Poudre_2.webp";
+import imgFdsC_2 from "./image/Fleur de Sel/Fleur_De_Sel_Combava_Poudre1.webp";
+import imgFdsC_3 from "./image/Fleur de Sel/Fleur_de_Sel_Combava_poudre.webp";
+import imgFdsG_1 from "./image/Fleur de Sel/Fleur_De_Sel_Gingembre1.webp";
+import imgFdsV_1 from "./image/Fleur de Sel/Fleur_De_Sel_Vanille_3.webp";
+import imgFdsV_2 from "./image/Fleur de Sel/Fleur_de_Sel_Vanille_2.webp";
+import imgFdsV_3 from "./image/Fleur de Sel/Fleur_de_Sel_Vanille.webp";
 
 //MASSALA
-import imgMassala_1 from "./image/Garam Massala/MASSALA copy.webp";
-import imgMassala_2 from "./image/Garam Massala/MASSALA Title copy.webp";
+import imgMassala_1 from "./image/Garam Massala/MASSALA_copy.webp";
+import imgMassala_2 from "./image/Garam Massala/MASSALA_Title_copy.webp";
 import imgMassala_4 from "./image/Garam Massala/Massala.webp";
-import imgMassala_11 from "./image/Garam Massala/Massala Poudre.webp";
+import imgMassala_11 from "./image/Garam Massala/Massala_Poudre.webp";
 //GINGEMBRE
-import imgGingembre_1 from "./image/Gingembre/Gingembre copy.webp";
-import imgGingembre_2 from "./image/Gingembre/Gingembre Title copy.webp";
-import imgGingembre_4 from "./image/Gingembre/Gingembre poudre.webp";
-import imgGingembre_6 from "./image/Gingembre/Gingembre poudre 3.webp";
-import imgGingembre_11 from "./image/Gingembre/Gigembre Poudre.webp";
-import imgGingembre_10 from "./image/Gingembre/Gingembre poudre2.webp";
+import imgGingembre_1 from "./image/Gingembre/Gingembre_copy.webp";
+import imgGingembre_2 from "./image/Gingembre/Gingembre_Title_copy.webp";
+import imgGingembre_4 from "./image/Gingembre/Gingembre_poudre.webp";
+import imgGingembre_6 from "./image/Gingembre/Gingembre_poudre_3.webp";
+import imgGingembre_11 from "./image/Gingembre/Gigembre_Poudre.webp";
+import imgGingembre_10 from "./image/Gingembre/Gingembre_poudre2.webp";
 //MELANGE 3
-import imgMelange3Baie_1 from "./image/Mélange 3 baie/Melange de 3 baies copy.webp";
-import imgMelange3Baie_2 from "./image/Mélange 3 baie/Melange de 3 baies Title copy.webp";
-import imgMelange3Baie_3 from "./image/Mélange 3 baie/Melange 3 baie.webp";
-import imgMelange3Baie_5 from "./image/Mélange 3 baie/Melange 3 baie 3.webp";
-import imgMelange3Baie_7 from "./image/Mélange 3 baie/Melange 3 baie 4.webp";
-import imgMelange3Baie_8 from "./image/Mélange 3 baie/Melange 3 baie 4 copy.webp";
-import imgMelange3Baie_11 from "./image/Mélange 3 baie/Melange 3 baie 3 copy.webp";
-import imgMelange3Baie_12 from "./image/Mélange 3 baie/Melange 3 baie 2.webp";
-import imgMelange3Baie_13 from "./image/Mélange 3 baie/Melange 3 baie 2 copy.webp";
+import imgMelange3Baie_1 from "./image/Mélange 3 baie/Melange_de_3_baies_copy.webp";
+import imgMelange3Baie_2 from "./image/Mélange 3 baie/Melange_de_3_baies_Title_copy.webp";
+import imgMelange3Baie_3 from "./image/Mélange 3 baie/Melange_3_baie.webp";
+import imgMelange3Baie_5 from "./image/Mélange 3 baie/Melange_3_baie_3.webp";
+import imgMelange3Baie_7 from "./image/Mélange 3 baie/Melange_3_baie_4.webp";
+import imgMelange3Baie_8 from "./image/Mélange 3 baie/Melange_3_baie_4_copy.webp";
+import imgMelange3Baie_11 from "./image/Mélange 3 baie/Melange_3_baie_3_copy.webp";
+import imgMelange3Baie_12 from "./image/Mélange 3 baie/Melange_3_baie_2.webp";
+import imgMelange3Baie_13 from "./image/Mélange 3 baie/Melange_3_baie_2_copy.webp";
 //MELANGE 4
-import imgMelange4Epice_1 from "./image/Melange 4 Epices/Mélange 4 épices copy.webp";
-import imgMelange4Epice_2 from "./image/Melange 4 Epices/Mélange 4 épices Title copy.webp";
-import imgMelange4Epice_12 from "./image/Melange 4 Epices/melange 4 epices copy.webp";
-import imgMelange4Epice_6 from "./image/Melange 4 Epices/Melange 4 épices.webp";
+import imgMelange4Epice_1 from "./image/Melange 4 Epices/Mélange_4_épices_copy.webp";
+import imgMelange4Epice_2 from "./image/Melange 4 Epices/Mélange_4_épices_Title_copy.webp";
+import imgMelange4Epice_12 from "./image/Melange 4 Epices/melange_4_epices_copy.webp";
+import imgMelange4Epice_6 from "./image/Melange 4 Epices/Melange_4_épices.webp";
 
 //MORINGA
-import imgMoringa_1 from "./image/Moringa/Moringa copy.webp";
-import imgMoringa_2 from "./image/Moringa/Moringa Title copy.webp";
+import imgMoringa_1 from "./image/Moringa/Moringa_copy.webp";
+import imgMoringa_2 from "./image/Moringa/Moringa_Title_copy.webp";
 //MUSCADE
-import imgMuscade_1 from "./image/Muscade/Muscade copy.webp";
-import imgMuscade_2 from "./image/Muscade/Muscade Title copy.webp";
-import imgMuscade_5 from "./image/Muscade/Noix de muscade 2.webp";
-import imgMuscade_9 from "./image/Muscade/Muscade Noix.webp";
-import imgMuscade_11 from "./image/Muscade/Muscade Poudre.webp";
-import imgMuscade_7 from "./image/Muscade/Noix de muscade 3.webp";
-import imgMuscade_10 from "./image/Muscade/Noix de muscade.webp";
+import imgMuscade_1 from "./image/Muscade/Muscade_copy.webp";
+import imgMuscade_2 from "./image/Muscade/Muscade_Title_copy.webp";
+import imgMuscade_5 from "./image/Muscade/Noix_de_muscade_2.webp";
+import imgMuscade_9 from "./image/Muscade/Muscade_Noix.webp";
+import imgMuscade_11 from "./image/Muscade/Muscade_Poudre.webp";
+import imgMuscade_7 from "./image/Muscade/Noix_de_muscade_3.webp";
+import imgMuscade_10 from "./image/Muscade/Noix_de_muscade.webp";
 //PIMENT ROUGE
-import imgPimentRouge_1 from "./image/Piment rouge/Piment Rouge copy.webp";
-import imgPimentRouge_2 from "./image/Piment rouge/Piment Rouge Title copy.webp";
-import imgPimentRouge_7 from "./image/Piment rouge/Piment rouge.webp";
+import imgPimentRouge_1 from "./image/Piment rouge/Piment_Rouge_copy.webp";
+import imgPimentRouge_2 from "./image/Piment rouge/Piment_Rouge_Title_copy.webp";
+import imgPimentRouge_7 from "./image/Piment rouge/Piment_rouge.webp";
 //PIMENT VERT
-import imgPimentVert_1 from "./image/Piment Vert/Piment vert copy.webp";
-import imgPimentVert_2 from "./image/Piment Vert/Piment vert title copy.webp";
-import imgPimentVert_3 from "./image/Piment Vert/Piment vert entier 2.webp";
-import imgPimentVert_5 from "./image/Piment Vert/Piment vert Poudre 4.webp";
-import imgPimentVert_6 from "./image/Piment Vert/Piment vert Poudre.webp";
-import imgPimentVert_7 from "./image/Piment Vert/Piment vert 2.webp";
-import imgPimentVert_8 from "./image/Piment Vert/Piment vert entier.webp";
-import imgPimentVert_10 from "./image/Piment Vert/Piment vert entier2.webp";
-import imgPimentVert_11 from "./image/Piment Vert/Piment vert Poudre 5.webp";
+import imgPimentVert_1 from "./image/Piment Vert/Piment_vert_copy.webp";
+import imgPimentVert_2 from "./image/Piment Vert/Piment_vert_title_copy.webp";
+import imgPimentVert_3 from "./image/Piment Vert/Piment_vert_entier_2.webp";
+import imgPimentVert_5 from "./image/Piment Vert/Piment_vert_Poudre_4.webp";
+import imgPimentVert_6 from "./image/Piment Vert/Piment_vert_Poudre.webp";
+import imgPimentVert_7 from "./image/Piment Vert/Piment_vert_2.webp";
+import imgPimentVert_8 from "./image/Piment Vert/Piment_vert_entier.webp";
+import imgPimentVert_10 from "./image/Piment Vert/Piment_vert_entier2.webp";
+import imgPimentVert_11 from "./image/Piment Vert/Piment_vert_Poudre_5.webp";
 //POIVRE BLANC
-import imgPoivreBlanc_1 from "./image/Poivre blanc/Povre blanc copy.webp";
-import imgPoivreBlanc_2 from "./image/Poivre blanc/Povre blanc title copy.webp";
-import imgPoivreBlanc_4 from "./image/Poivre blanc/Poivre Blanc Moulu 2.webp";
-import imgPoivreBlanc_5 from "./image/Poivre blanc/Poivre Blanc grain.webp";
-import imgPoivreBlanc_6 from "./image/Poivre blanc/Poivre Blanc Poudre.webp";
-import imgPoivreBlanc_7 from "./image/Poivre blanc/Poivre blanc Grain 2.webp";
-import imgPoivreBlanc_11 from "./image/Poivre blanc/Poivre Blanc Moulu.webp";
-import imgPoivreBlanc_8 from "./image/Poivre blanc/Poivre blanc.webp";
-import imgPoivreBlanc_9 from "./image/Poivre blanc/Poivre Moulu.webp";
+import imgPoivreBlanc_1 from "./image/Poivre blanc/Povre_blanc_copy.webp";
+import imgPoivreBlanc_2 from "./image/Poivre blanc/Povre_blanc_title_copy.webp";
+import imgPoivreBlanc_4 from "./image/Poivre blanc/Poivre_Blanc_Moulu_2.webp";
+import imgPoivreBlanc_5 from "./image/Poivre blanc/Poivre_Blanc_grain.webp";
+import imgPoivreBlanc_6 from "./image/Poivre blanc/Poivre_Blanc_Poudre.webp";
+import imgPoivreBlanc_7 from "./image/Poivre blanc/Poivre_blanc_Grain_2.webp";
+import imgPoivreBlanc_11 from "./image/Poivre blanc/Poivre_Blanc_Moulu.webp";
+import imgPoivreBlanc_8 from "./image/Poivre blanc/Poivre_blanc.webp";
+import imgPoivreBlanc_9 from "./image/Poivre blanc/Poivre_Moulu.webp";
 
 //POIVRE NOIR
-import imgPoivreNoir_1 from "./image/Poivre Noir/Poivre Noir copy.webp";
+import imgPoivreNoir_1 from "./image/Poivre Noir/Poivre_Noir_copy.webp";
 import imgPoivreNoir_2 from "./image/Poivre Noir/imgPoivreNoire_1.webp";
-import imgPoivreNoir_8 from "./image/Poivre Noir/Poivre Noir 2.webp";
-import imgPoivreNoir_3 from "./image/Poivre Noir/Poivre Noir concassé 2.webp";
-import imgPoivreNoir_7 from "./image/Poivre Noir/Poivre Noir Concassé 3.webp";
-import imgPoivreNoir_9 from "./image/Poivre Noir/Poivre Noir concassé copy.webp";
-import imgPoivreNoir_10 from "./image/Poivre Noir/Poivre Noir Grain 4.webp";
-import imgPoivreNoir_4 from "./image/Poivre Noir/Poivre Noir Grain.webp";
-import imgPoivreNoir_12 from "./image/Poivre Noir/Poivre Noir Grain2.webp";
-import imgPoivreNoir_13 from "./image/Poivre Noir/Poivre noir grain3.webp";
-import imgPoivreNoir_14 from "./image/Poivre Noir/Poivre Noir Moulu.webp";
-import imgPoivreNoir_6 from "./image/Poivre Noir/Poivre Noir Poudre 2.webp";
-import imgPoivreNoir_5 from "./image/Poivre Noir/Poivre Noir.webp";
+import imgPoivreNoir_8 from "./image/Poivre Noir/Poivre_Noir_2.webp";
+import imgPoivreNoir_3 from "./image/Poivre Noir/Poivre_Noir_concassé_2.webp";
+import imgPoivreNoir_7 from "./image/Poivre Noir/Poivre_Noir_Concassé_3.webp";
+import imgPoivreNoir_9 from "./image/Poivre Noir/Poivre_Noir_concassé_copy.webp";
+import imgPoivreNoir_10 from "./image/Poivre Noir/Poivre_Noir_Grain_4.webp";
+import imgPoivreNoir_4 from "./image/Poivre Noir/Poivre_Noir_Grain.webp";
+import imgPoivreNoir_12 from "./image/Poivre Noir/Poivre_Noir_Grain2.webp";
+import imgPoivreNoir_13 from "./image/Poivre Noir/Poivre_noir_grain3.webp";
+import imgPoivreNoir_14 from "./image/Poivre Noir/Poivre_Noir_Moulu.webp";
+import imgPoivreNoir_6 from "./image/Poivre Noir/Poivre_Noir_Poudre_2.webp";
+import imgPoivreNoir_5 from "./image/Poivre Noir/Poivre_Noir.webp";
 //TSILANDIMILAHY
-import imgTsilandimilahy_1 from "./image/Tsilandimilahy/Piment tsilandimilahy copy.webp";
-import imgTsilandimilahy_2 from "./image/Tsilandimilahy/Piment tsilandimilahy Title copy.webp";
+import imgTsilandimilahy_1 from "./image/Tsilandimilahy/Piment_tsilandimilahy_copy.webp";
+import imgTsilandimilahy_2 from "./image/Tsilandimilahy/Piment_tsilandimilahy_Title_copy.webp";
 //VANILLE
-import imgVanille_1 from "./image/Vanille/Vanille copy.webp";
-import imgVanille_2 from "./image/Vanille/Vanille Title copy.webp";
-import imgVanille_3 from "./image/Vanille/Vanille poudre2.webp";
-import imgVanille_6 from "./image/Vanille/Vanille poudre .webp";
-import imgVanille_7 from "./image/Vanille/Vanille gousse .webp";
-import imgVanille_10 from "./image/Vanille/Vanille poudre .webp";
+import imgVanille_1 from "./image/Vanille/Vanille_copy.webp";
+import imgVanille_2 from "./image/Vanille/Vanille_Title_copy.webp";
+import imgVanille_3 from "./image/Vanille/Vanille_poudre2.webp";
+import imgVanille_6 from "./image/Vanille/Vanille_Poudre.webp";
+import imgVanille_7 from "./image/Vanille/Vanille_gousse.webp";
+import imgVanille_10 from "./image/Vanille/Vanille_poudre1.webp";
 //VOATSY ROUGE
-import imgVoatsiperiferyRouge_1 from "./image/Voatsiperifery Rouge/Votsiperifery rouge copy.webp";
-import imgVoatsiperiferyRouge_2 from "./image/Voatsiperifery Rouge/Votsiperifery rouge Title copy.webp";
-import imgVoatsiperiferyRouge_3 from "./image/Voatsiperifery Rouge/Voatsiperifery Rouge 5.webp";
-import imgVoatsiperiferyRouge_5 from "./image/Voatsiperifery Rouge/Voatsiperifery Rouge2.webp";
-import imgVoatsiperiferyRouge_8 from "./image/Voatsiperifery Rouge/Voatsiperifery Rouge.webp";
-import imgVoatsiperiferyRouge_7 from "./image/Voatsiperifery Rouge/Voatsiperifery Rouge3.webp";
-import imgVoatsiperiferyRouge_10 from "./image/Voatsiperifery Rouge/Voatsiperifery Rouge4.webp";
-import imgVoatsiperiferyRouge_9 from "./image/Voatsiperifery Rouge/Poivre Rouge Poudre.webp";
+import imgVoatsiperiferyRouge_1 from "./image/Voatsiperifery Rouge/Votsiperifery_rouge_copy.webp";
+import imgVoatsiperiferyRouge_2 from "./image/Voatsiperifery Rouge/Votsiperifery_rouge_Title_copy.webp";
+import imgVoatsiperiferyRouge_3 from "./image/Voatsiperifery Rouge/Voatsiperifery_Rouge_5.webp";
+import imgVoatsiperiferyRouge_5 from "./image/Voatsiperifery Rouge/Voatsiperifery_Rouge2.webp";
+import imgVoatsiperiferyRouge_8 from "./image/Voatsiperifery Rouge/Voatsiperifery_Rouge.webp";
+import imgVoatsiperiferyRouge_7 from "./image/Voatsiperifery Rouge/Voatsiperifery_Rouge3.webp";
+import imgVoatsiperiferyRouge_10 from "./image/Voatsiperifery Rouge/Voatsiperifery_Rouge4.webp";
+import imgVoatsiperiferyRouge_9 from "./image/Voatsiperifery Rouge/Poivre_Rouge_Poudre.webp";
 
 //VOATSY BLANC
-import imgVoatsiperiferyBlanc_1 from "./image/Votsiperifery Blanc/Voatsiperifery blanc copy.webp";
-import imgVoatsiperiferyBlanc_2 from "./image/Votsiperifery Blanc/Voatsiperifery blanc Title copy.webp";
-import imgVoatsiperiferyBlanc_5 from "./image/Votsiperifery Blanc/Vaotsiperifery Blanc.webp";
-import imgVoatsiperiferyBlanc_8 from "./image/Votsiperifery Blanc/Voatsiperifery Blanc Grain.webp";
-import imgVoatsiperiferyBlanc_7 from "./image/Votsiperifery Blanc/Voatsiperifery Blanc Grain 2.webp";
+import imgVoatsiperiferyBlanc_1 from "./image/Votsiperifery Blanc/Voatsiperifery_blanc_copy.webp";
+import imgVoatsiperiferyBlanc_2 from "./image/Votsiperifery Blanc/Voatsiperifery_blanc_Title_copy.webp";
+import imgVoatsiperiferyBlanc_5 from "./image/Votsiperifery Blanc/Vaotsiperifery_Blanc.webp";
+import imgVoatsiperiferyBlanc_8 from "./image/Votsiperifery Blanc/Voatsiperifery_Blanc_Grain.webp";
+import imgVoatsiperiferyBlanc_7 from "./image/Votsiperifery Blanc/Voatsiperifery_Blanc_Grain_2.webp";
 import imgVoatsiperiferyBlanc_12 from "./image/Votsiperifery Blanc/poivre-sauvage-voatsiperifery-madagascar-blanc-comptoir-des-poivres copy.webp";
 
 //VOATSY NOIR
-import imgVoatsiperiferyNoir_1 from "./image/Votsiperifery Noir/Voatsiperifery Noir copy.webp";
-import imgVoatsiperiferyNoir_2 from "./image/Votsiperifery Noir/Voatsiperifery Noir Title copy.webp";
-import imgVoatsiperiferyNoir_7 from "./image/Votsiperifery Noir/Voatsiperifery Noir 2.webp";
-import imgVoatsiperiferyNoir_3 from "./image/Votsiperifery Noir/Voatsiperifery Noir Grain.webp";
-import imgVoatsiperiferyNoir_8 from "./image/Votsiperifery Noir/Voatsiperifery Noir Grain2.webp";
-import imgVoatsiperiferyNoir_5 from "./image/Votsiperifery Noir/Voatsiperifery Noir grain3.webp";
-import imgVoatsiperiferyNoir_9 from "./image/Votsiperifery Noir/Voatsiperifery Noir Moulu.webp";
-import imgVoatsiperiferyNoir_4 from "./image/Votsiperifery Noir/Voatsiperifery Noir Poudre.webp";
-import imgVoatsiperiferyNoir_6 from "./image/Votsiperifery Noir/Voatsiperifery Noir Poudre2.webp";
+import imgVoatsiperiferyNoir_1 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_copy.webp";
+import imgVoatsiperiferyNoir_2 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Title_copy.webp";
+import imgVoatsiperiferyNoir_7 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_2.webp";
+import imgVoatsiperiferyNoir_3 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Grain.webp";
+import imgVoatsiperiferyNoir_8 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Grain2.webp";
+import imgVoatsiperiferyNoir_5 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_grain3.webp";
+import imgVoatsiperiferyNoir_9 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Moulu.webp";
+import imgVoatsiperiferyNoir_4 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Poudre.webp";
+import imgVoatsiperiferyNoir_6 from "./image/Votsiperifery Noir/Voatsiperifery_Noir_Poudre2.webp";
 
 export const data = [
   {
@@ -1093,7 +1091,7 @@ export const data = [
         description:
           "Fleur de sel de Madagascar aromatisée aux poudres de zestes de combava.",
         imgUrl: imgFdsC_1,
-        gallery: [imgFdsC_1, imgFdsC_2, imgFdsC_3, imgFdsC_4],
+        gallery: [imgFdsC_1, imgFdsC_2, imgFdsC_3],
         texture: "cristaux blancs fins",
         gout: "délicat, subtil, avec des notes légèrement salées,  Aromatique ",
         intensite: "Légère",
@@ -1116,7 +1114,7 @@ export const data = [
         description:
           "Fleur de sel de Madagascar aromatisée aux poudres de zestes de combava et gingembre. 100% naturelle et sans additif.",
         imgUrl: imgFdsC_G_1,
-        gallery: [imgFdsC_G_1, imgFdsC_G_2, imgFdsG_1, imgFdsG_2],
+        gallery: [imgFdsC_G_1, imgFdsC_G_2, imgFdsG_1],
         texture: "cristaux blancs fins",
         gout: "délicat, subtil, avec des notes légèrement salées,  Aromatique, Piquant et épicé avec une légère note citronnée",
         intensite: "Légère",
@@ -1387,7 +1385,7 @@ export const data = [
     description:
       "Le mélange 4 épices est un mélange d'épices traditionnellement composé de poivre noir, de muscade, de clou de girofle et de cannelle. Le poivre noir ajoute une saveur piquante, la muscade apporte une note chaude et boisée, le clou de girofle ajoute une saveur intense et épicée, tandis que la cannelle apporte une saveur douce et aromatique. ",
     imgUrl: imgMelange4Epice_1,
-    imgUrl_2: imgMelange4Epice_2,
+    imgUrl_1: imgMelange4Epice_2,
     type: "Epice",
     produits: [
       {
@@ -2112,7 +2110,7 @@ export const data = [
     description:
       "Serie des 5 fleurs de sel en chapelet: Combava en poudre - Baie rose concassé - Voatsiperifery blanc - Vanille en poudre - Combava et gingembre en poudre",
     imgUrl: imgFds_1,
-    gallery: [imgFds_2],
+    imgUrl_1: imgFds_2,
     type: "Epice",
     produits: [
       {

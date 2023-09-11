@@ -110,7 +110,7 @@ import imgFdsC_1 from "./image/Fleur de Sel/Fleur De Sel Combava Poudre 2.webp";
 import imgFdsC_2 from "./image/Fleur de Sel/Fleur De Sel Combava Poudre.webp";
 import imgFdsC_3 from "./image/Fleur de Sel/Fleur de Sel - Combava poudre.webp";
 import imgFdsC_4 from "./image/Fleur de Sel/Fleur de Sel Combava.webp";
-import imgFdsG_1 from "./image/Fleur de Sel/Fleur De Sel - Gingembre.webp";
+import imgFdsG_1 from "./image/Fleur de Sel/Fleur_De_Sel_Gingembre.webp";
 import imgFdsG_2 from "./image/Fleur de Sel/.webp";
 import imgFdsV_1 from "./image/Fleur de Sel/Fleur De Sel Vanille 3.webp";
 import imgFdsV_2 from "./image/Fleur de Sel/Fleur de Sel Vanille 2.webp";

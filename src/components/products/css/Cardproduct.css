@@ -15,7 +15,7 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 120% 10.5rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
   }
@@ -50,8 +50,7 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 120% 10.5rem;
-    background-size: 120% 10.5rem;
+    background-size: 100% 100%;
     background-position: center;
   }
 
@@ -84,7 +83,7 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 140% 16rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
   }
@@ -118,7 +117,7 @@
     overflow: hidden;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 140% 16rem;
+    background-size: 100% 100%;
     background-position: center;
     background-image: none;
   }
@@ -152,7 +151,7 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 130% 15.5rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.55);
   }
@@ -187,7 +186,7 @@
     overflow: hidden;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 130% 15.5rem;
+    background-size: 100% 100%;
     background-position: center;
     background-image: none;
   }
@@ -221,7 +220,7 @@
     margin: 3px;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 145% 10.5rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.45);
   }
@@ -256,7 +255,7 @@
     overflow: hidden;
     margin-inline: 0.5rem 0.5rem;
     margin-block: 15px 15px;
-    background-size: 145% 10.5rem;
+    background-size: 100% 100%;
     background-position: center;
     background-image: none;
   }
@@ -290,7 +289,7 @@
     margin: 3px;
     margin-inline: 1rem 1rem;
     margin-block: 15px 15px;
-    background-size: 131% 16rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
   }
@@ -337,7 +336,7 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: right;
   }
 
@@ -416,7 +415,7 @@
     margin: 3px;
     margin-inline: 1.1rem 1.1rem;
     margin-block: 15px 15px;
-    background-size: 145% 19rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.55);
   }
@@ -463,7 +462,7 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: right;
   }
 
@@ -543,7 +542,7 @@
     margin: 5px;
     margin-inline: 1.25rem 1.25rem;
     margin-block: 15px 15px;
-    background-size: 160% 24rem;
+    background-size: 100% 100%;
     background-position: center;
     box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.6);
   }
@@ -590,7 +589,7 @@
     background-color: rgb(5, 34, 34);
     border-start-start-radius: inherit;
     border-start-end-radius: inherit;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: right;
   }
 
