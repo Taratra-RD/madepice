@@ -181,8 +181,8 @@ const About = () => {
               interdum mauris ac. Augue eu in.
             </p>
           </div>
-          <img className="leaves slide-feuille-1" src={leaves} />
-          <img className="leaves-1" src={leaves_1} />
+          <img className="leaves slide-feuille-1" src={leaves} alt="" />
+          <img className="leaves-1" src={leaves_1} alt="" />
         </div>
         <div className="footer">
           <Footer />
