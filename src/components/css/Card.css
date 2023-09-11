@@ -14,7 +14,6 @@ div.card {
     justify-content: center;
     align-items: center;
     text-align: center; /* Center the text horizontally */
-    position: relative;
     overflow: hidden;
     filter: brightness(1);
     transition: filter 0.3s ease-in-out;

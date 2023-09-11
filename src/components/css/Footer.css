@@ -12,11 +12,9 @@
 }
 .logo--footer{
     align-items: center;
-    margin-top: 5em;
-    margin-left: 4em;
     justify-content: center;
     background-image: url('../../images/LOGO.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 12.6em;
     height: 4.5em;
