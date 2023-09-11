@@ -1,3 +1,27 @@
+.contact--footer a{
+    text-decoration: none;
+    color: white;
+}
+.contact--footer a:hover{
+    color: #f2e5d1;
+}
+
+.follow--footer a{
+    text-decoration: none;
+    color: white;
+}
+.follow--footer a i:hover{
+    color: #f2e5d1;
+}
+
+.local--footer a{
+    text-decoration: none;
+    color: white;
+}
+.local--footer a:hover{
+    color: #f2e5d1;
+}
+
 @media screen and (min-width:1200px) {
     .footer {
         background: #000;
@@ -19,7 +43,12 @@
         background-repeat: no-repeat;
         align-items: center;
         width: 12.6em;
+        margin-left: 2em;
         height: 4.5em;
+    }
+    .follow--footer{
+        margin-right: 2em;
+        margin-top: -2.3em;
     }
 }    
 @media screen and (max-width:1199px) {
@@ -42,12 +71,17 @@
         background-size: contain;
         background-repeat: no-repeat;
         align-items: center;
+        margin-left: 2em;
         width: 12.6em;
         height: 4.5em;
     }
+    .follow--footer{
+        margin-right: 2em;
+        margin-top: -2.3em;
+    }
 } 
 
-@media screen and (max-width:820px) {
+@media screen and (max-width:900px) {
     .footer {
         background: hsl(0, 0%, 0%);
         padding: 2em;
@@ -68,7 +102,15 @@
         background-size: contain;
         background-repeat: no-repeat;
         align-items: center;
+        margin-left: 0;
         width: 10.6em;
         height: 4.5em;
+    }
+    .contact--footer{
+        margin-top: 0.5em;
+    }
+    .follow--footer{
+        margin-right: 0;
+        margin-top: 0;
     }
 }  

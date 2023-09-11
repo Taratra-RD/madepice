@@ -9,32 +9,37 @@ import Footer from "../components/Footer"
 import "../components/css/Accordion.css"
 import React, { useState, useEffect } from 'react';
 
-const Contact = () =>{
+const Contact = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+    // Scroll to the top when the component mounts
     useEffect(() => {
-      // Update the window width when the component mounts and on window resize.
-      const handleResize = () => {
-        setWindowWidth(window.innerWidth);
-      };
-  
-      window.addEventListener('resize', handleResize);
-  
-      // Clean up the event listener when the component unmounts.
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
+        window.scrollTo(0, 0);
     }, []);
-  
+
+    useEffect(() => {
+        // Update the window width when the component mounts and on window resize.
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Clean up the event listener when the component unmounts.
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     // Determine whether to swap the items based on the window width.
     const shouldSwapItems = windowWidth > 504; // Adjust the condition as needed
 
-    return(
+    return (
         <>
             <div className="conatct">
                 <div className="landing-page2">
                     <div className="contact-header">
-                        <Header/>
+                        <Header />
                     </div>
                 </div>
                 <div className="body--contain">
@@ -60,7 +65,7 @@ const Contact = () =>{
                                             <li>commercial@madepices.mg</li>
                                         </p>
                                     </>
-                                ):(
+                                ) : (
                                     <>
                                         <p>
                                             <li>commercial @madepices .mg</li>
@@ -92,36 +97,36 @@ const Contact = () =>{
                     </div>
                     <div className="faq--title"><h1 className="title--2">FAQ</h1></div>
                     <div className="accordion--list">
-                        <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
+                        <Accordion
+                            title="Lorem ipsum dolor sit amet?"
                             content="Quisque rutrum. Aenean imperdi. 
                                 Etiam ultricies nisi vel augue. 
                                 Curabitur ullamcorper ultricies nisi. Nam eget dui.
                                 Etiam rhoncus. Maecenas tempus, tellus eget."
                         />
-                        <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
+                        <Accordion
+                            title="Lorem ipsum dolor sit amet?"
                             content="Quisque rutrum. Aenean imperdi. 
                                 Etiam ultricies nisi vel augue. 
                                 Curabitur ullamcorper ultricies nisi. Nam eget dui.
                                 Etiam rhoncus. Maecenas tempus, tellus eget."
                         />
-                        <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
+                        <Accordion
+                            title="Lorem ipsum dolor sit amet?"
                             content="Quisque rutrum. Aenean imperdi. 
                                 Etiam ultricies nisi vel augue. 
                                 Curabitur ullamcorper ultricies nisi. Nam eget dui.
                                 Etiam rhoncus. Maecenas tempus, tellus eget."
                         />
-                        <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
+                        <Accordion
+                            title="Lorem ipsum dolor sit amet?"
                             content="Quisque rutrum. Aenean imperdi. 
                                 Etiam ultricies nisi vel augue. 
                                 Curabitur ullamcorper ultricies nisi. Nam eget dui.
                                 Etiam rhoncus. Maecenas tempus, tellus eget."
                         />
-                        <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
+                        <Accordion
+                            title="Lorem ipsum dolor sit amet?"
                             content="Quisque rutrum. Aenean imperdi. 
                                 Etiam ultricies nisi vel augue. 
                                 Curabitur ullamcorper ultricies nisi. Nam eget dui.
@@ -129,7 +134,7 @@ const Contact = () =>{
                         />
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         </>
     )

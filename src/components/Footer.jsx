@@ -1,5 +1,5 @@
 import "./css/Footer.css"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import logo from '../images/a.png'
 
 export default function Footer() {
@@ -10,13 +10,27 @@ export default function Footer() {
                 </div>
                 <div className="contact--footer">
                     <p style={{color:'#F2E5D1B2'}}>Contact</p>
-                    <p>+261 34 34 134 81</p>
-                    <p>commercial@madépices.mg</p>
+                    <NavLink to={`tel:${+261343413481}`}>
+                        <p>+261 34 34 134 81</p>
+                    </NavLink>
+                    <a 
+                        href={`mailto:${"commercial@madepices.mg"}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <p>commercial@madépices.mg</p>
+                    </a>
                 </div>
                 <div className="local--footer">
                     <p style={{color:'#F2E5D1B2'}}>Où nous trouver</p>
-                    <p>405 Boulevard Ratsimandrava</p>
-                    <p>commercial@madépices.mg</p>
+                    <p>Ivato Aeroport , Antananarivo </p>
+                    <a 
+                        href={`mailto:${"commercial@madepices.mg"}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <p>commercial@madépices.mg</p>
+                    </a>
                 </div>
                 <div className="follow--footer">
                     <p style={{color:'#F2E5D1B2'}}>Suivez-nous</p><br/>

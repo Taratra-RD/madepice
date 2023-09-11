@@ -199,10 +199,10 @@
     width: 90vw;
   }
   .single--product--left{
-    background-size: 125%;
+    background-size: 105%;
   }
   .single--product--container{
-    height: 55vw;
+    height: auto;
   }
   .single--product {
     height: auto;

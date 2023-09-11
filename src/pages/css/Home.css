@@ -161,11 +161,11 @@ div img .img-font {
 }
 
 .slide-left {
-    animation: slide-left 0.8s forwards ease-out;
+    animation: slide-left 1s forwards ease-out;
 }
 
 .slide-right {
-    animation: slide-right 0.8s forwards ease-out;
+    animation: slide-right 1s forwards ease-out;
 }
 .slide-upCrd {
     animation: slide-upCrd 0.7s forwards ease-out;
@@ -257,7 +257,7 @@ div.swiper-button-next{
 
 @media screen and (max-width:720px) {
     div.img1 {
-        height: 85vh;
+        height: 70vh;
     }
 
     .slider-container{
@@ -276,11 +276,11 @@ div.swiper-button-next{
         width: 100vw;
     }
     .block p{
-        text-align: center;
+        text-align: start;
     }
     div.img2 {
         width: 100%;
-        height: 115vh;
+        height: 80vh;
         object-fit: cover;
     }
 

@@ -14,27 +14,24 @@ import {
 } from "swiper/modules";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-
-import imgFont1 from "../images/Rectangle 11.png";
-import imgBaieRose from "../images/imgBaieRose.png";
-import imgFeuilleCombava from "../images/imgFeuilleCombava.png";
-import imgBaobab from "../images/imgBaobab.png";
 import Card from "../components/home/Card";
 import { Container } from "react-bootstrap";
 import { data } from "../data";
-import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const [slideCards, setSlideCards] = useState(false);
-  const [scroll, whiteMode] = useState(0);
+  const [scroll, setScroll] = useState(0);
   const [hasPrevSlides, setHasPrevSlides] = useState(false);
   const [hasNextSlides, setHasNextSlides] = useState(false);
+  const [animationRun,setAnimationRun] = useState(false);
+
+  const navigate = useNavigate()
 
   const handleSlideChange = (swiper) => {
     setHasPrevSlides(swiper.activeIndex !== 0);
@@ -42,8 +39,17 @@ function Home() {
   };
 
   const setWhiteMode = () => {
-    whiteMode(window.scrollY);
+    setScroll(window.scrollY);
   };
+
+  
+  //scrolling animation
+  const isScrolling0 = scroll > 103;
+  const isScrolling = scroll > 600 ;
+  const isScrollingFl = scroll > 800 ;
+  const isScrolling2 = scroll > 1200 ;
+  const isScrolling3 = scroll > 1700;
+
 
   useEffect(() => {
     if (window.innerWidth >= 992) {
@@ -59,12 +65,11 @@ function Home() {
     };
   }, []);
 
-  //scrolling animation
-  const isScrolling0 = scroll > 103;
-  const isScrolling = scroll > 600;
-  const isScrollingFl = scroll > 800;
-  const isScrolling2 = scroll > 1200;
-  const isScrolling3 = scroll > 1700;
+  // Scroll to the top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
     <>
@@ -175,7 +180,7 @@ function Home() {
               style={{
                 marginTop: "0em",
                 marginBottom: "0.5em",
-                fontFamily: "Canela",
+                fontFamily: "Canela Deck Trial",
               }}
             >
               DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES
@@ -204,6 +209,7 @@ function Home() {
                   fontFamily: "Raleway",
                   fontWeight: 600,
                 }}
+                onClick={() => navigate('/about')}
               >
                 Découvrez notre histoire
               </button>
@@ -224,7 +230,7 @@ function Home() {
                 textAlign: "center",
                 paddingBottom: "0.7em",
                 color: "#F2E5D1",
-                fontFamily: "Canela",
+                fontFamily: "Canela Deck Trial",
               }}
             >
               NOS ENGAGEMENTS
@@ -257,7 +263,7 @@ function Home() {
                 textAlign: "center",
                 paddingBottom: "0.7em",
                 color: "#F2E5D1",
-                fontFamily: "Canela",
+                fontFamily: "Canela Deck Trial",
               }}
             >
               NOS VALEURS

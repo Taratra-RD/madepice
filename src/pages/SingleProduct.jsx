@@ -32,6 +32,10 @@ export default function SingleProduct() {
   // eslint-disable-next-line
   const filteredProduct = data.filter((product) => product.id == id);
 
+  // Scroll to the top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
   return (
@@ -86,12 +90,8 @@ export default function SingleProduct() {
                     {produit.texture}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>Origine géographique : </span>
-                    {produit.origine}
-                  </p>
-                  <p>
                     <span style={{ fontWeight: 600 }}>Description : </span>{" "}
-                    {produit.origine}
+                    {produit.description}
                   </p>
                 </div>
               </div>

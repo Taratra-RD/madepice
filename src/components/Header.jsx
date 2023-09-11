@@ -19,16 +19,16 @@ export default function Header() {
     const isScrollingNav = scroll1 > 0
     const toggleNavbar = () => {
         setNavbarOpen(!navbarOpen)
+       
+    }
+    useEffect(() => {
         if (navbarOpen === true) {
-            document.getElementById("sidenav").style.height = '45%'
+            document.getElementById("sidenav").style.height = '45vh'
 
         } else if (navbarOpen === false) {
             document.getElementById("sidenav").style.height = '0em'
         }
-    }
-    useEffect(() => {
-        
-    }, [])
+    }, [navbarOpen])
 
     return (
         <>

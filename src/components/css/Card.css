@@ -4,11 +4,11 @@ div.card {
     margin: 22px !important;
     border-radius: 7px;
     border: 0.1px #A9A18C;
-    background-size: 100%;
+    background-size: 110%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../images/productDefault.png');
-    background-color: #111111;
+    background-color: #110e0e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +17,7 @@ div.card {
     overflow: hidden;
     filter: brightness(1);
     transition: filter 0.3s ease-in-out;
+    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
     /* Add a gradient border */
     /*background-clip: padding-box;*/
      /* Add shadow here */
@@ -52,7 +53,7 @@ div.card::before {
 }
 div.card:hover {
    cursor: pointer;
-   filter: brightness(1.2);
+   filter: brightness(1.1);
    transition: 0.6s all;
    box-shadow: 1px 4px 5px;
    

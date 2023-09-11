@@ -26,6 +26,10 @@ export default function Products() {
     setSearchQuery("");
   };
 
+  // Scroll to the top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // const filterByType = (type) => {
   //   if (type === "Tous") {
   //     setFilteredData(data);
