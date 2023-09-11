@@ -1,293 +1,323 @@
-.about{
-    text-align: center;
+.about {
+  text-align: center;
 }
 
-.imgGroups2{
-    background-image: url("../../images/Group\ 2.png");
+.imgGroups2 {
+  background-image: url("../../images/Group\ 2.png");
+  width: 100%;
+  height: 98vh;
+  background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+  background-repeat: no-repeat;
+  background-position: bottom; /* Center the image */
+}
+
+.title-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25em;
+}
+
+.title-1-text {
+  font-family: Canela Deck Trial;
+  color: #f2e5d1;
+}
+
+.contain {
+  max-width: 100vw;
+  padding-inline: 5em 5em;
+  padding-block: 5em 5em;
+  background-image: url(../../images/Rectangle\ 51.png);
+}
+
+.history-content {
+  display: none;
+  width: 100%;
+  padding: 0em;
+}
+
+.history-content .content {
+  display: flex;
+  text-align: start;
+  width: 40%;
+  flex-direction: column;
+}
+
+.history-content:nth-child(even) {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.history-content h4 {
+  font-family: Canela Deck Trial;
+  color: #f2e5d1;
+  opacity: 70%;
+}
+p {
+  font-size: 18px;
+}
+.history-content p {
+  font-family: Raleway;
+  color: #ffff;
+}
+
+.leaves {
+  position: absolute;
+  top: 28em;
+  right: 0;
+  width: 15em;
+  height: auto;
+}
+
+.leaves-1 {
+  position: absolute;
+  width: 15em;
+  top: 125em;
+  left: 0em;
+  height: auto;
+}
+
+.history-content .line {
+  width: 2px;
+  background-color: #961b1e;
+  height: 2px;
+}
+
+.line-anim {
+  animation: line-animation 1.5s forwards ease;
+}
+
+@keyframes line-animation {
+  0% {
+    opacity: 0;
+    width: 0em;
+  }
+  100% {
+    opacity: 1;
     width: 100%;
-    height: 98vh;
-    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
-    background-repeat: no-repeat;
-    background-position: bottom; /* Center the image */
+  }
 }
 
-.title-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 25em;
+.title-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 8em 3em !important;
+
+  font-family: Canela;
 }
 
-.title-1-text{
-    font-family: Canela Deck Trial;
-    color: #F2E5D1;
-}
-
-.contain{
-    max-width: 100vw;
-    padding-inline: 5em 5em;
-    padding-block: 5em 5em;
-    background-image: url(../../images/Rectangle\ 51.png);
-}
-
-.history-content{
-    display: flex;
-    width: 100%;
-    padding: 0em;
-}
-
-.history-content div{
-    text-align: start;
-    width: 35%;
-}
-
-.history-content:nth-child(even){
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-.history-content h4{
-    font-family: Canela Deck Trial;
-    color: #F2E5D1;
-    opacity: 70%;
-}
-p{
-    font-size: 18px;
-}
-.history-content p{
-    font-family: Raleway;
-    color: #FFFF;
-}
-
-.leaves{
-    position: absolute;
-    top: 25em;
-    right: 0;
-    width: 15em;
-    height: auto;
-}
-
-.leaves-1{
-    position: absolute;
-    width: 15em;
-    top: 125em;
-    left: 0em;
-    height: auto;
-}
-
-.line{
-    position: absolute;
-    top: 49em;
-    height: 130em;
-}
-
-.line-anim{
-    animation: line-animation 0.8s  forwards ease;
-}
-
-@keyframes line-animation{
-    0%{
-        opacity: 0;
-        height: 0em;
-    }
-    
-    50%{
-        opacity: 0.5;
-        height: 27em;
-    }
-    
-    100%{
-        opacity: 1;
-        height: 48em;
-    }
-}
-
-.title-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-block: 8em 3em !important;
-    
-    font-family: Canela;
-}
-
-.container--about{
-    display: flex;
-    background-image: url("../../images/Rectangle\ 53.png");
-    background-size: cover;
-    margin-inline: 4em 4em !important;
-    padding-top: 2em;
-    width: 100em;
+.container--about {
+  display: flex;
+  background-image: url("../../images/Rectangle\ 53.png");
+  background-size: cover;
+  margin-inline: 4em 4em !important;
+  padding-top: 2em;
+  width: 100em;
 }
 
 .title-2-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px !important;
+  text-align: start;
+}
+
+.slide-left-1 {
+  display: flex;
+  animation: slide-right 1s forwards ease;
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-left-2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  animation: slide-left 1.3s forwards ease;
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-left-3 {
+  display: flex;
+  animation: slide-right 1.6s forwards ease;
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .about {
+    text-align: center;
+  }
+
+  .imgGroups2 {
+    background-image: url("../../images/Group\ 2.png");
+    width: 100%;
+    height: 50vh;
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat;
+    background-position: bottom; /* Center the image */
+  }
+
+  .title-1 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    padding: 25px !important;
+    height: fit-content;
+    margin-top: 5em;
+  }
+
+  .title-1-text {
+    font-family: Canela Deck Trial;
+    color: #f2e5d1;
+  }
+
+  .contain {
+    max-width: 100vw;
+    padding-inline: 1em 1em;
+    padding-block: 5em 5em;
+    background-image: url(../../images/Rectangle\ 51.png);
+  }
+
+  .history-content {
+    display: none;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .history-content .content {
+    display: flex;
     text-align: start;
-}
+    width: 100%;
+    padding-inline: 1em 1em;
+    flex-direction: column;
+    animation: none;
+    padding-top: 2em;
+  }
 
-.slide-left-1{
-    animation: slide-right 0.8s forwards ease;
-}
+  .slide-left-1 {
+    display: flex;
+    animation: none;
+  }
 
-@keyframes slide-left{
-    0% {
-        opacity:0;
-        transform: translateX(100px);
+  .slide-left-2 {
+    display: flex;
+    animation: none;
+  }
 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
+  .slide-left-3 {
+    display: flex;
+    animation: none;
+  }
 
-.slide-left-2{
-    animation: slide-left 0.8s forwards ease;
-}
+  .history-content div {
+    text-align: start;
+    width: 100%;
+  }
 
-@keyframes slide-left{
-    0% {
-        opacity:0;
-        transform: translateX(100px);
+  .history-content:nth-child(even) {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
+  .history-content h4 {
+    font-family: Canela Deck Trial;
+    color: #f2e5d1;
+    opacity: 70%;
+  }
 
-.slide-left-3{
-    animation: slide-right 0.8s forwards ease;
-}
+  p {
+    font-size: 12px;
+  }
+  .history-content p {
+    font-family: Raleway;
+    color: #ffff;
+  }
 
-@keyframes slide-right{
-    0% {
-        opacity:0;
-        transform: translateX(-100px);
+  .leaves {
+    display: none;
+    position: absolute;
+    top: 15.5em;
+    right: 0;
+    width: 6.5em;
+    right: 0em;
+    height: auto;
+  }
 
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-@media screen and (max-width: 720px){
-    .about{
-        text-align: center;
-    }
-    
-    .imgGroups2{
-        background-image: url("../../images/Group\ 2.png");
-        width: 100%;
-        height: 50vh;
-        background-size: cover; /* Adjust as needed (cover, contain, etc.) */
-        background-repeat: no-repeat;
-        background-position: bottom; /* Center the image */
-    }
-    
-    .title-1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: fit-content;
-        margin-top: 5em;
-    }
-    
-    .title-1-text{
-        font-family: Canela Deck Trial;
-        color: #F2E5D1
-    }
-    
-    .contain{
-        max-width: 100vw;
-        padding-inline: 2em 2em;
-        padding-block: 5em 5em;
-        background-image: url(../../images/Rectangle\ 51.png);
-    }
-    
-    .history-content{
-        display: block;
-        width: 100%;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .history-content div{
-        text-align: start;
-        width: 100%;
-    }
-    
-    .history-content:nth-child(even){
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .history-content h4{
-        font-family: Canela Deck Trial;
-        color: #F2E5D1;
-        opacity: 70%;
-    }
+  .leaves-1 {
+    display: none;
+    position: absolute;
+    width: 7em;
+    top: 103em;
+    left: 0em;
+    height: auto;
+  }
 
-    p{
-        font-size: 12px;
-    }
-    .history-content p{
-        font-family: Raleway;
-        color: #FFFF;
-    }
-    
-    .leaves{
-        display: none;
-        position: absolute;
-        top: 20.5em;
-        left: 16.95em;
-        width: 6.5em;
-        right: 0em;
-        height: auto;
-    }
-    
-    .leaves-1{
-        display: none;
-        position: absolute;
-        width: 7em;
-        top: 173em;
-        left: 0em;
-        height: auto;
-    }
-    
-    .line{
-        display: none;
-    }
-    
-    .title-2{
-        display: block;
-        align-items: center;
-        justify-content: center;
-        margin-block: 10em 3em !important;
-        font-family: Canela Deck Trial;
-    }
-    
-    .container--about{
-        display: block;
-        background-image: url("../../images/Rectangle\ 53.png");
-        background-size: cover;
-        margin-inline: 0em 0em !important;
-        padding-block: 2em !important;
-        width: 100em;
-    }
-    
-    .title-2-content {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        padding: 1em !important;
-        text-align: center;
-    }
+  .history-content .line {
+    width: 100%;
+    background-color: #961b1e;
+    height: 2px;
+  }
+
+  .line-anim {
+    display: flex;
+    width: 100%;
+    animation: none;
+  }
+  .title-2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-block: 10em 3em !important;
+    font-family: Canela Deck Trial;
+  }
+
+  .container--about {
+    display: block;
+    background-image: url("../../images/Rectangle\ 53.png");
+    background-size: cover;
+    margin-inline: 0em 0em !important;
+    padding-block: 2em !important;
+    width: 100%;
+  }
+
+  .title-2-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 1em !important;
+    text-align: center;
+  }
 }
