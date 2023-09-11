@@ -1,109 +1,110 @@
-.landing-page2{
-    background-image: url("../../images/headercontact.png");
-    width: 100%;
-    height: 100vh;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center; 
+.landing-page2 {
+  background-image: url("../../images/headercontact.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.body--contain{
-    max-width: 100vw;
-    padding-inline: 5em 5em;
-    padding-block: 5em 5em;
-    background-image: url(../../images/Rectangle\ 51.png);
+.body--contain {
+  max-width: 100vw;
+  padding-inline: 5em 5em;
+  padding-block: 5em 5em;
+  background-image: url(../../images/Rectangle\ 51.png);
 }
 
-.contact--list{
-    background-color: #F2E5D1;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    border-radius: 10px;
-    padding-block: 3em 3em;
-    padding-inline: 2em 2em;
+.contact--list {
+  background-color: #f2e5d1;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  border-radius: 10px;
+  padding-block: 3em 3em;
+  padding-inline: 2em 2em;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
 }
 
-
-.red--line{
-    background-color: #991914;
-    width: 0.2em;
-    height: 15em;
-    border-radius: 2px 2px 2px 2px;
-    margin-block: 4em 3em;
+.red--line {
+  background-color: #991914;
+  width: 0.2em;
+  height: 15em;
+  border-radius: 2px 2px 2px 2px;
+  margin-block: 4em 3em;
 }
 
 .faq--title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-block: 5em 5em;
-    height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-block: 5em 5em;
+  height: max-content;
 }
 
-.title--2{
-    font-family: Canela;
-    font-size: 134px;
+.title--2 {
+  font-family: Canela;
+  font-size: 134px;
 }
 
-.content{
-    width: fit-content;
+.content {
+  width: fit-content;
 }
 
 @media screen and (max-width: 980px) {
+  .landing-page2 {
+    background-image: url("../../images/headercontact.png");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-    .landing-page2{
-        background-image: url("../../images/headercontact.png");
-        width: 100%;
-        height: 46vh;
-        background-size: cover; 
-        background-repeat: no-repeat;
-        background-position: center; 
-    }
+  .body--contain {
+    padding-inline: 2em 2em;
+  }
 
-    .body--contain{
-        padding-inline: 2em 2em;
-    }
+  .contact--list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
-    .contact--list{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+  .content p {
+    font-size: 9px !important;
+  }
+  .red--line {
+    display: none !important;
+  }
 
-    .red--line{
-        display: none !important;
-    }
+  .list {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around !important;
+  }
 
-    .list{
-        display: flex !important;
-        flex-direction: row;
-        justify-content: space-around !important;
-    }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .icons{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .icons--img {
+    width: 40px;
+  }
 
-    .icons--img{
-        width: 40px;
-    }
+  .content {
+    width: 35%;
+  }
 
-    .content{
-        width: 25%;
-    }
-
-    .title{
-        margin-block: 0;
-    }
+  .title {
+    margin-block: 0;
+  }
 }
