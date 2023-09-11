@@ -749,7 +749,7 @@ export const data = [
   //CORIANDRE
   {
     id: 11,
-    name: "",
+    name: "CORIANDRE",
     description:
       "Les graines de coriandre sont utilisées dans de nombreuses cuisines du monde entier pour aromatiser les plats, tandis que les graines moulues sont couramment utilisées dans les mélanges d'épices, les sauces, les soupes et les saucisses.",
     imgUrl: imgCoriandre_1,
