@@ -13,10 +13,8 @@ import { useMediaQuery } from "usehooks-ts";
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
   const widthPhoneLg = useMediaQuery("(max-width:720px)");
-  const widthPhoneSm = useMediaQuery("(max-width:410px)");
-
   const [filteredData, setFilteredData] = useState(data);
-  const [img, setImage] = useState("");
+  const [currentImage, setCurrentImage] = useState(0);
 
   // Shuffle function to randomly reorder the array
   function shuffleArray(array) {
@@ -32,9 +30,10 @@ export default function SingleProduct() {
   }
   const shuffledData = shuffleArray(data);
   // eslint-disable-next-line
-  const filteredProduct = data.filter((product) => product.id == id); // Compare 'product.id' with 'id'
+  const filteredProduct = data.filter((product) => product.id == id);
 
-  useEffect(() => { }, []);
+
+
   return (
     <>
       <div className="header--product">
@@ -47,11 +46,22 @@ export default function SingleProduct() {
               <div className="single--product--container" key={produit.id}>
                 <div
                   className="single--product--left"
-                  key={produit.id}
-                  style={{ backgroundImage: `url('${produit.imgUrl_2}')` }}
+                  id="single--product--left"
+                  key={filteredProduct[0].produits[currentImage].id}
+                  style={{ backgroundImage: `url('${produit.imgUrl}')` }}
                 >
-                  <i className="fas fa-chevron-left" style={{color:'white'}}></i>
-                  <i className="fas fa-chevron-right" style={{color:'white'}}></i>
+                  <div className="gallery-photo">
+                    {
+                      produit.gallery.map((image) => (
+                        <div className="image-gallery" key={image} style={{backgroundImage:`${image}`}}></div>
+                      )
+                      )
+                    }
+                  </div>
+                  {/* next prev ra ilaina
+                    <i className="fas fa-chevron-left" style={{positon:'relative',marginRight:'9em'}}></i>
+                    <i className="fas fa-chevron-right" style={{positon:'relative',right:0}}></i>
+                  */}
                 </div>
                 <div className="line-red"></div>
                 <div className="single--product--right" key={produit.id}>
@@ -94,7 +104,7 @@ export default function SingleProduct() {
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
-                      text={product.description.slice(0, 90) + "..."}
+                      text={product.description.slice(0, 45) + "..."}
                       className={"details"}
                     />
                   </div>
@@ -108,7 +118,7 @@ export default function SingleProduct() {
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
-                      text={product.description.slice(0, 90) + "..."}
+                      text={product.description.slice(0, 45) + "..."}
                       className={"details"}
                     />
                   </div>
