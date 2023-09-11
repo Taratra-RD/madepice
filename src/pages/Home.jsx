@@ -154,7 +154,7 @@ function Home() {
                       img={data.imgUrl}
                       title={data.name}
                       className={"home"}
-                      text={data.description.slice(0, 45) + "..."}
+                      text={data.description.slice(0, 60) + "..."}
                     />
                   </SwiperSlide>
                 ))}

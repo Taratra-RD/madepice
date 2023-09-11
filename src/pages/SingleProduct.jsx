@@ -104,7 +104,7 @@ export default function SingleProduct() {
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
-                      text={product.description.slice(0, 45) + "..."}
+                      text={product.description.slice(0, 60) + "..."}
                       className={"details"}
                     />
                   </div>
@@ -118,7 +118,7 @@ export default function SingleProduct() {
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
-                      text={product.description.slice(0, 45) + "..."}
+                      text={product.description.slice(0, 60) + "..."}
                       className={"details"}
                     />
                   </div>
