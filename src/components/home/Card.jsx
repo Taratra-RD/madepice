@@ -15,6 +15,7 @@ const Card = ({ id,img, title, text,className }) => {
                 <h3 style={{ color: 'white', fontFamily: 'Canela' }}>{title}</h3>
             </div>
             <div className="card-info">
+                <div className="img-top-card"></div>
                 <h3 style={{ color: 'white', fontFamily: 'Canela' }}>{title}</h3>
                 <p style={{ color: 'white', paddingTop: '5px', paddingBottom: '5px', fontFamily:'Raleway' }}>
                     {text}

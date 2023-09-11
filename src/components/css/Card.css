@@ -18,6 +18,7 @@ div.card {
     overflow: hidden;
     filter: brightness(1);
     transition: filter 0.3s ease-in-out;
+    box-shadow: 1px 4px 5px gray;
     /* Add a gradient border */
     /*background-clip: padding-box;*/
      /* Add shadow here */
@@ -37,7 +38,7 @@ div.card::before {
     right: -3px;
     bottom: -3px;
     z-index: -1;
-    background: linear-gradient(45deg, #A9A18C, transparent, transparent, transparent);
+    background: none;
     border-radius: 10px;
     transform: translateZ(-1px); /* Create the 3D effect */
     opacity: 0.8;
