@@ -33,7 +33,8 @@
 .history-content{
     display: none;
     width: 100%;
-    padding: 0em;
+    height: 100%;
+    padding-block: 1em 1em;
 }
 
 .history-content .content{
@@ -63,7 +64,7 @@ p{
 
 .leaves{
     position: absolute;
-    top: 28em;
+    top: 26em;
     right: 0;
     width: 15em;
     height: auto;
@@ -195,7 +196,7 @@ p{
         align-items: center;
         justify-content: center;
         height: fit-content;
-        margin-top: 5em;
+        margin-top: 2em;
     }
     
     .title-1-text{

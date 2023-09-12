@@ -97,39 +97,20 @@ const Contact = () =>{
                     <div className="faq--title"><h1 className="title--2">FAQ</h1></div>
                     <div className="accordion--list">
                         <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
-                            content="Quisque rutrum. Aenean imperdi. 
-                                Etiam ultricies nisi vel augue. 
-                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                            title="1. Vos épices sont-elles biologiques ?" 
+                            content="MADÉPICES distribue des épices du terroir bien traitées, sans conservateur et sans additif. Nous savons d'où viennent nos produits et nous connaissons les paysans qui nous fournissent.Tout est impliqué dans la qualité finale. À vous d'en juger. Dégustez et vous verrez !"
                         />
                         <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
-                            content="Quisque rutrum. Aenean imperdi. 
-                                Etiam ultricies nisi vel augue. 
-                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                            title="2. Quelle est la meilleure façon de conserver les épices ?" 
+                            content="Pour une durée de conservation optimale, il est préférable de les garder dans un endroit frais, sec et à l'abri de la lumière directe du soleil et de l'air pour éviter les altérations de leur qualité. Nous vous recommandons en conséquence de les protéger dans des emballages assurés comme les pots hermétiques, les récipients en verre teinté..., pour préserver la fraîcheur et les arômes."
                         />
                         <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
-                            content="Quisque rutrum. Aenean imperdi. 
-                                Etiam ultricies nisi vel augue. 
-                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                            title="3. Quelles sont les épices les plus utilisées ?" 
+                            content="Les épices fréquemment utilisées varient en fonction de la cuisine du monde. Parmi les plus répandues ; les poivres, les baies, les voatsiperifery que l'on ne retrouve qu'à Madagascar, la cannelle, le cumin et le curcuma sont les plus demandés. Ils sont spécifiques et apportent un coup de peps aux plats."
                         />
                         <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
-                            content="Quisque rutrum. Aenean imperdi. 
-                                Etiam ultricies nisi vel augue. 
-                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                Etiam rhoncus. Maecenas tempus, tellus eget."
-                        />
-                        <Accordion 
-                            title="Lorem ipsum dolor sit amet?" 
-                            content="Quisque rutrum. Aenean imperdi. 
-                                Etiam ultricies nisi vel augue. 
-                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                Etiam rhoncus. Maecenas tempus, tellus eget."
+                            title="4. Quelle est la différence entre une épice et une feuille ?" 
+                            content="La principale différence entre ces deux produits réside dans la partie de la plante utilisée. L'épice est généralement dérivée d'autres parties que les feuilles, comme l'écorce, les racines ou les graines. Les feuilles quant à elles proviennent des feuilles des plantes."
                         />
                     </div>
                 </div>
