@@ -81,13 +81,9 @@ const About = () => {
             <div className="contain">
                 <div className={`history-content ${isScrolling_1 ? 'slide-left-1':''} `}>
                     <div className="content">
-                        <h4>1919</h4>
+                        <h4>2011</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. 
-                            Adipiscing semper purus non mollis sagittis tincidunt nec ut est. 
-                            Augue nisl consequat adipiscing dignissim quis egestas pretium elementum. 
-                            Vitae convallis amet enim elementum.
-                            Dis odio eleifend turpis consequat faucibus.
+                            MADEPICES, une société créée en 2011  spécialisée dans la préparation d’épices et dans la commercialisation des produits agroalimentaires et cosmétiques à base d’épices. Nous nous concentrons essentiellement sur l’aspect artisanal. Nous proposons des produits de haute qualité : triés, préparés et calibrés à la main par une équipe avec 20 ans d’expérience dans le domaine. Nous garantissons une variété d’épices haut de gamme, sélectionnée, naturelles et saisonnières répondant à vos attentes.
                         </p>
                         <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
                     </div>
@@ -124,17 +120,7 @@ const About = () => {
                 </div>
                 <div className="container container--about">
                     <p className="title-2-content">
-                        Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. 
-                        Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra 
-                        ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. 
-                        Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. 
-                        Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque 
-                        cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. 
-                        Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate 
-                        fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. 
-                        Vitae proin erat semper elementum mi.
-                        Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim 
-                        aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
+                    Chez Madepices, notre engagement réside dans l'élaboration minutieuse d'un travail de qualité, centré sur des produits d'exception. Notre démarche s'étend de la collecte initiale jusqu'au conditionnement final, garantissant une excellence constante à chaque étape du processus. Nous mettons un point d'honneur à sélectionner avec soin les matières premières les plus raffinées, en parcourant les coins les plus reculés pour trouver des trésors aromatiques uniques. Guidés par notre passion, nous préservons la pureté et l'authenticité de chaque produit, tout en accordant une attention méticuleuse au conditionnement pour préserver leur fraîcheur et leur caractère unique. Notre dévouement à l'excellence nous pousse à offrir des expériences gustatives exceptionnelles, enrichies par des saveurs profondes et des arômes captivants, reflétant l'essence même de Madagascar.
                     </p>
                 </div>
                 <div className="title-2">
@@ -142,17 +128,7 @@ const About = () => {
                 </div>
                 <div className="container container--about">
                     <p className="title-2-content">
-                        Lorem ipsum dolor sit amet consectetur. Turpis mauris id malesuada cursus. 
-                        Aliquet iaculis eleifend at felis faucibus. Ut gravida facilisi in felis feugiat nisi viverra 
-                        ut pulvinar. Facilisis aliquet lacus ultrices enim purus sem et amet. 
-                        Gravida commodo ut massa dignissim diam a massa. Nisl aliquam fermentum nullam vulputate. 
-                        Turpis viverra mi adipiscing ante tincidunt augue pharetra. Lobortis scelerisque scelerisque 
-                        cras a vestibulum nulla sem. Rhoncus vitae euismod nec ut sapien tempor sit at. 
-                        Suspendisse imperdiet sed ac mattis gravida urna. Arcu turpis pretium non vulputate vulputate 
-                        fames diam. Enim urna pellentesque ultrices ac feugiat adipiscing pulvinar. 
-                        Vitae proin erat semper elementum mi.
-                        Turpis interdum suspendisse mauris in tristique lacus nunc tellus ullamcorper. Nibh est fringilla facilisi eleifend enim 
-                        aliquet vitae a sagittis. Interdum ac pharetra interdum mauris ac. Augue eu in.
+                    Plongés au cœur de Madagascar, nous nous engageons passionnément à sélectionner et façonner les épices les plus raffinées. L'excellence est notre boussole, nous conduisant à explorer les recoins de cette île aux richesses inestimables, en quête d'arômes uniques. Chaque épice, fruit d'une culture minutieuse, marie terroir et artisanat ancestral. Notre processus, de la récolte à la préparation, vise à capturer l'essence même de Madagascar. Ces arômes profonds et ces saveurs authentiques, résultant d'un travail méticuleux, éveilleront vos sens et rehausseront vos créations culinaires. Rejoignez-nous dans cette aventure gastronomique où chaque épice narre une histoire de passion, de qualité et de tradition, reliant ainsi passé et présent.
                     </p>
                 </div>
             </div>
