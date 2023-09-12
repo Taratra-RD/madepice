@@ -100,14 +100,10 @@ const About = () => {
                 </div>
                 <div className={`history-content ${isScrolling_3 ? 'slide-left-3':''} `}>
                     <div className="content">
-                        <h4>1919</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. 
-                            Adipiscing semper purus non mollis sagittis tincidunt nec ut est. 
-                            Augue nisl consequat adipiscing dignissim quis egestas pretium elementum. 
-                            Vitae convallis amet enim elementum.
-                            Dis odio eleifend turpis consequat faucibus.
-                        </p> 
+                    <h4></h4>
+                            <p>
+                                Plongez dans notre vaste sélection de produits du terroir, reconnus comme les "Meilleures épices de Madagascar". Une expérience sensorielle vous attend, comblant vos papilles de saveurs raffinées. Madépices, porteur d'une passion pour les goûts exquis, vous convie à explorer cet héritage aromatique. Laissez-vous séduire par des arômes authentiques et des sensations inoubliables, et découvrez une nouvelle dimension de la passion pour les saveurs.
+                            </p> 
                         <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div>
                     </div>
                 </div>
