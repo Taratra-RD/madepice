@@ -91,14 +91,10 @@ const About = () => {
                 </div>
                 <div className={`history-content ${isScrolling_2 ? 'slide-left-2':''} `}>
                     <div className="content"> 
-                        <h4>1919</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. 
-                            Adipiscing semper purus non mollis sagittis tincidunt nec ut est. 
-                            Augue nisl consequat adipiscing dignissim quis egestas pretium elementum. 
-                            Vitae convallis amet enim elementum.
-                            Dis odio eleifend turpis consequat faucibus.
-                        </p>
+                    <h4></h4>
+                            <p>
+                                Eco-responsable, nous sélectionnons dans les plus belles plantations de Madagascar, environ 20 matières premières saisonnières provenant de différentes régions de Madagascar. Les matières sont transformées  dans notre manufacture à Antananarivo et commercialisées  auprès des gourmets et gastronomes du monde entier. Madépices pousse sa créativité jusqu'à un packaging personnalisé et unique  en ajoutant des bouchons ou des coffrets en palissandre travaillés dans notre atelier bois.
+                            </p>
                         <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
                     </div>
                 </div>
