@@ -1,10 +1,24 @@
 .landing-page2{
-    background-image: url("../../images/headercontact.png");
+    background-image: url("../../images/Landing_page\ 1.png");
     width: 100%;
     height: 100vh;
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
+}
+
+.degradee{
+    background-image: url("../../images/Rectangle\ 6.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-1 h1{
+    color: #F2E5D1;
+    font-family: Canela Deck Trial;
 }
 
 .body--contain{
@@ -49,8 +63,8 @@
 }
 
 .title--2{
-    font-family: Canela;
-    font-size: 134px;
+    font-family: Canela Deck Trial;
+    font-size: 62px;
 }
 
 .content{

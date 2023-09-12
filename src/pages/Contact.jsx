@@ -32,8 +32,13 @@ const Contact = () =>{
         <>
             <div className="conatct">
                 <div className="landing-page2">
-                    <div className="contact-header">
-                        <HeaderAbout/>
+                    <div className="degradee">
+                        <div className="contact-header">
+                            <HeaderAbout/>
+                        </div>
+                        <div className="title-1">
+                            <h1>CONTACT & FAQ</h1>
+                        </div>
                     </div>
                 </div>
                 <div className="body--contain">
