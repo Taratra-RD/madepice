@@ -32,8 +32,6 @@ export default function SingleProduct() {
   // eslint-disable-next-line
   const filteredProduct = data.filter((product) => product.id == id);
 
-
-
   return (
     <>
       <div className="header--product">
@@ -51,12 +49,13 @@ export default function SingleProduct() {
                   style={{ backgroundImage: `url('${produit.imgUrl}')` }}
                 >
                   <div className="gallery-photo">
-                    {
-                      produit.gallery.map((image) => (
-                        <div className="image-gallery" key={image} style={{backgroundImage:`${image}`}}></div>
-                      )
-                      )
-                    }
+                    {produit.gallery.map((image) => (
+                      <div
+                        className="image-gallery"
+                        key={image}
+                        style={{ backgroundImage: `${image}` }}
+                      ></div>
+                    ))}
                   </div>
                   {/* next prev ra ilaina
                     <i className="fas fa-chevron-left" style={{positon:'relative',marginRight:'9em'}}></i>
@@ -86,7 +85,9 @@ export default function SingleProduct() {
                     {produit.texture}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>Origine géographique : </span>
+                    <span style={{ fontWeight: 600 }}>
+                      Origine géographique :{" "}
+                    </span>
                     {produit.origine}
                   </p>
                   <p>
@@ -99,7 +100,10 @@ export default function SingleProduct() {
             {widthPhoneLg ? (
               <div className="random--product--container">
                 {shuffledData.slice(0, 4).map((product) => (
-                  <div className="products--products--list--card" key={product.id}>
+                  <div
+                    className="products--products--list--card"
+                    key={product.id}
+                  >
                     <Card
                       id={product.id}
                       img={product.imgUrl}
@@ -113,7 +117,10 @@ export default function SingleProduct() {
             ) : (
               <div className="random--product--container">
                 {shuffledData.slice(0, 12).map((product) => (
-                  <div className="products--products--list--card" key={product.id}>
+                  <div
+                    className="products--products--list--card"
+                    key={product.id}
+                  >
                     <Card
                       id={product.id}
                       img={product.imgUrl}

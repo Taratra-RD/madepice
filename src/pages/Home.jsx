@@ -88,7 +88,7 @@ function Home() {
                   top: 185,
                 }}
               ></i>
-              
+
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, Scrollbar, Autoplay]}
@@ -135,7 +135,7 @@ function Home() {
                     slidesPerView: 4,
                     spaceBetween: 10,
                   },
-                  1800:{
+                  1800: {
                     slidesPerView: 5,
                     spaceBetween: 10,
                   },
@@ -143,14 +143,15 @@ function Home() {
               >
                 {data.map((data) => (
                   <SwiperSlide key={data.id}>
-                    <Card
+                    {/* <Card
                       key={data.id}
                       id={data.id}
                       img={data.imgUrl}
                       title={data.name}
                       className={"home"}
                       text={data.description.slice(0, 45) + "..."}
-                    />
+                    /> */}
+                    <Card product={data} />
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -190,24 +191,23 @@ function Home() {
               de confiance entre la terre, les mains expertes et votre palais.
               Explorez un monde de délices transcendant les frontières.
             </p>
-            
-              <button
-                className={`btn ${isScrolling ? "slide-left" : ""}`}
-                style={{
-                  background: "#f2e5d1",
-                  marginTop: "1.2em",
-                  color: "black",
-                  height: "3.5em",
-                  borderRadius: "9px",
-                  paddingLeft: "30px",
-                  paddingRight: "30px",
-                  fontFamily: "Raleway",
-                  fontWeight: 600,
-                }}
-              >
-                Découvrez notre histoire
-              </button>
-            
+
+            <button
+              className={`btn ${isScrolling ? "slide-left" : ""}`}
+              style={{
+                background: "#f2e5d1",
+                marginTop: "1.2em",
+                color: "black",
+                height: "3.5em",
+                borderRadius: "9px",
+                paddingLeft: "30px",
+                paddingRight: "30px",
+                fontFamily: "Raleway",
+                fontWeight: 600,
+              }}
+            >
+              Découvrez notre histoire
+            </button>
           </Container>
           <div
             className={`img-feuille ${
