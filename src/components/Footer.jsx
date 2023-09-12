@@ -14,7 +14,9 @@ export default function Footer() {
         </div>
         <div className="local--footer">
           <p style={{ color: "#F2E5D1B2" }}>Où nous trouver</p>
-          <p>IVATO AEROPORT , ANTANANARIVO, Madagascar</p>
+          <p style={{ fontSize: "13px" }}>
+            IVATO AEROPORT , ANTANANARIVO, Madagascar
+          </p>
           <p>commercial@madépices.mg</p>
         </div>
         <div className="follow--footer">

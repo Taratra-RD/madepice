@@ -56,12 +56,15 @@ import imgGirofle_9 from "./image/Clou de Girofle/Girofle_clou4.webp";
 import imgGirofle_10 from "./image/Clou de Girofle/Girofle_Clou2.webp";
 import imgGirofle_11 from "./image/Clou de Girofle/Girofle_Poudre2.webp";
 //COMBOVA
-import imgCombova_1 from "./image/Combava/Combava_copy.webp";
+import imgCombova_1 from "./image/Combava/Combava1_copy.webp";
 import imgCombova_2 from "./image/Combava/Combava_Title_copy.webp";
+import imgCombova_12 from "./image/Combava/Combava_copy.webp";
+//ZESTE
+import imgCombovaZeste_1 from "./image/Combava/Zeste_de_combava_copy.webp";
+import imgCombovaZeste_2 from "./image/Combava/Zeste_de_combava_title_copy.webp";
 import imgCombova_11 from "./image/Combava/Combava_Zest_poudre.webp";
 import imgCombova_6 from "./image/Combava/Combava_Zest_poudre2.webp";
 import imgCombova_10 from "./image/Combava/Combava_Zest_poudre_3.webp";
-import imgCombova_12 from "./image/Combava/Combava_copy.webp";
 //CORIANDRE
 import imgCoriandre_1 from "./image/Coriandre/Coriandre_copy.webp";
 import imgCoriandre_2 from "./image/Coriandre/Coriandre_title_copy.webp";
@@ -696,8 +699,8 @@ export const data = [
     name: "ZESTE DE COMBAVA",
     description:
       "Les zestes de combava sont utilisés pour parfumer les plats sucrés et salés, tels que les pâtisseries, les desserts, les marinades, les cocktails et les sauces. Ils sont également utilisés dans la préparation de thés et d'infusions. ",
-    imgUrl: imgCombova_1,
-    imgUrl_1: imgCombova_2,
+    imgUrl: imgCombovaZeste_1,
+    imgUrl_1: imgCombovaZeste_2,
     type: "Epice",
     phare: true,
     produits: [
