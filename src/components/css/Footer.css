@@ -171,3 +171,118 @@
     text-align: center;
   }
 }
+.contact--footer a {
+  text-decoration: none;
+  color: white;
+}
+.contact--footer a:hover {
+  color: #f2e5d1;
+}
+
+.follow--footer a {
+  text-decoration: none;
+  color: white;
+}
+.follow--footer a i:hover {
+  color: #f2e5d1;
+}
+
+.local--footer a {
+  text-decoration: none;
+  color: white;
+}
+.local--footer a:hover {
+  color: #f2e5d1;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 45vh;
+    bottom: 0;
+    flex-direction: row;
+    text-align: center;
+    font-family: Raleway;
+    overflow: hidden;
+  }
+  .logo--footer {
+    background-image: url("../../images/LOGO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 12.6em;
+    margin-left: 2em;
+    height: 4.5em;
+  }
+  .follow--footer {
+    margin-right: 2em;
+    margin-top: -2.3em;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footer {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 45vh;
+    bottom: 0;
+    flex-direction: row;
+    text-align: center;
+    font-family: Raleway;
+    overflow: hidden;
+  }
+  .logo--footer {
+    background-image: url("../../images/LOGO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: 2em;
+    width: 12.6em;
+    height: 4.5em;
+  }
+  .follow--footer {
+    margin-right: 2em;
+    margin-top: -2.3em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    background: hsl(0, 0%, 0%);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    bottom: 0;
+    text-align: center;
+    font-family: Raleway;
+    overflow: hidden;
+  }
+  .logo--footer {
+    background-image: url("../../images/LOGO.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: 0;
+    width: 10.6em;
+    height: 4.5em;
+  }
+  .contact--footer {
+    margin-top: 0.5em;
+  }
+  .follow--footer {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}

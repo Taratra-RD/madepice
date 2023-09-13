@@ -32,6 +32,11 @@ export default function SingleProduct() {
   // eslint-disable-next-line
   const filteredProduct = data.filter((product) => product.id == id);
 
+  // Scroll to the top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="header--product">
@@ -85,14 +90,8 @@ export default function SingleProduct() {
                     {produit.texture}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>
-                      Origine géographique :{" "}
-                    </span>
-                    {produit.origine}
-                  </p>
-                  <p>
                     <span style={{ fontWeight: 600 }}>Description : </span>{" "}
-                    {produit.origine}
+                    {produit.description}
                   </p>
                 </div>
               </div>
@@ -108,7 +107,7 @@ export default function SingleProduct() {
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
-                      text={product.description.slice(0, 45) + "..."}
+                      text={product.description.slice(0, 60) + "..."}
                       className={"details"}
                       product={product}
                     />
@@ -126,7 +125,7 @@ export default function SingleProduct() {
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
-                      text={product.description.slice(0, 45) + "..."}
+                      text={product.description.slice(0, 60) + "..."}
                       className={"details"}
                       product={product}
                     />

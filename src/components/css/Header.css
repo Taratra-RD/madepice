@@ -1,6 +1,6 @@
 .logo--navbar {
     height: 4.5em;
-    width: 11em;
+    width: 10.6em;
     padding: 0.6em;
     margin-left: 8em;
     background-size: contain;
@@ -19,6 +19,7 @@
 nav{
     /*flex: 1;*/
     text-align: right; 
+    margin-top: 1em;
 }
 
 nav ul li{
@@ -131,7 +132,7 @@ div.sidenav nav ul li a:hover {
 @media screen and (max-width:960px) {
     .logo--navbar {
         height: 4.5em;
-        width: 13em;
+        width: 10.6em;
         padding: 0.6em;
         margin-left: 2.5em;
     }
