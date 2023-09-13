@@ -5,13 +5,7 @@ import Footer from "../components/Footer";
 import Caroussel from "../components/home/Caroussel";
 
 // swiper
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  Autoplay,
-  A11y,
-} from "swiper/modules";
+import { Navigation, Scrollbar, Autoplay } from "swiper/modules";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -29,7 +23,6 @@ function Home() {
   const [scroll, setScroll] = useState(0);
   const [hasPrevSlides, setHasPrevSlides] = useState(false);
   const [hasNextSlides, setHasNextSlides] = useState(false);
-  const [animationRun, setAnimationRun] = useState(false);
 
   const navigate = useNavigate();
 

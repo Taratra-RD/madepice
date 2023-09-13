@@ -4,17 +4,14 @@ import { Link, useParams } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./css/SingleProduct.css";
-import Productslist from "../components/products/Productslist";
 import { data } from "../data";
 import Card from "../components/home/Card";
-import { Col, Row } from "react-bootstrap";
 import { useMediaQuery } from "usehooks-ts";
 
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
   const widthPhoneLg = useMediaQuery("(max-width:720px)");
-  const [filteredData, setFilteredData] = useState(data);
-  const [currentImage, setCurrentImage] = useState(0);
+  const [currentImage] = useState(0);
 
   // Shuffle function to randomly reorder the array
   function shuffleArray(array) {
