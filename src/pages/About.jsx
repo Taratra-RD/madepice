@@ -1,5 +1,4 @@
 import Footer from "../components/Footer";
-import HeaderAbout from "../components/Header";
 import "./css/About.css";
 import leaves from "../images/Leaves 1.png";
 import leaves_1 from "../images/Leaves 2.png";
@@ -65,15 +64,13 @@ const About = () => {
   const isScrolling_2 = scroll_2 > 400;
   const isScrolling_3 = scroll_3 > 600;
   const isScrolling_4 = scroll_4 > 100;
-  const isScrolling10 = scroll_4 > 1050;
-  const isScrolling20 = scroll_4 > 1710;
 
   return (
     <>
       <div className="about">
         <div className="imgGroups2">
           <div className="about--header">
-            <HeaderAbout />
+            <Header />
           </div>
           <div className="title-1">
             <h1 className="title-1-text">QUI SOMMES-NOUS?</h1>

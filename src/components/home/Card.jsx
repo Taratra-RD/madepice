@@ -1,15 +1,10 @@
 import React from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
-import { data } from "../../data";
+import { Link, useNavigate } from "react-router-dom";
 import "../css/Card.css";
 import { useMediaQuery } from "usehooks-ts";
 import { useEffect } from "react";
-import "../css/Card.css";
 
 const Card = ({ product }) => {
-  // const cardStyle = {
-  //     backgroundImage: `url(${img})`, // Set the background image URL dynamically
-  // };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
