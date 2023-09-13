@@ -17,24 +17,21 @@ const Contact = () => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-
-    window.addEventListener("resize", handleResize);
-
-    // Clean up the event listener when the component unmounts.
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
   }, []);
 
-  // Determine whether to swap the items based on the window width.
-  const shouldSwapItems = windowWidth > 504; // Adjust the condition as needed
+  const shouldSwapItems = windowWidth > 504;
 
   return (
     <>
       <div className="conatct">
         <div className="landing-page2">
-          <div className="contact-header">
-            <Header />
+          <div className="degradee">
+            <div className="contact-header">
+              <Header />
+            </div>
+            <div className="title-1">
+              <h1>CONTACT & FAQ</h1>
+            </div>
           </div>
         </div>
         <div className="body--contain">
@@ -88,7 +85,7 @@ const Contact = () => {
                   <h3>Visitez-nous</h3>
                 </div>
                 <p>
-                  <li>BP:238, 405 Boulevard Ratsimandrava</li>
+                  <li>Lieux</li>
                 </p>
               </div>
             </div>
@@ -125,21 +122,12 @@ const Contact = () => {
             />
             <Accordion
               title="4. Quelle est la différence entre une épice et une feuille ?"
-              content="La principale différence entre ces deux produits réside dans la partie de la plante utilisée. L'épice est généralement dérivée d'autres parties que les feuilles, comme l'écorce, les racines ou les graines. Les feuilles quant à elles proviennent des feuilles des plantes.
-
-"
+              content="La principale différence entre ces deux produits réside dans la partie de la plante utilisée. L'épice est généralement dérivée d'autres parties que les feuilles, comme l'écorce, les racines ou les graines. Les feuilles quant à elles proviennent des feuilles des plantes."
             />
-            {/* <Accordion
-                title="Lorem ipsum dolor sit amet?"
-                content="Quisque rutrum. Aenean imperdi. 
-                                Etiam ultricies nisi vel augue. 
-                                Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                                Etiam rhoncus. Maecenas tempus, tellus eget."
-              /> */}
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };
