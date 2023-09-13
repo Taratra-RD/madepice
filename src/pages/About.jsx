@@ -62,9 +62,9 @@ const About = () => {
         }
     },[])
 
-    const isScrolling_1 = scroll_1 > 200;
-    const isScrolling_2 = scroll_2 > 400;
-    const isScrolling_3 = scroll_3 > 600;
+    const isScrolling_1 = scroll_1 > 400;
+    const isScrolling_2 = scroll_2 > 800;
+    const isScrolling_3 = scroll_3 > 1100;
     const isScrolling_4 = scroll_4 > 100;
 
     return(
@@ -79,32 +79,32 @@ const About = () => {
                 </div>
             </div>
             <div className="contain">
-                <div className={`history-content ${isScrolling_1 ? 'slide-left-1':''} `}>
-                    <div className="content">
-                        <h4>2011</h4>
-                        <p>
-                            MADEPICES, une société créée en 2011  spécialisée dans la préparation d’épices et dans la commercialisation des produits agroalimentaires et cosmétiques à base d’épices. Nous nous concentrons essentiellement sur l’aspect artisanal. Nous proposons des produits de haute qualité : triés, préparés et calibrés à la main par une équipe avec 20 ans d’expérience dans le domaine. Nous garantissons une variété d’épices haut de gamme, sélectionnée, naturelles et saisonnières répondant à vos attentes.
-                        </p>
-                        <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
-                    </div>
-                    
-                </div>
-                <div className={`history-content ${isScrolling_2 ? 'slide-left-2':''} `}>
-                    <div className="content"> 
-                    <h4></h4>
+                <div className="history">
+                    <div className={`history-content ${isScrolling_1 ? 'slide-left-1':''} `}>
+                        <div className="content">
+                            <h4>2011</h4>
                             <p>
-                                Eco-responsable, nous sélectionnons dans les plus belles plantations de Madagascar, environ 20 matières premières saisonnières provenant de différentes régions de Madagascar. Les matières sont transformées  dans notre manufacture à Antananarivo et commercialisées  auprès des gourmets et gastronomes du monde entier. Madépices pousse sa créativité jusqu'à un packaging personnalisé et unique  en ajoutant des bouchons ou des coffrets en palissandre travaillés dans notre atelier bois.
+                                MADEPICES, une société créée en 2011  spécialisée dans la préparation d’épices et dans la commercialisation des produits agroalimentaires et cosmétiques à base d’épices. Nous nous concentrons essentiellement sur l’aspect artisanal. Nous proposons des produits de haute qualité : triés, préparés et calibrés à la main par une équipe avec 20 ans d’expérience dans le domaine. Nous garantissons une variété d’épices haut de gamme, sélectionnée, naturelles et saisonnières répondant à vos attentes.
                             </p>
-                        <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
+                            <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
+                        </div>
+                        
                     </div>
-                </div>
-                <div className={`history-content ${isScrolling_3 ? 'slide-left-3':''} `}>
-                    <div className="content">
-                    <h4></h4>
-                            <p>
-                                Plongez dans notre vaste sélection de produits du terroir, reconnus comme les "Meilleures épices de Madagascar". Une expérience sensorielle vous attend, comblant vos papilles de saveurs raffinées. Madépices, porteur d'une passion pour les goûts exquis, vous convie à explorer cet héritage aromatique. Laissez-vous séduire par des arômes authentiques et des sensations inoubliables, et découvrez une nouvelle dimension de la passion pour les saveurs.
-                            </p> 
-                        <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div>
+                    <div className={`history-content ${isScrolling_2 ? 'slide-left-2':''} `}>
+                        <div className="content"> 
+                                <p>
+                                    Eco-responsable, nous sélectionnons dans les plus belles plantations de Madagascar, environ 20 matières premières saisonnières provenant de différentes régions de Madagascar. Les matières sont transformées  dans notre manufacture à Antananarivo et commercialisées  auprès des gourmets et gastronomes du monde entier. Madépices pousse sa créativité jusqu'à un packaging personnalisé et unique  en ajoutant des bouchons ou des coffrets en palissandre travaillés dans notre atelier bois.
+                                </p>
+                            <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div> 
+                        </div>
+                    </div>
+                    <div className={`history-content ${isScrolling_3 ? 'slide-left-3':''} `}>
+                        <div className="content">
+                                <p>
+                                    Plongez dans notre vaste sélection de produits du terroir, reconnus comme les "Meilleures épices de Madagascar". Une expérience sensorielle vous attend, comblant vos papilles de saveurs raffinées. Madépices, porteur d'une passion pour les goûts exquis, vous convie à explorer cet héritage aromatique. Laissez-vous séduire par des arômes authentiques et des sensations inoubliables, et découvrez une nouvelle dimension de la passion pour les saveurs.
+                                </p> 
+                            <div className={`line ${isScrolling_4 ? 'line-anim':''} `}></div>
+                        </div>
                     </div>
                 </div>
                 <div className="title-2">
