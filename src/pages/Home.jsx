@@ -151,7 +151,16 @@ function Home() {
                       className={"home"}
                       text={data.description.slice(0, 45) + "..."}
                     /> */}
-                    <Card product={data} />
+                    <Card
+                      key={data.id}
+                      id={data.id}
+                      img={data.imgUrl}
+                      img1={data.imgUrl_1}
+                      title={data.name}
+                      className={"home"}
+                      product={data}
+                      text={data.description.slice(0, 45) + "..."}
+                    />
                   </SwiperSlide>
                 ))}
               </Swiper>

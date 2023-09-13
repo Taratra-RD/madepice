@@ -30,6 +30,8 @@ const Card = ({ product }) => {
   //         </div>
   //     </div>
   // );
+
+  console.log(product);
   const cardBackground = {
     backgroundImage: `url(${product.imgUrl})`,
   };

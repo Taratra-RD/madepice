@@ -110,6 +110,7 @@ export default function SingleProduct() {
                       title={product.name}
                       text={product.description.slice(0, 45) + "..."}
                       className={"details"}
+                      product={product}
                     />
                   </div>
                 ))}
@@ -127,6 +128,7 @@ export default function SingleProduct() {
                       title={product.name}
                       text={product.description.slice(0, 45) + "..."}
                       className={"details"}
+                      product={product}
                     />
                   </div>
                 ))}
