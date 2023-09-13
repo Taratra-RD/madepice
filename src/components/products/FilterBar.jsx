@@ -10,13 +10,6 @@ export default function FilterBar({
   searchResultEmpty,
   filteredDataSuggestion,
 }) {
-  // const ordered = Object.keys(groupProductsAlphabetically)
-  //   .sort()
-  //   .reduce((obj, key) => {
-  //     obj[key] = groupProductsAlphabetically[key];
-  //     return obj;
-  //   }, {});
-
   return (
     <div className="filter--and--search--bar">
       <div className="search--bar--line">
@@ -71,7 +64,7 @@ export default function FilterBar({
         >
           Tous
         </div>
-        {uniqueFirstLetters.map((letter, index) => (
+        {uniqueFirstLetters.sort().map((letter, index) => (
           <div
             key={index}
             onClick={() => filterByFirstLetter(letter)}
