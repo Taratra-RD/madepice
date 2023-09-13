@@ -85,7 +85,7 @@ const Contact = () => {
                   <h3>Visitez-nous</h3>
                 </div>
                 <p>
-                  <li>Lieux</li>
+                  <li>Ivato Aeroport , Antananarivo</li>
                 </p>
               </div>
             </div>
