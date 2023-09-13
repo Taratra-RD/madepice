@@ -1,4 +1,4 @@
-import HeaderAbout from "../components/Header"
+import Header from "../components/Header"
 import "./css/Contact.css"
 import PhoneIcons from "../images/Icons.png"
 import MailIcons from "../images/Icons(1).png"
@@ -7,6 +7,7 @@ import FollowIcons from "../images/F-US.png"
 import Accordion from "../components/Accordion"
 import "../components/css/Accordion.css"
 import React, { useState, useEffect } from 'react';
+import Footer from "../components/Footer"
 
 const Contact = () =>{
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -34,7 +35,7 @@ const Contact = () =>{
                 <div className="landing-page2">
                     <div className="degradee">
                         <div className="contact-header">
-                            <HeaderAbout/>
+                            <Header/>
                         </div>
                         <div className="title-1">
                             <h1>CONTACT & FAQ</h1>
@@ -48,8 +49,8 @@ const Contact = () =>{
                             <div className="content">
                                 <div className="title"><h3>Appelez-nous</h3></div>
                                 <p>
-                                    <li>+261 34 00 000 00</li>
-                                    <li>+261 34 00 000 00</li>
+                                    <li>+261 34 34 134 81</li>
+                                    <li>+261 34 34 134 81</li>
                                 </p>
                             </div>
                         </div>
@@ -79,7 +80,7 @@ const Contact = () =>{
                             <div className="content">
                                 <div className="title"><h3>Visitez-nous</h3></div>
                                 <p>
-                                    <li>Lieux</li>
+                                    <li>Ivato Aeroport , Antananarivo</li>
                                 </p>
                             </div>
                         </div>
@@ -114,6 +115,7 @@ const Contact = () =>{
                         />
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )
