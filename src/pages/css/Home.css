@@ -310,7 +310,7 @@ div.swiper-button-next{
     }
 
     .block {
-        height: 90vw;
+        height: auto;
         padding: 0;
     }
 

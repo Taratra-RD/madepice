@@ -32,20 +32,20 @@ export default function Header() {
 
     return (
         <>
-            <div className="sidenav" id="sidenav">
+            <div className="sidenav" id="sidenav" >
                 <nav>
                     <ul className={`nav-links-sidenav ${navbarOpen ? 'open' : ''}`}>
                         <li>
-                            <Link to={'/'}>ACCUEIL</Link>
+                            <Link to={'/'} style={{fontFamily:"Canela Deck Trial"}}>ACCUEIL</Link>
                         </li>
                         <li>
-                            <Link to={'/about'}>A PROPOS DE NOUS</Link>
+                            <Link to={'/about'} style={{fontFamily:"Canela Deck Trial"}}>A PROPOS DE NOUS</Link>
                         </li>
                         <li>
-                            <Link to={'/product'}>NOS PRODUITS</Link>
+                            <Link to={'/product'} style={{fontFamily:"Canela Deck Trial"}}>NOS PRODUITS</Link>
                         </li>
                         <li>
-                            <Link to={'/contact'}>CONTACT</Link>
+                            <Link to={'/contact'} style={{fontFamily:"Canela Deck Trial"}}>CONTACT</Link>
                         </li>
                     </ul>
 
