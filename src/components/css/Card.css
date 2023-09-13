@@ -1,170 +1,297 @@
-div.card {
-    width: 16.5em;
-    height: 21em;
-    margin: 22px !important;
-    border-radius: 7px;
-    border: 0.1px #A9A18C;
-    background-size: 110%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('../../images/productDefault.png');
-    background-color: #110e0e;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Center the text horizontally */
-    overflow: hidden;
-    filter: brightness(1);
-    transition: filter 0.3s ease-in-out;
-    box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.5);
-    /* Add a gradient border */
-    /*background-clip: padding-box;*/
-     /* Add shadow here */
-}
 /*
 .card-info .img-top-card{
     width: 120vw;
     height: 5em;
     background-size: contain;
 }*/
-.card-info .text-bottom-card{
-    max-height: 50%;
+
+/* div.card {
+  width: 16.5em;
+  height: 21em;
+  margin: 22px !important;
+  border-radius: 7px;
+  border: 0.1px #a9a18c;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../images/productDefault.png");
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  overflow: hidden;
+  filter: brightness(1);
+  transition: filter 0.3s ease-in-out;
 }
-.home{
-    box-shadow: 1px 4px 5px gray;
+
+.card-info .text-bottom-card {
+  max-height: 50%;
 }
-.details{
-    box-shadow: 1px 4px 5px black;
+.home {
+  box-shadow: 1px 4px 5px gray;
+}
+.details {
+  box-shadow: 1px 4px 5px black;
 }
 
 div.card::before {
-    content: "";
-    position: absolute;
-    top: -3px;
-    left: -3px;
-    right: -3px;
-    bottom: -3px;
-    z-index: -1;
-    background: none;
-    border-radius: 10px;
-    transform: translateZ(-1px); /* Create the 3D effect */
-    opacity: 0.8;
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+  background: none;
+  border-radius: 10px;
+  transform: translateZ(-1px); 
+  opacity: 0.8;
 }
 div.card:hover {
-   cursor: pointer;
-   filter: brightness(1.1);
-   transition: 0.6s all;
-   box-shadow: 1px 4px 5px;
-   
+  cursor: pointer;
+  filter: brightness(1.2);
+  transition: 0.6s all;
+  box-shadow: 1px 4px 5px;
 }
 div.card:hover .card-info {
-    display: block;
-    filter: brightness(1);
-    animation: slide-up 0.7s ease;
+  display: block;
+  filter: brightness(1);
+  animation: slide-up 0.7s ease;
 }
-div.card:hover .card-title{
-    display: none;
-    transition: display all 0.5s;
+div.card:hover .card-title {
+  display: none;
+  transition: display all 0.5s;
 }
 
 .div.card-title {
-    position: absolute;
+  position: absolute;
 }
-a:hover{
-    color: #121212;
+a:hover {
+  color: #121212;
 }
 
-.div.card-title h3{
-    color: white;
+.div.card-title h3 {
+  color: white;
 }
 
 .carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-bottom: 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 1rem;
 }
 
 .card-info {
-    background: black; /* Add some padding for spacing */
-    width: 100%; /* Make sure the info takes the full width */
-    box-sizing: border-box; /* Include padding in width */
-    text-align: center;
-    height: 60%;
-    display: none;
-    padding: 10px !important;
-    position: absolute;
-    border-radius: 15px 15px 0 0;
-    bottom: 0;
+  background: black;
+  width: 100%; 
+  box-sizing: border-box;
+  text-align: center;
+  height: 60%;
+  display: none;
+  padding: 10px !important;
+  position: absolute;
+  border-radius: 15px 15px 0 0;
+  bottom: 0;
 }
 
-.card-info button{
-    margin-bottom: 10px;
+.card-info button {
+  margin-bottom: 10px;
 }
-.card-info p{
-    margin-top: -15px;
-    margin-bottom: 5px;
-}
-
-div.card-body{
-    display: none;
+.card-info p {
+  margin-top: -15px;
+  margin-bottom: 5px;
 }
 
-.card-container:hover .card-body{
-    display: block;
-    transition: display 0s 0.8s;
+div.card-body {
+  display: none;
+}
+
+.card-container:hover .card-body {
+  display: block;
+  transition: display 0s 0.8s;
 }
 
 div.card-img {
-    height: 20em;
+  height: 20em;
 }
-.spacing{
-    margin-right: 10px;
+.spacing {
+  margin-right: 10px;
 }
 .slide-up {
-    animation: slide-up 0.7s forwards ease-out;
+  animation: slide-up 0.7s forwards ease-out;
 }
 .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%; /* Make sure the container takes the full height of the card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
 }
 .card-container:hover {
-    justify-content: flex-start; /* Slide .card-body up */
-    transition: justify-content 0.5s ease-out;
+  justify-content: flex-start;
+  transition: justify-content 0.5s ease-out;
 }
 
 @keyframes slide-up {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0%);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
-@media screen and (max-width:720px) {
-    div.card{
-        width: 16.5em;
-        height: 21em;
-        margin-left: 1em !important;
-        margin-bottom: 1em !important;
-    }
-    .card-info button{
-        font-size: 14px;
-    }
-    .card-info p{
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+@media screen and (max-width: 720px) {
+  div.card {
+    width: 16.5em;
+    height: 21em;
+    margin-left: 1em !important;
+    margin-bottom: 1em !important;
+  }
+  .card-info button {
+    font-size: 14px;
+  }
+  .card-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+} */
+
+/*FRONT*/
+.card--product--card a,
+.card--product--card--hover a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card--product--card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21rem;
+  width: 16.5rem;
+  background-color: rgb(5, 34, 34);
+  border-radius: 8px;
+  margin: 3px;
+  margin-inline: 1.1rem 1.1rem;
+  margin-block: 15px 15px;
+  background-size: 100% 100%;
+  background-position: center;
+  box-shadow: inset 50rem 0 rgba(0, 0, 0, 0.7);
+}
+
+.card--image--card {
+  display: none;
+}
+
+.card--title--card {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-inline: 3px 3px;
+}
+
+.card--body--card {
+  display: none;
+}
+
+/*HOVER*/
+.card--product--card--hover {
+  display: flex;
+  flex-direction: column;
+  height: 21rem;
+  width: 16.5rem;
+  background-color: black;
+  border-radius: 8px;
+  margin: 3px;
+  box-shadow: 1px 1px 5px black;
+  overflow: hidden;
+  margin-inline: 1.1rem 1.1rem;
+  margin-block: 15px 15px;
+  background-image: none;
+}
+
+.card--title--card--hover {
+  display: none;
+}
+
+.card--image--card--hover {
+  height: 40%;
+  background-color: rgb(5, 34, 34);
+  border-start-start-radius: inherit;
+  border-start-end-radius: inherit;
+  background-size: 100% 100%;
+}
+
+.card--body--card--hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  background-color: black;
+  padding-inline: 5px 5px;
+  border-end-end-radius: inherit;
+  border-end-start-radius: inherit;
+  padding-block: 5px 15px;
+  animation-name: cardDescription;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cardDescription {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.card--title--body--card,
+.card--description--card,
+.card--button--card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card--title--body--card {
+  height: 20%;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card--description--card {
+  height: 60%;
+  font-size: 14px;
+}
+
+.card--button--card {
+  height: 15%;
+  margin-top: 4%;
+  font-size: 15px;
+  color: black;
+  background-color: beige;
+  width: 60%;
+  border-radius: 4px;
 }

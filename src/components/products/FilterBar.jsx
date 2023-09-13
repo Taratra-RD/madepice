@@ -32,12 +32,12 @@ export default function FilterBar({
             Rechercher
           </div>
         </div>
-        <div className="select--bar">
-          Trier par category:&nbsp;
+        <div className="select-bar">
+          {/* Trier par category:&nbsp;
           <select name="" id="" className="select--bar--select">
             <option value="Epice">Epice</option>
             <option value="Fruit">Fruit</option>
-          </select>
+          </select> */}
         </div>
       </div>
       <div

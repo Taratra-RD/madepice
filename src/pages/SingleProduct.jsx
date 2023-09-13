@@ -4,17 +4,14 @@ import { Link, useParams } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./css/SingleProduct.css";
-import Productslist from "../components/products/Productslist";
 import { data } from "../data";
 import Card from "../components/home/Card";
-import { Col, Row } from "react-bootstrap";
 import { useMediaQuery } from "usehooks-ts";
 
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
   const widthPhoneLg = useMediaQuery("(max-width:720px)");
-  const [filteredData, setFilteredData] = useState(data);
-  const [currentImage, setCurrentImage] = useState(0);
+  const [currentImage] = useState(0);
 
   // Shuffle function to randomly reorder the array
   function shuffleArray(array) {
@@ -37,7 +34,6 @@ export default function SingleProduct() {
     window.scrollTo(0, 0);
   }, []);
 
-
   return (
     <>
       <div className="header--product">
@@ -55,12 +51,13 @@ export default function SingleProduct() {
                   style={{ backgroundImage: `url('${produit.imgUrl}')` }}
                 >
                   <div className="gallery-photo">
-                    {
-                      produit.gallery.map((image) => (
-                        <div className="image-gallery" key={image} style={{backgroundImage:`${image}`}}></div>
-                      )
-                      )
-                    }
+                    {produit.gallery.map((image) => (
+                      <div
+                        className="image-gallery"
+                        key={image}
+                        style={{ backgroundImage: `${image}` }}
+                      ></div>
+                    ))}
                   </div>
                   {/* next prev ra ilaina
                     <i className="fas fa-chevron-left" style={{positon:'relative',marginRight:'9em'}}></i>
@@ -99,13 +96,17 @@ export default function SingleProduct() {
             {widthPhoneLg ? (
               <div className="random--product--container">
                 {shuffledData.slice(0, 4).map((product) => (
-                  <div className="products--products--list--card" key={product.id}>
+                  <div
+                    className="products--products--list--card"
+                    key={product.id}
+                  >
                     <Card
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
                       text={product.description.slice(0, 60) + "..."}
                       className={"details"}
+                      product={product}
                     />
                   </div>
                 ))}
@@ -113,13 +114,17 @@ export default function SingleProduct() {
             ) : (
               <div className="random--product--container">
                 {shuffledData.slice(0, 12).map((product) => (
-                  <div className="products--products--list--card" key={product.id}>
+                  <div
+                    className="products--products--list--card"
+                    key={product.id}
+                  >
                     <Card
                       id={product.id}
                       img={product.imgUrl}
                       title={product.name}
                       text={product.description.slice(0, 60) + "..."}
                       className={"details"}
+                      product={product}
                     />
                   </div>
                 ))}

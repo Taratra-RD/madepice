@@ -5,13 +5,7 @@ import Footer from "../components/Footer";
 import Caroussel from "../components/home/Caroussel";
 
 // swiper
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  Autoplay,
-  A11y,
-} from "swiper/modules";
+import { Navigation, Scrollbar, Autoplay } from "swiper/modules";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -29,9 +23,8 @@ function Home() {
   const [scroll, setScroll] = useState(0);
   const [hasPrevSlides, setHasPrevSlides] = useState(false);
   const [hasNextSlides, setHasNextSlides] = useState(false);
-  const [animationRun,setAnimationRun] = useState(false);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleSlideChange = (swiper) => {
     setHasPrevSlides(swiper.activeIndex !== 0);
@@ -42,14 +35,12 @@ function Home() {
     setScroll(window.scrollY);
   };
 
-  
   //scrolling animation
   const isScrolling0 = scroll > 103;
-  const isScrolling = scroll > 600 ;
-  const isScrollingFl = scroll > 800 ;
-  const isScrolling2 = scroll > 1200 ;
+  const isScrolling = scroll > 600;
+  const isScrollingFl = scroll > 800;
+  const isScrolling2 = scroll > 1200;
   const isScrolling3 = scroll > 1700;
-
 
   useEffect(() => {
     if (window.innerWidth >= 992) {
@@ -69,7 +60,6 @@ function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
 
   return (
     <>
@@ -93,7 +83,7 @@ function Home() {
                   top: 185,
                 }}
               ></i>
-              
+
               <Swiper
                 // install Swiper modules
                 modules={[Navigation, Scrollbar, Autoplay]}
@@ -140,7 +130,7 @@ function Home() {
                     slidesPerView: 4,
                     spaceBetween: 10,
                   },
-                  1800:{
+                  1800: {
                     slidesPerView: 5,
                     spaceBetween: 10,
                   },
@@ -148,13 +138,23 @@ function Home() {
               >
                 {data.map((data) => (
                   <SwiperSlide key={data.id}>
-                    <Card
+                    {/* <Card
                       key={data.id}
                       id={data.id}
                       img={data.imgUrl}
                       title={data.name}
                       className={"home"}
-                      text={data.description.slice(0, 60) + "..."}
+                      text={data.description.slice(0, 45) + "..."}
+                    /> */}
+                    <Card
+                      key={data.id}
+                      id={data.id}
+                      img={data.imgUrl}
+                      img1={data.imgUrl_1}
+                      title={data.name}
+                      className={"home"}
+                      product={data}
+                      text={data.description.slice(0, 45) + "..."}
                     />
                   </SwiperSlide>
                 ))}
@@ -195,25 +195,24 @@ function Home() {
               de confiance entre la terre, les mains expertes et votre palais.
               Explorez un monde de délices transcendant les frontières.
             </p>
-            
-              <button
-                className={`btn ${isScrolling ? "slide-left" : ""}`}
-                style={{
-                  background: "#f2e5d1",
-                  marginTop: "1.2em",
-                  color: "black",
-                  height: "3.5em",
-                  borderRadius: "9px",
-                  paddingLeft: "30px",
-                  paddingRight: "30px",
-                  fontFamily: "Raleway",
-                  fontWeight: 600,
-                }}
-                onClick={() => navigate('/about')}
-              >
-                Découvrez notre histoire
-              </button>
-            
+
+            <button
+              className={`btn ${isScrolling ? "slide-left" : ""}`}
+              style={{
+                background: "#f2e5d1",
+                marginTop: "1.2em",
+                color: "black",
+                height: "3.5em",
+                borderRadius: "9px",
+                paddingLeft: "30px",
+                paddingRight: "30px",
+                fontFamily: "Raleway",
+                fontWeight: 600,
+              }}
+              onClick={() => navigate("/about")}
+            >
+              Découvrez notre histoire
+            </button>
           </Container>
           <div
             className={`img-feuille ${

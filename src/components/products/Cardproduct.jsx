@@ -78,11 +78,7 @@ export default function Cardproduct({ product }) {
       >
         {product.name}
       </Link>
-      <Link
-        to={`/product/${product.id}`}
-        className="card--body"
-        id={`card--body--${product.name}`}
-      >
+      <Link className="card--body" id={`card--body--${product.name}`}>
         <div
           className="card--title--body"
           style={{ fontFamily: "Canela Deck Trial" }}
