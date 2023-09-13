@@ -9,6 +9,10 @@ import FilterBar from "./FilterBar";
 import Productslist from "./Productslist";
 
 export default function Products() {
+  // Scroll to the top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [filteredData, setFilteredData] = useState(data);
   const [filteredDataSuggestion, setFilteredDataSuggestion] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");

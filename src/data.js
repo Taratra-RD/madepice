@@ -9,6 +9,14 @@ import imgAil_6 from "./image/Ail/Ail_en_poudre2.webp";
 import imgAnis_1 from "./image/Anis/Anis_copy.webp";
 import imgAnis_2 from "./image/Anis/Anis_Title_copy.webp";
 import imgAnis_5 from "./image/Anis/Anis_étoilé.webp";
+
+//BOIS
+import imgBoisAnis_1 from "./image/Bois d_anis (PHOTO)/Bois d_anis_copy.webp";
+import imgBoisAnis_2 from "./image/Bois d_anis (PHOTO)/Bois d_anis_title_copy.webp";
+
+//RIMAMBELLE
+import imgR_1 from "./image/Rimambelle/ribambelle_copy.webp";
+import imgR_2 from "./image/Rimambelle/ribambelle_title_copy.webp";
 //BAIE ROSE
 import imgBaie_1 from "./image/Baie Rose/Baie_Rose_copy.webp";
 import imgBaie_2 from "./image/Baie Rose/Baie_Rose_Title_copy.webp";
@@ -440,8 +448,8 @@ export const data = [
     name: "BOIS D'ANIS",
     description:
       "Le bois d'anis est la partie séchée de l'arbre du même nom. Il est largement utilisé comme épice dans la cuisine asiatique. Il peut également être utilisé pour aromatiser les boissons alcoolisées, telles que l'absinthe et le pastis.",
-    imgUrl: imgAnis_1,
-    imgUrl_1: imgAnis_2,
+    imgUrl: imgBoisAnis_1,
+    imgUrl_1: imgBoisAnis_2,
     type: "Epice",
     phare: true,
     produits: [
@@ -451,8 +459,8 @@ export const data = [
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Le bois d'anis est la partie séchée de l'arbre du même nom. Il est largement utilisé comme épice dans la cuisine asiatique. Il peut également être utilisé pour aromatiser les boissons alcoolisées, telles que l'absinthe et le pastis.",
-        imgUrl: imgAnis_5,
-        gallery: [imgAnis_5],
+        imgUrl: imgBoisAnis_1,
+        gallery: [imgBoisAnis_1],
         texture: "ecorce",
         gout: "Epicé avec des notes d'anis et de réglisse",
         intensite: "Douce",
@@ -2135,8 +2143,8 @@ export const data = [
     id: 34,
     name: "RIBAMBELLE D'EPICE",
     description: `Série de 10 épices en chapelet: Voatsiperifery en poudre, Cannelle en poudre, Poivre noir en poudre, Curcuma en poudre, Gingembre en poudre, Mélange 3 baies, Girofle en poudre, Voatsiperifery noir en grains, Cannelle en baton, Poivre noir en grains`,
-    imgUrl: "",
-    imgUrl_1: "",
+    imgUrl: imgR_1,
+    imgUrl_1: imgR_2,
     type: "Epice",
     phare: true,
     produits: [
@@ -2145,8 +2153,8 @@ export const data = [
         name: "RIBAMBELLE D'EPICE",
         conditionnement: [{ unite: "chapelet / 10g*10", grammage: "100g" }],
         description: `Série de 10 épices en chapelet: Voatsiperifery en poudre, Cannelle en poudre, Poivre noir en poudre, Curcuma en poudre, Gingembre en poudre, Mélange 3 baies, Girofle en poudre, Voatsiperifery noir en grains, Cannelle en baton, Poivre noir en grains`,
-        imgUrl: "",
-        gallery: [],
+        imgUrl: imgR_1,
+        gallery: [imgR_2],
         texture: "poudre",
         gout: "Série des 10 épices , chacun à son goût",
         intensite: "Intense, Légère",
