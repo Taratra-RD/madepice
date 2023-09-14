@@ -27,34 +27,31 @@ export default function Header() {
     }
   }, [navbarOpen]);
 
-  return (
-    <>
-      <div className="sidenav" id="sidenav">
-        <nav>
-          <ul className={`nav-links-sidenav ${navbarOpen ? "open" : ""}`}>
-            <li>
-              <Link to={"/"}>ACCUEIL</Link>
-            </li>
-            <li>
-              <Link to={"/about"}>A PROPOS DE NOUS</Link>
-            </li>
-            <li>
-              <Link to={"/product"}>NOS PRODUITS</Link>
-            </li>
-            <li>
-              <Link to={"/contact"}>CONTACT</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div
-        className={`navbar sticky-top ${
-          isScrollingNav ? "scrollingNavbar" : ""
-        }`}
-      >
-        <Link to={"/"}>
-          <div className="logo--navbar" alt=""></div>
-        </Link>
+    return (
+        <>
+            <div className="sidenav" id="sidenav" >
+                <nav>
+                    <ul className={`nav-links-sidenav ${navbarOpen ? 'open' : ''}`}>
+                        <li>
+                            <Link to={'/'} style={{fontFamily:"Canela Deck Trial"}}>ACCUEIL</Link>
+                        </li>
+                        <li>
+                            <Link to={'/about'} style={{fontFamily:"Canela Deck Trial"}}>A PROPOS DE NOUS</Link>
+                        </li>
+                        <li>
+                            <Link to={'/product'} style={{fontFamily:"Canela Deck Trial"}}>NOS PRODUITS</Link>
+                        </li>
+                        <li>
+                            <Link to={'/contact'} style={{fontFamily:"Canela Deck Trial"}}>CONTACT</Link>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div className={`navbar sticky-top ${isScrollingNav ? 'scrollingNavbar' : ''}`}>
+                <Link to={'/'}>
+                    <div className="logo--navbar" alt=""></div>
+                </Link>
 
         <nav>
           <ul className={`nav-links ${navbarOpen ? "open" : ""}`}>
