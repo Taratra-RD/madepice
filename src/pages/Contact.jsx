@@ -37,7 +37,7 @@ const Contact = () =>{
                             <HeaderAbout/>
                         </div>
                         <div className="title-1">
-                            <h1>CONTACT & FAQ</h1>
+                            CONTACT & FAQ
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const Contact = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="faq--title"><h1 className="title--2">FAQ</h1></div>
+                    <div className="faq--title">FAQ</div>
                     <div className="accordion--list">
                         <Accordion 
                             title="1. Vos épices sont-elles biologiques ?" 
