@@ -37,7 +37,7 @@ const Contact = () =>{
                         <div className="contact-header">
                             <Header/>
                         </div>
-                        <div className="title-1">
+                        <div className="title-1-contact">
                             CONTACT & FAQ
                         </div>
                     </div>

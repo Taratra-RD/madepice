@@ -16,7 +16,7 @@
   background-position: center;
 }
 
-.title-1 {
+.title-1-contact {
   height: 80%;
   width: 100%;
   display: flex;
@@ -86,11 +86,11 @@
       background-position: center; 
   }
 
-  .title-1{
+  .title-1-contact{
     width: 100%;
-    padding-bottom: 2em;
+    margin-block: 2em 2em;
     font-size: 22px !important;
-    height: 7em;
+    height: auto;
 }
 
   .body--contain{
