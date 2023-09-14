@@ -2,7 +2,7 @@ import "./css/Header.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-export default function Header() {
+export default function Header({ handleClick }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [scroll1, darkMode] = useState(0);
   const setDarkMode = () => {
@@ -79,6 +79,18 @@ export default function Header() {
               <Link to={"/contact"} className="contact">
                 Contact
               </Link>
+            </li>
+            <li>
+              <select
+                style={{
+                  marginInline: "0rem 2rem",
+                  backgroundColor: "gray",
+                }}
+                onChange={(e) => handleClick(e.target.value)}
+              >
+                <option value="fr">French</option>
+                <option value="en">English</option>
+              </select>
             </li>
           </ul>
           <i

@@ -11,8 +11,8 @@ import imgAnis_2 from "./image/Anis/Anis_Title_copy.webp";
 import imgAnis_5 from "./image/Anis/Anis_étoilé.webp";
 
 //BOIS
-import imgBoisAnis_1 from "./image/Bois d_anis (PHOTO)/Bois d_anis_copy.webp";
-import imgBoisAnis_2 from "./image/Bois d_anis (PHOTO)/Bois d_anis_title_copy.webp";
+import imgBoisAnis_1 from "./image/Bois d_anis (PHOTO)/Bois_d_anis_copy.webp";
+import imgBoisAnis_2 from "./image/Bois d_anis (PHOTO)/Bois_d_anis_title_copy.webp";
 
 //RIMAMBELLE
 import imgR_1 from "./image/Rimambelle/ribambelle_copy.webp";

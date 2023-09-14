@@ -17,6 +17,8 @@ import Card from "../components/home/Card";
 import { Container } from "react-bootstrap";
 import { data } from "../data";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import i18n from "../i18next";
 
 function Home() {
   const [slideCards, setSlideCards] = useState(false);
@@ -61,10 +63,16 @@ function Home() {
     window.scrollTo(0, 0);
   }, []);
 
+  const { t, i18n } = useTranslation();
+
+  const handleClick = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <>
       <div className="home">
-        <Header />
+        <Header handleClick={handleClick} />
         <Caroussel />
         <div className="container-fluid img1">
           <div className="slider-container">
@@ -183,17 +191,13 @@ function Home() {
                 fontFamily: "Canela Deck Trial",
               }}
             >
-              DES EPICES AUX GOUTS AUTHENTIQUES, RECOLTEES DIRECTEMENT CHEZ LES
-              CULTIVATEURS
+              {t("home.1")}
             </h2>
             <p
               className={`${isScrolling ? "slide-left" : ""}`}
               style={{ fontFamily: "Raleway" }}
             >
-              Découvrez des trésors aromatiques authentiques, directement
-              récoltés chez les cultivateurs. Chaque saveur incarne une relation
-              de confiance entre la terre, les mains expertes et votre palais.
-              Explorez un monde de délices transcendant les frontières.
+              {t("home.2")}
             </p>
 
             <button
@@ -211,7 +215,7 @@ function Home() {
               }}
               onClick={() => navigate("/about")}
             >
-              Découvrez notre histoire
+              {t("home.3")}
             </button>
           </Container>
           <div
@@ -232,29 +236,13 @@ function Home() {
                 fontFamily: "Canela Deck Trial",
               }}
             >
-              NOS ENGAGEMENTS
+              {t("home.4")}
             </h1>
             <div
               className={`block ${isScrolling2 ? "slide-left" : ""}`}
               style={{ padding: "1em" }}
             >
-              <p>
-                Chez Madepices, notre engagement réside dans l'élaboration
-                minutieuse d'un travail de qualité, centré sur des produits
-                d'exception. Notre démarche s'étend de la collecte initiale
-                jusqu'au conditionnement final, garantissant une excellence
-                constante à chaque étape du processus. Nous mettons un point
-                d'honneur à sélectionner avec soin les matières premières les
-                plus raffinées, en parcourant les coins les plus reculés pour
-                trouver des trésors aromatiques uniques. Guidés par notre
-                passion, nous préservons la pureté et l'authenticité de chaque
-                produit, tout en accordant une attention méticuleuse au
-                conditionnement pour préserver leur fraîcheur et leur caractère
-                unique. Notre dévouement à l'excellence nous pousse à offrir des
-                expériences gustatives exceptionnelles, enrichies par des
-                saveurs profondes et des arômes captivants, reflétant l'essence
-                même de Madagascar.
-              </p>
+              <p>{t("home.5")}</p>
             </div>
             <h1
               className={`${isScrolling3 ? "slide-right d-block" : ""}`}
@@ -265,27 +253,13 @@ function Home() {
                 fontFamily: "Canela Deck Trial",
               }}
             >
-              NOS VALEURS
+              {t("home.6")}
             </h1>
             <div
               className={` block ${isScrolling3 ? "slide-left d-block" : ""}`}
               style={{ padding: "1em" }}
             >
-              <p>
-                Plongés au cœur de Madagascar, nous nous engageons passionnément
-                à sélectionner et façonner les épices les plus raffinées.
-                L'excellence est notre boussole, nous conduisant à explorer les
-                recoins de cette île aux richesses inestimables, en quête
-                d'arômes uniques. Chaque épice, fruit d'une culture minutieuse,
-                marie terroir et artisanat ancestral. Notre processus, de la
-                récolte à la préparation, vise à capturer l'essence même de
-                Madagascar. Ces arômes profonds et ces saveurs authentiques,
-                résultant d'un travail méticuleux, éveilleront vos sens et
-                rehausseront vos créations culinaires. Rejoignez-nous dans cette
-                aventure gastronomique où chaque épice narre une histoire de
-                passion, de qualité et de tradition, reliant ainsi passé et
-                présent.
-              </p>
+              <p>{t("home.7")}</p>
             </div>
           </Container>
         </div>
