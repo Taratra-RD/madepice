@@ -103,16 +103,13 @@ p{
     align-items: center;
     justify-content: center;
     margin-block: 10em 3em !important;
-    font-family: Canela Deck Trial;
+    font-family: Canela;
 }
 
 .container--about{
     display: flex;
     background-image: url("../../images/Rectangle\ 53.png");
     background-size: cover;
-    margin-inline: 4em 4em !important;
-    padding-top: 2em;
-    width: 100em;
 }
 
 .title-2-content {
@@ -248,7 +245,7 @@ p{
     }
     
     .history-content h4{
-        font-family: Canela Deck Trial;
+        font-family: Canela;
         color: #F2E5D1;
         opacity: 70%;
     }
@@ -303,9 +300,6 @@ p{
         display: block;
         background-image: url("../../images/Rectangle\ 53.png");
         background-size: cover;
-        margin-inline: 0em 0em !important;
-        padding-block: 2em !important;
-        width: 100%;
     }
     
     .title-2-content {

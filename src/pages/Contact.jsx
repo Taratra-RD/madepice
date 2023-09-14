@@ -50,7 +50,7 @@ const Contact = () =>{
                                 <div className="title"><h3>Appelez-nous</h3></div>
                                 <p>
                                     <li>+261 34 34 134 81</li>
-                                    <li>+261 34 34 134 81</li>
+                                    <li>+261 34 47 488 82</li>
                                 </p>
                             </div>
                         </div>
