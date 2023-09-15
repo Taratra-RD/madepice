@@ -143,7 +143,7 @@ export default function SingleProduct() {
                     fontWeight: 700,
                   }}
                 >
-                  Voir tout ...
+                  {t("singleproduct.1")}
                 </button>
               </Link>
             </div>

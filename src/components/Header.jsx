@@ -28,7 +28,7 @@ export default function Header() {
     }
   }, [navbarOpen]);
 
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const handleClick = (lng) => {
     i18n.changeLanguage(lng);
@@ -42,22 +42,22 @@ export default function Header() {
           <ul className={`nav-links-sidenav ${navbarOpen ? "open" : ""}`}>
             <li>
               <Link to={"/"} style={{ fontFamily: "Canela Deck Trial" }}>
-                ACCUEIL
+                {t("header.1").toUpperCase()}
               </Link>
             </li>
             <li>
               <Link to={"/about"} style={{ fontFamily: "Canela Deck Trial" }}>
-                A PROPOS DE NOUS
+                {t("header.2").toUpperCase()}
               </Link>
             </li>
             <li>
               <Link to={"/product"} style={{ fontFamily: "Canela Deck Trial" }}>
-                NOS PRODUITS
+                {t("header.3").toUpperCase()}
               </Link>
             </li>
             <li>
               <Link to={"/contact"} style={{ fontFamily: "Canela Deck Trial" }}>
-                CONTACT
+                {t("header.4").toUpperCase()}
               </Link>
             </li>
             <li>
@@ -87,17 +87,17 @@ export default function Header() {
         <nav>
           <ul className={`nav-links ${navbarOpen ? "open" : ""}`}>
             <li>
-              <Link to={"/"}>Accueil</Link>
+              <Link to={"/"}>{t("header.1")}</Link>
             </li>
             <li>
-              <Link to={"/about"}>A propos de nous</Link>
+              <Link to={"/about"}>{t("header.2")}</Link>
             </li>
             <li>
-              <Link to={"/product"}>Nos produits</Link>
+              <Link to={"/product"}>{t("header.3")}</Link>
             </li>
             <li>
               <Link to={"/contact"} className="contact">
-                Contact
+                {t("header.4")}
               </Link>
             </li>
             <li className="translation">

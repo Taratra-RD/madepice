@@ -23,6 +23,31 @@
     "3": "Eco-responsable, nous sélectionnons dans les plus belles plantations de Madagascar, environ 20 matières premières saisonnières provenant de différentes régions de Madagascar. Les matières sont transformées  dans notre manufacture à Antananarivo et commercialisées  auprès des gourmets et gastronomes du monde entier. Madépices pousse sa créativité jusqu'à un packaging personnalisé et unique  en ajoutant des bouchons ou des coffrets en palissandre travaillés dans notre atelier bois.",
     "4": "Plongez dans notre vaste sélection de produits du terroir, reconnus comme 'les Meilleures épices de Madagascar'. Une expérience sensorielle vous attend, comblant vos papilles de saveurs raffinées. Madépices, porteur d'une passion pour les goûts exquis, vous convie à explorer cet héritage aromatique. Laissez-vous séduire par des arômes authentiques et des sensations inoubliables, et découvrez une nouvelle dimension de la passion pour les saveurs."
   },
+  "singleproduct": {
+    "1": "Voir tout"
+  },
+  "header": {
+    "1": "Acceuil",
+    "2": "A propos de nous",
+    "3": "Nos produits",
+    "4": "Contact"
+  },
+  "footer": {
+    "1": "Où nous trouver",
+    "2": "Suivez-nous sur"
+  },
+  "product": {
+    "1": "NOS PRODUITS",
+    "2": "Nom du produit",
+    "3": "Rechercher",
+    "4": "Tous"
+  },
+  "contact": {
+    "1": "Appelez-nous",
+    "2": "Adresse e-mail",
+    "3": "Visitez-nous",
+    "4": "Suivez-nous sur"
+  },
   "product-1": {
     "name": "AIL",
     "description": "L'ail est un ingrédient polyvalent et savoureux utilisé dans nombreuses cuisines du monde entier. Il peut être consommé cru, cuit ou séché."

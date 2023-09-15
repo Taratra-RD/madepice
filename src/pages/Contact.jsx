@@ -8,6 +8,7 @@ import Accordion from "../components/Accordion";
 import "../components/css/Accordion.css";
 import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -32,7 +33,7 @@ const Contact = () => {
 
   // Determine whether to swap the items based on the window width.
   const shouldSwapItems = windowWidth > 504; // Adjust the condition as needed
-
+  const { t } = useTranslation();
   return (
     <>
       <div className="conatct">
@@ -53,7 +54,7 @@ const Contact = () => {
               </div>
               <div className="content">
                 <div className="title">
-                  <h3>Appelez-nous</h3>
+                  <h3>{t("contact.1")}</h3>
                 </div>
                 <p>
                   <li>+261 34 34 134 81</li>
@@ -68,7 +69,7 @@ const Contact = () => {
               </div>
               <div className="content">
                 <div className="title">
-                  <h3>Adresse e-mail</h3>
+                  <h3>{t("contact.2")}</h3>
                 </div>
                 {shouldSwapItems ? (
                   <>
@@ -92,7 +93,7 @@ const Contact = () => {
               </div>
               <div className="content">
                 <div className="title">
-                  <h3>Visitez-nous</h3>
+                  <h3>{t("contact.3")}</h3>
                 </div>
                 <p>
                   <li>Ivato Aeroport , Antananarivo</li>
@@ -106,7 +107,7 @@ const Contact = () => {
               </div>
               <div className="content">
                 <div className="title">
-                  <h3>Suivez-nous</h3>
+                  <h3>{t("contact.4")}</h3>
                 </div>
                 <p>
                   <li>Madépices</li>

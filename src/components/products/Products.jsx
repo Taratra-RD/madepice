@@ -7,6 +7,7 @@ import leaveDown from "../../images/Leaves 2 (1).png";
 import Footer from "../Footer";
 import FilterBar from "./FilterBar";
 import Productslist from "./Productslist";
+import { useTranslation } from "react-i18next";
 
 export default function Products() {
   // Scroll to the top when the component mounts
@@ -100,12 +101,14 @@ export default function Products() {
     }
   }, [searchQuery]);
 
+  const { t } = useTranslation();
+
   return (
     <div className="products">
       <div className="products-header">
         <Header />
         <div className="header--text" style={{ fontFamily: "Canela" }}>
-          NOS PRODUITS
+          {t("product.1")}
         </div>
         <div className="scroll--down">
           <i className="fas fa-chevron-down"></i>

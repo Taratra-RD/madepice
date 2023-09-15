@@ -23,6 +23,31 @@
     "3": "Eco-responsible, we select around 20 seasonal raw materials from the most beautiful plantations in Madagascar, coming from different regions of Madagascar. The materials are processed in our factory in Antananarivo and marketed to gourmets and gastronomes around the world. MADEPICES pushes its creativity to personalized and unique packaging by adding caps or rosewood boxes crafted in our woodworking workshop.",
     "4": "Dive into our vast selection of local products, recognized as 'the Best Spices of Madagascar.' A sensory experience awaits you, filling your taste buds with refined flavors. MADEPICES, bearer of a passion for exquisite tastes, invites you to explore this aromatic heritage. Let yourself be seduced by authentic aromas and unforgettable sensations, and discover a new dimension of passion for flavors."
   },
+  "singleproduct": {
+    "1": "See more"
+  },
+  "header": {
+    "1": "Home",
+    "2": "About us",
+    "3": "Our products",
+    "4": "Contact"
+  },
+  "footer": {
+    "1": "Our place",
+    "2": "Follow us on"
+  },
+  "product": {
+    "1": "OUR PRODUCTS",
+    "2": "Product name",
+    "3": "Search",
+    "4": "All"
+  },
+  "contact": {
+    "1": "Call us",
+    "2": "Email address",
+    "3": "Visit us at",
+    "4": "Follow us on"
+  },
   "product-1": {
     "name": "GARLIC",
     "description": "Garlic is a versatile and flavorful ingredient used in many cuisines around the world. It can be consumed raw, cooked, or dried."

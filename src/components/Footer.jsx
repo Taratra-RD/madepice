@@ -1,12 +1,14 @@
+import { useTranslation } from "react-i18next";
 import "./css/Footer.css";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <div className="footer container-fluid" style={{ color: "white" }}>
       <div className="logo--footer"></div>
       <div className="contact--footer">
-        <p style={{ color: "#F2E5D1B2" }}>Contact</p>
+        <p style={{ color: "#F2E5D1B2" }}>{t("header.4")}</p>
         <NavLink to={`tel:${+261343413481}`}>
           <p>+261 34 34 134 81</p>
         </NavLink>
@@ -19,7 +21,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="local--footer">
-        <p style={{ color: "#F2E5D1B2" }}>Où nous trouver</p>
+        <p style={{ color: "#F2E5D1B2" }}>{t("footer.1")}</p>
         <p>Ivato Aeroport , Antananarivo </p>
         <a
           href={`mailto:${"commercial@madepices.mg"}`}
@@ -30,7 +32,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="follow--footer">
-        <p style={{ color: "#F2E5D1B2" }}>Suivez-nous</p>
+        <p style={{ color: "#F2E5D1B2" }}>{t("footer.2")}</p>
         <br />
         <Link to="https://www.facebook.com/MadepicesMadagascar">
           <i

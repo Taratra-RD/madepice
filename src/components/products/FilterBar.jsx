@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./css/FilterBar.css";
+import { useTranslation } from "react-i18next";
 
 export default function FilterBar({
   handleSearch,
@@ -10,19 +11,20 @@ export default function FilterBar({
   searchResultEmpty,
   filteredDataSuggestion,
 }) {
+  const { t } = useTranslation();
   return (
     <div className="filter--and--search--bar">
       <div className="search--bar--line">
         <div className="search--bar">
           <input
             type="text"
-            placeholder="Search"
+            placeholder={t("product.2")}
             value={searchQuery}
             onChange={handleChange}
             className="search--bar--search"
           />
           <div className="search--bar--button" onClick={handleSearch}>
-            Rechercher
+            {t("product.3")}
           </div>
         </div>
         <div className="select-bar">
@@ -62,7 +64,7 @@ export default function FilterBar({
           onClick={() => filterByFirstLetter("Tous")}
           className="filter--bar--alphabet"
         >
-          Tous
+          {t("product.4")}
         </div>
         {uniqueFirstLetters.sort().map((letter, index) => (
           <div
