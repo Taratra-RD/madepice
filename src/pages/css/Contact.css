@@ -1,14 +1,15 @@
-.landing-page2{
-  background-image: url("../../images/landing_page_contact.png");
+.landing-page2 {
+  background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+    url("../../image/autres/Fonds/BG_Contact.webp");
   width: 100%;
   height: 100vh;
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
-.degradee{
-  background-image: url("../../images/Rectangle\ 6.png");
+.degradee {
+  background-image: url("../../image/autres/Landing/Rectangle\ 6.png");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -27,15 +28,15 @@
   font-family: Canela;
 }
 
-.body--contain{
+.body--contain {
   max-width: 100vw;
   padding-inline: 5em 5em;
   padding-block: 5em 5em;
-  background-image: url(../../images/Rectangle\ 51.png);
+  background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
 }
 
-.contact--list{
-  background-color: #F2E5D1;
+.contact--list {
+  background-color: #f2e5d1;
   display: flex;
   justify-content: space-between;
   color: black;
@@ -51,8 +52,7 @@
   list-style: none;
 }
 
-
-.red--line{
+.red--line {
   background-color: #991914;
   width: 0.2em;
   height: 15em;
@@ -71,68 +71,68 @@
   font-size: 62px;
 }
 
-.content{
+.content {
   width: fit-content;
 }
 
 @media screen and (max-width: 1100px) {
-
-  .landing-page2{
-      background-image: url("../../images/landing_page_contact.png");
-      width: 100%;
-      height: 46vh;
-      background-size: cover; 
-      background-repeat: no-repeat;
-      background-position: center; 
+  .landing-page2 {
+    background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+      url("../../image/autres/Fonds/BG_Contact.webp");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
-  .title-1-contact{
+  .title-1-contact {
     width: 100%;
     margin-block: 2em 2em;
     font-size: 22px !important;
     height: auto;
-}
-
-  .body--contain{
-      padding-inline: 2em 2em;
   }
 
-  .contact--list{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+  .body--contain {
+    padding-inline: 2em 2em;
   }
 
-  .red--line{
-      display: none !important;
+  .contact--list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
-  .list{
-      display: flex !important;
-      flex-direction: row;
-      justify-content: space-around !important;
+  .red--line {
+    display: none !important;
   }
 
-  .icons{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .list {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around !important;
   }
 
-  .icons--img{
-      width: 40px;
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .content{
-      width: 35%;
+  .icons--img {
+    width: 40px;
   }
 
-  .content p{
-      font-size: 10px;
+  .content {
+    width: 35%;
   }
 
-  .title{
-      margin-block: 0;
+  .content p {
+    font-size: 10px;
+  }
+
+  .title {
+    margin-block: 0;
   }
 
   .faq--title {

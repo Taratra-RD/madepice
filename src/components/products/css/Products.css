@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(../../../images/produit.png);
+  background-image: url(../../../image/autres/Landing/Rectangle\ 6.png),
+    url(../../../image/autres/Fonds/BG_NosProduits.webp);
   height: 99vh;
   width: 100%;
   background-position: bottom;
@@ -17,7 +18,7 @@
 
 .products {
   font-family: Raleway;
-  background-image: url(../../../images/Rectangle\ 51.png);
+  background-image: url(../../../image/autres/Landing/Rectangle\ 51.png);
 }
 
 .products--products--list,

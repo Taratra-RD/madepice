@@ -5,10 +5,11 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from "./reportWebVitals";
 import "./i18next";
+import Loading from "./pages/Loading";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Suspense fallback={<div>Loading ...</div>}>
+  <Suspense fallback={<Loading />}>
     <App />
   </Suspense>
 );

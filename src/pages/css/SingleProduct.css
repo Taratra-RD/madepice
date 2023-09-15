@@ -3,10 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../../images/Rectangle\ 51.png);
+  background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
   height: 150vw;
   font-family: Raleway;
-  
 }
 
 .line-red {
@@ -14,7 +13,7 @@
   height: 70%;
   margin-left: 4em;
   margin-right: 4em;
-  background: #961B1E;
+  background: #961b1e;
 }
 
 .single--product--container {
@@ -42,23 +41,22 @@
   border-radius: 5px 0 0 5px;
   background-repeat: no-repeat;
 }
-.single--product--left i{
+.single--product--left i {
   margin-bottom: 0.5em;
   display: flex;
   cursor: pointer;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: #961B1E;
+  color: #961b1e;
   font-size: 28px;
 }
-.gallery-photo{
+.gallery-photo {
   width: 100%;
   height: 15vh;
   background: blue;
   display: none;
 }
-
 
 .single--product--right {
   width: 70%;
@@ -100,13 +98,14 @@
   color: #f2e5d1;
 }
 
-@media screen and (max-width:400px) {}
+@media screen and (max-width: 400px) {
+}
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   body {
     font-style: 14px;
   }
-  .single--product{
+  .single--product {
     height: auto;
   }
   .single--product--container {
@@ -139,7 +138,6 @@
     font-style: 14px;
   }
 
-
   .single--product--left {
     display: none;
   }
@@ -147,7 +145,7 @@
   .line-red {
     display: none;
   }
-  .single--product--container{
+  .single--product--container {
     height: auto;
   }
   .single--product--right {
@@ -164,7 +162,6 @@
     flex-flow: row wrap;
     width: 90vw;
     height: auto;
-
   }
 
   .single--product {
@@ -172,7 +169,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../images/Rectangle\ 51.png);
+    background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
     height: auto;
     font-family: Raleway;
   }
@@ -184,8 +181,8 @@
     flex-flow: row wrap;
     width: 95vw;
   }
-  
-  .single--product--container{
+
+  .single--product--container {
     height: 75vw;
   }
 
@@ -200,10 +197,10 @@
     flex-flow: row wrap;
     width: 90vw;
   }
-  .single--product--left{
+  .single--product--left {
     background-size: 105%;
   }
-  .single--product--container{
+  .single--product--container {
     height: auto;
   }
   .single--product {
@@ -217,7 +214,7 @@
     flex-flow: row wrap;
     width: 85vw;
   }
-  .single--product--container{
+  .single--product--container {
     height: 50vw;
   }
   .single--product {
@@ -230,7 +227,7 @@
     flex-flow: row wrap;
     width: 85vw;
   }
-  .single--product--container{
+  .single--product--container {
     height: 50vw;
   }
   .single--product {
@@ -243,7 +240,7 @@
     flex-flow: row wrap;
     width: 90vw;
   }
-  .single--product--container{
+  .single--product--container {
     height: 40vw;
   }
   .single--product {

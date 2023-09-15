@@ -1,313 +1,312 @@
-.about{
-    text-align: center;
+.about {
+  text-align: center;
 }
 
-.imgGroups2{
-    background-image: url("../../images/Group\ 2.png");
-    width: 100%;
-    height: 98vh;
-    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
-    background-repeat: no-repeat;
-    background-position: bottom; /* Center the image */
+.imgGroups2 {
+  background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+    url("../../image/autres/Fonds/BG_QuiSommeNous.webp");
+  width: 100%;
+  height: 98vh;
+  background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+  background-repeat: no-repeat;
+  background-position: bottom; /* Center the image */
 }
 
-.title-1{
-    height: 80%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 64px;
-    font-family: Canela;
+.title-1 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  font-family: Canela;
 }
 
-.contain{
-    max-width: 100vw;
-    padding-inline: 5em 5em;
-    padding-block: 5em 5em;
-    background-image: url(../../images/Rectangle\ 51.png);
+.contain {
+  max-width: 100vw;
+  padding-inline: 5em 5em;
+  padding-block: 5em 5em;
+  background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
 }
 
-.history-content{
-    display: none;
-    width: 100%;
-    height: 100%;
-    padding-block: 1em 1em;
+.history-content {
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding-block: 1em 1em;
 }
 
-.history-content .content{
-    display: flex;
-    text-align: start;
-    width: 40%;
-    flex-direction: column;
+.history-content .content {
+  display: flex;
+  text-align: start;
+  width: 40%;
+  flex-direction: column;
 }
 
-.history-content:nth-child(even){
-    align-items: flex-end;
-    justify-content: flex-end;
+.history-content:nth-child(even) {
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
-.history-content h4{
-    font-family: Canela Deck Trial;
-    color: #F2E5D1;
-    opacity: 70%;
+.history-content h4 {
+  font-family: Canela Deck Trial;
+  color: #f2e5d1;
+  opacity: 70%;
 }
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
 }
-.history-content p{
-    font-family: Raleway;
-    color: #FFFF;
-}
-
-.leaves{
-    position: absolute;
-    top: 26em;
-    right: 0;
-    width: 15em;
-    height: auto;
+.history-content p {
+  font-family: Raleway;
+  color: #ffff;
 }
 
-.leaves-1{
-    position: absolute;
-    width: 15em;
-    top: 125em;
-    left: 0em;
-    height: auto;
+.leaves {
+  position: absolute;
+  top: 26em;
+  right: 0;
+  width: 15em;
+  height: auto;
+}
+
+.leaves-1 {
+  position: absolute;
+  width: 15em;
+  top: 125em;
+  left: 0em;
+  height: auto;
 }
 
 .history-content .line {
-    width: 2px;
-    background-color: #961b1e;
-    height: 2px;
+  width: 2px;
+  background-color: #961b1e;
+  height: 2px;
 }
 
-.line-anim{
-    animation: line-animation 1.5s  forwards ease;
+.line-anim {
+  animation: line-animation 1.5s forwards ease;
 }
 
-@keyframes line-animation{
-    0%{
-        opacity: 0;
-        width: 0em;
-    }
-    100%{
-        opacity: 1;
-        width: 100%;
-    }
+@keyframes line-animation {
+  0% {
+    opacity: 0;
+    width: 0em;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
 }
 
-.title-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-block: 10em 3em !important;
-    font-family: Canela;
+.title-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 10em 3em !important;
+  font-family: Canela;
 }
 
-.container--about{
-    display: flex;
-    background-image: url("../../images/Rectangle\ 53.png");
-    background-size: cover;
+.container--about {
+  display: flex;
+  background-image: url("../../image/autres/Landing/Rectangle\ 53.png");
+  background-size: cover;
 }
 
 .title-2-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px !important;
+  text-align: start;
+}
+
+.slide-left-1 {
+  display: flex;
+  animation: slide-right 1s forwards ease;
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-left-2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  animation: slide-left 1.3s forwards ease;
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-left-3 {
+  display: flex;
+  animation: slide-right 1.6s forwards ease;
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .about {
+    text-align: center;
+  }
+
+  .imgGroups2 {
+    background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+      url("../../image/autres/Fonds/BG_QuiSommeNous.webp");
+    width: 100%;
+    height: 50vh;
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat;
+    background-position: bottom; /* Center the image */
+  }
+
+  .title-1 {
+    width: 100%;
+    height: auto;
+    margin-block: 2em 2em;
+    font-size: 22px !important;
+  }
+
+  .contain {
+    max-width: 100vw;
+    padding-inline: 1em 1em;
+    padding-block: 5em 5em;
+    background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
+  }
+
+  .history-content {
+    display: none;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .history-content .content {
     display: flex;
-    align-items: flex-start;
+    text-align: start;
+    width: 100%;
+    padding-inline: 1em 1em;
+    flex-direction: column;
+    animation: none;
+    padding-top: 2em;
+  }
+
+  .slide-left-1 {
+    display: flex;
+    animation: none;
+  }
+
+  .slide-left-2 {
+    display: flex;
+    animation: none;
+  }
+
+  .slide-left-3 {
+    display: flex;
+    animation: none;
+  }
+
+  .history-content div {
+    text-align: start;
+    width: 100%;
+  }
+
+  .history-content:nth-child(even) {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .history-content h4 {
+    font-family: Canela;
+    color: #f2e5d1;
+    opacity: 70%;
+  }
+
+  p {
+    font-size: 12px;
+  }
+  .history-content p {
+    font-family: Raleway;
+    color: #ffff;
+  }
+
+  .leaves {
+    display: none;
+    position: absolute;
+    top: 15.5em;
+    right: 0;
+    width: 6.5em;
+    right: 0em;
+    height: auto;
+  }
+
+  .leaves-1 {
+    display: none;
+    position: absolute;
+    width: 7em;
+    top: 103em;
+    left: 0em;
+    height: auto;
+  }
+
+  .history-content .line {
+    width: 100%;
+    background-color: #961b1e;
+    height: 2px;
+  }
+
+  .line-anim {
+    display: flex;
+    width: 100%;
+    animation: none;
+  }
+  .title-2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-block: 10em 3em !important;
+    font-family: Canela Deck Trial;
+  }
+
+  .container--about {
+    display: block;
+    background-image: url("../../image/autres/Landing/Rectangle\ 53.png");
+    background-size: cover;
+  }
+
+  .title-2-content {
+    display: block;
+    align-items: center;
     justify-content: center;
     padding: 25px !important;
     text-align: start;
-}
-
-.slide-left-1{
-    display: flex;
-    animation: slide-right 1s forwards ease;
-}
-
-@keyframes slide-left{
-    0% {
-        opacity:0;
-        transform: translateX(100px);
-
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.slide-left-2{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    animation: slide-left 1.3s forwards ease;
-}
-
-@keyframes slide-left{
-    0% {
-        opacity:0;
-        transform: translateX(100px);
-
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.slide-left-3{
-    display: flex;
-    animation: slide-right 1.6s forwards ease;
-}
-
-@keyframes slide-right{
-    0% {
-        opacity:0;
-        transform: translateX(-100px);
-
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@media screen and (max-width: 1100px){
-    .about{
-        text-align: center;
-    }
-    
-    .imgGroups2{
-        background-image: url("../../images/Group\ 2.png");
-        width: 100%;
-        height: 50vh;
-        background-size: cover; /* Adjust as needed (cover, contain, etc.) */
-        background-repeat: no-repeat;
-        background-position: bottom; /* Center the image */
-    }
-    
-    .title-1{
-        width: 100%;
-        height: auto;
-        margin-block: 2em 2em;
-        font-size: 22px !important;
-    }
-    
-    .contain{
-        max-width: 100vw;
-        padding-inline: 1em 1em;
-        padding-block: 5em 5em;
-        background-image: url(../../images/Rectangle\ 51.png);
-    }
-    
-    .history-content{
-        display: none;
-        width: 100%;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .history-content .content {
-        display: flex;
-        text-align: start;
-        width: 100%;
-        padding-inline: 1em 1em;
-        flex-direction: column;
-        animation: none;
-        padding-top: 2em;
-    }
-
-    .slide-left-1{
-        display: flex;
-        animation: none;
-    }
-
-    .slide-left-2{
-        display: flex;
-        animation: none;
-    }
-
-    .slide-left-3{
-        display: flex;
-        animation: none;
-    }
-    
-    .history-content div{
-        text-align: start;
-        width: 100%;
-    }
-    
-    .history-content:nth-child(even){
-        display: block;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .history-content h4{
-        font-family: Canela;
-        color: #F2E5D1;
-        opacity: 70%;
-    }
-
-    p{
-        font-size: 12px;
-    }
-    .history-content p{
-        font-family: Raleway;
-        color: #FFFF;
-    }
-    
-    .leaves{
-        display: none;
-        position: absolute;
-        top: 15.5em;
-        right: 0;
-        width: 6.5em;
-        right: 0em;
-        height: auto;
-    }
-    
-    .leaves-1{
-        display: none;
-        position: absolute;
-        width: 7em;
-        top: 103em;
-        left: 0em;
-        height: auto;
-    }
-    
-    .history-content .line {
-        width: 100%;
-        background-color: #961b1e;
-        height: 2px;
-    }
-
-    .line-anim{
-        display: flex;
-        width: 100%;
-        animation: none;
-    }    
-    .title-2{
-        display: block;
-        align-items: center;
-        justify-content: center;
-        margin-block: 10em 3em !important;
-        font-family: Canela Deck Trial;
-    }
-    
-    .container--about{
-        display: block;
-        background-image: url("../../images/Rectangle\ 53.png");
-        background-size: cover;
-    }
-    
-    .title-2-content {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        padding: 25px !important;
-        text-align: start;
-    }
+  }
 }

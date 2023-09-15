@@ -1,6 +1,6 @@
 import { Carousel } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import video from "../../images/Landing_page2.mp4";
+import video from "../../image/autres/video/Landing_page2.mp4";
 import "../css/Caroussel.css";
 import { useTranslation } from "react-i18next";
 
