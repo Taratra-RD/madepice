@@ -17,7 +17,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p>commercial@madépices.mg</p>
+          <p>commercial@madepices.mg</p>
         </a>
       </div>
       <div className="local--footer">
@@ -28,7 +28,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p>commercial@madépices.mg</p>
+          <p>commercial@madepices.mg</p>
         </a>
       </div>
       <div className="follow--footer">
