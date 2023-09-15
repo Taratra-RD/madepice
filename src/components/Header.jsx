@@ -1,8 +1,9 @@
 import "./css/Header.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
-export default function Header({ handleClick }) {
+export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [scroll1, darkMode] = useState(0);
   const setDarkMode = () => {
@@ -26,6 +27,13 @@ export default function Header({ handleClick }) {
       document.getElementById("sidenav").style.height = "0em";
     }
   }, [navbarOpen]);
+
+  const { i18n } = useTranslation();
+
+  const handleClick = (lng) => {
+    i18n.changeLanguage(lng);
+    console.log(i18n);
+  };
 
   return (
     <>
@@ -51,6 +59,18 @@ export default function Header({ handleClick }) {
               <Link to={"/contact"} style={{ fontFamily: "Canela Deck Trial" }}>
                 CONTACT
               </Link>
+            </li>
+            <li>
+              <select
+                style={{
+                  marginInline: "0rem 2rem",
+                  backgroundColor: "gray",
+                }}
+                onChange={(e) => handleClick(e.target.value)}
+              >
+                <option value="fr">fr</option>
+                <option value="en">en</option>
+              </select>
             </li>
           </ul>
         </nav>
@@ -80,7 +100,7 @@ export default function Header({ handleClick }) {
                 Contact
               </Link>
             </li>
-            <li>
+            <li className="translation">
               <select
                 style={{
                   marginInline: "0rem 2rem",
@@ -88,8 +108,8 @@ export default function Header({ handleClick }) {
                 }}
                 onChange={(e) => handleClick(e.target.value)}
               >
-                <option value="fr">French</option>
-                <option value="en">English</option>
+                <option value="fr">fr</option>
+                <option value="en">en</option>
               </select>
             </li>
           </ul>

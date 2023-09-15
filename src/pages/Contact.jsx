@@ -41,9 +41,7 @@ const Contact = () => {
             <div className="contact-header">
               <Header />
             </div>
-            <div className="title-1">
-              <h1>CONTACT & FAQ</h1>
-            </div>
+            <div className="title-1">CONTACT & FAQ</div>
           </div>
         </div>
         <div className="body--contain">

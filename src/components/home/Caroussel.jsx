@@ -2,6 +2,7 @@ import { Carousel } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import video from "../../images/Landing_page2.mp4";
 import "../css/Caroussel.css";
+import { useTranslation } from "react-i18next";
 
 const Caroussel = () => {
   const navigate = useNavigate();
@@ -9,6 +10,7 @@ const Caroussel = () => {
     navigate("/about");
   };
 
+  const { t } = useTranslation();
   return (
     <div className="container-fluid carousel-container app-div">
       {/* Updated className */}
@@ -22,15 +24,9 @@ const Caroussel = () => {
           <center>
             <div className="contenu-carousel" style={{ maxWidth: "30em" }}>
               <h3 style={{ fontFamily: "Canela Deck Trial", color: "#f2e5d1" }}>
-                LA PASSION DES SAVEURS
+                {t("caroussel.1")}
               </h3>
-              <p style={{ fontFamily: "Raleway" }}>
-                Intégrées à notre quotidien, les épices sont chéries pour leurs
-                saveurs, parfums et bienfaits sur la santé. Leur présence
-                enrichit nos repas et nos vies, apportant une touche sensorielle
-                tout en contribuant à notre bien-être. Les épices transcendent
-                le simple goût pour devenir une expérience holistique.
-              </p>
+              <p style={{ fontFamily: "Raleway" }}>{t("caroussel.2")}</p>
               <span
                 className="btn savoir-plus"
                 style={{
@@ -45,7 +41,7 @@ const Caroussel = () => {
                 }}
                 onClick={toAbout}
               >
-                En savoir plus
+                {t("caroussel.5")}
               </span>
             </div>
           </center>
@@ -54,16 +50,9 @@ const Caroussel = () => {
           <center>
             <div className="contenu-carousel" style={{ maxWidth: "30em" }}>
               <h3 style={{ fontFamily: "Canela Deck Trial", color: "#f2e5d1" }}>
-                EXPLOSION DE SAVEURS AVEC NOS EPICES UNIQUES
+                {t("caroussel.3")}
               </h3>
-              <p style={{ fontFamily: "Raleway" }}>
-                Élevez vos plats en explorant les épices, éveillant vos sens et
-                régalant vos papilles. Plongez dans une aventure culinaire où
-                chaque saveur transporte, chaque arôme envoûte. Les épices
-                transcendent la cuisine en une expérience sensorielle, ajoutant
-                profondeur et vivacité à chaque bouchée. Découvrez le monde des
-                saveurs avec nous.
-              </p>
+              <p style={{ fontFamily: "Raleway" }}>{t("caroussel.4")}</p>
               <span
                 className="btn savoir-plus"
                 style={{
@@ -78,7 +67,7 @@ const Caroussel = () => {
                 }}
                 onClick={toAbout}
               >
-                En savoir plus
+                {t("caroussel.5")}
               </span>
             </div>
           </center>
@@ -87,14 +76,9 @@ const Caroussel = () => {
           <center>
             <div className="contenu-carousel" style={{ maxWidth: "30em" }}>
               <h3 style={{ fontFamily: "Canela Deck Trial", color: "#f2e5d1" }}>
-                DECOUVREZ L'ART DES EPICES
+                {t("caroussel.6")}
               </h3>
-              <p style={{ fontFamily: "Raleway" }}>
-                Partez pour un voyage sensoriel avec Madepices, explorant des
-                épices authentiques, mêlant traditions et nouveautés. Succombez
-                aux arômes envoûtants et aux saveurs exotiques, une expérience
-                unique guidée par notre passion.
-              </p>
+              <p style={{ fontFamily: "Raleway" }}>{t("caroussel.7")}</p>
               <span
                 className="btn savoir-plus"
                 style={{
@@ -109,7 +93,7 @@ const Caroussel = () => {
                 }}
                 onClick={toAbout}
               >
-                En savoir plus
+                {t("caroussel.5")}
               </span>
             </div>
           </center>

@@ -2,6 +2,7 @@ import React from "react";
 import "./css/Cardproduct.css";
 import { useMediaQuery } from "usehooks-ts";
 import { Link, useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Cardproduct({ product }) {
   const cardBackground = {
@@ -56,7 +57,7 @@ export default function Cardproduct({ product }) {
 
     return text;
   };
-
+  const { t } = useTranslation();
   return (
     <div
       className="card--product"
@@ -76,17 +77,19 @@ export default function Cardproduct({ product }) {
         id={`card--title--${product.name}`}
         style={{ fontFamily: "Canela Deck Trial" }}
       >
-        {product.name}
+        {t(`product-${product.id}.name`)}
       </Link>
       <Link className="card--body" id={`card--body--${product.name}`}>
         <div
           className="card--title--body"
           style={{ fontFamily: "Canela Deck Trial" }}
         >
-          {product.name}
+          {t(`product-${product.id}.name`)}
         </div>
-        <div className="card--description">{truncate(product.description)}</div>
-        <div className="card--button">Savoir plus</div>
+        <div className="card--description">
+          {truncate(t(`product-${product.id}.description`))}
+        </div>
+        <div className="card--button">{t("caroussel.5")}</div>
       </Link>
     </div>
   );

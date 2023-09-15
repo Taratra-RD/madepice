@@ -25,18 +25,24 @@
   min-height: 50vh;
 }
 
+.header--text {
+  font-family: Canela !important;
+}
+
 @media (max-width: 600px) {
   .products-header {
     background-size: cover;
   }
 
   .header--text {
+    height: 80%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    font-family: Canela;
   }
 
   .products--body {
@@ -69,6 +75,7 @@
     justify-content: center;
     align-items: center;
     font-size: 64px;
+    font-family: Canela;
   }
 
   .products--body {

@@ -667,7 +667,7 @@ export const data = [
     produits: [
       {
         id: 1,
-        name: "COMBAVA FEUILLE",
+        name: "FEUILLE DE COMBAVA",
         conditionnement: [{ unite: "vrac(1kg-5kg)" }],
         description:
           "Les feuilles de combava sont utilisées dans de nombreux plats asiatiques, tels que les currys, les soupes, les marinades et les sauces. Elles peuvent être utilisées fraîches ou séchées, et sont souvent retirées avant de servir le plat.",
@@ -945,7 +945,7 @@ export const data = [
         parfum: "",
         origine: "Madagascar",
         conservation:
-          "endroit frais, sec et à l'abri de la lumière directe du solei",
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydantes",
       },
       {
@@ -962,7 +962,7 @@ export const data = [
         parfum: "",
         origine: "Madagascar",
         conservation:
-          "endroit frais, sec et à l'abri de la lumière directe du solei",
+          "endroit frais, sec et à l'abri de la lumière directe du soleil",
         composition: "anti-inflammatoires, antioxydantes",
       },
     ],
@@ -2021,7 +2021,7 @@ export const data = [
           "antibacterien, anti-infammatoire,minéraux,vitamines, , antioxydants",
       },
       {
-        id: 3,
+        id: 5,
         name: "VOATSIPERIFERY BLANC EN POUDRE ",
         conditionnement: [
           { unite: "vrac(1kg-5kg)" },

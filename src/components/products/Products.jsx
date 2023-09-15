@@ -105,7 +105,7 @@ export default function Products() {
       <div className="products-header">
         <Header />
         <div className="header--text" style={{ fontFamily: "Canela" }}>
-          Nos Produits
+          NOS PRODUITS
         </div>
         <div className="scroll--down">
           <i className="fas fa-chevron-down"></i>
