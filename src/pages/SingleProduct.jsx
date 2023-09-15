@@ -7,6 +7,7 @@ import "./css/SingleProduct.css";
 import { data } from "../data";
 import Card from "../components/home/Card";
 import { useMediaQuery } from "usehooks-ts";
+import { useTranslation } from "react-i18next";
 
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
@@ -33,6 +34,8 @@ export default function SingleProduct() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const { t } = useTranslation();
 
   return (
     <>
@@ -67,28 +70,28 @@ export default function SingleProduct() {
                 <div className="line-red"></div>
                 <div className="single--product--right" key={produit.id}>
                   <h2 style={{ fontFamily: "Canela", color: "#F2E5D1" }}>
-                    {produit.name}
+                    {t(`product-${product.id}-${produit.id}.name`)}
                   </h2>
                   <br />
                   <p>
                     <span style={{ fontWeight: 600 }}>Goût : </span>
-                    {produit.gout}
+                    {t(`product-${product.id}-${produit.id}.gout`)}
                   </p>
                   <p>
                     <span style={{ fontWeight: 600 }}>Intensité : </span>
-                    {produit.intensite}
+                    {t(`product-${product.id}-${produit.id}.intensite`)}
                   </p>
                   <p>
                     <span style={{ fontWeight: 600 }}>Parfum : </span>
-                    {produit.parfum}
+                    {t(`product-${product.id}-${produit.id}.parfum`)}
                   </p>
                   <p>
                     <span style={{ fontWeight: 600 }}>Texture : </span>
-                    {produit.texture}
+                    {t(`product-${product.id}-${produit.id}.texture`)}
                   </p>
                   <p>
                     <span style={{ fontWeight: 600 }}>Description : </span>{" "}
-                    {produit.description}
+                    {t(`product-${product.id}-${produit.id}.description`)}
                   </p>
                 </div>
               </div>
