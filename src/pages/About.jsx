@@ -78,9 +78,9 @@ const About = () => {
     <>
       <I18nextProvider i18n={i18n}>
         <div className="about">
+          <HeaderAbout />
           <div className="imgGroups2">
             <div className="about--header">
-              <HeaderAbout />
             </div>
             <div className="title-1">{t("about.1")}</div>
           </div>
