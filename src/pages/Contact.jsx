@@ -36,11 +36,11 @@ const Contact = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="conatct">
+      <div className="contact">
+        <Header />
         <div className="landing-page2">
           <div className="degradee">
             <div className="contact-header">
-              <Header />
             </div>
             <div className="title-1">CONTACT & FAQ</div>
           </div>

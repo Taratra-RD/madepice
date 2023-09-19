@@ -105,8 +105,8 @@ export default function Products() {
 
   return (
     <div className="products">
+      <Header />
       <div className="products-header">
-        <Header />
         <div className="header--text" style={{ fontFamily: "Canela" }}>
           {t("product.1")}
         </div>
