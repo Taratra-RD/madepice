@@ -18,7 +18,7 @@
 
 .single--product--container {
   width: 85vw;
-  height: 40vw;
+  min-height: 40vw;
   background: #121212;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@
 
 .single--product--right {
   width: 70%;
-  height: 100%;
+  min-height: 100%;
   background: #121212;
   display: flex;
   flex-direction: column;
@@ -183,7 +183,7 @@
   }
 
   .single--product--container {
-    height: 75vw;
+    height: fit-content;
   }
 
   .single--product {
