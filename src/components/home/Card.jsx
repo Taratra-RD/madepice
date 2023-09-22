@@ -3,33 +3,14 @@ import { Link, useNavigate } from "react-router-dom";
 import "../css/Card.css";
 import { useMediaQuery } from "usehooks-ts";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Card = ({ product }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  // return (
-  //     <div className={`card ${className}` } style={cardStyle}>
-  //         <div className="card-title">
-  //             <h3 style={{ color: 'aliceblue', fontFamily: 'Canela',filter:'' }}>{title}</h3>
-  //         </div>
-  //         <div className="card-info">
-  //             <div className="img-top-card" style={{backgroundImage:`url(${''})`}}></div>
-  //             <div className="text-bottom-card">
-  //                 <h3 style={{ color: 'white', fontFamily: 'Canela' }}>{title}</h3>
-  //                 <p style={{ color: 'white', paddingTop: '5px', paddingBottom: '5px', fontFamily:'Raleway' }}>
-  //                     {text}
-  //                 </p>
-  //                 <Link to={'/product/'+id}>
-  //                     <button className="btn savoir-plus" style={{ background: '#f2e5d1', borderRadius: '8px',fontFamily:'Raleway',fontWeight:700  }}>
-  //                         En savoir plus
-  //                     </button>
-  //                 </Link>
-  //             </div>
-  //         </div>
-  //     </div>
-  // );
+  const { t } = useTranslation();
 
   const cardBackground = {
     backgroundImage: `url(${product.imgUrl})`,
@@ -109,7 +90,7 @@ const Card = ({ product }) => {
         id={`card--title--card--${product.name}`}
         style={{ fontFamily: "Canela Deck Trial" }}
       >
-        {product.name}
+        {t(`product-${product.id}.name`)}
       </Link>
       <Link
         to={`/product/${product.id}`}
@@ -120,10 +101,10 @@ const Card = ({ product }) => {
           className="card--title--body--card"
           style={{ fontFamily: "Canela Deck Trial" }}
         >
-          {product.name}
+          {t(`product-${product.id}.name`)}
         </div>
         <div className="card--description--card">
-          {truncate(product.description)}
+          {truncate(t(`product-${product.id}.description`))}
         </div>
         <div className="card--button--card">Savoir plus</div>
       </Link>

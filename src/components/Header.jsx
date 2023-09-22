@@ -22,7 +22,7 @@ export default function Header() {
   };
   useEffect(() => {
     if (navbarOpen === true) {
-      document.getElementById("sidenav").style.height = "vh";
+      document.getElementById("sidenav").style.height = "75vh";
     } else if (navbarOpen === false) {
       document.getElementById("sidenav").style.height = "0em";
     }

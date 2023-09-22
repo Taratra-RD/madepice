@@ -4,15 +4,15 @@
     "2": "Discover authentic aromatic treasures, directly harvested from the farmers. Each flavor embodies a relationship of trust between the land, skilled hands, and your palate. Explore a world of delights transcending borders.",
     "3": "Discover our story",
     "4": "OUR ENGAGEMENTS",
-    "5": "At Madepices, our commitment lies in the meticulous creation of quality work focused on exceptional products. Our approach extends from the initial collection to the final packaging, ensuring consistent excellence at every stage of the process. We take great care in selecting the finest raw materials, venturing to the most remote corners to find unique aromatic treasures. Guided by our passion, we preserve the purity and authenticity of each product while paying meticulous attention to packaging to maintain their freshness and unique character. Our dedication to excellence drives us to offer exceptional taste experiences enriched with deep flavors and captivating aromas that reflect the very essence of Madagascar.",
+    "5": "At Madepices, our commitment lies in the meticulous creation of quality work focused on exceptional products. Our approach extends from the initial collection to the final packaging, ensuring consistent excellence at every stage of the process. We take great care in selecting the finest raw materials, venturing to the most remote corners to find unique aromatic treasures. Guided by our passion, we preserve the purity and authenticity of each product while paying meticulous attention to packaging to maintain their freshness and unique character. Our dedication to excellence drives us to offer exceptional parfum experiences enriched with deep flavors and captivating aromas that reflect the very essence of Madagascar.",
     "6": "OUR VALUES",
     "7": "Immersed in the heart of Madagascar, we passionately commit ourselves to select and craft the finest spices. Excellence is our compass, leading us to explore every corner of this island with its priceless treasures, in search of unique flavors. Each spice, born from meticulous cultivation, blends the essence of the land with ancient craftsmanship. Our process, from harvest to preparation, aims to capture the very essence of Madagascar. These deep aromas and authentic flavors, the result of meticulous work, will awaken your senses and elevate your culinary creations. Join us on this gastronomic adventure where each spice tells a story of passion, quality, and tradition, bridging the past and the present."
   },
   "caroussel": {
     "1": "A PASSION FOR FLAVORS",
-    "2": "Integrated into our daily lives, spices are cherished for their flavors, aromas, and health benefits. Their presence enriches our meals and our lives, adding a sensory touch while contributing to our well-being. Spices transcend mere taste to become a holistic experience.",
+    "2": "Integrated into our daily lives, spices are cherished for their flavors, aromas, and health benefits. Their presence enriches our meals and our lives, adding a sensory touch while contributing to our well-being. Spices transcend mere parfum to become a holistic experience.",
     "3": "FLAVOR EXPLOSION WITH OUR UNIQUE SPICES",
-    "4": "Elevate your dishes by exploring spices, awakening your senses, and delighting your taste buds. Dive into a culinary adventure where each flavor transports, and each aroma enchants. Spices transform cooking into a sensory experience, adding depth and vibrancy to every bite. Discover the world of flavors with us.",
+    "4": "Elevate your dishes by exploring spices, awakening your senses, and delighting your parfum buds. Dive into a culinary adventure where each flavor transports, and each aroma enchants. Spices transform cooking into a sensory experience, adding depth and vibrancy to every bite. Discover the world of flavors with us.",
     "5": "Learn more",
     "6": "DISCOVER THE ART OF SPICES",
     "7": "Embark on a sensory journey with Madepices, exploring authentic spices that blend traditions and innovations. Surrender to enchanting aromas and exotic flavors, a unique experience guided by our passion."
@@ -21,7 +21,7 @@
     "1": "WHO ARE WE?",
     "2": "MADEPICES, a company established in 2011, specializes in the preparation of spices and the marketing of agri-food and cosmetic products based on spices. We focus primarily on the artisanal aspect. We offer high-quality products: hand-sorted, prepared, and calibrated by a team with 20 years of experience in the field. We guarantee a variety of premium spices, carefully selected, natural, and seasonal to meet your expectations.",
     "3": "Eco-responsible, we select around 20 seasonal raw materials from the most beautiful plantations in Madagascar, coming from different regions of Madagascar. The materials are processed in our factory in Antananarivo and marketed to gourmets and gastronomes around the world. MADEPICES pushes its creativity to personalized and unique packaging by adding caps or rosewood boxes crafted in our woodworking workshop.",
-    "4": "Dive into our vast selection of local products, recognized as 'the Best Spices of Madagascar.' A sensory experience awaits you, filling your taste buds with refined flavors. MADEPICES, bearer of a passion for exquisite tastes, invites you to explore this aromatic heritage. Let yourself be seduced by authentic aromas and unforgettable sensations, and discover a new dimension of passion for flavors."
+    "4": "Dive into our vast selection of local products, recognized as 'the Best Spices of Madagascar.' A sensory experience awaits you, filling your parfum buds with refined flavors. MADEPICES, bearer of a passion for exquisite parfums, invites you to explore this aromatic heritage. Let yourself be seduced by authentic aromas and unforgettable sensations, and discover a new dimension of passion for flavors."
   },
   "singleproduct": {
     "1": "See more"
@@ -51,5 +51,903 @@
   "product-1": {
     "name": "GARLIC",
     "description": "Garlic is a versatile and flavorful ingredient used in many cuisines around the world. It can be consumed raw, cooked, or dried."
+  },
+  "product-2": {
+    "name": "STAR ANISE",
+    "description": "Star anise is a versatile spice with a distinctive anise flavor. This spice is used in cooking and beverage preparation in many cultures."
+  },
+  "product-3": {
+    "name": "PINK PEPPERCORN",
+    "description": "Pink peppercorn, also known as rose pepper, is often used to flavor or garnish many dishes."
+  },
+  "product-4": {
+    "name": "BAOBAB",
+    "description": "Baobab powder is a food product derived from the dried pulp of the baobab fruit. It can be used in various culinary preparations."
+  },
+  "product-5": {
+    "name": "STAR ANISE WOOD",
+    "description": "Star anise wood is the dried part of the tree of the same name. It is widely used as a spice in Asian cuisine. It can also be used to flavor alcoholic beverages such as absinthe and pastis."
+  },
+  "product-6": {
+    "name": "CACAO BEAN",
+    "description": "Cacao bean is the seed of the cacao fruit. It is often used in chocolate production and also in the preparation of hot chocolate drinks, desserts, pastries, etc."
+  },
+  "product-7": {
+    "name": "CINNAMON",
+    "description": "Cinnamon is often used in a variety of sweet and savory dishes, such as desserts, pastries, hot beverages. It can be sprinkled on fruits, added to marinades, incorporated into spice blends, and more."
+  },
+  "product-8": {
+    "name": "LEMONGRASS",
+    "description": "Lemongrass is frequently used in Asian cuisine, especially in Thai and Vietnamese dishes. It adds a lemony flavor and herbal note to soups, curries, marinades, sauces, and beverages."
+  },
+  "product-9": {
+    "name": "KAFFIR LIME LEAF",
+    "description": "Kaffir lime leaves are used in many Asian dishes, such as curries, soups, marinades, and sauces. They can be used fresh or dried and are often removed before serving the dish."
+  },
+  "product-10": {
+    "name": "KAFFIR LIME ZEST",
+    "description": "Kaffir lime zest is used to flavor both sweet and savory dishes, such as pastries, desserts, marinades, cocktails, and sauces. It is also used in the preparation of teas and infusions."
+  },
+  "product-11": {
+    "name": "CORIANDER",
+    "description": "Coriander seeds are used in many cuisines worldwide to flavor dishes, while ground seeds are commonly used in spice blends, sauces, soups, and sausages."
+  },
+  "product-12": {
+    "name": "SOURSOP LEAF",
+    "description": "Soursop leaves are used in the preparation of various dishes and beverages, including teas, infusions, and juices."
+  },
+  "product-13": {
+    "name": "CUMIN",
+    "description": "Cumin is widely used, especially in Indian, Mexican, and Middle Eastern cuisine, to flavor dishes, soups, sauces, and marinades. Ground cumin is commonly used in curries, tacos, and couscous."
+  },
+  "product-14": {
+    "name": "TURMERIC",
+    "description": "Turmeric is widely used in Asian cuisine, especially in curries, sauces, marinades, and spice blends. It is also used as a natural food coloring."
+  },
+  "product-16": {
+    "name": "SPECIAL MEAT CURRY",
+    "description": "Special meat curry is a spice blend used to prepare flavorful and spicy meat dishes. It typically consists of a mix of spices such as turmeric, cumin, coriander, ginger, pepper, cinnamon, cardamom, and cloves."
+  },
+  "product-17": {
+    "name": "GUACAMOLE SPICE",
+    "description": "Common spices used in guacamole include ground cumin, ground red pepper, garlic powder, ground coriander, ground nutmeg, fine white salt, and parsley powder."
+  },
+  "product-18": {
+    "name": "FENUGREEK",
+    "description": "Fenugreek is commonly used in Indian, Mediterranean, and Asian cuisines. It is used to flavor meat dishes, broths, and marinades. It is also used in the production of cheeses and breads."
+  },
+  "product-19": {
+    "name": "NATURAL FLEUR DE SEL",
+    "description": "Fleur de sel is a delicate and crunchy sea salt used as a final seasoning to enhance the flavors of dishes. This makes it a premium product appreciated by chefs and cooking enthusiasts."
+  },
+  "product-20": {
+    "name": "GINGER",
+    "description": "Ginger is widely used in Asian cuisines, especially in Indian, Chinese, and Thai dishes. It is used to flavor meat dishes, stir-fries, curries, marinades, soups, sauces, and beverages like ginger tea."
+  },
+  "product-21": {
+    "name": "CLOVES",
+    "description": "Cloves are a versatile spice appreciated for their spicy parfum, intense aroma, and medicinal properties. They are widely used in cooking, natural medicine, and for their repellent and aromatic effects."
+  },
+  "product-22": {
+    "name": "GARAM MASALA",
+    "description": "Garam masala is used as a seasoning in many Indian dishes, such as curries, stews, sauces, marinades, and meat dishes. It can also be added to vegetable dishes, rice, soups, and lentils to give them a more complex flavor."
+  },
+  "product-23": {
+    "name": "3-BERRY BLEND",
+    "description": "3-berry blend is a spice mixture typically composed of black peppercorns, white peppercorns, and pink peppercorns. Together, they offer a balanced and complex blend of flavors."
+  },
+  "product-24": {
+    "name": "4-SPICE BLEND",
+    "description": "4-spice blend is a traditional spice mixture typically made up of black pepper, nutmeg, cloves, and cinnamon. Black pepper adds a spicy flavor, nutmeg brings a warm and woody note, cloves add an intense and spicy flavor, while cinnamon contributes a sweet and aromatic flavor."
+  },
+  "product-25": {
+    "name": "NUTMEG",
+    "description": "Nutmeg is used in many dishes and beverages, including sauces, soups, stews, desserts, hot drinks, and cheese-based dishes. It can be used in powder form or according to preferences and the recipe."
+  },
+  "product-26": {
+    "name": "RED CHILI PILI PILI",
+    "description": "Red chili is used in many cuisines worldwide to add heat and spiciness to dishes. It is often found in sauces, marinades, spicy dishes, soups, meats, and vegetable-based dishes."
+  },
+  "product-27": {
+    "name": "GREEN CHILI PILI PILI",
+    "description": "Green chili is a variety of chili that is less spicy and has a milder flavor. It offers a slight touch of heat with a crunchy texture. It is used in many culinary preparations to add flavor and color."
+  },
+  "product-28": {
+    "name": "TSILANINDIMILAHY CHILI",
+    "description": "Tsilanindimilahy chili is a variety of chili native to Madagascar. It is widely used in Malagasy cuisine to add heat and flavor to dishes, including curries, meat dishes, and more."
+  },
+  "product-29": {
+    "name": "WHITE PEPPER",
+    "description": "White pepper is often used in dishes where one wants to avoid black specks, such as white sauces, soups, fish or poultry dishes, as well as vegetable-based dishes."
+  },
+  "product-30": {
+    "name": "BLACK PEPPER",
+    "description": "Black pepper is used in many dishes and recipes worldwide. It adds flavor and heat to sauces, meats, vegetables, soups, and marinades."
+  },
+  "product-31": {
+    "name": "BLACK VOATSIPERIFERY PEPPER",
+    "description": "Black Voatsiperifery pepper from Madagascar is a specific variety of black pepper that comes from the forested region of Madagascar. Black Voatsiperifery pepper is grown exclusively in Madagascar, in the island's tropical forests. It is hand-harvested and is considered one of the rarest and most precious peppers in the world."
+  },
+  "product-32": {
+    "name": "VANILLA BEAN",
+    "description": "Vanilla is widely used as a flavoring in food products. It is commonly used in desserts such as ice creams, pastries, hot drinks, and sweet sauces. It can also be used in some savory dishes to add a subtle aroma."
+  },
+  "product-33": {
+    "name": "MORINGA",
+    "description": "Moringa leaves, flowers, and seeds are edible. The leaves can be consumed raw, cooked, or in powdered form. The seeds can be used to extract nutrient-rich oil. Moringa is also used in the preparation of tea, soups, salads, and smoothies."
+  },
+  "product-34": {
+    "name": "SPICE GARLAND",
+    "description": "Series of 10 spices in a garland: Ground Voatsiperifery, Ground Cinnamon, Ground Black Pepper, Ground Turmeric, Ground Ginger, 3-Berry Blend, Ground Cloves, Whole Black Voatsiperifery, Cinnamon Stick, Whole Black Pepper"
+  },
+  "product-35": {
+    "name": "BLACK PEPPER SPICE GARLAND",
+    "description": "Series of 5 spices in a garland: Whole Black Pepper, White Voatsiperifery, 3-Berry Blend, Whole White Pepper, Whole Black Voatsiperifery"
+  },
+  "product-36": {
+    "name": "FLEUR DE SEL SPICE GARLAND",
+    "description": "Series of 5 fleur de sel spices in a garland: Ground Combava, Crushed Pink Peppercorns, White Voatsiperifery, Ground Vanilla, Ground Combava and Ginger"
+  },
+  "product-37": {
+    "name": "GARLIC POWDER SPICE GARLAND",
+    "description": "Series of 5 spices in a garland: Garlic Powder, Ground Combava, Ground Red Chili, Ground Black Pepper, Natural Salt"
+  },
+  "product-38": {
+    "name": "COMBAVA POWDER SPICE GARLAND",
+    "description": "Series of 5 spice powders in a garland: Ground Combava, Ground Black Voatsiperifery, Ground Turmeric, Ground Ginger, Ground Black Pepper"
+  },
+  "product-39": {
+    "name": "PINEAPPLE",
+    "description": "Dried pineapple is a fruit with multiple virtues. It is very rich in fiber and contains vitamin C. It has dietary virtues and can serve as an appetite suppressant. It can be enjoyed as a confectionery or used in dessert recipes. Dried pineapple is perfect for preparing flavored rums."
+  },
+  "product-40": {
+    "name": "MANGO",
+    "description": "Sliced dried mangoes have a bright yellow color, indicating the presence of carotenoids (provitamin A). Like all dried fruits, they contain 5 times more minerals than fresh fruits. They are mainly rich in potassium and magnesium."
+  },
+  "product-41": {
+    "name": "LYCHEE",
+    "description": "Madagascar lychee is among the most sought after in the world. Refreshing and exotic...consumed in fruit salads or cooked in pastries, it's a delight. You can also incorporate it into preparations such as jam or sorbet."
+  },
+  "product-42": {
+    "name": "JACKFRUIT",
+    "description": "When jackfruit is ripe, the smell of its skin can be off-putting, but once removed, the aroma and parfum are similar to mango, banana, and pineapple. You can consume the dried fruits directly or add them to your fruit salads or alcohol infusions."
+  },
+  "product-43": {
+    "name": "POK POK",
+    "description": "This small berry, protected by its elegant ribbed calyx when the fruit is ripe, offers a tangy and delicately sweet parfum. They can be nibbled on as they are or incorporated into culinary preparations or fruit salads. They are also perfect for preparing flavored rums and pair particularly well with vanilla and cocoa."
+  },
+  "product-44": {
+    "name": "COCONUT",
+    "description": "Exotic flavor: Dried coconut flakes have a sweet and exotic coconut flavor, making them a delicious and satisfying snack for coconut lovers. They are often incorporated into cakes or pastries, but can also be used in energy bars, iced tea, or salads."
+  },
+  "product-1-1": {
+    "name": "GARLIC PIECE",
+    "description": "Garlic is a versatile and flavorful ingredient used in many cuisines around the world. It can be consumed raw, cooked, or dried.",
+    "texture": "piece",
+    "gout": "spicy",
+    "intensite": "strong",
+    "parfum": "Allicin aroma",
+    "conservation": "cool and dry place",
+    "composition": "Vitamins B and C, potassium, calcium, iron, sulfur compounds."
+  },
+  "product-1-2": {
+    "name": "GARLIC POWDER",
+    "description": "Garlic is a versatile and flavorful ingredient used in many cuisines around the world. It can be consumed raw, cooked, or dried.",
+    "texture": "powder",
+    "gout": "spicy",
+    "intensite": "strong",
+    "parfum": "Allicin aroma",
+    "conservation": "cool and dry place",
+    "composition": "Vitamins B and C, potassium, calcium, iron, sulfur compounds."
+  },
+  "product-2-1": {
+    "name": "STAR ANISE",
+    "description": "Star anise is a versatile spice with a distinctive anise flavor. This spice is used in cooking and beverage preparation in many cultures.",
+    "texture": "whole",
+    "gout": "sweet and spicy",
+    "intensite": "light",
+    "parfum": "Sweet and penetrating",
+    "conservation": "cool and dry place, away from light",
+    "composition": "Essential oil, anethole, antioxidants, vitamins (B and C), minerals (calcium, iron)"
+  },
+  "product-2-2": {
+    "name": "STAR ANISE POWDER",
+    "description": "Star anise is a versatile spice with a distinctive anise flavor. This spice is used in cooking and beverage preparation in many cultures.",
+    "texture": "powder",
+    "gout": "sweet and spicy",
+    "intensite": "light",
+    "parfum": "Sweet and penetrating",
+    "conservation": "cool and dry place, away from light",
+    "composition": "Essential oil, anethole, antioxidants, vitamins (B and C), minerals (calcium, iron)"
+  },
+  "product-3-1": {
+    "name": "PINK PEPPERCORN",
+    "description": "Pink peppercorn, also known as rose pepper, is often used to flavor or decorate many dishes.",
+    "texture": "smooth and firm",
+    "gout": "Fruity with peppery notes",
+    "intensite": "Mild, less spicy than black pepper",
+    "parfum": "pleasant and delicate",
+    "conservation": "airtight container, away from heat and humidity.",
+    "composition": "Vitamin C, potassium, calcium, magnesium, fiber, antioxidants"
+  },
+  "product-4-1": {
+    "name": "BAOBAB POWDER",
+    "description": "Baobab powder is a food product derived from the dried pulp of the baobab fruit. It can be used in many culinary preparations.",
+    "texture": "powder",
+    "gout": "Tart with tropical fruit notes",
+    "intensite": "Light",
+    "parfum": "pleasant and fruity",
+    "conservation": "airtight container, away from heat and humidity.",
+    "composition": "Vitamin C, potassium, calcium, magnesium, fiber, antioxidants"
+  },
+  "product-5-1": {
+    "name": "Bois d'Anis (Anise Wood)",
+    "description": "Anise wood is the dried part of the tree of the same name. It is widely used as a spice in Asian cuisine. It can also be used to flavor alcoholic beverages such as absinthe and pastis.",
+    "texture": "Bark",
+    "gout": "Spicy with notes of anise and licorice",
+    "intensite": "Mild",
+    "parfum": "Aromatic and distinctive",
+    "conservation": "Airtight container, away from light and humidity",
+    "composition": "Anethole, antioxidants"
+  },
+  "product-6-1": {
+    "name": "Fève de Cacao Brut (Raw Cocoa Bean)",
+    "description": "The cocoa bean is the seed of the cacao fruit. It is often used in the production of chocolate and also in the preparation of hot chocolate beverages, desserts, pastries, etc.",
+    "texture": "Raw",
+    "gout": "Bitter with notes of chocolate",
+    "intensite": "Intense",
+    "parfum": "Chocolate",
+    "conservation": "Cool and dry place, away from humidity and light",
+    "composition": "Fiber, magnesium, iron, potassium, antioxidants, flavonoids"
+  },
+  "product-6-2": {
+    "name": "Cacao Fève Torréfiée (Roasted Cocoa Bean)",
+    "description": "The cocoa bean is the seed of the cacao fruit. It is often used in the production of chocolate and also in the preparation of hot chocolate beverages, desserts, pastries, etc.",
+    "texture": "Roasted",
+    "gout": "Bitter with notes of chocolate",
+    "intensite": "Intense",
+    "parfum": "Chocolate",
+    "conservation": "Cool and dry place, away from humidity and light",
+    "composition": "Fiber, magnesium, iron, potassium, antioxidants, flavonoids"
+  },
+  "product-6-3": {
+    "name": "Cacao Fève Concassée (Crushed Cocoa Bean)",
+    "description": "The cocoa bean is the seed of the cacao fruit. It is often used in the production of chocolate and also in the preparation of hot chocolate beverages, desserts, pastries, etc.",
+    "texture": "Crushed",
+    "gout": "Bitter with notes of chocolate",
+    "intensite": "Intense",
+    "parfum": "Chocolate",
+    "conservation": "Cool and dry place, away from humidity and light",
+    "composition": "Fiber, magnesium, iron, potassium, antioxidants, flavonoids"
+  },
+  "product-7-1": {
+    "name": "Cannelle Poudre (Cinnamon Powder)",
+    "description": "Cinnamon is often used in a variety of sweet and savory dishes like desserts, pastries, hot beverages. It can be sprinkled on fruits, added to marinades, incorporated into spice blends, etc.",
+    "texture": "Powder",
+    "gout": "Sweet",
+    "intensite": "Mild",
+    "parfum": "Warm and spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antioxidants, anti-inflammatory, natural antifungals, fiber, calcium, iron, vitamin K"
+  },
+  "product-7-2": {
+    "name": "CANNELLE ROULEAU 18/10 CM",
+    "description": "Cinnamon is often used in a variety of sweet and savory dishes like desserts, pastries, hot beverages. It can be sprinkled on fruits, added to marinades, incorporated into spice blends, etc.",
+    "texture": "Roll",
+    "gout": "Sweet",
+    "intensite": "Mild",
+    "parfum": "Warm and spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antioxidants, anti-inflammatory, natural antifungals, fiber, calcium, iron, vitamin K"
+  },
+  "product-7-3": {
+    "name": "CANNELLE ROULEAU 18/20 CM",
+    "description": "Cinnamon is often used in a variety of sweet and savory dishes like desserts, pastries, hot beverages. It can be sprinkled on fruits, added to marinades, incorporated into spice blends, etc.",
+    "texture": "Roll",
+    "gout": "Sweet",
+    "intensite": "Mild",
+    "parfum": "Warm and spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antioxidants, anti-inflammatory, natural antifungals, fiber, calcium, iron, vitamin K"
+  },
+  "product-8-1": {
+    "name": "CITRONNELLE MORCEAU (Lemongrass Pieces)",
+    "description": "Lemongrass is frequently used in Asian cuisine, especially in Thai and Vietnamese dishes. It adds a lemony flavor and an herbal note to soups, curries, marinades, sauces, and beverages.",
+    "texture": "Thin stalks",
+    "gout": "Lemony",
+    "intensite": "",
+    "parfum": "Lemony, fresh, and aromatic",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Citronellols, citronnellals, limonenes, antioxidants, vitamin C, vitamin A, iron, potassium"
+  },
+  "product-9-1": {
+    "name": "FEUILLE DE COMBAVA (Kaffir Lime Leaves)",
+    "description": "Kaffir lime leaves are used in many Asian dishes, such as curries, soups, marinades, and sauces. They can be used fresh or dried and are often removed before serving the dish.",
+    "texture": "Leaf",
+    "gout": "Tangy",
+    "intensite": "Intense",
+    "parfum": "Lemony",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": ""
+  },
+  "product-9-2": {
+    "name": "COMBAVA FEUILLE POUDRE (Kaffir Lime Leaf Powder)",
+    "description": "Kaffir lime leaves are used in many Asian dishes, such as curries, soups, marinades, and sauces. They can be used fresh or dried and are often removed before serving the dish.",
+    "texture": "Powder",
+    "gout": "Tangy",
+    "intensite": "Intense",
+    "parfum": "Lemony",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": ""
+  },
+  "product-10-1": {
+    "name": "ZESTE DE COMBAVA (Kaffir Lime Zest)",
+    "description": "Kaffir lime zest is used to flavor both sweet and savory dishes, such as pastries, desserts, marinades, cocktails, and sauces. It is also used in the preparation of teas and infusions.",
+    "texture": "Zest",
+    "gout": "Aromatic",
+    "intensite": "Intense",
+    "parfum": "Lemony",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Proteins, lipids, carbohydrates, vitamin C, calcium, potassium, iron, magnesium."
+  },
+  "product-10-2": {
+    "name": "ZESTE DE COMBAVA EN POUDRE (Kaffir Lime Zest Powder)",
+    "description": "Kaffir lime zest is used to flavor both sweet and savory dishes, such as pastries, desserts, marinades, cocktails, and sauces. It is also used in the preparation of teas and infusions.",
+    "texture": "Powder",
+    "gout": "Aromatic",
+    "intensite": "Intense",
+    "parfum": "Lemony",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Proteins, lipids, carbohydrates, vitamin C, calcium, potassium, iron, magnesium."
+  },
+  "product-11-1": {
+    "name": "GRAINE DE CORIANDRE (Coriander Seeds)",
+    "description": "Coriander seeds are used in many cuisines worldwide to flavor dishes, while ground seeds are commonly used in spice blends, sauces, soups, and sausages.",
+    "texture": "Seed",
+    "gout": "Citrusy with a spicy note",
+    "intensite": "Slightly sweet",
+    "parfum": "Spicy and herbal",
+    "conservation": "Airtight container, away from heat and moisture",
+    "composition": ""
+  },
+  "product-12-1": {
+    "name": "FEUILLE DE COROSSOL ENTIERE (Whole Soursop Leaves)",
+    "description": "Soursop leaves are used in the preparation of various dishes and beverages, including teas, infusions, and juices.",
+    "texture": "Leaf",
+    "gout": "Pleasant",
+    "intensite": "",
+    "parfum": "",
+    "conservation": "",
+    "composition": "Antioxidants, anti-inflammatory compounds"
+  },
+  "product-12-2": {
+    "name": "FEUILLE DE COROSSOL HACHEE (Chopped Soursop Leaves)",
+    "description": "Soursop leaves are used in the preparation of various dishes and beverages, including teas, infusions, and juices.",
+    "texture": "Chopped",
+    "gout": "Pleasant",
+    "intensite": "",
+    "parfum": "",
+    "conservation": "",
+    "composition": "Antioxidants, anti-inflammatory compounds"
+  },
+  "product-12-3": {
+    "name": "FEUILLE DE COROSSOL EN POUDRE (Soursop Leaf Powder)",
+    "description": "Soursop leaves are used in the preparation of various dishes and beverages, including teas, infusions, and juices.",
+    "texture": "Powder",
+    "gout": "Pleasant",
+    "intensite": "",
+    "parfum": "",
+    "conservation": "",
+    "composition": "Antioxidants, anti-inflammatory compounds"
+  },
+  "product-13-1": {
+    "name": "GRAIN DE CUMIN (Cumin Seeds)",
+    "description": "Cumin is widely used in Indian, Mexican, and Middle Eastern cuisine to flavor dishes, soups, sauces, and marinades. Ground cumin is commonly used in curries, tacos, and couscous.",
+    "texture": "Seed",
+    "gout": "Warm, earthy, slightly bitter",
+    "intensite": "Strong and distinctive",
+    "parfum": "",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antioxidants, vitamins"
+  },
+  "product-13-2": {
+    "name": "CUMIN EN POUDRE (Ground Cumin)",
+    "description": "Cumin is widely used in Indian, Mexican, and Middle Eastern cuisine to flavor dishes, soups, sauces, and marinades. Ground cumin is commonly used in curries, tacos, and couscous.",
+    "texture": "Powder",
+    "gout": "Warm, earthy, slightly bitter",
+    "intensite": "Strong and distinctive",
+    "parfum": "",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antioxidants, vitamins"
+  },
+  "product-14-1": {
+    "name": "CURCUMA EN POUDRE (Turmeric Powder)",
+    "description": "Turmeric is widely used in Asian cuisine, especially in curries, sauces, marinades, and spice blends. It is also used as a natural food colorant.",
+    "texture": "Powder",
+    "gout": "Bitter and spicy",
+    "intensite": "Light",
+    "parfum": "",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-14-2": {
+    "name": "CURCUMA EN MORCEAU (Turmeric Pieces)",
+    "description": "Turmeric is widely used in Asian cuisine, especially in curries, sauces, marinades, and spice blends. It is also used as a natural food colorant.",
+    "texture": "Pieces",
+    "gout": "Bitter and spicy",
+    "intensite": "Light",
+    "parfum": "",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-16-1": {
+    "name": "CURRY SPECIAL VIANDE",
+    "description": "Curry Special Viande is a spice blend used to prepare flavorful and spicy meat dishes. It typically consists of a mix of spices such as turmeric, cumin, coriander, ginger, pepper, cinnamon, cardamom, and cloves.",
+    "texture": "Powder",
+    "gout": "Complex and spicy with warm, earthy, sweet, and sometimes pungent notes",
+    "intensite": "Strong and distinctive",
+    "parfum": "",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-17-1": {
+    "name": "EPICE POUR GUACAMOLE",
+    "description": "Common spices used in guacamole include ground cumin, ground red pepper, garlic powder, ground coriander, ground nutmeg, fine white salt, and parsley powder.",
+    "texture": "Powder",
+    "gout": "Smoky",
+    "intensite": "Moderate",
+    "parfum": "",
+    "conservation": "",
+    "composition": ""
+  },
+  "product-18-1": {
+    "name": "GRAIN DE FENUGREC TORREFIE (Roasted Fenugreek Seeds)",
+    "description": "Fenugreek is commonly used in Indian, Mediterranean, and Asian cuisines. It is used to flavor meat dishes, broths, and marinades. It is also used in cheese and bread making.",
+    "texture": "Seed",
+    "gout": "",
+    "intensite": "",
+    "parfum": "Distinctive, similar to maple syrup",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-18-2": {
+    "name": "FENUGREC EN POUDRE (Fenugreek Powder)",
+    "description": "Fenugreek is commonly used in Indian, Mediterranean, and Asian cuisines. It is used to flavor meat dishes, broths, and marinades. It is also used in cheese and bread making.",
+    "texture": "Powder",
+    "gout": "",
+    "intensite": "",
+    "parfum": "Distinctive, similar to maple syrup",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-19-1": {
+    "name": "FLEUR DE SEL NATURE (Natural Fleur de Sel)",
+    "description": "Fleur de sel is a delicate and crunchy sea salt used as a final seasoning to enhance the flavors of dishes, making it a premium product appreciated by chefs and food enthusiasts.",
+    "texture": "Fine white crystals",
+    "gout": "Delicate, subtle, with slightly salty notes",
+    "intensite": "Light",
+    "parfum": "",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": ""
+  },
+  "product-19-2": {
+    "name": "FLEUR DE SEL: BAIE ROSE - POIVRE NOIR CONCASSE (Pink Peppercorn - Crushed Black Pepper Fleur de Sel)",
+    "description": "Fleur de sel from Madagascar flavored with crushed pink peppercorns and black pepper. 100% natural and additive-free.",
+    "texture": "Fine white crystals",
+    "gout": "Delicate, subtle, with slightly salty, fruity, and peppery notes, Strong, spicy, and slightly hot",
+    "intensite": "Light",
+    "parfum": "Pleasant and delicate, Spicy",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": ""
+  },
+  "product-19-3": {
+    "name": "FLEUR DE SEL: COMBAVA",
+    "description": "Fleur de sel from Madagascar flavored with kaffir lime zest powder.",
+    "texture": "Fine white crystals",
+    "gout": "Delicate, subtle, with slightly salty notes, Aromatic",
+    "intensite": "Light",
+    "parfum": "Citrusy",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": ""
+  },
+  "product-19-4": {
+    "name": "FLEUR DE SEL: COMBAVA - GINGEMBRE (Kaffir Lime - Ginger Fleur de Sel)",
+    "description": "Fleur de sel from Madagascar flavored with kaffir lime zest powder and ginger. 100% natural and additive-free.",
+    "texture": "Fine white crystals",
+    "gout": "Delicate, subtle, with slightly salty notes, Aromatic, Spicy and zesty with a hint of citrus",
+    "intensite": "Light",
+    "parfum": "Aromatic and distinctive, Citrusy",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": ""
+  },
+  "product-19-5": {
+    "name": "FLEUR DE SEL: VANILLE (Vanilla Fleur de Sel)",
+    "description": "Fleur de sel from Madagascar flavored with Madagascar bourbon vanilla.",
+    "texture": "Fine white crystals",
+    "gout": "Delicate, subtle, with slightly salty notes, Sweet and slightly floral",
+    "intensite": "Light",
+    "parfum": "Sweet, sugary, and slightly floral",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": ""
+  },
+  "product-19-6": {
+    "name": "FLEUR DE SEL: VOATSIPERIFERY BLANC (White Voatsiperifery Pepper Fleur de Sel)",
+    "description": "Fleur de sel from Madagascar flavored with crushed white voatsiperifery pepper.",
+    "texture": "Fine white crystals",
+    "gout": "Delicate, subtle, with slightly salty notes, Unique with hints of citrus, wood, and spices",
+    "intensite": "Light",
+    "parfum": "Intense and complex",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": ""
+  },
+  "product-20-1": {
+    "name": "GINGEMBRE EN MORCEAU",
+    "description": "Ginger is widely used in Asian cuisines, especially in Indian, Chinese, and Thai dishes. It is used to flavor meat dishes, stir-fries, curries, marinades, soups, sauces, and beverages like ginger tea.",
+    "texture": "Pieces",
+    "gout": "Spicy and zesty with a slight citrus note",
+    "intensite": "Light",
+    "parfum": "Aromatic and distinctive",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-20-2": {
+    "name": "GINGEMBRE EN POUDRE",
+    "description": "Ginger is widely used in Asian cuisines, especially in Indian, Chinese, and Thai dishes. It is used to flavor meat dishes, stir-fries, curries, marinades, soups, sauces, and beverages like ginger tea.",
+    "texture": "Powder",
+    "gout": "Spicy and zesty with a slight citrus note",
+    "intensite": "Light",
+    "parfum": "Aromatic and distinctive",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-21-1": {
+    "name": "CLOU DE GIROFLE",
+    "description": "Clove is a versatile spice known for its spicy parfum, intense aroma, and medicinal properties. It is widely used in cooking, natural medicine, and for its repellent and aromatic effects.",
+    "texture": "Whole",
+    "gout": "Warm, spicy, and slightly sweet",
+    "intensite": "Intense",
+    "parfum": "Spicy and pleasant",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antibacterial, antifungal, antiviral, and analgesic"
+  },
+  "product-21-2": {
+    "name": "GIROFLE EN POUDRE",
+    "description": "Clove is a versatile spice known for its spicy parfum, intense aroma, and medicinal properties. It is widely used in cooking, natural medicine, and for its repellent and aromatic effects.",
+    "texture": "Powder",
+    "gout": "Warm, spicy, and slightly sweet",
+    "intensite": "Intense",
+    "parfum": "Spicy and pleasant",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antibacterial, antifungal, antiviral, and analgesic"
+  },
+  "product-22-1": {
+    "name": "GARAM MASSALA",
+    "description": "Garam masala is used as a seasoning in many Indian dishes, such as curries, stews, sauces, marinades, and meat dishes. It can also be added to vegetable dishes, rice, soups, and lentils to give them a complex flavor.",
+    "texture": "Powder",
+    "gout": "Hot, spicy, and slightly sweet, with notes of earthiness, nutmeg, and cloves",
+    "intensite": "Intense",
+    "parfum": "Spicy and pleasant",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-23-1": {
+    "name": "MELANGE DE 3 BAIES",
+    "description": "The blend of 3 berries is typically a spice blend consisting of black peppercorns, white peppercorns, and pink peppercorns. The combination offers a balanced and complex blend of flavors.",
+    "texture": "Grain",
+    "gout": "Spicy, peppery, and slightly fruity",
+    "intensite": "Mild, Black pepper with slightly woody notes",
+    "parfum": "Spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Anti-inflammatory, antioxidant"
+  },
+  "product-24-1": {
+    "name": "MELANGE DE 4 EPICES",
+    "description": "The 4-spice blend is traditionally made up of black pepper, nutmeg, cloves, and cinnamon. Black pepper adds a spicy flavor, nutmeg brings a warm and woody note, cloves add an intense and spicy flavor, while cinnamon adds a sweet and aromatic flavor.",
+    "texture": "Powder",
+    "gout": "Hot, spicy, and slightly sweet",
+    "intensite": "Intense",
+    "parfum": "Spicy",
+    "conservation": "Airtight container, away from heat and humidity",
+    "composition": "Antioxidant, anti-inflammatory, natural antifungals, fibers, calcium, iron, vitamin K, antibacterial, antifungal, antiviral, and analgesic"
+  },
+  "product-25-1": {
+    "name": "MUSCADE MACIS",
+    "description": "Nutmeg is used in many dishes and beverages, including sauces, soups, stews, desserts, hot beverages, and cheese-based dishes. It can be used in powder form or according to preferences and the recipe.",
+    "texture": "Mace",
+    "gout": "Hot, earthy, and slightly sweet",
+    "intensite": "Intense with spicy and nutty notes",
+    "parfum": "Woody and slightly spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, rich in B-vitamins"
+  },
+  "product-25-2": {
+    "name": "MUSCADE EN POUDRE",
+    "description": "Nutmeg is used in many dishes and beverages, including sauces, soups, stews, desserts, hot beverages, and cheese-based dishes. It can be used in powder form or according to preferences and the recipe.",
+    "texture": "Powder",
+    "gout": "Hot, earthy, and slightly sweet",
+    "intensite": "Intense with spicy and nutty notes",
+    "parfum": "Woody and slightly spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, rich in B-vitamins"
+  },
+  "product-25-3": {
+    "name": "NOIX DE MUSCADE",
+    "description": "Nutmeg is used in many dishes and beverages, including sauces, soups, stews, desserts, hot beverages, and cheese-based dishes. It can be used in powder form or according to preferences and the recipe.",
+    "texture": "Nuts",
+    "gout": "Hot, earthy, and slightly sweet",
+    "intensite": "Intense with spicy and nutty notes",
+    "parfum": "Woody and slightly spicy",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, rich in B-vitamins"
+  },
+  "product-26-1": {
+    "name": "PIMENT ROUGE PILI PILI EN ENTIER",
+    "description": "Red chili pepper is used in many cuisines worldwide to add heat and spiciness to dishes. It is often found in sauces, marinades, spicy dishes, soups, meats, and vegetable dishes.",
+    "texture": "Whole",
+    "gout": "Sharp and spicy",
+    "intensite": "Burning and spicy",
+    "parfum": "Very distinctive, detectable even in small quantities",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Fiber, vitamin C, antioxidants"
+  },
+  "product-26-2": {
+    "name": "PIMENT ROUGE PILI PILI EN POUDRE",
+    "description": "Red chili pepper is used in many cuisines worldwide to add heat and spiciness to dishes. It is often found in sauces, marinades, spicy dishes, soups, meats, and vegetable dishes.",
+    "texture": "Powder",
+    "gout": "Sharp and spicy",
+    "intensite": "Burning and spicy",
+    "parfum": "Very distinctive, detectable even in small quantities",
+    "conservation": "Cool, dry place, away from direct sunlight",
+    "composition": "Fiber, vitamin C, antioxidants"
+  },
+  "product-27-1": {
+    "name": "Green Chili Pili Pili Whole",
+    "description": "Green chili is a variety of chili that is less spicy and has a milder flavor. It provides a slight touch of heat with a crunchy texture. It is used in many culinary preparations to add flavor and color.",
+    "texture": "Whole",
+    "gout": "Mild heat without intense burning",
+    "intensite": "Mild and spicy",
+    "parfum": "Very distinctive, detectable even in small quantities",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Vitamins A and C, antioxidants"
+  },
+  "product-27-2": {
+    "name": "Green Chili Pili Pili Powder",
+    "description": "Green chili is a variety of chili that is less spicy and has a milder flavor. It provides a slight touch of heat with a crunchy texture. It is used in many culinary preparations to add flavor and color.",
+    "texture": "Powder",
+    "gout": "Mild heat without intense burning",
+    "intensite": "Mild and spicy",
+    "parfum": "Very distinctive, detectable even in small quantities",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Vitamins A and C, antioxidants"
+  },
+  "product-28-1": {
+    "name": "Tsilanindimilahy Chili Whole",
+    "description": "Tsilanindimilahy chili is a variety of chili originating from Madagascar. It is widely used in Malagasy cuisine to add heat and flavor to dishes, including curries and meat dishes.",
+    "texture": "Whole",
+    "gout": "Very spicy and hot, high heat level",
+    "intensite": "Intense and spicy",
+    "parfum": "Very distinctive, detectable even in small quantities",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Capsaicin, anti-inflammatories, and antioxidants"
+  },
+  "product-29-1": {
+    "name": "White Pepper Grains",
+    "description": "White pepper is often used in dishes where black specks are to be avoided, such as white sauces, soups, fish or poultry-based dishes, and vegetable dishes.",
+    "texture": "Grain",
+    "gout": "Black pepper with slightly woody notes",
+    "intensite": "Intense",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Fiber, potassium, calcium, magnesium, phosphorus, iron, manganese, zinc, copper, selenium, iodine, as well as vitamins (E, A, B1, B2, B3, B6, B9)"
+  },
+  "product-29-2": {
+    "name": "White Pepper Powder",
+    "description": "White pepper is often used in dishes where black specks are to be avoided, such as white sauces, soups, fish or poultry-based dishes, and vegetable dishes.",
+    "texture": "Powder",
+    "gout": "Black pepper with slightly woody notes",
+    "intensite": "Intense",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Fiber, potassium, calcium, magnesium, phosphorus, iron, manganese, zinc, copper, selenium, iodine, as well as vitamins (E, A, B1, B2, B3, B6, B9)"
+  },
+  "product-30-1": {
+    "name": "Black Pepper Grains",
+    "description": "Black pepper is used in many dishes and recipes worldwide. It adds flavor and heat to sauces, meats, vegetables, soups, and marinades.",
+    "texture": "Grain",
+    "gout": "Strong, spicy, and slightly hot",
+    "intensite": "Intense",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Fiber, potassium, calcium, magnesium, phosphorus, iron, manganese, zinc, copper, selenium, iodine, as well as vitamins (E, A, B1, B2, B3, B6, B9)"
+  },
+  "product-30-2": {
+    "name": "Black Pepper Powder",
+    "description": "Black pepper is used in many dishes and recipes worldwide. It adds flavor and heat to sauces, meats, vegetables, soups, and marinades.",
+    "texture": "Powder",
+    "gout": "Strong, spicy, and slightly hot",
+    "intensite": "Intense",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Fiber, potassium, calcium, magnesium, phosphorus, iron, manganese, zinc, copper, selenium, iodine, as well as vitamins (E, A, B1, B2, B3, B6, B9)"
+  },
+  "product-30-3": {
+    "name": "Crushed Black Pepper",
+    "description": "Black pepper is used in many dishes and recipes worldwide. It adds flavor and heat to sauces, meats, vegetables, soups, and marinades.",
+    "texture": "Crushed",
+    "gout": "Strong, spicy, and slightly hot",
+    "intensite": "Intense",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Fiber, potassium, calcium, magnesium, phosphorus, iron, manganese, zinc, copper, selenium, iodine, as well as vitamins (E, A, B1, B2, B3, B6, B9)"
+  },
+  "product-31-1": {
+    "name": "Black Voatsiperifery Pepper",
+    "description": "Black voatsiperifery pepper from Madagascar is a specific variety of black pepper that comes from the forested region of Madagascar. Black voatsiperifery pepper is grown exclusively in Madagascar's tropical forests. It is hand-harvested and is considered one of the rarest and most precious peppers in the world.",
+    "texture": "Grain",
+    "gout": "Unique with hints of citrus, wood, and spices",
+    "intensite": "Intense and complex",
+    "parfum": "Spicy, lemony field",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, minerals, antioxidants, rich in vitamins (E, C, B)"
+  },
+  "product-31-2": {
+    "name": "Red Voatsiperifery Pepper",
+    "description": "Red voatsiperifery pepper is appreciated for its unique flavor and is mainly used as a condiment. It can be used to season meats, fish, vegetables, and sauces.",
+    "texture": "Grain",
+    "gout": "Moderately spicy, not too strong, complex, spicy, and woody, with slightly sweet notes, It also has a slight lemony touch.",
+    "intensite": "Powerful and intense",
+    "parfum": "Releasing aromatic and exotic scents reminiscent of the rainforest",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, minerals, antioxidants, rich in vitamins (E, C, B)"
+  },
+  "product-31-3": {
+    "name": "White Voatsiperifery Pepper",
+    "description": "White voatsiperifery pepper is highly prized by chefs worldwide due to its exquisite flavor. It is considered one of the rarest and most expensive peppers in the world due to its rarity, unique flavor, and labor-intensive harvesting process.",
+    "texture": "Grain",
+    "gout": "Unique and complex with warm woody notes, hints of citrus, and flowers.",
+    "intensite": "Gentle heat that slowly develops on the tongue",
+    "parfum": "Intense and aromatic, with floral and fruity aromas",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, minerals, vitamins, antioxidants"
+  },
+  "product-31-4": {
+    "name": "Black Voatsiperifery Pepper Powder",
+    "description": "Black voatsiperifery pepper from Madagascar is a specific variety of black pepper that comes from the forested region of Madagascar. Black voatsiperifery pepper is grown exclusively in Madagascar's tropical forests. It is hand-harvested and is considered one of the rarest and most precious peppers in the world.",
+    "texture": "Powder",
+    "gout": "Unique with hints of citrus, wood, and spices",
+    "intensite": "Intense and complex",
+    "parfum": "Spicy, lemony field",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, minerals, vitamins, antioxidants"
+  },
+  "product-31-5": {
+    "name": "White Voatsiperifery Pepper Powder",
+    "description": "White voatsiperifery pepper is highly prized by chefs worldwide due to its exquisite flavor. It is considered one of the rarest and most expensive peppers in the world due to its rarity, unique flavor, and labor-intensive harvesting process.",
+    "texture": "Powder",
+    "gout": "Unique and complex with warm woody notes, hints of citrus, and flowers.",
+    "intensite": "Gentle heat that slowly develops on the tongue",
+    "parfum": "Intense and aromatic, with floral and fruity aromas",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antibacterial, anti-inflammatory, minerals, vitamins, antioxidants"
+  },
+  "product-32-1": {
+    "name": "Vanilla Bean",
+    "description": "Vanilla is widely used as a flavoring in food products. It is commonly used in desserts such as ice cream, pastries, hot drinks, and sweet sauces. It can also be used in some savory dishes to add a subtle aroma.",
+    "texture": "Bean",
+    "gout": "Sweet, sugary, and slightly floral",
+    "intensite": "Intense and complex",
+    "parfum": "Endless treasure of perfumery",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antioxidants, minerals, trace elements"
+  },
+  "product-32-2": {
+    "name": "Vanilla Powder",
+    "description": "Vanilla is widely used as a flavoring in food products. It is commonly used in desserts such as ice cream, pastries, hot drinks, and sweet sauces. It can also be used in some savory dishes to add a subtle aroma.",
+    "texture": "Powder",
+    "gout": "Sweet, sugary, and slightly floral",
+    "intensite": "Intense and complex",
+    "parfum": "Endless treasure of perfumery",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Antioxidants, minerals, trace elements"
+  },
+  "product-33-1": {
+    "name": "Moringa Powder",
+    "description": "The leaves, flowers, and seeds of moringa are edible. The leaves can be consumed raw, cooked, or in powder form. The seeds can be used to extract nutrient-rich oil. Moringa is also used in making tea, soups, salads, and smoothies.",
+    "texture": "Powder",
+    "gout": "Mild, slightly rough and bitter, reminiscent of spinach, with a slight peppery touch",
+    "intensite": "Light",
+    "parfum": "Aromatic, spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": "Vitamins (A, C, E), minerals (calcium, iron, potassium), proteins."
+  },
+  "product-34-1": {
+    "name": "Spice Assortment",
+    "description": "Series of 10 spices in a bundle: Voatsiperifery powder, Cinnamon powder, Black pepper powder, Turmeric powder, Ginger powder, 3-pepper blend, Clove powder, Black Voatsiperifery grains, Cinnamon stick, Black pepper grains",
+    "texture": "Powder",
+    "gout": "Series of 10 spices, each with its own parfum",
+    "intensite": "Intense, Light",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": ""
+  },
+  "product-35-1": {
+    "name": "Black Pepper Spice Set",
+    "description": "Series of 5 spices in a bundle: Black pepper grains, White Voatsiperifery grains, 3-pepper blend, White pepper grains, Black Voatsiperifery grains",
+    "texture": "Grains",
+    "gout": "Series of 5 spices, each with its own parfum",
+    "intensite": "Intense, Light",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": ""
+  },
+  "product-36-1": {
+    "name": "Fleur de Sel Spice Set",
+    "description": "Series of 5 fleur de sels in a bundle: Combava powder, Crushed pink peppercorns, White Voatsiperifery, Vanilla powder, Combava and ginger powder",
+    "texture": "Salt",
+    "gout": "Series of 5 marine fleur de sels, each with its own parfum, delicate, subtle, with slightly salty notes",
+    "intensite": "Light",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": ""
+  },
+  "product-37-1": {
+    "name": "Garlic Powder Spice Set",
+    "description": "Series of 5 spices in a bundle: Garlic powder, Combava powder, Red chili powder, Ground black pepper, Natural salt",
+    "texture": "Powder",
+    "gout": "Series of 5 powdered spices, each with its own parfum",
+    "intensite": "Light",
+    "parfum": "Spicy",
+    "conservation": "Store in a cool, dry place away from direct sunlight",
+    "composition": ""
+  },
+  "product-38-1": {
+    "name": "Combava Powder Spice Set",
+    "description": "Series of 5 powdered spices in a bundle: Combava powder, Ground black Voatsiperifery, Turmeric powder, Ginger powder, Ground black pepper",
+    "texture": "Powder",
+    "gout": "Series of 5 powdered spices, each with its own parfum",
+    "intensite": "Light",
+    "parfum": "Spicy",
+    "conservation": "",
+    "composition": ""
+  },
+  "product-39-1": {
+    "name": "Dried Pineapple",
+    "description": "Dried pineapple is a fruit with multiple virtues. It is very rich in fiber and contains vitamin C. It has dietary virtues and can serve as an appetite suppressant. It can be enjoyed as a confectionery or used in dessert recipes. Dried pineapple is also suitable for making flavored rums.",
+    "texture": "Soft pieces",
+    "gout": "Sweet and tangy",
+    "intensite": "Mild",
+    "parfum": "Odor reminiscent of vinegar",
+    "conservation": "Airtight container, away from heat, in a cool place",
+    "composition": "Vitamin C, vitamin B6, potassium, manganese, fiber"
+  },
+  "product-40-1": {
+    "name": "Dried Mango",
+    "description": "Sliced dried mangoes have a bright yellow color, indicating the presence of carotenoids (provitamin A). Like all dried fruits, they contain 5 times more minerals than fresh fruits. They are mainly rich in potassium and magnesium.",
+    "texture": "Sliced, fried",
+    "gout": "Fruity",
+    "intensite": "Mild",
+    "parfum": "Tropical",
+    "conservation": "Airtight container, away from heat, in a cool place",
+    "composition": "Dietary fiber, vitamins A and C, minerals such as potassium and magnesium, antioxidants"
+  },
+  "product-41-1": {
+    "name": "Lychee",
+    "description": "Madagascar lychee is among the most sought after in the world. Refreshing and exotic, they can be consumed in fruit salads or cooked in pastries, making them a delight. You can also incorporate them into preparations such as jam or sorbets.",
+    "texture": "Powder",
+    "gout": "Sweet",
+    "intensite": "Intense",
+    "parfum": "Stronger than fresh lychee",
+    "conservation": "Airtight container, away from heat, in a cool place",
+    "composition": "Fiber, vitamin C, antioxidant"
+  },
+  "contact-faq": {
+    "1": "1. Are your spices organic?",
+    "2": "MADÉPICES distributes locally sourced spices that are well-treated, with no preservatives or additives. We know where our products come from, and we are acquainted with the farmers who supply us. Everything is involved in the final quality. It's up to you to judge. Taste them, and you'll see!",
+    "3": "2. What is the best way to store spices?",
+    "4": "For optimal shelf life, it's best to keep them in a cool, dry place, away from direct sunlight and air to prevent alterations in their quality. We recommend protecting them in secure packaging such as airtight containers, tinted glass jars, etc., to preserve freshness and flavor.",
+    "5": "3. Which spices are most commonly used?",
+    "6": "Frequently used spices vary depending on global cuisine. Among the most common are peppers, berries, voatsiperifery unique to Madagascar, cinnamon, cumin, and turmeric, which are in high demand. They are specific and add a burst of flavor to dishes.",
+    "7": "4. What is the difference between a spice and a leaf?",
+    "8": "The main difference between these two products lies in the part of the plant used. Spices are generally derived from parts other than leaves, such as bark, roots, or seeds. Leaves, on the other hand, come from the leaves of plants."
   }
 }
