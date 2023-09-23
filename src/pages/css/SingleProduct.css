@@ -1,4 +1,146 @@
-.single--product {
+.one--product--display {
+  padding-block: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
+}
+
+.random--product--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.149);
+  border-radius: 10px;
+  overflow-y: hidden;
+  margin-block: 7vh 3vh;
+  width: 90vw;
+}
+
+.single--product--left {
+  width: 30%;
+  background-size: 100% 100%;
+  border-start-start-radius: inherit;
+  border-end-start-radius: inherit;
+}
+
+
+.button--product a .btn {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background: #f2e5d1;
+}
+
+@media(max-width:724px) {
+  .one--product--display {
+    margin-block: 2rem 2rem;
+
+  }
+
+  .single--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single--product h2 {
+    margin-bottom: 3vw;
+  }
+
+  .single--product--container {
+    background: #121212;
+    width: 85vw;
+    margin-block: 1rem 1rem;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 5px;
+  }
+
+  .line-red {
+    display: none;
+  }
+
+  .single--product--right {
+    width: 65%;
+    padding-block: 1rem 1rem;
+    padding-inline: 2vw 2vw;
+  }
+
+  .single--product--right p {
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media(min-width:725px) {
+
+  .single--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single--product h2 {
+    margin-bottom: 3vw;
+  }
+
+  .single--product--container {
+    background: #121212;
+    width: 85vw;
+    margin-block: 1rem 1rem;
+    display: flex;
+    height: fit-content;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 5px;
+  }
+
+  .line-red {
+    background-color: red;
+    height: 5re;
+    width: 1px;
+    margin-inline: 4vw 4vw;
+    margin-block: 2.5rem 2.5rem;
+  }
+
+  .single--product--right {
+    width: 60%;
+    padding-block: 1rem 1rem;
+    padding-inline: 0 2vw;
+  }
+}
+
+
+@media(min-width:1000px) {
+  .single--product--left {
+    position: relative;
+  }
+
+  .gallery {
+    position: absolute;
+    bottom: 0;
+    height: 7rem;
+    padding-inline: 0.1rem 0.1rem;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+  }
+
+  .photo {
+    height: 5rem;
+    width: 5rem;
+    background-size: 100% 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-inline: 2px;
+  }
+}
+
+
+/* .single--product {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,10 +272,10 @@
     flex-direction: column;
     justify-content: center;
   }
-}
+} */
 
 /*Taratra container*/
-@media screen and (max-width: 449px) {
+/* @media screen and (max-width: 449px) {
   body {
     font-style: 14px;
   }
@@ -266,4 +408,4 @@
     flex-flow: row wrap;
     width: 92vw;
   }
-}
+} */
