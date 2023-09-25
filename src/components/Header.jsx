@@ -32,7 +32,6 @@ export default function Header() {
 
   const handleClick = (lng) => {
     i18n.changeLanguage(lng);
-    console.log(i18n);
   };
 
   return (
@@ -67,6 +66,7 @@ export default function Header() {
                   backgroundColor: "gray",
                 }}
                 onChange={(e) => handleClick(e.target.value)}
+                value={localStorage.getItem("i18nextLng")}
               >
                 <option value="fr">fr</option>
                 <option value="en">en</option>
