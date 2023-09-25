@@ -12,7 +12,6 @@ import { useTranslation } from "react-i18next";
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
   const widthPhoneLg = useMediaQuery("(max-width:720px)");
-  const [currentImage] = useState(0);
 
   // Shuffle function to randomly reorder the array
   function shuffleArray(array) {
@@ -43,37 +42,30 @@ export default function SingleProduct() {
       <div className="header--product">
         <Header />
       </div>
-      {filteredProduct.map((product) => (
-        <>
+      <div className="one--product--display">
+        {filteredProduct.map((product) => (
           <div className="single--product" key={product.id}>
             {product.produits.map((produit) => (
               <div className="single--product--container" key={produit.id}>
                 <div
                   className="single--product--left"
                   id="single--product--left"
-                  key={filteredProduct[0].produits[currentImage].id}
                   style={{ backgroundImage: `url('${produit.imgUrl}')` }}
                 >
-                  <div className="gallery-photo">
-                    {produit.gallery.map((image) => (
+                  <div className="gallery">
+                    {produit.gallery.map((value) => (
                       <div
-                        className="image-gallery"
-                        key={image}
-                        style={{ backgroundImage: `${image}` }}
+                        className="photo"
+                        style={{ backgroundImage: `url('${value}')` }}
                       ></div>
                     ))}
                   </div>
-                  {/* next prev ra ilaina
-                    <i className="fas fa-chevron-left" style={{positon:'relative',marginRight:'9em'}}></i>
-                    <i className="fas fa-chevron-right" style={{positon:'relative',right:0}}></i>
-                  */}
                 </div>
                 <div className="line-red"></div>
                 <div className="single--product--right" key={produit.id}>
                   <h2 style={{ fontFamily: "Canela", color: "#F2E5D1" }}>
                     {t(`product-${product.id}-${produit.id}.name`)}
                   </h2>
-                  <br />
                   <p
                     style={
                       produit.gout === ""
@@ -138,13 +130,14 @@ export default function SingleProduct() {
                     style={
                       produit.conditionnement === []
                         ? { display: "none" }
-                        : { display: "flex" }
+                        : { display: "flex", flexWrap: "wrap" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Conditionnement : </span>{" "}
+                    <span style={{ fontWeight: 600 }}>
+                      Conditionnement : &nbsp;
+                    </span>{" "}
                     {produit.conditionnement.map((value) => (
                       <span
-                        key={value.grammage}
                         style={
                           value.grammage
                             ? { display: "block" }
@@ -169,60 +162,55 @@ export default function SingleProduct() {
                 </div>
               </div>
             ))}
-            {widthPhoneLg ? (
-              <div className="random--product--container">
-                {shuffledData.slice(0, 4).map((product) => (
-                  <div
-                    className="products--products--list--card"
-                    key={product.id}
-                  >
-                    <Card
-                      id={product.id}
-                      img={product.imgUrl}
-                      title={product.name}
-                      text={product.description.slice(0, 60) + "..."}
-                      className={"details"}
-                      product={product}
-                    />
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div className="random--product--container">
-                {shuffledData.slice(0, 12).map((product) => (
-                  <div
-                    className="products--products--list--card"
-                    key={product.id}
-                  >
-                    <Card
-                      id={product.id}
-                      img={product.imgUrl}
-                      title={product.name}
-                      text={product.description.slice(0, 60) + "..."}
-                      className={"details"}
-                      product={product}
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
-            <div className="button--product">
-              <Link to={"/product"}>
-                <button
-                  className="btn btn-lg"
-                  style={{
-                    borderRadius: "8px",
-                    fontFamily: "Raleway",
-                    fontWeight: 700,
-                  }}
-                >
-                  {t("singleproduct.1")}
-                </button>
-              </Link>
-            </div>
           </div>
-        </>
-      ))}
+        ))}
+        {widthPhoneLg ? (
+          <div className="random--product--container">
+            {shuffledData.slice(0, 4).map((product) => (
+              <div className="products--products--list--card" key={product.id}>
+                <Card
+                  id={product.id}
+                  img={product.imgUrl}
+                  title={product.name}
+                  text={product.description.slice(0, 60) + "..."}
+                  className={"details"}
+                  product={product}
+                />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="random--product--container">
+            {shuffledData.slice(0, 12).map((product) => (
+              <div className="products--products--list--card" key={product.id}>
+                <Card
+                  id={product.id}
+                  img={product.imgUrl}
+                  title={product.name}
+                  text={product.description.slice(0, 60) + "..."}
+                  className={"details"}
+                  product={product}
+                />
+              </div>
+            ))}
+          </div>
+        )}
+        <div className="button--product">
+          <Link to={"/product"}>
+            <button
+              className="btn btn-lg"
+              style={{
+                borderRadius: "8px",
+                fontFamily: "Raleway",
+                fontWeight: 700,
+              }}
+            >
+              {t("singleproduct.1")}
+            </button>
+          </Link>
+        </div>
+      </div>
+
       <div className="footer--product">
         <Footer />
       </div>
