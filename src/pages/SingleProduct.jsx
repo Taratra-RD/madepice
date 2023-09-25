@@ -36,6 +36,7 @@ export default function SingleProduct() {
   }, []);
 
   const { t } = useTranslation();
+  console.log(filteredProduct);
 
   return (
     <>
@@ -143,6 +144,7 @@ export default function SingleProduct() {
                     <span style={{ fontWeight: 600 }}>Conditionnement : </span>{" "}
                     {produit.conditionnement.map((value) => (
                       <span
+                        key={value.grammage}
                         style={
                           value.grammage
                             ? { display: "block" }
