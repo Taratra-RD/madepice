@@ -42,6 +42,7 @@ const Contact = () => {
           <div className="degradee">
             <div className="contact-header"></div>
             <div className="title-1">CONTACT & FAQ</div>
+            <div></div>
           </div>
         </div>
         <div className="body--contain">
@@ -57,7 +58,7 @@ const Contact = () => {
                 </div>
                 <p>
                   <li>+261 34 34 134 81</li>
-                  <li>+261 34 34 134 81</li>
+                  <li>+261 34 47 488 82</li>
                 </p>
               </div>
             </div>
@@ -73,13 +74,21 @@ const Contact = () => {
                 {shouldSwapItems ? (
                   <>
                     <p>
-                      <li>commercial@madepices.mg</li>
+                      <li>
+                        <a href="mailto:commercial@madepices.mg">
+                          commercial@madepices.mg
+                        </a>
+                      </li>
                     </p>
                   </>
                 ) : (
                   <>
                     <p>
-                      <li>commercial @madepices .mg</li>
+                      <li>
+                        <a href="mailto:commercial@madepices.mg">
+                          commercial@ madepices.mg
+                        </a>
+                      </li>
                     </p>
                   </>
                 )}

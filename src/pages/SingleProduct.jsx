@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -12,6 +11,7 @@ import { useTranslation } from "react-i18next";
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
   const widthPhoneLg = useMediaQuery("(max-width:720px)");
+  const display = useMediaQuery("(max-width:700px)");
 
   // Shuffle function to randomly reorder the array
   function shuffleArray(array) {
@@ -78,7 +78,7 @@ export default function SingleProduct() {
                   </p>
                   <p
                     style={
-                      produit.intensite === ""
+                      produit.intensite === "" || display
                         ? { display: "none" }
                         : { display: "block" }
                     }
@@ -108,7 +108,7 @@ export default function SingleProduct() {
                   </p>
                   <p
                     style={
-                      produit.conservation === ""
+                      produit.conservation === "" || display
                         ? { display: "none" }
                         : { display: "block" }
                     }
@@ -118,7 +118,7 @@ export default function SingleProduct() {
                   </p>
                   <p
                     style={
-                      produit.composition === ""
+                      produit.composition === "" || display
                         ? { display: "none" }
                         : { display: "block" }
                     }
@@ -128,10 +128,11 @@ export default function SingleProduct() {
                   </p>
                   <p
                     style={
-                      produit.conditionnement === []
+                      produit.conditionnement === [] || display
                         ? { display: "none" }
                         : { display: "flex", flexWrap: "wrap" }
                     }
+                    className="single--product--conditionnement"
                   >
                     <span style={{ fontWeight: 600 }}>
                       Conditionnement : &nbsp;
