@@ -102,24 +102,17 @@
   .contact--list {
     display: flex;
     flex-direction: column;
-    padding-inline: 1.5em 1.5em;
-    justify-content: space-between;
-    padding-block: 2em 2em;
+    justify-content: space-around;
   }
 
   .red--line {
     display: none !important;
   }
 
-  .contact h3 {
-    font-size: 1.15rem;
-    font-weight: bold;
-  }
-
   .list {
     display: flex !important;
     flex-direction: row;
-    justify-content: space-around !important;
+    justify-content: space-around;
   }
 
   .icons {
@@ -133,7 +126,76 @@
   }
 
   .content {
-    margin-inline: 2rem 1rem;
+    width: 35%;
+  }
+
+  .contact content p {
+    font-size: 10px;
+  }
+
+  .title {
+    margin-block: 0;
+  }
+
+  .faq--title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .landing-page2 {
+    background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+      url("../../image/autres/Fonds/BG_Contact.webp");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .title-1-contact {
+    width: 100%;
+    margin-block: 2em 2em;
+    font-size: 22px !important;
+    height: auto;
+  }
+
+  .body--contain {
+    padding-inline: 2em 2em;
+  }
+
+  .contact--list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .red--line {
+    display: none !important;
+  }
+
+  .list {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons--img {
+    width: 40px;
+  }
+
+  .content {
+    width: 70%;
+    max-width: 35rem;
+  }
+
+  .content h3 {
+    font-size: 1.15rem;
   }
 
   .contact content p {

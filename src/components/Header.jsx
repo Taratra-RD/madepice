@@ -40,7 +40,13 @@ export default function Header() {
         <nav>
           <ul className={`nav-links-sidenav ${navbarOpen ? "open" : ""}`}>
             <li>
-              <Link to={"/"} style={{ fontFamily: "Canela Deck Trial" }}>
+              <Link
+                to={"/"}
+                style={{
+                  fontFamily: "Canela Deck Trial",
+                  letterSpacing: "4px",
+                }}
+              >
                 {t("header.1").toUpperCase()}
               </Link>
             </li>
@@ -50,12 +56,24 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to={"/product"} style={{ fontFamily: "Canela Deck Trial" }}>
+              <Link
+                to={"/product"}
+                style={{
+                  fontFamily: "Canela Deck Trial",
+                  letterSpacing: "2px",
+                }}
+              >
                 {t("header.3").toUpperCase()}
               </Link>
             </li>
             <li>
-              <Link to={"/contact"} style={{ fontFamily: "Canela Deck Trial" }}>
+              <Link
+                to={"/contact"}
+                style={{
+                  fontFamily: "Canela Deck Trial",
+                  letterSpacing: "4px",
+                }}
+              >
                 {t("header.4").toUpperCase()}
               </Link>
             </li>

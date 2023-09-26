@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 import reportWebVitals from "./reportWebVitals";
 import "./i18next";
 import Loading from "./pages/Loading";
