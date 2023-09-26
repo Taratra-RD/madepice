@@ -1,0 +1,103 @@
+MADEPICE
+
+1-L'application est construit sous ReactJS.
+2-Dependance:{
+    browser-router-dom:navigation,
+    bootstrap:style,
+    fontawesome:icons,
+    r18inext:traduction,
+}
+3-Il se divise en 4 grande partie: Acceuil, A propos, Produit et Contact.
+
+4-Dans la partie produits et detail on utilise une systeme d'objet javascript pour les produits. Ce fichier se nomme data.js avec le structure suivant:
+//AIL
+import imgAil_1 from "./image/Ail/Ail_copy.webp";
+import imgAil_2 from "./image/Ail/Ail_title_copy.webp";
+import imgAil_3 from "./image/Ail/Ail_morceau_.webp";
+import imgAil_4 from "./image/Ail/Ail_en_poudre.webp";
+import imgAil_5 from "./image/Ail/Ail_morceau_2.webp";
+import imgAil_6 from "./image/Ail/Ail_en_poudre2.webp";
+
+//AIL
+  {
+    id: 1,
+    name: "AIL",
+    description:
+      "L'ail est un ingrédient polyvalent et savoureux utilisé dans nombreuses cuisines du monde entier. Il peut être consommé cru, cuit ou séché.",
+    imgUrl: imgAil_1,
+    imgUrl_1: imgAil_2,
+    type: "Epice",
+    phare: true,
+    produits: [
+      {
+        id: 1,
+        name: "AIL MORCEAU",
+        conditionnement: [
+          { unite: "vrac(1kg-5kg)" },
+          { unite: "Doypack", grammage: "300g" },
+          { unite: "verrine", grammage: "25g" },
+          { unite: "SB", grammage: "100g" },
+          { unite: "PET", grammage: "25g" },
+        ],
+        description:
+          "L'ail est un ingrédient polyvalent et savoureux utilisé dans nombreuses cuisines du monde entier. Il peut être consommé cru, cuit ou séché.",
+        imgUrl: imgAil_3,
+        gallery: [imgAil_3, imgAil_5],
+        texture: "morceau",
+        gout: "piquant",
+        intensite: "Forte",
+        parfum: "Arôme d'allicine",
+        origine: "Madagascar",
+        conservation: "endroit frais et sec",
+        composition:
+          "vitamines B et C, potassium, calcium, fer, composés sulfurés.",
+      },
+      {
+        id: 2,
+        name: "AIL POUDRE",
+        conditionnement: [
+          { unite: "vrac(1kg-5kg)" },
+          { unite: "Doypack", grammage: "120g" },
+          { unite: "verrine", grammage: "25g" },
+          { unite: "SB", grammage: "100g" },
+        ],
+        description:
+          "L'ail est un ingrédient polyvalent et savoureux utilisé dans nombreuses cuisines du monde entier. Il peut être consommé cru, cuit ou séché.",
+        imgUrl: imgAil_4,
+        gallery: [imgAil_4, imgAil_6],
+        texture: "poudre",
+        gout: "piquant",
+        intensite: "Forte",
+        parfum: "Arôme d'allicine",
+        origine: "Madagascar",
+        conservation: "endroit frais et sec",
+        composition:
+          "vitamines B et C, potassium, calcium, fer, composés sulfurés.",
+      },
+    ],
+  },
+
+  Cette objet sert généralement comme référence pour les images. Pour modifier les images dans la partie Produit, il faut modifier
+    "imgUrl: imgAil_1,"
+dans l'objet principale, pour modifier l'image en titre il faut modifier
+    "imgUrl_1: imgAil_2,"
+5-Chaque produits a une liste de produits pour les différentes texture.
+6-Dans la partie détails, on peut modifier les photos dans la gallery en les important au préalable.
+7-Pour modifier les textes il faut entrer dans /public/locales et choisir une dossier français ou anglais.
+8-Pour que la traduction marche on doit utiliser une même structure d'objet dans toutes les fichiers de traduction
+
+/fr/translation.json
+"header": {
+    "1": "Acceuil",
+    "2": "A propos de nous",
+    "3": "Nos produits",
+    "4": "Contact"
+  }
+
+  /en/translation.json
+  "header": {
+    "1": "Home",
+    "2": "About us",
+    "3": "Our products",
+    "4": "Contact"
+  },
