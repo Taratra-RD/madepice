@@ -125,15 +125,8 @@ export default function Header() {
                   backgroundColor: "gray",
                 }}
                 onChange={(e) => handleClick(e.target.value)}
+                value={localStorage.getItem("i18nextLng")}
               >
-                <option
-                  value={localStorage.getItem("i18nextLng")}
-                  selected
-                  disabled
-                  hidden
-                >
-                  {localStorage.getItem("i18nextLng")}
-                </option>
                 <option value="fr">fr</option>
                 <option value="en">en</option>
               </select>

@@ -170,6 +170,9 @@
 @media (min-width: 1000px) {
   .single--product--left {
     position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
   }
 
   .gallery {
@@ -179,8 +182,34 @@
     padding-inline: 0.1rem 0.1rem;
     display: flex;
     align-items: center;
-    overflow-x: scroll;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap;
     width: 100%;
+  }
+
+  .gallery-container {
+    display: flex;
+    transition: transform 0.3s ease; /* Smooth transition for sliding */
+  }
+
+  .gallery::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 10px;
+  }
+
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: rgba(5, 5, 5, 0.7); /* Change the color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+
+  /* Style the scrollbar track (the background) */
+  .gallery::-webkit-scrollbar-track {
+    background-color: rgba(5, 5, 5, 0.7); /* Change the color of the track */
+  }
+
+  /* Style the scrollbar track when the thumb is being dragged */
+  .gallery::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(5, 5, 5, 0.9); /* Color on hover */
   }
 
   .photo {
