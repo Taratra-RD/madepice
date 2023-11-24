@@ -133,7 +133,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Conservation : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`text.5`)} : </span>
                     {t(`product-${product.id}-${produit.id}.conservation`)}
                   </p>
                   <p
@@ -143,7 +143,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Composition : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`text.6`)} : </span>
                     {t(`product-${product.id}-${produit.id}.composition`)}
                   </p>
                   <p
@@ -155,7 +155,7 @@ export default function SingleProduct() {
                     className="single--product--conditionnement"
                   >
                     <span style={{ fontWeight: 600 }}>
-                      Conditionnement : &nbsp;
+                    {t(`text.7`)} : &nbsp;
                     </span>{" "}
                     {produit.conditionnement.map((value, index) => (
                       <span
@@ -178,7 +178,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>{t(`text.5`)} : </span>{" "}
+                    <span style={{ fontWeight: 600 }}>{t(`text.8`)} : </span>{" "}
                     {t(`product-${product.id}-${produit.id}.description`)}
                   </p>
                 </div>

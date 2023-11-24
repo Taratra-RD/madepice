@@ -22,7 +22,10 @@
     "2":"Intensity",
     "3":"Perfume",
     "4":"Texture",
-    "5":"Description"
+    "5":"Conservation",
+    "6":"Composition",
+    "7":"Packaging",
+    "8":"Description"
   },
   "about": {
     "1": "WHO WE ARE?",
