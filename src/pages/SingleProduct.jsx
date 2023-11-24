@@ -74,23 +74,23 @@ export default function SingleProduct() {
                   </h2>
                   <br />
                   <p>
-                    <span style={{ fontWeight: 600 }}>Goût : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`text.1`)} :</span>
                     {t(`product-${product.id}-${produit.id}.gout`)}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>Intensité : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`text.2`)} : </span>
                     {t(`product-${product.id}-${produit.id}.intensite`)}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>Parfum : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`text.3`)} : </span>
                     {t(`product-${product.id}-${produit.id}.parfum`)}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>Texture : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`text.4`)} : </span>
                     {t(`product-${product.id}-${produit.id}.texture`)}
                   </p>
                   <p>
-                    <span style={{ fontWeight: 600 }}>Description : </span>{" "}
+                    <span style={{ fontWeight: 600 }}>{t(`text.5`)} : </span>{" "}
                     {t(`product-${product.id}-${produit.id}.description`)}
                   </p>
                 </div>

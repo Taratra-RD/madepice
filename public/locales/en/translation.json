@@ -17,6 +17,13 @@
     "6": "DISCOVER THE ART OF SPICES",
     "7": "Embark on a sensory journey with Madepices, exploring authentic spices that blend traditions and innovations. Surrender to enchanting aromas and exotic flavors, a unique experience guided by our passion."
   },
+  "text":{
+    "1":"Taste",
+    "2":"Intensity",
+    "3":"Perfume",
+    "4":"Texture",
+    "5":"Description"
+  },
   "about": {
     "1": "WHO ARE WE?",
     "2": "MADEPICES, a company established in 2011, specializes in the preparation of spices and the marketing of agri-food and cosmetic products based on spices. We focus primarily on the artisanal aspect. We offer high-quality products: hand-sorted, prepared, and calibrated by a team with 20 years of experience in the field. We guarantee a variety of premium spices, carefully selected, natural, and seasonal to meet your expectations.",

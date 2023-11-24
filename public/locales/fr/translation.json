@@ -17,6 +17,13 @@
     "6": "DECOUVREZ L'ART DES EPICES",
     "7": "Partez pour un voyage sensoriel avec Madepices, explorant des épices authentiques, mêlant traditions et nouveautés. Succombez aux arômes envoûtants et aux saveurs exotiques, une expérience unique guidée par notre passion.  in english"
   },
+  "text":{
+    "1":"Goût",
+    "2":"Intensité",
+    "3":"Parfum",
+    "4":"Texture",
+    "5":"Description"
+  },
   "about": {
     "1": "QUI SOMMES NOUS?",
     "2": "MADEPICES, une société créée en 2011  spécialisée dans la préparation d’épices et dans la commercialisation des produits agroalimentaires et cosmétiques à base d’épices. Nous nous concentrons essentiellement sur l’aspect artisanal. Nous proposons des produits de haute qualité : triés, préparés et calibrés à la main par une équipe avec 20 ans d’expérience dans le domaine. Nous garantissons une variété d’épices haut de gamme, sélectionnée, naturelles et saisonnières répondant à vos attentes.",
