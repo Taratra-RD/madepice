@@ -7,6 +7,12 @@
   background-repeat: no-repeat;
   background-image: url(../../image/autres/logo/LOGO.png);
 }
+
+.sidenav select {
+  margin-inline: 0.1rem 0.1rem !important;
+  width: 5rem;
+}
+
 .navbar {
   width: 100%;
   height: 6.5em;
@@ -74,7 +80,7 @@ div.sidenav nav ul {
   align-items: center; /* Center items vertically */
 }
 div.sidenav nav ul li {
-  margin: 1em 0; /* Add spacing between menu items */
+  margin: 0.8em 0; /* Add spacing between menu items */
 }
 
 div.sidenav nav ul li a {
@@ -89,6 +95,9 @@ div.sidenav nav ul li a:hover {
 }
 
 @media screen and (max-width: 720px) {
+  .sidenav a {
+    margin-inline: 0.1rem 0.1rem !important;
+  }
   .navbar {
     position: sticky;
     top: 0;

@@ -3,9 +3,9 @@ import "./css/Loading.css";
 
 export default function Loading() {
   return (
-    <div class="snippet">
-      <div class="stage">
-        <div class="dot-bricks"></div>
+    <div className="snippet">
+      <div className="stage">
+        <div className="dot-bricks"></div>
       </div>
     </div>
   );

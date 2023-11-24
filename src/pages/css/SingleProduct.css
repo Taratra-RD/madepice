@@ -1,84 +1,30 @@
-.single--product {
+.one--product--display {
+  padding-block: 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
   background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
-  height: 150vw;
-  font-family: Raleway;
-}
-
-.line-red {
-  width: 2px;
-  height: 70%;
-  margin-left: 4em;
-  margin-right: 4em;
-  background: #961b1e;
-}
-
-.single--product--container {
-  width: 85vw;
-  min-height: 40vw;
-  background: #121212;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  box-shadow: 1px 2px 2px black;
-  border-radius: 5px;
-}
-
-.single--product--left {
-  width: 45%;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  background: white;
-  background-size: contain;
-  background-position: center;
-  border-radius: 5px 0 0 5px;
-  background-repeat: no-repeat;
-}
-.single--product--left i {
-  margin-bottom: 0.5em;
-  display: flex;
-  cursor: pointer;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  color: #961b1e;
-  font-size: 28px;
-}
-.gallery-photo {
-  width: 100%;
-  height: 15vh;
-  background: blue;
-  display: none;
-}
-
-.single--product--right {
-  width: 70%;
-  min-height: 100%;
-  background: #121212;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 1em;
-  border-radius: 0 6px 6px 0;
 }
 
 .random--product--container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10em;
+  flex-wrap: wrap;
   height: 60%;
   background: rgba(0, 0, 0, 0.149);
   border-radius: 10px;
   overflow-y: hidden;
-  margin-block: 1rem 1rem;
+  margin-block: 7vh 3vh;
+  width: 90vw;
+}
+
+.single--product--left {
+  width: 30%;
+  background-size: 100% 100%;
+  border-start-start-radius: inherit;
+  border-end-start-radius: inherit;
 }
 
 .button--product a .btn {
@@ -87,183 +33,190 @@
   background: #f2e5d1;
 }
 
-.button--product a .btn:hover {
-  background: #121212;
-  box-shadow: 1px 5px 10px black;
-  border: 1px solid #f2e5d1;
-  transition: 0.4s;
-}
-
-.button--product a:hover {
-  color: #f2e5d1;
-}
-
-@media screen and (max-width: 400px) {
-}
-
-@media screen and (max-width: 720px) {
-  body {
-    font-style: 14px;
-  }
-  .single--product {
-    height: auto;
-  }
-  .single--product--container {
-    height: auto;
-  }
-
-  .single--product--left {
-    background: white;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .line-red {
+@media (max-width: 650px) {
+  .single--product--conditionnement {
     display: none;
   }
-
-  .single--product--right {
-    font-size: 14px;
-    background: #121212;
-    margin: 1.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 
-/*Taratra container*/
-@media screen and (max-width: 449px) {
-  body {
-    font-style: 14px;
-  }
-
-  .single--product--left {
-    display: none;
-  }
-
-  .line-red {
-    display: none;
-  }
-  .single--product--container {
-    height: auto;
-  }
-  .single--product--right {
-    font-size: 14px;
-    background: #121212;
-    margin: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .random--product--container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 90vw;
-    height: auto;
+@media (max-width: 724px) {
+  .one--product--display {
+    margin-block: 2rem 2rem;
   }
 
   .single--product {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
-    height: auto;
-    font-family: Raleway;
   }
-}
 
-@media screen and (min-width: 450px) {
-  .random--product--container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 95vw;
+  .single--product h2 {
+    margin-bottom: 3vw;
   }
 
   .single--product--container {
+    background: #121212;
+    width: 85vw;
+    margin-block: 1rem 1rem;
+    display: flex;
     height: fit-content;
+    justify-content: space-between;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 5px;
   }
 
-  .single--product {
-    height: auto;
+  .line-red {
+    display: none;
+  }
+
+  .single--product--right {
+    width: 65%;
+    padding-block: 1rem 1rem;
+    padding-inline: 2vw 2vw;
+  }
+
+  .single--product--right p {
+    margin-bottom: 0.3rem;
   }
 }
 
-@media screen and (min-width: 670px) {
-  .random--product--container {
+@media (min-width: 725px) {
+  .single--product {
     display: flex;
-    flex-flow: row wrap;
-    width: 90vw;
+    flex-direction: column;
+    align-items: center;
   }
+
+  .single--product h2 {
+    margin-bottom: 3vw;
+  }
+
+  .single--product--container {
+    background: #121212;
+    width: 85vw;
+    margin-block: 1rem 1rem;
+    display: flex;
+    height: fit-content;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 5px;
+  }
+
   .single--product--left {
-    background-size: 105%;
+    animation-name: left;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
   }
-  .single--product--container {
-    height: auto;
+
+  @keyframes left {
+    from {
+      opacity: 0;
+      margin-block: 15rem 15rem;
+    }
+    to {
+      opacity: 1;
+    }
   }
-  .single--product {
-    height: auto;
+
+  .line-red {
+    background-color: red;
+    height: 5re;
+    width: 1px;
+    margin-inline: 4vw 4vw;
+    margin-block: 15rem 15rem;
+    animation-name: sweep;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+
+  @keyframes sweep {
+    from {
+      margin-block: 15rem 15rem;
+      opacity: 0;
+    }
+    to {
+      margin-block: 2.5rem 2.5rem;
+      opacity: 1;
+    }
+  }
+
+  .single--product--right {
+    width: 60%;
+    padding-block: 1rem 1rem;
+    padding-inline: 0 2vw;
+    animation-name: right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+
+  @keyframes right {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 
-@media screen and (min-width: 800px) {
-  .random--product--container {
+@media (min-width: 1000px) {
+  .single--product--left {
+    position: relative;
     display: flex;
-    flex-flow: row wrap;
-    width: 85vw;
-  }
-  .single--product--container {
-    height: 50vw;
-  }
-  .single--product {
-    height: auto;
-  }
-}
-@media screen and (min-width: 975px) {
-  .random--product--container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 85vw;
-  }
-  .single--product--container {
-    height: 50vw;
-  }
-  .single--product {
-    height: auto;
-  }
-}
-@media screen and (min-width: 1030px) {
-  .random--product--container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 90vw;
-  }
-  .single--product--container {
-    height: 40vw;
-  }
-  .single--product {
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 1150px) {
-  .random--product--container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 90vw;
+    justify-content: center;
+    overflow: hidden;
   }
 
-  .single--product {
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .random--product--container {
+  .gallery {
+    position: absolute;
+    bottom: 0;
+    height: 7rem;
+    padding-inline: 0.1rem 0.1rem;
     display: flex;
-    flex-flow: row wrap;
-    width: 92vw;
+    align-items: center;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .gallery-container {
+    display: flex;
+    transition: transform 0.3s ease; /* Smooth transition for sliding */
+  }
+
+  .gallery::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 10px;
+  }
+
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: rgba(5, 5, 5, 0.7); /* Change the color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+
+  /* Style the scrollbar track (the background) */
+  .gallery::-webkit-scrollbar-track {
+    background-color: rgba(5, 5, 5, 0.7); /* Change the color of the track */
+  }
+
+  /* Style the scrollbar track when the thumb is being dragged */
+  .gallery::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(5, 5, 5, 0.9); /* Color on hover */
+  }
+
+  .photo {
+    height: 5rem;
+    width: 5rem;
+    background-size: 100% 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-inline: 2px;
   }
 }

@@ -11,7 +11,7 @@ i18n
   .use(LanguageDetector)
   .use(Backend)
   .init({
-    debug: true,
+    debug: false,
     fallbackLng: "fr",
     lng: "fr",
     whitelist: Lng,

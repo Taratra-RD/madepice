@@ -106,7 +106,7 @@ const Card = ({ product }) => {
         <div className="card--description--card">
           {truncate(t(`product-${product.id}.description`))}
         </div>
-        <div className="card--button--card">Savoir plus</div>
+        <div className="card--button--card">{t("caroussel.5")}</div>
       </Link>
     </div>
   );

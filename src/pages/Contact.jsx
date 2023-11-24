@@ -42,6 +42,7 @@ const Contact = () => {
           <div className="degradee">
             <div className="contact-header"></div>
             <div className="title-1">CONTACT & FAQ</div>
+            <div></div>
           </div>
         </div>
         <div className="body--contain">
@@ -56,8 +57,22 @@ const Contact = () => {
                   <h3>{t("contact.1")}</h3>
                 </div>
                 <p>
-                  <li>+261 34 34 134 81</li>
-                  <li>+261 34 34 134 81</li>
+                  <li>
+                    <a
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="tel:+261 34 34 134 81"
+                    >
+                      +261 34 34 134 81
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      style={{ textDecoration: "none", color: "inherit" }}
+                      href="tel:+261 34 47 488 82"
+                    >
+                      +261 34 47 488 82
+                    </a>
+                  </li>
                 </p>
               </div>
             </div>
@@ -73,13 +88,27 @@ const Contact = () => {
                 {shouldSwapItems ? (
                   <>
                     <p>
-                      <li>commercial@madepices.mg</li>
+                      <li>
+                        <a
+                          style={{ textDecoration: "none", color: "inherit" }}
+                          href="mailto:commercial@madepices.mg"
+                        >
+                          commercial@madepices.mg
+                        </a>
+                      </li>
                     </p>
                   </>
                 ) : (
                   <>
                     <p>
-                      <li>commercial @madepices .mg</li>
+                      <li>
+                        <a
+                          style={{ textDecoration: "none", color: "inherit" }}
+                          href="mailto:commercial@madepices.mg"
+                        >
+                          commercial@ madepices.mg
+                        </a>
+                      </li>
                     </p>
                   </>
                 )}
