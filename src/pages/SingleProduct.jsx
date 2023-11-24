@@ -73,23 +73,94 @@ export default function SingleProduct() {
                     {t(`product-${product.id}-${produit.id}.name`)}
                   </h2>
                   <br />
-                  <p>
+                  <p
+                    style={
+                      produit.gout === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
                     <span style={{ fontWeight: 600 }}>{t(`text.1`)} :</span>
                     {t(`product-${product.id}-${produit.id}.gout`)}
                   </p>
-                  <p>
+                  <p
+                    style={
+                      produit.intensite === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
                     <span style={{ fontWeight: 600 }}>{t(`text.2`)} : </span>
                     {t(`product-${product.id}-${produit.id}.intensite`)}
                   </p>
-                  <p>
+                  <p
+                    style={
+                      produit.parfum === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
                     <span style={{ fontWeight: 600 }}>{t(`text.3`)} : </span>
                     {t(`product-${product.id}-${produit.id}.parfum`)}
                   </p>
-                  <p>
+                  <p
+                    style={
+                      produit.texture === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
                     <span style={{ fontWeight: 600 }}>{t(`text.4`)} : </span>
                     {t(`product-${product.id}-${produit.id}.texture`)}
                   </p>
-                  <p>
+                  <p
+                    style={
+                      produit.conservation === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
+                    <span style={{ fontWeight: 600 }}>Conservation : </span>
+                    {t(`product-${product.id}-${produit.id}.conservation`)}
+                  </p>
+                  <p
+                    style={
+                      produit.composition === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
+                    <span style={{ fontWeight: 600 }}>Composition : </span>
+                    {t(`product-${product.id}-${produit.id}.composition`)}
+                  </p>
+                  <p
+                    style={
+                      produit.conditionnement === []
+                        ? { display: "none" }
+                        : { display: "flex" }
+                    }
+                  >
+                    <span style={{ fontWeight: 600 }}>Conditionnement : </span>{" "}
+                    {produit.conditionnement.map((value) => (
+                      <span
+                        style={
+                          value.grammage
+                            ? { display: "block" }
+                            : { display: "none" }
+                        }
+                      >
+                        {value.grammage} |&nbsp;
+                      </span>
+                    ))}{" "}
+                    en vrac (1kg-5kg)
+                  </p>
+                  <p
+                    style={
+                      produit.description === ""
+                        ? { display: "none" }
+                        : { display: "block" }
+                    }
+                  >
                     <span style={{ fontWeight: 600 }}>{t(`text.5`)} : </span>{" "}
                     {t(`product-${product.id}-${produit.id}.description`)}
                   </p>
