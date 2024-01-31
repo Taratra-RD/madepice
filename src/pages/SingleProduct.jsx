@@ -93,7 +93,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Goût : </span>
+                    <span style={{ fontWeight: 600 }}>{t("translate.1")} :</span>
                     {t(`product-${product.id}-${produit.id}.gout`)}
                   </p>
                   <p
@@ -103,7 +103,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Intensité : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.2`)} : </span>
                     {t(`product-${product.id}-${produit.id}.intensite`)}
                   </p>
                   <p
@@ -113,7 +113,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Parfum : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.3`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.parfum`)}
                   </p>
                   <p
@@ -123,7 +123,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Texture : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.4`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.texture`)}
                   </p>
                   <p
@@ -133,7 +133,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Conservation : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.5`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.conservation`)}
                   </p>
                   <p
@@ -143,7 +143,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Composition : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.6`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.composition`)}
                   </p>
                   <p
@@ -155,7 +155,7 @@ export default function SingleProduct() {
                     className="single--product--conditionnement"
                   >
                     <span style={{ fontWeight: 600 }}>
-                      Conditionnement : &nbsp;
+                      {t(`translate.7`)}  : &nbsp;
                     </span>{" "}
                     {produit.conditionnement.map((value, index) => (
                       <span
@@ -178,7 +178,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Description : </span>{" "}
+                    <span style={{ fontWeight: 600 }}>{t(`translate.8`)} : </span>{" "}
                     {t(`product-${product.id}-${produit.id}.description`)}
                   </p>
                 </div>
