@@ -15,7 +15,7 @@
 
 .imgGroups2 {
   display: flex;
-  background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+  background-image: url("../../image/autres/Landing/Rectangle\ 6.webp"),
     url("../../image/autres/Fonds/BG_QuiSommeNous.webp");
   width: 100%;
   height: 99vh;
@@ -40,7 +40,7 @@
   max-width: 100vw;
   padding-inline: 5em 5em;
   padding-block: 5em 5em;
-  background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
+  background-image: url(../../image/autres/Landing/Rectangle\ 51.webp);
 }
 
 .history-content {
@@ -121,7 +121,7 @@ p {
 
 .container--about {
   display: flex;
-  background-image: url("../../image/autres/Landing/Rectangle\ 53.png");
+  background-image: url("../../image/autres/Landing/Rectangle\ 53.webp");
   background-size: cover;
 }
 
@@ -195,7 +195,7 @@ p {
   }
 
   .imgGroups2 {
-    background-image: url("../../image/autres/Landing/Rectangle\ 6.png"),
+    background-image: url("../../image/autres/Landing/Rectangle\ 6.webp"),
       url("../../image/autres/Fonds/BG_QuiSommeNous.webp");
     width: 100%;
     height: 50vh;
@@ -221,7 +221,7 @@ p {
     max-width: 100vw;
     padding-inline: 1em 1em;
     padding-block: 2em 2.5em;
-    background-image: url(../../image/autres/Landing/Rectangle\ 51.png);
+    background-image: url(../../image/autres/Landing/Rectangle\ 51.webp);
   }
 
   .history-content {
@@ -321,7 +321,7 @@ p {
 
   .container--about {
     display: block;
-    background-image: url("../../image/autres/Landing/Rectangle\ 53.png");
+    background-image: url("../../image/autres/Landing/Rectangle\ 53.webp");
     background-size: cover;
   }
 

@@ -5,7 +5,7 @@
   margin-left: 8em;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../image/autres/logo/LOGO.png);
+  background-image: url(../../image/autres/logo/LOGO.webp);
 }
 
 .sidenav select {
@@ -37,11 +37,12 @@ nav ul li a {
   font-family: Raleway;
   text-decoration: none;
   color: #f2e5d1;
-  margin-right: 4em;
+  margin-inline: 1.5rem 1.5rem;
+  font-size: 18px;
 }
 
 nav ul li a.contact {
-  margin-right: 6.5em;
+  margin-right: 4em;
 }
 
 nav ul li a:hover {
@@ -85,7 +86,7 @@ div.sidenav nav ul li {
 
 div.sidenav nav ul li a {
   color: #f2e5d1;
-  font-family: Canela;
+  font-family: Raleway;
   text-align: center;
   text-decoration: none;
 }
@@ -168,6 +169,6 @@ div.sidenav nav ul li a:hover {
     margin-left: 2em;
   }
   nav ul li a {
-    margin-right: 2.5em;
+    margin-inline: 1.25rem 1.25rem;
   }
 }

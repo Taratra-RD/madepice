@@ -1,8 +1,8 @@
 import Footer from "../components/Footer";
 import HeaderAbout from "../components/Header";
 import "./css/About.css";
-import leaves from "../image/autres/Leaves/Leaves 1.png";
-import leaves_1 from "../image/autres/Leaves/Leaves 2 (1).png";
+import leaves from "../image/autres/Leaves/Leaves 1 (1).webp";
+import leaves_1 from "../image/autres/Leaves/Leaves 2 (1).webp";
 import { useState, useEffect } from "react";
 import "../components/css/Header.css";
 import i18n from "../i18next";

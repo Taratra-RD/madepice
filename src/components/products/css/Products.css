@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: -6.5em;
-  background-image: url(../../../image/autres/Landing/Rectangle\ 6.png),
+  background-image: url(../../../image/autres/Landing/Rectangle\ 6.webp),
     url(../../../image/autres/Fonds/BG_NosProduits.webp);
   height: 99vh;
   width: 100%;
@@ -20,7 +20,7 @@
 
 .products {
   font-family: Raleway;
-  background-image: url(../../../image/autres/Landing/Rectangle\ 51.png);
+  background-image: url(../../../image/autres/Landing/Rectangle\ 51.webp);
 }
 
 .products--products--list,

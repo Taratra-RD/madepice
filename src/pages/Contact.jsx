@@ -1,9 +1,9 @@
 import Header from "../components/Header";
 import "./css/Contact.css";
-import PhoneIcons from "../image/autres/icons/Icons.png";
-import MailIcons from "../image/autres/icons/Icons(1).png";
-import LocationIcons from "../image/autres/icons/Icons(2).png";
-import FollowIcons from "../image/autres/icons/F-US.png";
+import PhoneIcons from "../image/autres/icons/Icons.webp";
+import MailIcons from "../image/autres/icons/Icons(1).webp";
+import LocationIcons from "../image/autres/icons/Icons(2).webp";
+import FollowIcons from "../image/autres/icons/F-US.webp";
 import Accordion from "../components/Accordion";
 import "../components/css/Accordion.css";
 import React, { useState, useEffect } from "react";
