@@ -18,7 +18,7 @@ div.img2 p {
   justify-content: center;
   width: auto;
   height: 85vh;
-  background-image: url("../../image/autres/Landing/Rectangle\ 101.png");
+  background-image: url("../../image/autres/Landing/Rectangle\ 101.webp");
 }
 
 div.cards {
@@ -49,8 +49,8 @@ div.card-img {
   padding: 2em;
   width: 100vw;
   background-size: cover;
-  background-image: url("../../image/autres/Landing/Rectangle\ 49.png"),
-    url("../../image/autres/Landing/Rectangle\ 167.png");
+  background-image: url("../../image/autres/Landing/Rectangle\ 49.webp"),
+    url("../../image/autres/Landing/Rectangle\ 167.webp");
 }
 
 .spacing {
@@ -65,7 +65,7 @@ div.card-img {
   height: 75em;
   /*77.3em*/
   padding: 2em;
-  background-image: url("../../image/autres/Landing/Rectangle\ 51.png");
+  background-image: url("../../image/autres/Landing/Rectangle\ 51.webp");
 }
 
 .img3 h1 {
@@ -100,7 +100,7 @@ div.card-img {
   right: 0;
   /*right: -8.1em;*/
   background-size: contain;
-  background-image: url("../../image/autres/Leaves/Leaves\ 1.png");
+  background-image: url("../../image/autres/Leaves/Leaves\ 1\ \(1\).webp");
 }
 
 .img-feuille2 {
@@ -114,7 +114,7 @@ div.card-img {
   /*right: -8.1em;*/
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../../image/autres/Leaves/Leaves\ 2\ \(1\).png");
+  background-image: url("../../image/autres/Leaves/Leaves\ 2\ \(1\).webp");
 }
 
 @keyframes slide-feuille-2 {
@@ -149,7 +149,7 @@ div img .img-font {
   height: auto;
   display: flex;
   justify-content: center;
-  background-image: url("../../image/autres/Landing/Rectangle\ 53.png");
+  background-image: url("../../image/autres/Landing/Rectangle\ 53.webp ");
 }
 .slider-container {
   width: 90vw;
@@ -320,8 +320,8 @@ div.swiper-button-next {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url("../../image/autres/Landing/Rectangle\ 49.png"),
-      url("../../image/autres/Landing/Rectangle\ 167.png");
+    background-image: url("../../image/autres/Landing/Rectangle\ 49.webp"),
+      url("../../image/autres/Landing/Rectangle\ 167.webp");
   }
 
   .block p {

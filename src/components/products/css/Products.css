@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   margin-top: -6.5em;
-  background-image: url(../../../image/autres/Landing/Rectangle\ 6.png),
+  background-image: url(../../../image/autres/Landing/Rectangle\ 6.webp),
     url(../../../image/autres/Fonds/BG_NosProduits.webp);
   height: 99vh;
   width: 100%;
   background-position: bottom;
-  background-size: 100% 100vh;
+  background-size: 100% 100%;
 }
 
 .products a {
@@ -19,7 +20,7 @@
 
 .products {
   font-family: Raleway;
-  background-image: url(../../../image/autres/Landing/Rectangle\ 51.png);
+  background-image: url(../../../image/autres/Landing/Rectangle\ 51.webp);
 }
 
 .products--products--list,
@@ -28,7 +29,40 @@
 }
 
 .header--text {
-  font-family: Canela !important;
+  font-family: Canela deck trial !important;
+}
+
+.scroll--down {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  margin-block: 2rem 2rem;
+}
+
+.products .fa-chevron-down {
+  text-align: center;
+  animation-name: scrollDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrollDown {
+  0% {
+    margin-top: 10px;
+    opacity: 1;
+  }
+  50% {
+    margin-top: 40px;
+    font-size: 50px;
+    opacity: 0.7;
+  }
+  100% {
+    margin-top: 50px;
+    font-size: 40px;
+    opacity: 0.5;
+  }
 }
 
 @media (max-width: 600px) {
@@ -37,14 +71,13 @@
   }
 
   .header--text {
-    height: 80%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    font-family: Canela;
   }
 
   .products--body {
@@ -70,14 +103,13 @@
 
 @media (min-width: 600px) {
   .header--text {
-    height: 80%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 64px;
-    font-family: Canela;
   }
 
   .products--body {
@@ -133,37 +165,8 @@
     z-index: 1;
   }
 
-  .scroll--down {
-    position: relative;
-    margin: auto;
-    height: 20%;
-  }
-
   .products .fa-chevron-down {
     font-size: 60px;
-    text-align: center;
-    animation-name: scrollDown;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes scrollDown {
-    0% {
-      margin-top: 10px;
-      opacity: 1;
-    }
-    50% {
-      margin-top: 40px;
-      font-size: 50px;
-      opacity: 0.7;
-    }
-    100% {
-      margin-top: 50px;
-      font-size: 40px;
-      opacity: 0.5;
-    }
   }
 
   .products-footer {

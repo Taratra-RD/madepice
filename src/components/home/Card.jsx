@@ -44,12 +44,8 @@ const Card = ({ product }) => {
       cardTitle.className += "--hover";
       cardBody.className += "--hover";
     } else if (cardProduct.className === `card--product--card` && !widthX) {
-      cardProduct.className += "--hover";
       cardProduct.style.backgroundColor = "black";
       cardProduct.style.backgroundImage = `url(${product.imgUrl})`;
-      cardImage.className += "--hover";
-      cardTitle.className += "--hover";
-      cardBody.className += "--hover";
     } else {
       cardProduct.className = "card--product--card";
       cardProduct.style.backgroundImage = `url(${product.imgUrl})`;

@@ -22,7 +22,7 @@ export default function Header() {
   };
   useEffect(() => {
     if (navbarOpen === true) {
-      document.getElementById("sidenav").style.height = "75vh";
+      document.getElementById("sidenav").style.height = "fit-content";
     } else if (navbarOpen === false) {
       document.getElementById("sidenav").style.height = "0em";
     }
@@ -40,7 +40,13 @@ export default function Header() {
         <nav>
           <ul className={`nav-links-sidenav ${navbarOpen ? "open" : ""}`}>
             <li>
-              <Link to={"/"} style={{ fontFamily: "Canela Deck Trial" }}>
+              <Link
+                to={"/"}
+                style={{
+                  fontFamily: "Canela Deck Trial",
+                  letterSpacing: "4px",
+                }}
+              >
                 {t("header.1").toUpperCase()}
               </Link>
             </li>
@@ -50,12 +56,24 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to={"/product"} style={{ fontFamily: "Canela Deck Trial" }}>
+              <Link
+                to={"/product"}
+                style={{
+                  fontFamily: "Canela Deck Trial",
+                  letterSpacing: "2px",
+                }}
+              >
                 {t("header.3").toUpperCase()}
               </Link>
             </li>
             <li>
-              <Link to={"/contact"} style={{ fontFamily: "Canela Deck Trial" }}>
+              <Link
+                to={"/contact"}
+                style={{
+                  fontFamily: "Canela Deck Trial",
+                  letterSpacing: "4px",
+                }}
+              >
                 {t("header.4").toUpperCase()}
               </Link>
             </li>
@@ -107,15 +125,8 @@ export default function Header() {
                   backgroundColor: "gray",
                 }}
                 onChange={(e) => handleClick(e.target.value)}
+                value={localStorage.getItem("i18nextLng")}
               >
-                <option
-                  value={localStorage.getItem("i18nextLng")}
-                  selected
-                  disabled
-                  hidden
-                >
-                  {localStorage.getItem("i18nextLng")}
-                </option>
                 <option value="fr">fr</option>
                 <option value="en">en</option>
               </select>

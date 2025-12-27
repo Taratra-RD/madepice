@@ -1,8 +1,8 @@
 import Footer from "../components/Footer";
 import HeaderAbout from "../components/Header";
 import "./css/About.css";
-import leaves from "../image/autres/Leaves/Leaves 1.png";
-import leaves_1 from "../image/autres/Leaves/Leaves 2 (1).png";
+import leaves from "../image/autres/Leaves/Leaves 1 (1).webp";
+import leaves_1 from "../image/autres/Leaves/Leaves 2 (1).webp";
 import { useState, useEffect } from "react";
 import "../components/css/Header.css";
 import i18n from "../i18next";
@@ -80,9 +80,9 @@ const About = () => {
         <div className="about">
           <HeaderAbout />
           <div className="imgGroups2">
-            <div className="about--header">
-            </div>
+            <div className="about--header"></div>
             <div className="title-1">{t("about.1")}</div>
+            <div></div>
           </div>
           <div className="contain">
             <div className="history">
@@ -91,7 +91,7 @@ const About = () => {
                   isScrolling_1 ? "slide-left-1" : ""
                 } `}
               >
-                <div className="content">
+                <div className="content--about">
                   <h4>2011</h4>
                   <p>{t("about.2")}</p>
                   <div
@@ -104,7 +104,7 @@ const About = () => {
                   isScrolling_2 ? "slide-left-2" : ""
                 } `}
               >
-                <div className="content">
+                <div className="content--about">
                   <p>{t("about.3")}</p>
                   <div
                     className={`line ${isScrolling_4 ? "line-anim" : ""} `}
@@ -116,7 +116,7 @@ const About = () => {
                   isScrolling_3 ? "slide-left-3" : ""
                 } `}
               >
-                <div className="content">
+                <div className="content--about">
                   <p>{t("about.4")}</p>
                   <div
                     className={`line ${isScrolling_4 ? "line-anim" : ""} `}

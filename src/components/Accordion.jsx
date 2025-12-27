@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import chevron from "../image/autres/icons/chevron-1.png";
+import chevron from "../image/autres/icons/chevron-1.webp";
 
 const Accordion = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -12,6 +11,9 @@ import { useTranslation } from "react-i18next";
 export default function SingleProduct() {
   const { id } = useParams(); // Extract the 'id' parameter from the URL
   const widthPhoneLg = useMediaQuery("(max-width:720px)");
+  const display = useMediaQuery("(max-width:700px)");
+  const [currentImage, setCurrentImage] = useState("");
+  const [currentImageId, setCurrentImageId] = useState("");
 
   // Shuffle function to randomly reorder the array
   function shuffleArray(array) {
@@ -34,8 +36,15 @@ export default function SingleProduct() {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleClick = (value) => {
+    setCurrentImage(value);
+  };
+
+  const handleOver = (id) => {
+    setCurrentImageId(id);
+  };
+
   const { t } = useTranslation();
-  console.log(filteredProduct);
 
   return (
     <>
@@ -48,17 +57,28 @@ export default function SingleProduct() {
             {product.produits.map((produit) => (
               <div className="single--product--container" key={produit.id}>
                 <div
+                  onClick={() => handleOver(produit.id)}
+                  id={produit.id}
                   className="single--product--left"
-                  id="single--product--left"
-                  style={{ backgroundImage: `url('${produit.imgUrl}')` }}
+                  style={
+                    currentImage !== "" && currentImageId === produit.id
+                      ? { backgroundImage: `url('${currentImage}')` }
+                      : { backgroundImage: `url('${produit.imgUrl}')` }
+                  }
                 >
                   <div className="gallery">
-                    {produit.gallery.map((value) => (
-                      <div
-                        className="photo"
-                        style={{ backgroundImage: `url('${value}')` }}
-                      ></div>
-                    ))}
+                    <div className="gallery-container">
+                      {produit.gallery.map((value, index) => (
+                        <div
+                          onClick={() => handleClick(value)}
+                          key={index}
+                          className="photo"
+                          style={{
+                            backgroundImage: `url('${value}')`,
+                          }}
+                        ></div>
+                      ))}
+                    </div>
                   </div>
                 </div>
                 <div className="line-red"></div>
@@ -73,17 +93,17 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Goût : </span>
+                    <span style={{ fontWeight: 600 }}>{t("translate.1")} :</span>
                     {t(`product-${product.id}-${produit.id}.gout`)}
                   </p>
                   <p
                     style={
-                      produit.intensite === ""
+                      produit.intensite === "" || display
                         ? { display: "none" }
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Intensité : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.2`)} : </span>
                     {t(`product-${product.id}-${produit.id}.intensite`)}
                   </p>
                   <p
@@ -93,7 +113,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Parfum : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.3`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.parfum`)}
                   </p>
                   <p
@@ -103,41 +123,43 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Texture : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.4`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.texture`)}
                   </p>
                   <p
                     style={
-                      produit.conservation === ""
+                      produit.conservation === "" || display
                         ? { display: "none" }
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Conservation : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.5`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.conservation`)}
                   </p>
                   <p
                     style={
-                      produit.composition === ""
+                      produit.composition === "" || display
                         ? { display: "none" }
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Composition : </span>
+                    <span style={{ fontWeight: 600 }}>{t(`translate.6`)}  : </span>
                     {t(`product-${product.id}-${produit.id}.composition`)}
                   </p>
                   <p
                     style={
-                      produit.conditionnement === []
+                      produit.conditionnement === [] || display
                         ? { display: "none" }
                         : { display: "flex", flexWrap: "wrap" }
                     }
+                    className="single--product--conditionnement"
                   >
                     <span style={{ fontWeight: 600 }}>
-                      Conditionnement : &nbsp;
+                      {t(`translate.7`)}  : &nbsp;
                     </span>{" "}
-                    {produit.conditionnement.map((value) => (
+                    {produit.conditionnement.map((value, index) => (
                       <span
+                        key={index}
                         style={
                           value.grammage
                             ? { display: "block" }
@@ -156,7 +178,7 @@ export default function SingleProduct() {
                         : { display: "block" }
                     }
                   >
-                    <span style={{ fontWeight: 600 }}>Description : </span>{" "}
+                    <span style={{ fontWeight: 600 }}>{t(`translate.8`)} : </span>{" "}
                     {t(`product-${product.id}-${produit.id}.description`)}
                   </p>
                 </div>
@@ -168,14 +190,7 @@ export default function SingleProduct() {
           <div className="random--product--container">
             {shuffledData.slice(0, 4).map((product) => (
               <div className="products--products--list--card" key={product.id}>
-                <Card
-                  id={product.id}
-                  img={product.imgUrl}
-                  title={product.name}
-                  text={product.description.slice(0, 60) + "..."}
-                  className={"details"}
-                  product={product}
-                />
+                <Card className={"details"} product={product} />
               </div>
             ))}
           </div>
@@ -183,14 +198,7 @@ export default function SingleProduct() {
           <div className="random--product--container">
             {shuffledData.slice(0, 12).map((product) => (
               <div className="products--products--list--card" key={product.id}>
-                <Card
-                  id={product.id}
-                  img={product.imgUrl}
-                  title={product.name}
-                  text={product.description.slice(0, 60) + "..."}
-                  className={"details"}
-                  product={product}
-                />
+                <Card className={"details"} product={product} />
               </div>
             ))}
           </div>
